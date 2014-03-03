@@ -337,9 +337,11 @@ en:
         15-00:
           id: 142
           type: talk
-          speaker:
-          title: TBA
-          description: TBA
+          speaker: Jacek_Konieczny
+          title: Wolne Oprogramowanie jako klocki do budowania własnych produktów
+          description:
+            - Opowiem jak używając wolnego oprogramowania (PLD Linux, Asterisk, Python, Xen, Corosync, Pacemaker i wiele, wiele innych) budujemy produkt dla naszych klientów.
+            - Co zyskujemy używając WO, co WO zyskuje przez takich użytkowników. Czemu czasem zamiast użyć gotowych, często komercyjnych, rozwiązań, warto się interesować otwartymi „półproduktami”, ale też na jakie trudności trzeba być przygotowanym.
         15-20:
           id: 143
           type: talk
@@ -739,6 +741,12 @@ en:
       description: Pasjonat improwizacji teatralnej, psychologii stosowanej i neurobiologii, oraz ich zastosowaniem w kontekście tworzenia oprogramowania.
       social:
         twitter: https://twitter.com/pbadenski
+    Jacek_Konieczny:
+      name: Jacek Konieczny
+      title: Systems and Network Administrator
+      description: Linuksowiec i miłośnik otwartego oprogramowania od prawie 20 lat. Czasem administrator, czasem programista.
+      social:
+        linkedin: https://pl.linkedin.com/pub/jacek-konieczny/2/424/23b
 
   footer:
     is_organised_by: The Open Source Days 2014 conference is organized by
