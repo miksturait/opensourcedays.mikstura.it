@@ -258,19 +258,6 @@ en:
           type: welcome
           speaker: Eunika_Tabak
         10-00:
-          id: 130
-          type: talk
-          speaker: Stanislaw_Klekot
-          title: Topic maps - a higher level of knowledge organization
-          description:
-            - All of you are most probably familiar with wiki engines. System admins use them to keep notes; programmers store application architecture descriptions or user documentation in them. Can this system be refined? The not-so-well-known concept of topic maps may very well help us come up with some improvements.
-        10-20:
-          id: 131
-          type: talk
-          speaker: Grzegorz_Nosek
-          title: The sleep of reason produces … backups.
-          description: Bacula is a backup system which brings to mind the sublime quality of a Soviet tractor. And yet it is splendid when it comes to handling large amounts of data - it is efficient, scalable and fully buzzword-compliant.
-        10-40:
           id: 132
           type: talk
           speaker: Krzysztof_Krej
@@ -278,10 +265,7 @@ en:
           description:
             - Chcemy zaprezentować prototyp aplikacji VR (wirtualna rzeczywistość), która jest proof of concept dla narzędzia mającego w skuteczny sposób szkolić pracowników organizacji humanitarnych.
             - W szczególności dotyczy ono pracowników NGO (organizacji pozarządowych), którzy niosą pomoc humanitarną w krajach dotkniętych konfliktem zbrojnym. Osoby te po raz pierwszy jadą na misję humanitarną i mają przejść szkolenie dotyczące zachowania się w niebezpiecznych sytuacjach. W skrócie prezentacja będzie dotyczyć symulatora potencjalnych niebezpiecznych sytuacji.
-        11-00:
-          id: 133
-          type: break
-        11-30:
+        10-20:
           id: 134
           type: talk
           speaker: Karol_Ryt
@@ -294,7 +278,7 @@ en:
             - " * Is there anything else you can do? "
             - I would like to share the knowledge and experience I brought from gaming events in San Francisco last year.
             - I would in particular like to explore what can be done to early validate a concept rather than an emerging solution under implementation.
-        11-50:
+        10-40:
           id: 135
           type: talk
           speaker: Tomasz_Mloduchowski
@@ -302,6 +286,22 @@ en:
           description:
             - What is Bitcoin? How does it work? From theory to the practice of running financial services.
             - I will introduce the basics of the network security and talk about the practice of implementing solutions based on the Bitcoin technology, traps lurking for the developers who integrate with the Bitcoin network as well as about Bitcoin as a tool enabling you to familiarize yourself with the topic of enterprise-class systems.
+        11-00:
+          id: 133
+          type: break
+        11-30:
+          id: 130
+          type: talk
+          speaker: Stanislaw_Klekot
+          title: Topic maps - a higher level of knowledge organization
+          description:
+            - All of you are most probably familiar with wiki engines. System admins use them to keep notes; programmers store application architecture descriptions or user documentation in them. Can this system be refined? The not-so-well-known concept of topic maps may very well help us come up with some improvements.
+        11-50:
+          id: 131
+          type: talk
+          speaker: Grzegorz_Nosek
+          title: The sleep of reason produces … backups.
+          description: Bacula is a backup system which brings to mind the sublime quality of a Soviet tractor. And yet it is splendid when it comes to handling large amounts of data - it is efficient, scalable and fully buzzword-compliant.
         12-10:
           id: 136
           type: talk

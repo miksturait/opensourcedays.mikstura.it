@@ -258,19 +258,6 @@ pl:
           type: welcome
           speaker: Eunika_Tabak
         10-00:
-          id: 130
-          type: talk
-          speaker: Stanislaw_Klekot
-          title: Topic maps -- wyższy poziom organizacji wiedzy
-          description:
-            - "Silniki wiki znają praktycznie wszyscy. Administratorzy trzymają w nich notatki o sieci, programiści opisy architektury aplikacji i dokumentację użytkowników. Czy da się ulepszyć ten system? Spróbujemy to zrobić za pomocą mało znanej struktury: map tematów."
-        10-20:
-          id: 131
-          type: talk
-          speaker: Grzegorz_Nosek
-          title: Kiedy rozum śpi, budzą się backupy
-          description: Bacula to system backupowy wysublimowany jak radziecki traktor, ale rewelacyjny przy dużej ilości danych (wydajny, skalowalny , w pełni buzzword-compliant).
-        10-40:
           id: 132
           type: talk
           speaker: Krzysztof_Krej
@@ -278,10 +265,7 @@ pl:
           description:
             - Chcemy zaprezentować prototyp aplikacji VR (wirtualna rzeczywistość), która jest proof of concept dla narzędzia mającego w skuteczny sposób szkolić pracowników organizacji humanitarnych.
             - W szczególności dotyczy ono pracowników NGO (organizacji pozarządowych), którzy niosą pomoc humanitarną w krajach dotkniętych konfliktem zbrojnym. Osoby te po raz pierwszy jadą na misję humanitarną i mają przejść szkolenie dotyczące zachowania się w niebezpiecznych sytuacjach. W skrócie prezentacja będzie dotyczyć symulatora potencjalnych niebezpiecznych sytuacji.
-        11-00:
-          id: 133
-          type: break
-        11-30:
+        10-20:
           id: 134
           type: talk
           speaker: Karol_Ryt
@@ -294,7 +278,7 @@ pl:
             - " * Implementacja."
             - Teraz ważniejsze pytanie czy da się zrobić to jeszcze efektywniej?
             - Przenosząc wiedzę i doświadczenie z imprez z San Francisco gdzie spędziłem ponad 2 miesiące poprzedniego roku chciałbym zaprezentować co można zrobić by sprawdzić czy dany pomysł ma sens jeszcze w fazie pomysłu.
-        11-50:
+        10-40:
           id: 135
           type: talk
           speaker: Tomasz_Mloduchowski
@@ -302,6 +286,22 @@ pl:
           description:
             - Czym jest i jak działa Bitcoin, zaczynając od teorii, a na doświadczeniu z uruchamianiem usług finansowych kończąc.
             - Podczas wystąpienia przedstawię teoretyczne podstawy bezpieczeństwa sieci, opowiem o praktycznych aspektach wdrażania rozległych rozwiązań opartych na technologii Bitcoin, pułapkach czyhających na programistów integrujących się z siecią Bitcoin, a także o Bitcoin jako narzędziu umożliwiającym każdemu zapoznanie się z tematyką systemów klasy "Enterprise"
+        11-00:
+          id: 133
+          type: break
+        11-30:
+          id: 130
+          type: talk
+          speaker: Stanislaw_Klekot
+          title: Topic maps -- wyższy poziom organizacji wiedzy
+          description:
+            - "Silniki wiki znają praktycznie wszyscy. Administratorzy trzymają w nich notatki o sieci, programiści opisy architektury aplikacji i dokumentację użytkowników. Czy da się ulepszyć ten system? Spróbujemy to zrobić za pomocą mało znanej struktury: map tematów."
+        11-50:
+          id: 131
+          type: talk
+          speaker: Grzegorz_Nosek
+          title: Kiedy rozum śpi, budzą się backupy
+          description: Bacula to system backupowy wysublimowany jak radziecki traktor, ale rewelacyjny przy dużej ilości danych (wydajny, skalowalny , w pełni buzzword-compliant).
         12-10:
           id: 136
           type: talk
