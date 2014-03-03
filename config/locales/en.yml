@@ -345,9 +345,11 @@ en:
         15-20:
           id: 143
           type: talk
-          speaker:
-          title: TBA
-          description: TBA
+          speaker: Karol_Karczewski
+          title:  Młodzi programiści, czyli jak zachęcić młodzież do nauki programowania
+          description:
+            - Młodzi nie chcą programować. Mówią, że to zbyt trudne, nudne i nieciekawe zajęcie. Okazuje się jednak, że odpowiednie podejście do nauki potrafi wykrzesać w młodzieży iskierkę, która zapali miłość do programowania.
+            - Jako programujący nastolatek dobrze wiem, jak rówieśnicy patrzą na moje hobby. Wiem też, jak należy zachęcać młodych do programowania. Tą wiedzą z przyjemnością podzielę się ze wszystkimi zgromadzonymi na DWO 2014.
         15-40:
           id: 144
           type: talk
@@ -747,6 +749,12 @@ en:
       description: Linuksowiec i miłośnik otwartego oprogramowania od prawie 20 lat. Czasem administrator, czasem programista.
       social:
         linkedin: https://pl.linkedin.com/pub/jacek-konieczny/2/424/23b
+    Karol_Karczewski:
+      name: Karol Karczewski
+      title: Majsterkowicz, Programista, Elektronik
+      description: Kocha projekty open-source, bo nie lubi wynajdywać koła, skoro już istnieje. Nastolatek z innymi zainteresowaniami niż rówieśnicy.
+      social:
+        world: http://www.miedzyrzecka.pl/wyjatkowi_miedzyrzeczanie/2011
 
   footer:
     is_organised_by: The Open Source Days 2014 conference is organized by
