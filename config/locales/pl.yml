@@ -418,7 +418,7 @@ pl:
       logo: ember.js.emberjs.com.png
     ux:
       lead: Mikolaj_Pastuszko
-      where: small
+      where: computer
       title:  Projektowanie interakcji
       description:
         - Narysować interfejs potrafi każdy pingwin. Jednak nie każdy leming potrafi z takiego interfejsu skorzystać.
@@ -446,6 +446,18 @@ pl:
       title: Firefox OS dla deweloperów
       description: " "
       logo: firefox.os.mozilla.org.png
+    feedback:
+      lead: Pawel_Badenski
+      where: small
+      title: Brakujący element Agile - najpierw ulepszać ludzi, a potem systemy
+      description:
+        - "Mamy TDD, BDD, CI, CD, chmurę, REST - miało być tak pięknie, a wyszło jak zwykle. Pominęliśmy takie szczegóły jak “twój kod jest kiepski”, “nie chcę tu więcej pracować”, “ja tu tylko sprzątam”."
+        - "Podczas warsztatu nauczysz się:"
+        - " => jak radzić komuś tak, żeby się dogadać"
+        - " => jak ominąć przeszkody, które napotkasz dając feedback innym"
+        - " => wzorców, które pomogą Ci kiedy bedziesz dostawał feedback"
+        - " => oraz wielu innych koncepcji, które ułatwią Ci wykorzystać feedback w Twoim zespole"
+      logo: feedback-shsuonline.wordpress.com.png
 
   venue:
     take_place: Konferencja odbędzie się na uczelni
@@ -720,6 +732,12 @@ pl:
         facebook: https://www.facebook.com/ibo549
         linkedin: http://www.linkedin.com/in/iiboo
         world: https://www.codeplex.com/site/users/view/halilk
+    Pawel_Badenski:
+      name: Paweł Badeński
+      title: Software Journeyman
+      description: Pasjonat improwizacji teatralnej, psychologii stosowanej i neurobiologii, oraz ich zastosowaniem w kontekście tworzenia oprogramowania.
+      social:
+        twitter: https://twitter.com/pbadenski
 
   footer:
     is_organised_by: Konferencja Dni Wolnego Oprogramowania 2014 jest organizowana przez
