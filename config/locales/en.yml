@@ -303,21 +303,15 @@ en:
           title: The sleep of reason produces … backups.
           description: Bacula is a backup system which brings to mind the sublime quality of a Soviet tractor. And yet it is splendid when it comes to handling large amounts of data - it is efficient, scalable and fully buzzword-compliant.
         12-10:
-          id: 136
-          type: talk
-          speaker:
-          title: Open Source on Windows Azure
-          description: TBA
-        12-30:
-          id: 137
-          type: lunch
-        13-30:
           id: 138
           type: talk
           speaker: Michal_Wyrobek
           title: Functional programming - a pure approach vs. reality.
           description: Lisp, Clojure, Data Oriented Programming vs. Smalltalk and the object-oriented approach.
-        13-50:
+        12-30:
+          id: 137
+          type: lunch
+        13-30:
           id: 139
           type: talk
           speaker: Marcin_Szalowicz
@@ -325,12 +319,18 @@ en:
           description:
             - An introduction to the environment of mysql workbench, database Revers Engineering onto the eer diagram, change synchronization,
             - data we can access from the program which are related to the database status.
-        14-10:
+        13-50:
           id: 140
           type: talk
           speaker: Arkadiusz_Benedykt
           title: C# - why do I like it? What does it have to do with Open Source?
           description: During the presentation I would like to talk about the things I love in c# as well as those I do not particularly enjoy. I would like to show what is “open” and take you for a short trip into the world of an MS-oriented programmer.
+        14-10:
+          id: 136
+          type: talk
+          speaker:
+          title: Open Source on Windows Azure
+          description: TBA
         14-30:
           id: 141
           type: break
