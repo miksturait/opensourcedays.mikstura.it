@@ -226,8 +226,10 @@ en:
           id: 123
           type: talk
           speaker: Carsten_Munk
-          title: Sailfish OS
-          description: TBA
+          title:  Jolla and SailfishOS - an introduction for both power and ordinary users
+          description:
+            - Jolla is a company with roughly 90 employees, headquartered in Helsinki, Finland. In less than 2 years we have put a mobile phone product on the market in November 2013 and a alternative mobile operating system, non-Android based - named SailfishOS, based on a lot of well known open source technologies.
+            - This talk serves to present the story behind Jolla the company, what makes our mobile device and Sailfish operating system different from other offerings and introduce some of the open source technologies such as Qt in use and how it's leveraged. In addition to that, some discussions about business possibilities with Sailfish and the powerful concept of The Other Half.
         17-10:
           id: 125
           type: talk
