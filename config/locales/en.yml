@@ -458,7 +458,7 @@ en:
       where: small
       title: Brakujący element Agile - najpierw ulepszać ludzi, a potem systemy
       description:
-        - "We have TDD, BDD, CI, CD, cloud, and REST - it was supposed to be all great, ended up being "as usual". We forgot about "your code is not clean", "people on the team think you’re really arrogant", "I don't want to work here"."
+        - We have TDD, BDD, CI, CD, cloud, and REST - it was supposed to be all great, ended up being "as usual". We forgot about "your code is not clean", "people on the team think you’re really arrogant", "I don't want to work here".
         - "In this presentation I will talk about:"
         - " => how to effectively give suggestions to others"
         - " => the challenges you come across when giving feedback"
