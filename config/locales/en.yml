@@ -401,8 +401,8 @@ en:
       where: computer
       title: OpenStreetMap - put your neighbourhood on the map.
       description:
-        - OpenStreetMap to globalny projekt mający na celu stworzenie darmowej oraz swobodnie dostępnej mapy świata. Wszelkie dane zawarte w projekcie udostępniane są na otwartej licencji, co umożliwia dalsze ich wykorzystywanie, między innymi w systemach nawigacji GPS oraz wszelkiego rodzaju planach oraz mapach.
-        - Podczas warsztatów będziecie mieli możliwość zapoznania się z filozofią oraz podstawami teoretycznymi projektu. Teorię uzupełni kurs edytowania OpenStreetMap przy pomocy aplikacji JOSM. Warsztaty przeznaczone są zarówno dla osób początkujących jak i chętnych do zapoznania się z projektem. Na pewno dowiesz się jak zgłosić błędy na mapie, w jaki sposób samodzielnie dodać nowe informacje oraz poprawić istniejące.
+        - OpenStreetMap is a global project which aims to deliver a freely available map of the world. All the data published in the project are made available through open licenses and can thus be further used, for example, in GPS solutions, publically available maps and the like.
+        - The workshop will enable you to become familiar with the philosophy behind the project as well as its theoretical foundations. You will also take part in a short OpenStreetMap editing course - we will use the JOSM app for editing. The workshop is meant for beginners, who will surely find out how to report and/or correct mistakes identified on the map as well as how to add information to enrich the map.
       logo: open.street.map.wikipedia.org.png
     continuous_delivery:
       lead: Mateusz_Juscinski
@@ -426,31 +426,31 @@ en:
     ux:
       lead: Mikolaj_Pastuszko
       where: computer
-      title:  Projektowanie interakcji
+      title:  Interaction design.
       description:
-        - Narysować interfejs potrafi każdy pingwin. Jednak nie każdy leming potrafi z takiego interfejsu skorzystać.
-        - Zaprojektowanie przejrzystego i zrozumiałego dla użytkownika interfejsu może się wydawać zadaniem łatwym. Jednakże konfrontacja oczekiwań z zachowaniem prawdziwych użytkowników niejednokrotnie przynosi rozczarowanie. A przecież to właśnie dla nich tworzymy.
-        - "Podczas warsztatów nauczymy się:"
-        - " => Budować prototyp interfejsu użytkownika"
-        - " => Oceniać interfejs metodą ewaluacji heurystycznej"
-        - " => Testować używalność interfejsu z udziałem użytkowników"
-        - Prototypować będziemy na papierze. Komputery nie będą potrzebne.
+        - Every penguin can draw an interface. Yet not every lemming can use such an interface.
+        - Designing clean, intuitive and user-friendly interfaces may seem an easy task. However, even good designers disappoint and are disappointed by the users of the applications created. Still it is the user for whom we design interfaces.
+        - "During the workshop you will learn to:"
+        - " => Build a user interface prototype"
+        - " => Assess the interface using the heuristic evaluation method"
+        - " => Test the interface with users"
+        - We will use paper prototyping. You will not need any devices.
       logo: ux.de.wikipedia.org.png
     unity3d:
       lead:
         - Arkadiusz_Kwasny
         - Sebastian_Ewak
       where: computer
-      title: Tworzenie gier przy użyciu Unity 3D dla początkujących
+      title: Creating games with Unity 3D for beginners.
       description:
-        - Podczas tego warsztatu uczestnicy będą mieli okazje poznać środowisko tworzenia gier Unity 3D oraz stworzyć bardzo proste gry oparte o mechanizmy, które zostaną przedstawione.
-        - Nacisk zostanie położony na wykorzystanie gotowych narzędzi, z których większość nie wymaga żadnego programowania.
-        - Jest szansa, że podczas warsztatów zostanie również udostępnione demo wirtualnej rzeczywistości w oparciu o wykorzystanie Unity 3D oraz Oculus Rift.
+        - The workshop participants will explore some Unity 3D tools and create very simple games based on the mechanics presented during the workshop.
+        - We will focus on ready-made tools, most of which do not require any programming skills.
+        - There is a chance we will be able to demo some virtual reality based on Unity 3D and Oculus Rift.
       logo: unity3d.en.wikipedia.org.png
     firefoxos:
       lead: Bartosz_Piec
       where: small
-      title: Firefox OS dla deweloperów
+      title: Firefox OS for developers.
       description: " "
       logo: firefox.os.mozilla.org.png
     feedback:
