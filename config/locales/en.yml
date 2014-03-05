@@ -340,20 +340,20 @@ en:
           id: 142
           type: talk
           speaker: Jacek_Konieczny
-          title: Wolne Oprogramowanie jako klocki do budowania własnych produktów
+          title: Open Source software - building blocks for your own software products.
           description:
-            - Opowiem jak używając wolnego oprogramowania (PLD Linux, Asterisk, Python, Xen, Corosync, Pacemaker i wiele, wiele innych) budujemy produkt dla naszych klientów.
-            - Co zyskujemy używając WO, co WO zyskuje przez takich użytkowników. Czemu czasem zamiast użyć gotowych, często komercyjnych, rozwiązań, warto się interesować otwartymi „półproduktami”, ale też na jakie trudności trzeba być przygotowanym.
+            - I will talk about how we use open source software (PLD Linux, Asterisk, Python, Xen, Corosync, Pacemaker and the like) to build products for our clients.
+            - What do we gain from using WO? How does WO benefit from the users like us? Why is it sometimes better not to use ready-made proprietary solutions and consider open source “semi-finished products”? What challenges do you need to face if you choose the latter path?
         15-20:
           id: 143
           type: talk
           speaker: Jakub_Duda
-          title: Scrum vs open source - kunagi.org jako otwarta alternatywa dla komercyjnych systemów zarządzania projektami
+          title: Scrum vs. open source - kunagi.org as an open alternative to commercial project management systems
           description:
-           - Scrum (a ogólniej – Agile) to obecnie najpopularniejsza filozofia realizacji projektów informatycznych. Tej popularności towarzyszy dużą ilość narzędzi wspomagających zwinne tworzenie oprogramowania.
-           - Czy Open Source ma coś do zaoferowania w tym temacie, czy jesteśmy skazani na rozwiązania komercyjne?
-           - A może samo oprogramowanie open source można tworzyć w w scrumie?
-           - Case study kunagi.org
+           - Scrum (or more broadly, Agile) is currently the most popular approach to the implementation of IT projects. The popularity brings with itself a number of tools with which to support agile software development
+           - Are there any open source solutions available or do we need to rely on commercial products?
+           - Why not use Scrum to create open source software?
+           - The case study of kunagi.org
         15-40:
           id: 144
           type: talk
