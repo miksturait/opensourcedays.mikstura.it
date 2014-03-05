@@ -263,10 +263,10 @@ en:
           id: 132
           type: talk
           speaker: Krzysztof_Krej
-          title: Wirtualna rzeczywistość - narzędzie szkoleniowe dla wolontariuszy organizacji humanitarnych
+          title: Virtual Reality - a training tool for officers and volunteers in humanitarian aid organizations.
           description:
-            - Chcemy zaprezentować prototyp aplikacji VR (wirtualna rzeczywistość), która jest proof of concept dla narzędzia mającego w skuteczny sposób szkolić pracowników organizacji humanitarnych.
-            - W szczególności dotyczy ono pracowników NGO (organizacji pozarządowych), którzy niosą pomoc humanitarną w krajach dotkniętych konfliktem zbrojnym. Osoby te po raz pierwszy jadą na misję humanitarną i mają przejść szkolenie dotyczące zachowania się w niebezpiecznych sytuacjach. W skrócie prezentacja będzie dotyczyć symulatora potencjalnych niebezpiecznych sytuacji.
+            - We would like to present the prototype of a VR application which is meant as a proof-of-concept for a tool to support the training of humanitarian aid staff.
+            - The tool should help in particular those NGOs who deliver humanitarian aid in areas affected by armed conflicts. Officers and/or volunteers who go on their first mission in the field need to be trained how to behave in challenging situations. The application presented shall virtually be a simulator of some such life-threatening situations.
         10-20:
           id: 134
           type: talk
