@@ -34,17 +34,24 @@ class Workshop < Struct.new(:id, :date)
   delegate :type, :logo, to: :info
   delegate :where, :title, :description, :lead, to: :info, prefix: true
 
+  def logo_url
+    [I18n.t(:domain), 'assets/workshops', logo].join("/")
+  end
+
   def to_hash
     {
         id: info.id,
         more_info: true,
-        start_at: start_at,
-        type: type,
+        # start_at: start_at,
+        type: 'workshop',
+        vanue: place,
         title: title,
+        logo: logo_url,
         description: description,
-        speakers: [speaker].flatten.compact.map(&:to_hash)
+        speakers: leaders.map(&:to_hash)
     }
   end
+
 
   private
 

@@ -373,6 +373,7 @@ pl:
           speaker: Dariusz_Wylon
   workshops:
     open_source:
+      id: 900
       lead: Kamil_Galuszka
       where: computer
       title: Włącz się w ruch Open Source
@@ -382,6 +383,7 @@ pl:
         - Podczas warsztatów bedą mentorzy którzy bedą wspierali was wiedzą i pomocą.
       logo: open_source_wikipedia.org.png
     your_own_parser:
+      id: 901
       lead: Stanislaw_Klekot
       where: small
       title: Ale parsery są trudne! A są?
@@ -389,6 +391,7 @@ pl:
         - Na tych warsztatach opowiem jak są zbudowane kompilatory i pokażę, jak napisać w Pythonie własny interpreter dla wymyślonego języka programowania
       logo: python.wikipedia.org.png
     mindstorms:
+      id: 902
       lead: Agnieszka_Pawlicka
       where: computer
       title: Uwolnij pingwina – warsztaty z programowania Lego Mindstorms
@@ -397,6 +400,7 @@ pl:
         - Przyjdź na warsztaty, a za pomocą Lego Mindstorms zbudujesz i zaprogramujesz swojego własnego Robo-pingwina! Uwolnij wyobraźnię!
       logo: lego.mindstorms.jpg
     open_street_map:
+      id: 903
       lead: Pawel_Marynowski
       where: computer
       title: OpenStreetMap - narysuj swoją okolicę
@@ -405,6 +409,7 @@ pl:
         - Podczas warsztatów będziecie mieli możliwość zapoznania się z filozofią oraz podstawami teoretycznymi projektu. Teorię uzupełni kurs edytowania OpenStreetMap przy pomocy aplikacji JOSM. Warsztaty przeznaczone są zarówno dla osób początkujących jak i chętnych do zapoznania się z projektem. Na pewno dowiesz się jak zgłosić błędy na mapie, w jaki sposób samodzielnie dodać nowe informacje oraz poprawić istniejące.
       logo: open.street.map.wikipedia.org.png
     continuous_delivery:
+      id: 904
       lead: Mateusz_Juscinski
       where: small
       title: Problemy ludzi Pierwszego Świata, czyli jak zbudować środowisko Continuous Delivery
@@ -414,6 +419,7 @@ pl:
         - Podczas warsztatu nie przewiduję klepania komend w konsoli, jego celem jest prezentacja problemów i dyskusja nad ich rozwiązaniami.
       logo: continuous.delivery.pixabay.com.png
     ember_js:
+      id: 905
       lead:
         - Tomasz_Bak
         - Wojtek_Ryrych
@@ -424,6 +430,7 @@ pl:
         - Mając za sobą potężne wsparcie społeczności, Ember.js stał się tym, czym dla programistów back-end stał się Ruby On Rails czy Django. Obficie korzystając z konwencji znanych w Railsach, Ember.js służy po prostu do wykonywania roboty, stając się przedłużeniem ręki programisty, nie jego zmorą.
       logo: ember.js.emberjs.com.png
     ux:
+      id: 906
       lead: Mikolaj_Pastuszko
       where: computer
       title:  Projektowanie interakcji
@@ -437,6 +444,7 @@ pl:
         - Prototypować będziemy na papierze. Komputery nie będą potrzebne.
       logo: ux.de.wikipedia.org.png
     unity3d:
+      id: 907
       lead:
         - Arkadiusz_Kwasny
         - Sebastian_Ewak
@@ -448,12 +456,14 @@ pl:
         - Jest szansa, że podczas warsztatów zostanie również udostępnione demo wirtualnej rzeczywistości w oparciu o wykorzystanie Unity 3D oraz Oculus Rift.
       logo: unity3d.en.wikipedia.org.png
     firefoxos:
+      id: 908
       lead: Bartosz_Piec
       where: small
       title: Firefox OS dla deweloperów
       description: " "
       logo: firefox.os.mozilla.org.png
     feedback:
+      id: 909
       lead: Pawel_Badenski
       where: small
       title: Brakujący element Agile - najpierw ulepszać ludzi, a potem systemy

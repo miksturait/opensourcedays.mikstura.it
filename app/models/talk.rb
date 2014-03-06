@@ -32,6 +32,8 @@ class Talk < Struct.new(:id, :day)
         more_info: more_info,
         start_at: start_at,
         type: type,
+        place: 'L128',
+        logo: nil,
         title: title,
         description: description,
         speakers: [speaker].flatten.compact.map(&:to_hash)
