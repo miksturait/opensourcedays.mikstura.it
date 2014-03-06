@@ -62,7 +62,7 @@ class Workshop < Struct.new(:id, :timeslot)
         more_info: true,
         start_at: timeslot,
         type: 'workshop',
-        vanue: place,
+        place: place.to_h,
         title: title,
         logo: logo_url,
         description: description,

@@ -18,6 +18,11 @@ class Talk < Struct.new(:id, :day)
   delegate :type, to: :info
   delegate :title, :description, :speaker, to: :info, prefix: true
 
+  def place
+    OpenStruct.new(
+        I18n.t(:main, scope: [:venue, :places]))
+  end
+
   def start_at
     time.strftime(time_format)
   end
@@ -32,7 +37,7 @@ class Talk < Struct.new(:id, :day)
         more_info: more_info,
         start_at: start_at,
         type: type,
-        place: 'L128',
+        place: place.to_h,
         logo: nil,
         title: title,
         description: description,
