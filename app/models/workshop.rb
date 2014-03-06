@@ -1,4 +1,22 @@
-class Workshop < Struct.new(:id, :date)
+class Workshop < Struct.new(:id, :timeslot)
+
+  def self.all
+    workshops_schedule = I18n.translate('workshops_schedule').reverse
+    [
+        [:open_source, :your_own_parser],
+        [:mindstorms, :ember_js],
+        [:open_street_map, :continuous_delivery],
+        [:unity3d, :feedback],
+        [:ux, :firefoxos]
+    ].collect do |workshops|
+      schedule = workshops_schedule.pop
+      workshops.collect { |workshop| new(workshop, schedule) }
+    end
+  end
+
+  def self.all_to_hash
+    all.flatten.map(&:to_hash)
+  end
 
   def title
     info_title
@@ -24,7 +42,7 @@ class Workshop < Struct.new(:id, :date)
   end
 
   def leaders
-    info_leads.map {|info_lead| Person.new(info_lead)}
+    info_leads.map { |info_lead| Person.new(info_lead) }
   end
 
   def info_leads
@@ -42,7 +60,7 @@ class Workshop < Struct.new(:id, :date)
     {
         id: info.id,
         more_info: true,
-        # start_at: start_at,
+        start_at: timeslot,
         type: 'workshop',
         vanue: place,
         title: title,
@@ -54,6 +72,10 @@ class Workshop < Struct.new(:id, :date)
 
 
   private
+
+  def workshops_schedule
+
+  end
 
   def info
     @info ||=
