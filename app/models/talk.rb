@@ -36,6 +36,7 @@ class Talk < Struct.new(:id, :day)
         id: info.id,
         more_info: more_info,
         start_at: start_at,
+        end_at: nil,
         type: type,
         place: place.to_h,
         logo: nil,

@@ -14,10 +14,6 @@ class Workshop < Struct.new(:id, :timeslot)
     end
   end
 
-  def self.all_to_hash
-    all.flatten.map(&:to_hash)
-  end
-
   def title
     info_title
   end
@@ -60,7 +56,8 @@ class Workshop < Struct.new(:id, :timeslot)
     {
         id: info.id,
         more_info: true,
-        start_at: timeslot,
+        start_at: timeslot.split(' ')[3],
+        end_at: timeslot.split(' ')[5],
         type: 'workshop',
         place: place.to_h,
         title: title,

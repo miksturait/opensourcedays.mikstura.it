@@ -372,11 +372,11 @@ en:
           type: bye
           speaker: Dariusz_Wylon
   workshops_schedule:
-    - 'Saturday, March 29th 11:15 AM - 12:45 PM'
-    - 'Saturday, March 29th 2:45 AM - 4:15 AM'
-    - 'Saturday, March 29th 4:15 AM - 5:45 AM'
-    - 'Sunday, March 30th 11:15 AM - 12:45 PM'
-    - 'Sunday, March 30th 1:15 PM - 2:45 PM'
+    - 'Saturday, March 29th 11:15AM - 12:45PM'
+    - 'Saturday, March 29th 2:45AM - 4:15AM'
+    - 'Saturday, March 29th 4:15AM - 5:45AM'
+    - 'Sunday, March 30th 11:15AM - 12:45PM'
+    - 'Sunday, March 30th 1:15PM - 2:45PM'
   workshops:
     open_source:
       id: 900
