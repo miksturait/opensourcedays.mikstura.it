@@ -430,7 +430,7 @@ pl:
         - Tomasz_Bak
         - Wojtek_Ryrych
       where: small
-      title: aplikacje webowe na miarę XXI wieku
+      title: Aplikacje webowe na miarę XXI wieku
       description:
         - Na podstawie przykładowej aplikacji poznamy jak działa technologia Ember.js - nowoczesny framework MVVC Javascript do, jak to trafnie ujęli jego twórcy, 'budowania ambitnych aplikacji'.
         - Mając za sobą potężne wsparcie społeczności, Ember.js stał się tym, czym dla programistów back-end stał się Ruby On Rails czy Django. Obficie korzystając z konwencji znanych w Railsach, Ember.js służy po prostu do wykonywania roboty, stając się przedłużeniem ręki programisty, nie jego zmorą.
