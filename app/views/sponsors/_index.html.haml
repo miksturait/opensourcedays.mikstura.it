@@ -54,6 +54,9 @@
   .module-header.sponsors-header
     %h4= t('section.media')
   #media.text-center
-    - { 'http://programistamag.pl/' => 'magazyn.programista.png' }.each do |url, picture|
-      = link_to url, target: :blank do
-        = image_tag("/assets/sponsors/media/#{picture}")
+    .span2
+    - { 'http://programistamag.pl/' => 'magazyn.programista.png',
+        'http://www.bb365.info/' => 'bb365info.png' }.each do |url, picture|
+      .span4
+        = link_to url, target: :blank do
+          = image_tag("/assets/sponsors/media/#{picture}")
