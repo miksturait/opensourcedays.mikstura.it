@@ -73,10 +73,6 @@
         .row
           = render partial: 'contact_us/index'
 
-    -#%section#newsletter
-    -#  .container
-    -#    .row
-    -#      = render partial: 'news/mailchimp'
 
     %section#social_media
       .container
@@ -87,6 +83,11 @@
       .container
         .row
           = render partial: 'team/index'
+
+    %section#newsletter
+      .container
+        .row
+          = render partial: 'team/organizers'
 
     %footer#footer
       .container

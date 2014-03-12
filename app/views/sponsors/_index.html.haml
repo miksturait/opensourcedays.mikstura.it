@@ -22,7 +22,7 @@
         = image_tag('/assets/sponsors/logo/microsoft_openness.png')
   .span12#selleo
     .span5
-      = link_to 'http://selleo.com', target: :blank do
+      = link_to 'http://selleo.com/', target: :blank do
         = image_tag('/assets/sponsors/logo/selleo.png')
     .span6
       .sponsor-description{style: 'margin-top: 5em; margin-bottom: 1em;'}
@@ -59,4 +59,4 @@
         'http://www.bb365.info/' => 'bb365info.png' }.each do |url, picture|
       .span4
         = link_to url, target: :blank do
-          = image_tag("/assets/sponsors/media/#{picture}")
+          = image_tag("/assets/media/logo/#{picture}")
