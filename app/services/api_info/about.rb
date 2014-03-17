@@ -12,14 +12,21 @@ class ApiInfo::About
           },
           links: [
               conference: domain,
-              world: "",
-              twitter: "",
+              twitter: "https://twitter.com/miksturait",
               facebook: t('links.facebook'),
-              google: ""
+              google: "https://google.com/+MiksturaIt_Foundation"
           ],
           audiostream: {
-              icon: "",
-              url: ""
+              icon: "http://dwo.mikstura.it/assets/layout/dwo.png",
+              url: "http://wbur-sc.streamguys.com/wbur.mp3"
+          },
+          title: t('only_title'),
+          short_title: t('short_title'),
+          subtitle: t('subtitle'),
+          localization: {
+              lat: 49.783038,
+              lng: 19.0573,
+              address: 'ul. Willowa 2, Bielsko-Biała 43-300'
           }
       }
     end

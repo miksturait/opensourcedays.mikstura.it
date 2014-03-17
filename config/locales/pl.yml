@@ -1,6 +1,9 @@
 pl:
   title: Dni Wolnego Oprogramowania '14, 28 - 30 Marca - Bielsko-Biała
   domain: http://dwo.mikstura.it
+  subtitle: 28 - 30 Marca - Bielsko-Biała
+  short_title: DWO '14
+  only_title: Dni Wolnego Oprogramowania '14
   links:
     facebook: https://www.facebook.com/MiksturaIT
   meta:
