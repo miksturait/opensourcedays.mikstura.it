@@ -32,7 +32,7 @@ class ApiInfo::WhosHere
     def media
       {
           'magazyn.programista' => 'http://programistamag.pl/',
-          'bb365info.png' => 'http://www.bb365.info/'
+          'bb365info' => 'http://www.bb365.info/'
       }
     end
 
