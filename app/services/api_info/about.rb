@@ -10,12 +10,12 @@ class ApiInfo::About
               ipad_retina: icon_path('ipad-retina'),
 
           },
-          links: [
-              conference: domain,
+          links: {
+              conference: domain.first,
               twitter: "https://twitter.com/miksturait",
-              facebook: t('links.facebook'),
+              facebook: t('links.facebook').first,
               google: "https://google.com/+MiksturaIt_Foundation"
-          ],
+          },
           audiostream: {
               icon: "http://dwo.mikstura.it/assets/layout/dwo.png",
               url: "http://wbur-sc.streamguys.com/wbur.mp3"
