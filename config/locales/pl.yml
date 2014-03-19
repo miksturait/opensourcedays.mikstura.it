@@ -533,6 +533,10 @@ pl:
         microsoft_openness:
           description:
             - " "
+      silver:
+        travis:
+          description:
+            - "Travis CI is the best place to run the tests for your open source and private projects. The simple setup and seamless integration with GitHub makes running your tests fun again."
   contact_us:
     hint: W razie pytań bądź wątpliwości, zachęcamy do kontaktu za pośrednictwem poniżej wymienionych kanałów.
     follow_us:
