@@ -222,6 +222,16 @@ $(document).ready(function () {
         // The anchor for this image is the base of the flagpole at 26,63.
         anchor: new google.maps.Point(16, 37)
     };
+    var hotel3stars = {
+        url: '/assets/venue/map_markers/hotel_3stars.png', // Define the map marker file here
+        // This marker is 51 pixels wide by 63 pixels tall.
+        size: new google.maps.Size(32, 37),
+        // The origin for this image is 0,0.
+        origin: new google.maps.Point(0, 0),
+        // The anchor for this image is the base of the flagpole at 26,63.
+        anchor: new google.maps.Point(16, 37)
+    };
+
 	$('#map_canvas').gmap().bind('init', function () {
 		$('#map_canvas').gmap('addMarker', {
 			'id': 'marker-1',
@@ -252,6 +262,17 @@ $(document).ready(function () {
         }).click(function () {
                 $('#map_canvas').gmap('openInfoWindow', {
                     'content': '<a target="_blank" href="http://www.mzkb-b.internetdsl.pl/p_21_m.htm">Szeroka/Bystrzańska</a></p>'
+                }, this);
+            });
+
+        $('#map_canvas').gmap('addMarker', {
+            'id': 'marker-3',
+            'position': '49.780751,19.053311',
+            'bounds': false,
+            'icon': hotel3stars
+        }).click(function () {
+                $('#map_canvas').gmap('openInfoWindow', {
+                    'content': '<a target="_blank" href="http://www.hotelnabloniach.pl/">Hotel na Błoniach</a></p>'
                 }, this);
             });
 	});
