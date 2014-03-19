@@ -11,9 +11,9 @@ class ApiInfo::About
 
           },
           links: {
-              conference: domain.first,
+              conference: domain,
               twitter: "https://twitter.com/miksturait",
-              facebook: t('links.facebook').first,
+              facebook: t('links.facebook'),
               google: "https://google.com/+MiksturaIt_Foundation"
           },
           audiostream: {
@@ -47,7 +47,7 @@ class ApiInfo::About
     end
 
     def t(*args)
-      I18n.t(args)
+      I18n.t(args).first
     end
   end
 end
