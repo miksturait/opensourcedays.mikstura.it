@@ -537,6 +537,9 @@ pl:
         travis:
           description:
             - "Travis CI is the best place to run the tests for your open source and private projects. The simple setup and seamless integration with GitHub makes running your tests fun again."
+        rekord:
+          description:
+            - "REKORD SI - najnowocześniejsze rozwiązania informatyczne dla jednostek administracji publicznej i przedsiębiorstw produkcyjnych, 25 lat doświadczenia i setki zadowolonych klientów."
   contact_us:
     hint: W razie pytań bądź wątpliwości, zachęcamy do kontaktu za pośrednictwem poniżej wymienionych kanałów.
     follow_us:
