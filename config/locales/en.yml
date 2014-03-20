@@ -203,9 +203,9 @@ en:
         15-00:
           id: 119
           type: talk
-          speaker:
-          title: Docker - Introduction
-          description: TBA
+          speaker: Grzegorz_Nosek
+          title: 'Ansible: the f-word in devops is now "fun"'
+          description: Rewelacyjne narzędzie do zarządzania konfiguracją dowolnej liczby maszyn. Łączy w sobie zalety puppeta, capistrano i zwykłego ssh i zostawia inne narzędzia tego typu daleko w tyle.
         15-20:
           id: 120
           type: talk
