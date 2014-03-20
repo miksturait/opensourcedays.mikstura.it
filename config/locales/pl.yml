@@ -429,7 +429,7 @@ pl:
         - Jeśli w swoim projekcie piszesz testy i wprowadziłeś/łaś Continuous Integration to jeszcze nie jesteś zwycięzcą. Pójdź o krok dalej, zautomatyzuj proces deploymentu kodu (lub go ulepsz) i zostań prawdziwym zwycięzcą!
         - Na tym spotkaniu chciałbym podzielić się moimi doświadczeniami dotyczącymi tworzenia środowisk CD. Zaczniemy od elementów niezbędnych do złożenia takiego środowiska, przejdziemy przez architekturę aplikacji i skończymy na narzędziach, które mogą się przydać.
         - Podczas warsztatu nie przewiduję klepania komend w konsoli, jego celem jest prezentacja problemów i dyskusja nad ich rozwiązaniami.
-      logo: continuous.delivery.pixabay.com.png
+      logo: infinite.wikipedia.org.png
     ember_js:
       id: 905
       lead:

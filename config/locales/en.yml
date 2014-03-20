@@ -427,7 +427,7 @@ en:
         - You might have used tests and continuous integration on your projects - it still does not mean you are the winner. Take another step and automate or improve the process of code deployment and thus become the real winner!
         - I would like to share my experience with setting up CD environments. I will start with some necessary basics, then I will move on to application architecture and - to the extent the time allows - I will also talk about some tools which may come in handy.
         - We will not be feeding commands into the console, but rather present problems and discuss solutions to them.
-      logo: continuous.delivery.pixabay.com.png
+      logo: infinite.wikipedia.org.png
     ember_js:
       id: 905
       lead:
