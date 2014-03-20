@@ -139,7 +139,7 @@ en:
       date: 2014-03-29
       header: Saturday, 29 March
       agenda:
-        08-30:
+        09-00:
           id: 109
           type: breakfest
         09-45:
@@ -256,7 +256,7 @@ en:
       date: 2014-03-30
       header: Sunday, 30 March
       agenda:
-        08-30:
+        09-00:
           id: 129
           type: breakfest
         09-45:
