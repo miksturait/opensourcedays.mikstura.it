@@ -784,6 +784,12 @@ en:
       description: Educated to be a programmer by profession. A fan of running and gaming, and a geek. Working with video games for 9 years.
       social:
         linkedin: https://pl.linkedin.com/pub/jakub-duda/6/710/162
+    Tomasz_Nycz:
+      name: Tomasz Nycz
+      title: geograf, kartograf, strażak-ochotnik
+      description: Od wielu lat zajmuje się tematyką wykorzystania informacji przestrzennej w ratownictwie. Współpracownik GIS-Support Sp. z o.o.,  Członek zarządu stowarzyszenia OpenStreetMap Polska.
+      social:
+        world: http://openstreetmap.org.pl/
 
   footer:
     is_organised_by: The Open Source Days 2014 conference is organized by

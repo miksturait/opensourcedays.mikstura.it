@@ -411,7 +411,9 @@ pl:
       logo: lego.mindstorms.jpg
     open_street_map:
       id: 903
-      lead: Pawel_Marynowski
+      lead:
+        - Pawel_Marynowski
+        - Tomasz_Nycz
       where: computer
       title: OpenStreetMap - narysuj swoją okolicę
       description:
@@ -784,6 +786,12 @@ pl:
       description: Z „zawodu wyuczonego” programista, z zamiłowania biegacz, gracz i wreszcie „geek”.  Od 9 lat związany z grami video.
       social:
         linkedin: https://pl.linkedin.com/pub/jakub-duda/6/710/162
+    Tomasz_Nycz:
+      name: Tomasz Nycz
+      title: geograf, kartograf, strażak-ochotnik
+      description: Od wielu lat zajmuje się tematyką wykorzystania informacji przestrzennej w ratownictwie. Współpracownik GIS-Support Sp. z o.o.,  Członek zarządu stowarzyszenia OpenStreetMap Polska.
+      social:
+        world: http://openstreetmap.org.pl/
 
   footer:
     is_organised_by: Konferencja Dni Wolnego Oprogramowania 2014 jest organizowana przez
