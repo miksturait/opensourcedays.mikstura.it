@@ -239,7 +239,7 @@ en:
           type: talk
           speaker: Bartosz_Piec
           title: Firefox OS - what is it all about?
-          description: TBA
+          description: Firefox OS zadebiutował w zeszłym roku w Polsce. Czym jest ten innowacyjny, w pełni wolny mobilny system operacyjny? W prezentacji przedstawione zostaną najważniejsze cechy Firefox OS, krótkie wprowadzenie technologiczne i przyszłość platformy.
         17-30:
           id: 126
           type: break
@@ -470,7 +470,10 @@ en:
       lead: Bartosz_Piec
       where: small
       title: Firefox OS for developers.
-      description: " "
+      description:
+        - Prezentacja technologii, na której oparty jest Firefox OS oraz podstaw programowania na ten system.
+        - Podczas warsztatu przejdziemy przez dostępne narzędzia, pokażę jak zamienić istniejącą stronę na aplikację dla systemu Firefox OS, oraz jak zbudowć przykładową aplikację wykorzystującą stworzone przez Mozillę API.
+        - Podczas warsztatów będzie również można zapoznać się z przykładowymi telefonami z systemem Firefox OS.
       logo: firefox.os.mozilla.org.png
     feedback:
       id: 909
@@ -707,8 +710,8 @@ en:
         world: http://jolla.com/
     Bartosz_Piec:
       name: Bartosz Piec
-      title:
-      description:
+      title: Firefox OS Developer
+      description: Programista z 10-letnim stażem, entuzjasta otwartych technologii i Internetu, aktualnie pracuje w Grupie LUX MED. Od 11 lat Mozillian, od niedawna Mozilla Rep, lider społeczności Mozilli w Polsce.
       social:
         world: http://aviary.pl
         twitter: https://twitter.com/bpiec
