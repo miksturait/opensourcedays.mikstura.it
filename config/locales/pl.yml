@@ -87,6 +87,9 @@ pl:
     see_you_tomorrow:
       header: do zobaczenia jutro!
       description: ' '
+    party:
+      header: afterparty
+      description: 'ul. Rynek 1, Bielsko-Biała 43-300'
     dayone:
       date: 2014-03-28
       header: Piątek, 28 Mar
@@ -135,6 +138,10 @@ pl:
           id: 108
           type: see_you_tomorrow
           speaker: Dominik_Kozaczko
+        20-30:
+          id: 201
+          type: party
+          speaker: Slodownia
     daytwo:
       date: 2014-03-29
       header: Sobota, 29 Mar
@@ -252,6 +259,10 @@ pl:
           id: 128
           type: see_you_tomorrow
           speaker: Dariusz_Wylon
+        20-00:
+          id: 201
+          type: party
+          speaker: Slodownia
     daythree:
       date: 2014-03-30
       header: Niedziela, 30 Mar
@@ -745,7 +756,7 @@ pl:
         twitter: https://twitter.com/tomaszbak
     Wojtek_Ryrych:
       name: Wojtek Ryrych
-      title: Front-End Develper
+      title: Front-End Developer
       description:
       social:
         twitter: https://twitter.com/wryrych
@@ -795,6 +806,12 @@ pl:
       description: Od wielu lat zajmuje się tematyką wykorzystania informacji przestrzennej w ratownictwie. Współpracownik GIS-Support Sp. z o.o.,  Członek zarządu stowarzyszenia OpenStreetMap Polska.
       social:
         world: http://openstreetmap.org.pl/
+    Slodownia:
+      name: Słodownia
+      title: ''
+      description: ''
+      social:
+        world: http://www.slodowniabielsko.pl/
 
   footer:
     is_organised_by: Konferencja Dni Wolnego Oprogramowania 2014 jest organizowana przez
