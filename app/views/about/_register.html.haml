@@ -1,6 +1,7 @@
 #countdown
 .span12.white.register-box.text-center
-  %h2.register-title= t('about.register.tickets_available')
+  %h2.register-title
+  -#%h2.register-title= t('about.register.tickets_available')
   %p{style: 'padding-bottom: 2em;'}= t('about.register.admitance_free')
   %a{ href: "https://www.eventbrite.com/e/dni-wolnego-oprogramowania-2014-registration-10372238645?ref=ebtn", target: :blank}
     %img{ src: "https://www.eventbrite.com/custombutton?eid=10372238645", alt: "Eventbrite - Dni Wolnego Oprogramowania 2014"}
