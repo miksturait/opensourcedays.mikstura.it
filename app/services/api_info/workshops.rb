@@ -9,6 +9,7 @@ class ApiInfo::Workshops
       [:daytwo, :daythree].collect do |day|
         {
             date: t(:date, scope: [:schedule, day]),
+            title: t(:title, scope: [:schedule, day]),
             label: t(:header, scope: [:schedule, day]),
             talks: send(day)
         }
