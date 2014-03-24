@@ -13,13 +13,13 @@
 
 #gold.text-center
   .span12#microsoft_openness
-    .span6
-      .sponsor-description{style: 'margin-top: 5em; margin-bottom: 1em;'}
-        - I18n.t('sponsors.sponsors.gold.microsoft_openness.description').each do |paragraph|
-          %p= paragraph
-    .span5
-      = link_to 'http://www.microsoft.com/en-us/openness/default.aspx', target: :blank do
-        = image_tag('/assets/sponsors/logo/microsoft_openness.png')
+  -#.span6
+  -#  .sponsor-description{style: 'margin-top: 5em; margin-bottom: 1em;'}
+  -#    - I18n.t('sponsors.sponsors.gold.microsoft_openness.description').each do |paragraph|
+  -#      %p= paragraph
+  .span6.offset3
+    = link_to 'http://www.microsoft.com/en-us/openness/default.aspx', target: :blank do
+      = image_tag('/assets/sponsors/logo/microsoft_openness.png')
   .span12#selleo
     .span5
       = link_to 'http://selleo.com/', target: :blank do
@@ -28,6 +28,10 @@
       .sponsor-description{style: 'margin-top: 5em; margin-bottom: 1em;'}
         - I18n.t('sponsors.sponsors.gold.selleo.description').each do |paragraph|
           %p= paragraph
+  .span6.offset3
+    = link_to 'http://www.redhat.com/', target: :blank do
+      = image_tag('/assets/sponsors/logo/red_hat.png')
+  .span12
 #silver.text-center
   .span6#travis
     = link_to 'http://travis-ci.com/', target: :blank do
