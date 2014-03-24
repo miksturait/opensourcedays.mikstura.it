@@ -52,19 +52,20 @@
       aip: 'http://przedsiebiorca.pl/aip/',
       oracle: 'http://www.oracle.com/index.html',
       codeschool: 'http://www.codeschool.com/',
-      mysql: 'http://www.mysql.com/' }.each do |code, link|
+      mysql: 'http://www.mysql.com/',
+      innapl: 'http://www.inna.pl/',
+      hotel_na_bloniach: 'http://www.hotelnabloniach.pl/',
+      us_cieszyn_2: 'http://wart.us.edu.pl/' }.each do |code, link|
     .span4{id: code}
       = link_to link, target: :blank do
         = image_tag("/assets/sponsors/logo/#{code}.png")
-  .span4.offset2#innapl
-    = link_to 'http://www.inna.pl/', target: :blank do
-      = image_tag('/assets/sponsors/logo/innapl.png')
-  .span4#hotel_na_bloniach
-    = link_to 'http://www.hotelnabloniach.pl/', target: :blank do
-      = image_tag('/assets/sponsors/logo/hotel_na_bloniach.png')
+  .span4.offset4#ostrava
+    = link_to 'http://www.osu.cz/', target: :blank do
+      = image_tag('/assets/sponsors/logo/ostrava.png')
+
 
 .span12.divider-space
-  .module-header.sponsors-header
+  .module-header.sponsors-header.text-center
     %h4= t('section.media')
 
 .span12.divider-space
