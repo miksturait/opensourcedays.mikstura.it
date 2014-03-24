@@ -28,7 +28,7 @@ class ApiInfo::About
               lng: 19.0573,
               address: 'ul. Willowa 2, Bielsko-Biała 43-300'
           },
-          intro_url: 'http://dwo.mikstura.it/assets/layout/backgrounds/intro.jpg'
+          intro_url: 'http://dwo.mikstura.it/assets/layout/backgrounds/intro_small.jpg'
       }
     end
 
