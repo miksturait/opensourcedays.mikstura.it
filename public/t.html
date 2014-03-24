@@ -1,0 +1,139 @@
+<!html>
+
+<head>
+	<title>DWO'14 Tweeter feed</title>
+	<meta http-equiv="refresh" content="300">
+	<style>
+		body {
+			height: 88%;
+			margin: 3% 3% 0;
+		}
+		.left, .center, .right {
+			display: inline-block;
+			height: 80%;
+			vertical-align: top;
+			width: 35%;
+		}
+		.center {
+			margin: 0 5%;
+			width: 19%;
+		}
+		.sponsor-logo {
+			height: 29%;
+			margin: 6% 0;
+			position: relative;
+			text-align: center;
+		}
+		.gold, .silver {
+			height: 100%;
+			position: absolute;
+			width: 100%;
+		}
+		.gold {
+			-webkit-animation: gold 15s infinite;
+			animation: gold 15s infinite;
+			opacity: 1;
+		}
+		.silver {
+			-webkit-animation: silver 15s infinite;
+			animation: silver 15s infinite;
+			opacity: 0;
+		}
+		@-webkit-keyframes gold {
+			0%, 45%, 100% {
+				opacity: 1;
+			}
+			50%, 95% {
+				opacity: 0;
+			}
+		}
+		@-webkit-keyframes silver {
+			0%, 45%, 100% {
+				opacity: 0;
+			}
+			50%, 95% {
+				opacity: 1;
+			}
+		}
+		@keyframes gold {
+			0%, 45%, 100% {
+				opacity: 1;
+			}
+			50%, 95% {
+				opacity: 0;
+			}
+		}
+		@keyframes silver {
+			0%, 45%, 100% {
+				opacity: 0;
+			}
+			50%, 95% {
+				opacity: 1;
+			}
+		}
+		.sponsor-logo img {
+			max-height: 100%;
+		}
+		.bottom {
+			height: 16%;
+			margin: 2% 5%;
+		}
+		.promoter-logo {
+			display: inline-block;
+			height: 100%;
+			max-height: 140px;
+			text-align: center;
+			width: 33%;
+		}
+		.promoter-logo img {
+			max-height: 100%;
+		}
+		iframe {
+			height: 100%;
+			width: 99% !important;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="left">
+		<a class="twitter-timeline" href="https://twitter.com/search?q=%23dwo14" data-widget-id="309587848338751489" data-link-color="#f19422" data-chrome="nofooter noscrollbar">Tweets about "#dwo14"</a>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	</div>
+	<div class="center">
+		<div class="sponsor-logo">
+			<div class="gold">
+				<img src="assets/twitter/microsoft_openness.png">
+			</div>
+			<div class="silver">
+				<img src="assets/twitter/travis.png">
+			</div>
+		</div>
+		<div class="sponsor-logo">
+			<img src="assets/twitter/logo-pingwin.png">
+		</div>
+		<div class="sponsor-logo">
+			<div class="gold">
+				<img src="assets/twitter/selleo.png">
+			</div>
+			<div class="silver">
+				<img src="assets/twitter/rekord.png">
+			</div>
+		</div>
+	</div>
+	<div class="right">
+		<a class="twitter-timeline" href="https://twitter.com/MiksturaIT" data-widget-id="309582593265893376" data-link-color="#f19422" data-chrome="nofooter noscrollbar">Tweets by @MiksturaIT</a>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	</div>
+	<div class="bottom">
+		<div class="promoter-logo">
+			<img src="assets/twitter/logo-mikstura.png">
+		</div>
+		<div class="promoter-logo">
+			<img src="assets/twitter/logo-ath.png">
+		</div>
+		<div class="promoter-logo">
+			<img src="assets/twitter/logo-reset.png">
+		</div>
+	</div>
+</body>
