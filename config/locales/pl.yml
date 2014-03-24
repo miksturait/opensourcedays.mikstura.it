@@ -92,6 +92,7 @@ pl:
       description: 'ul. Rynek 1, Bielsko-Biała 43-300'
     dayone:
       date: 2014-03-28
+      title: Piątek
       header: Piątek, 28 Mar
       agenda:
         15-00:
@@ -144,6 +145,7 @@ pl:
           speaker: Slodownia
     daytwo:
       date: 2014-03-29
+      title: Sobota
       header: Sobota, 29 Mar
       agenda:
         09-00:
@@ -265,6 +267,7 @@ pl:
           speaker: Slodownia
     daythree:
       date: 2014-03-30
+      title: Niedziela
       header: Niedziela, 30 Mar
       agenda:
         09-00:

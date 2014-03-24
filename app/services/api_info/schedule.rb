@@ -10,6 +10,7 @@ class ApiInfo::Schedule
       [:dayone, :daytwo, :daythree].collect do |day|
         {
             date: t(:date, scope: [:schedule, day]),
+            title: t(:title, scope: [:schedule, day]),
             label: t(:header, scope: [:schedule, day]),
             talks: t(:agenda, scope: [:schedule, day]).keys.map(&:to_s).sort.collect do |agenda_key|
               Talk.new(agenda_key, day).to_hash
