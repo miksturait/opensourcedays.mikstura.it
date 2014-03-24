@@ -24,6 +24,7 @@ class ApiInfo::WhosHere
       {
           "microsoft_openness" => 'http://www.microsoft.com/en-us/openness/default.asp',
           "selleo" => 'http://selleo.com/',
+          "red_hat" => 'http://www.redhat.com/',
           "travis" => 'http://travis-ci.com/',
           "rekord" => 'http://www.rekord.com.pl/'
       }
