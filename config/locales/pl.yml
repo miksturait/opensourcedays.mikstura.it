@@ -52,9 +52,9 @@ pl:
       modal:
         title: Zarejestruj się
         close: Zamknij
-      tickets_available: Bilety są już dostępne :-)
+      tickets_available: Wszystkie bilety wyprzedane :-)
       admitance_free: (uczestnictwo w konferencji jest bezpłatne)
-      register_now: Zarejestruj się już teraz!
+      register_now:
   speakers:
     learn_from: Skorzystaj z Wiedzy Wspaniałych Ludzi
     learn_from_description: ' '

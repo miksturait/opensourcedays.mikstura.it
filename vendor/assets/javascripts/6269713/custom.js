@@ -107,32 +107,32 @@ $(document).ready(function () {
 	});
 	
 	// Countdown //
-	$('#countdown').countdown({
-		until: new Date(2014, 3 - 1, 28), // new Date(year, mth - 1, day, hr, min, sec) - date/time to count down to
-		// or numeric for seconds offset, or string for unit offset(s): 
-		// 'Y' years, 'O' months, 'W' weeks, 'D' days, 'H' hours, 'M' minutes, 'S' seconds 
-		// until: '-1m +1d', for demo
-		timezone: -4, // The timezone (hours or minutes from GMT) for the target times, or null for client local 
-		layout: '{d<}<div class="span3"><div class="digit-container">{dn}<span class="label-container">{dl}</span></div></div>{d>}{h<}<div class="span3"><div class="digit-container">{hn}<span class="label-container">{hl}</span></div></div>{h>}{m<}<div class="span3"><div class="digit-container">{mn}<span class="label-container">{ml}</span></div></div>{m>}{s<}<div class="span3"><div class="digit-container">{sn}<span class="label-container">{sl}</span></div></div>{s>}',
-		timeSeparator: '', // Separator for time periods 
-		isRTL: false, // True for right-to-left languages, false for left-to-right 
-		format: 'dHMS', // Format for display - upper case for always, lower case only if non-zero,
-		// 'Y' years, 'O' months, 'W' weeks, 'D' days, 'H' hours, 'M' minutes, 'S' seconds
-		alwaysExpire: true, // True to trigger onExpiry even if never counted down 
-		onExpiry: liftOff // Callback when the countdown expires - 
-		// receives no parameters and 'this' is the containing division 
-	});
+//	$('#countdown').countdown({
+//		until: new Date(2014, 3 - 1, 28), // new Date(year, mth - 1, day, hr, min, sec) - date/time to count down to
+//		// or numeric for seconds offset, or string for unit offset(s):
+//		// 'Y' years, 'O' months, 'W' weeks, 'D' days, 'H' hours, 'M' minutes, 'S' seconds
+//		// until: '-1m +1d', for demo
+//		timezone: -4, // The timezone (hours or minutes from GMT) for the target times, or null for client local
+//		layout: '{d<}<div class="span3"><div class="digit-container">{dn}<span class="label-container">{dl}</span></div></div>{d>}{h<}<div class="span3"><div class="digit-container">{hn}<span class="label-container">{hl}</span></div></div>{h>}{m<}<div class="span3"><div class="digit-container">{mn}<span class="label-container">{ml}</span></div></div>{m>}{s<}<div class="span3"><div class="digit-container">{sn}<span class="label-container">{sl}</span></div></div>{s>}',
+//		timeSeparator: '', // Separator for time periods
+//		isRTL: false, // True for right-to-left languages, false for left-to-right
+//		format: 'dHMS', // Format for display - upper case for always, lower case only if non-zero,
+//		// 'Y' years, 'O' months, 'W' weeks, 'D' days, 'H' hours, 'M' minutes, 'S' seconds
+//		alwaysExpire: true, // True to trigger onExpiry even if never counted down
+//		onExpiry: liftOff // Callback when the countdown expires -
+//		// receives no parameters and 'this' is the containing division
+//	});
 	// Functions if countdown timer runs out:
-	function liftOff() {
-		$('.hasCountdown').css({
-			display: 'none'
-		});
-		$('#countdown').addClass('hidden');
-		$('#register-button').addClass('hidden');
-		$('.register-title').addClass('hidden');
-		$('.register-box').append('<h2>We are at capacity and can no longer accept registrations.</h2>');
-		$('.register-box').append('<button class="btn btn-large btn-primary disabled" disabled="true" id="register-button">Sold Out</button>');
-	}
+//	function liftOff() {
+//		$('.hasCountdown').css({
+//			display: 'none'
+//		});
+//		$('#countdown').addClass('hidden');
+//		$('#register-button').addClass('hidden');
+//		$('.register-title').addClass('hidden');
+//		$('.register-box').append('<h2>We are at capacity and can no longer accept registrations.</h2>');
+//		$('.register-box').append('<button class="btn btn-large btn-primary disabled" disabled="true" id="register-button">Sold Out</button>');
+//	}
 	
 	// Twitter Feed //
 //	$('.tweet').twittie({

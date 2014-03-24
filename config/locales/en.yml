@@ -52,9 +52,9 @@ en:
       modal:
         title: Register
         close: Close
-      tickets_available: Tickets are still available.
+      tickets_available: All tickets SOLD OUT :-)
       admitance_free: Attendance is free
-      register_now: Register right now!
+      register_now:
   speakers:
     learn_from: Benefit from the knowledge of some great people
     learn_from_description: ' '
