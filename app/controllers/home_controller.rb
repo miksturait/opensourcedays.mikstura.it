@@ -1,7 +1,7 @@
 class HomeController < ApplicationController
   layout 'base'
   after_action :cache_it, only: [:index, :rules, :policy]
-  after_action :cache_json, only: [:api]
+  after_action :cache_json, only: [:api, :timestamp]
 
   def index
     prepare_team
@@ -19,6 +19,11 @@ class HomeController < ApplicationController
 
   def api
     render json: MobileApi.data,
+           root: false
+  end
+
+  def timestamp
+    render json: {timestamp: Time.now},
            root: false
   end
 

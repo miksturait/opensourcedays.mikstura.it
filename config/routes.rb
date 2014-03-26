@@ -3,4 +3,5 @@ OpensourcedaysMiksturaIt::Application.routes.draw do
   get 'policy', to: "home#policy"
   get 'rules', to: "home#rules"
   get 'api', to: "home#api"
+  get 'timestamp', to: "home#timestamp"
 end
