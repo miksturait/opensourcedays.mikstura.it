@@ -214,7 +214,7 @@ en:
           type: talk
           speaker: Grzegorz_Nosek
           title: 'Ansible: the f-word in devops is now "fun"'
-          description: Rewelacyjne narzędzie do zarządzania konfiguracją dowolnej liczby maszyn. Łączy w sobie zalety puppeta, capistrano i zwykłego ssh i zostawia inne narzędzia tego typu daleko w tyle.
+          description: A powerful tool to manage the configuration of multiple machines. It combines the strengths of puppet, capistrano as well as the ordinary ssh and as such leaves the other similar tools far behind.
         15-20:
           id: 120
           type: talk
@@ -248,7 +248,7 @@ en:
           type: talk
           speaker: Bartosz_Piec
           title: Firefox OS - what is it all about?
-          description: Firefox OS zadebiutował w zeszłym roku w Polsce. Czym jest ten innowacyjny, w pełni wolny mobilny system operacyjny? W prezentacji przedstawione zostaną najważniejsze cechy Firefox OS, krótkie wprowadzenie technologiczne i przyszłość platformy.
+          description: It is only last year that Firefox OS had its debut in Poland. What is this innovative, fully open source mobile operating system all about? I will highlight the key features of the Firefox OS, discuss its technological foundations and talk about the future of the platform.
         17-30:
           id: 126
           type: break
@@ -485,15 +485,15 @@ en:
       where: small
       title: Firefox OS for developers.
       description:
-        - Prezentacja technologii, na której oparty jest Firefox OS oraz podstaw programowania na ten system.
-        - Podczas warsztatu przejdziemy przez dostępne narzędzia, pokażę jak zamienić istniejącą stronę na aplikację dla systemu Firefox OS, oraz jak zbudowć przykładową aplikację wykorzystującą stworzone przez Mozillę API.
-        - Podczas warsztatów będzie również można zapoznać się z przykładowymi telefonami z systemem Firefox OS.
+        - The workshop will focus on the presentation of the technological foundations of Firefox OS as well as an introduction to programming for the system.
+        - We will review some available tools and port an existing website into an app for Firefox OS. I will also present how to build an application based on Mozilla’s APIs.
+        - The workshop participants will also have an opportunity to play with some of the mobile devices that run on Firefox OS.
       logo: firefox.os.mozilla.org.png
     feedback:
       id: 909
       lead: Pawel_Badenski
       where: small
-      title: Brakujący element Agile - najpierw ulepszać ludzi, a potem systemy
+      title: The missing link of Agile - improve people first, systems next
       description:
         - We have TDD, BDD, CI, CD, cloud, and REST - it was supposed to be all great, ended up being "as usual". We forgot about "your code is not clean", "people on the team think you’re really arrogant", "I don't want to work here".
         - "In this presentation I will talk about:"
@@ -725,7 +725,7 @@ en:
     Bartosz_Piec:
       name: Bartosz Piec
       title: Firefox OS Developer
-      description: Programista z 10-letnim stażem, entuzjasta otwartych technologii i Internetu, aktualnie pracuje w Grupie LUX MED. Od 11 lat Mozillian, od niedawna Mozilla Rep, lider społeczności Mozilli w Polsce.
+      description: A programmer with 10 years of experience, an enthusiast of open technologies and the Internet, currently with LUX MED Group. A Mozillian for the last 11 years; and a Mozilla Rep for not so long. The Mozilla community leader in Poland.
       social:
         world: http://aviary.pl
         twitter: https://twitter.com/bpiec
@@ -803,8 +803,8 @@ en:
         linkedin: https://pl.linkedin.com/pub/jakub-duda/6/710/162
     Tomasz_Nycz:
       name: Tomasz Nycz
-      title: geograf, kartograf, strażak-ochotnik
-      description: Od wielu lat zajmuje się tematyką wykorzystania informacji przestrzennej w ratownictwie. Współpracownik GIS-Support Sp. z o.o.,  Członek zarządu stowarzyszenia OpenStreetMap Polska.
+      title: GEOGRAPHER, CARTOGRAPHER AND VOLUNTEER FIRE-FIGHTER
+      description: Tom has explored GIS applications in emergency services for years. He collaborates with GIS-Support Sp. z o.o. and is a member of the OpenStreetMap Poland Association.
       social:
         world: http://openstreetmap.org.pl/
     Slodownia:
