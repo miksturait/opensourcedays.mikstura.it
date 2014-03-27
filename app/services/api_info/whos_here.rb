@@ -34,16 +34,18 @@ class ApiInfo::WhosHere
       {
           'magazyn.programista' => 'http://programistamag.pl/',
           'bb365info' => 'http://www.bb365.info/',
-          'sdjournal' => 'http://sdjournal.pl/'
+          'sdjournal' => 'http://sdjournal.pl/',
+          'pracait' => 'http://pracait.com/',
+          'webmastah' => 'http://webmastah.pl'
       }
     end
 
     def organizers
-    {
-        'mikstura.it' => 'http://mikstura.it',
-        'ath' => 'http://info.ath.bielsko.pl/',
-        'ath.reset' => 'http://reset.ath.bielsko.pl/'
-    }
+      {
+          'mikstura.it' => 'http://mikstura.it',
+          'ath' => 'http://info.ath.bielsko.pl/',
+          'ath.reset' => 'http://reset.ath.bielsko.pl/'
+      }
     end
 
     def image_url(type, code)

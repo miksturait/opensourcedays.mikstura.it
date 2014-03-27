@@ -73,15 +73,14 @@
 #media.text-center
   - { 'http://programistamag.pl/' => 'magazyn.programista.png',
       'http://www.bb365.info/' => 'bb365info.png',
-      'http://sdjournal.pl/' => 'sdjournal.png'}.each do |url, picture|
+      'http://webmastah.pl' => 'webmastah.png' }.each do |url, picture|
     .span4
       = link_to url, target: :blank do
         = image_tag("/assets/media/logo/#{picture}")
-
-.span12.divider-space
-
-#media_small.text-center
-  - { 'http://pracait.com/' => 'pracait.png' }.each do |url, picture|
-    .span2.offset5
+  .span12.divider-space
+  .span2
+  - { 'http://sdjournal.pl/' => 'sdjournal.png',
+      'http://pracait.com/' => 'pracait.png' }.each do |url, picture|
+    .span4
       = link_to url, target: :blank do
         = image_tag("/assets/media/logo/#{picture}")
