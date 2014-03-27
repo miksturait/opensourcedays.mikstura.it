@@ -404,7 +404,12 @@ pl:
       description:
         - Celem warsztatów jest umożliwienie uczestnikom zapoznanie z narzędziami wykorzystywanymi przez społeczność Open source. Uczestnik po warsztatach ma wiedzę i umiejętności by aktywnie wspierać społeczność swoimi poprawkami, nowymi funkcjonalnościami do oprogramowania oraz innymi umiejętnościami (jak tłumaczenie, testowanie itd).
         - Warsztaty bedą w trybie BYOL(bring your own laptop). Nie ma żadnych ograniczeń jaki system jest na urządzeniu.
-        - Podczas warsztatów bedą mentorzy którzy bedą wspierali was wiedzą i pomocą.
+        - "Podczas warsztatów bedą mentorzy którzy bedą wspierali was wiedzą i pomocą. Między innymi:"
+        - "=> Piotr Kościelniak (NodeJS)"
+        - "=> Michał Pipa (PHP)"
+        - "=> Justyna Żarna (Python)"
+        - "=> Aleksander Małaszkiewicz (Ruby)"
+        - "=> Agnieszka Matysek (Ruby)"
       logo: open_source_wikipedia.org.png
     your_own_parser:
       id: 901
