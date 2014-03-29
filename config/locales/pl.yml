@@ -453,8 +453,8 @@ pl:
     ember_js:
       id: 905
       lead:
-        - Tomasz_Bak
         - Wojtek_Ryrych
+        - Tomasz_Bak
       where: small
       title: Aplikacje webowe na miarę XXI wieku
       description:

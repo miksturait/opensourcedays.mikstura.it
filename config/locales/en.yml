@@ -445,8 +445,8 @@ en:
     ember_js:
       id: 905
       lead:
-        - Tomasz_Bak
         - Wojtek_Ryrych
+        - Tomasz_Bak
       where: small
       title: 21st Century Web Applications
       description:
