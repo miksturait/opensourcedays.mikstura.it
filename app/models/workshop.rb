@@ -6,8 +6,8 @@ class Workshop < Struct.new(:id, :timeslot)
         [:azure, :open_source, :your_own_parser],
         [:mindstorms, :ember_js],
         [:open_street_map, :continuous_delivery],
-        [:unity3d, :feedback],
-        [:ux, :firefoxos]
+        [:humanitarian, :feedback],
+        [:ux, :firefoxos, :unity3d]
     ].collect do |workshops|
       schedule = workshops_schedule.pop
       workshops.collect { |workshop| new(workshop, schedule) }

@@ -521,6 +521,19 @@ pl:
         - Krótki przegląd dostępnych usług i technologii w chmurze Microsoft Azure. Scenariusze użycia usług (Web Sites, VM, Storage, Mobile, CDN i inne).
         - Do czego może się przydać kreator – czyli CMS w 5 klikach. Co to jest blob w praktyce. Kilka drobiazgów na które warto zwrócić uwagę przy uruchamianiu projektu (a mogą mieć wpływ na koszty i wydajność). I wiele innych o których prowadzący może nie mieć pojęcia.
       logo: azure.png
+    humanitarian:
+      id: 911
+      lead: Andreas_Papp
+      where: computer
+      title: Zastosowanie rzeczywistości wirtualnej (VR) w przygotowaniu do misji humanitarnej (Unity 3D + Oculus Rift)
+      description:
+        - Kontekst
+        - Technologie rzeczywistości wirtualnej (VR) mogą być z powodzeniem wykorzystywane w szkoleniu pracowników oraz wolontariuszy organizacji pozarządowych niosących pomoc humanitarną w rejonach świata dotkniętych klęskami żywiołowymi lub konfliktami zbrojnymi.
+        - Przykładem tego typu przedsięwzięć może być aktywność Polskiej Akcji Humanitarnej, w Sudanie Południowym, Palestynie oraz Somalii, gdzie PAH realizuje projekty wodno-sanitarne, żywnościowe, edukacyjne oraz rolnicze. Warsztat będzie prowadzony przez Pana Andreasa Pappa z międzynarodowej organizacji humanitarnej Doctors Without Borders, który był uczestnikiem kilkunastu misji humanitarnych.
+        - Problem
+        - Misje prowadzone są w krajach, które zarówno kulturowo jak i środowiskowo różnią się w dużym stopniu od naszego codziennego otoczenia. Dodatkowo w wielu przypadkach pojawia się istotny element konfliktu zbrojnego jaki panuje w danym kraju.
+        - Celem warsztatów jest poszerzenie świadomości specjalistów IT w odniesieniu do misji humanitarnej, jako specificznego kontekstu wykorzystania nowoczesnych technologii VR do przeprowadzania szkoleń dla poprawy bezpieczeństwa pracowników i wolontariuszy niosących pomoc humanitarną. Głównym atutem wirtualnej rzeczywistości jest możliwość przeprowadzenia symulacji niebezpiecznych sytuacji w warunkach całkowicie kontrolowanych, bez konieczności ponoszenia dużych kosztów związanych z realizacją takiej symulacji w rzeczywistości.
+      logo: camp.wikimedia.org.png
 
   venue:
     take_place: Konferencja odbędzie się na uczelni
@@ -844,6 +857,12 @@ pl:
       description: Specjalistka od współpracy z ciekawymi ludźmi :-)
       social:
         linkedin: http://pl.linkedin.com/pub/katarzyna-pawlonka/5/6a8/852
+    Andreas_Papp:
+      name: Andreas Papp
+      title: Programme Director @  Médecins Sans Frontières (MSF) Austria
+      description: Each year MSF is saving lives and alleviates the suffering of millions of people all over the world - you can be part of it!
+      social:
+        world: https://www.aerzte-ohne-grenzen.at/hilfseinsaetze/alle-einsatzmitarbeiterinnen/details/papp/
 
   footer:
     is_organised_by: Konferencja Dni Wolnego Oprogramowania 2014 jest organizowana przez

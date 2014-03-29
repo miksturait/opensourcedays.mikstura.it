@@ -513,6 +513,19 @@ en:
         - Krótki przegląd dostępnych usług i technologii w chmurze Microsoft Azure. Scenariusze użycia usług (Web Sites, VM, Storage, Mobile, CDN i inne).
         - Do czego może się przydać kreator – czyli CMS w 5 klikach. Co to jest blob w praktyce. Kilka drobiazgów na które warto zwrócić uwagę przy uruchamianiu projektu (a mogą mieć wpływ na koszty i wydajność). I wiele innych o których prowadzący może nie mieć pojęcia.
       logo: azure.png
+    humanitarian:
+      id: 911
+      lead: Andreas_Papp
+      where: computer
+      title: Virtual Reality Simulations for Effective & Safe Humanitarian Aid Delivery (Unity 3D + Oculus Rift)
+      description:
+        - Context
+        - VR technologies can be deployed to train the officers and volunteers of humanitarian aid organizations who deliver their service in the areas of the world badly affected by natural disasters and/or armed conflicts.
+        - A good example of such operations may be the missions organized by the Polish Humanitarian Action (PAH) in South Sudan, Palestine and Somalia, where the organization implements projects focused on food and water delivery, education and farming. The workshop will be co-facilitated by Arkadiusz Kwaśny, CEO at Selleo and VR-specialist, and Andreas Papp from MSF / Doctors Without Borders - a large international humanitarian aid organization which reaches around ten million patients each year in over sixty counties all over the world. Andreas has coordinated missions on project and country level in Iraq, Lebanon, Somalia, Sudan and South Sudan and will share his experience with you.
+        - Problem
+        - Humanitarian aid missions are very often conducted in areas which differ significantly in terms of context, culture and geographic environment compared to the countries from which humanitarian & development aid workers come from. On top of that, the risks involved are compounded by the fact that the areas are often affected by armed conflicts.
+        - The workshop is meant to familiarise IT professionals and Open Source enthusiasts with the specific context of humanitarian aid delivery, as an area where such technologies as VR simulations can be deployed to ensure safer and more effective emergency aid provision; the modern technologies can namely be used to train officers and volunteers so that they are well prepared to deliver aid in the areas affected. The greatest advantage of VR technologies is that they enable us to immerse trainees in very natural yet fully controlled environments without exposing the people to the risks involved in - and without bearing the costs associated with - real life situations. MSF is happy to welcome you and your expertise in order to support their mission - be part of it!
+      logo: camp.wikimedia.org.png
 
   venue:
     take_place: "The conference will take place at the university"
@@ -836,6 +849,13 @@ en:
       description: Specjalistka od współpracy z ciekawymi ludźmi :-)
       social:
         linkedin: http://pl.linkedin.com/pub/katarzyna-pawlonka/5/6a8/852
+    Andreas_Papp:
+      name: Andreas Papp
+      title: Programme Director @  Médecins Sans Frontières (MSF) Austria
+      description: Each year MSF is saving lives and alleviates the suffering of millions of people all over the world - you can be part of it!
+      social:
+        world: https://www.aerzte-ohne-grenzen.at/hilfseinsaetze/alle-einsatzmitarbeiterinnen/details/papp/
+
 
   footer:
     is_organised_by: The Open Source Days 2014 conference is organized by
