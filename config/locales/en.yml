@@ -505,7 +505,6 @@ en:
     azure:
       id: 910
       lead:
-        - Katarzyna_Pawlonka
         - Ryszard_Dalkowski
       where: hackathon
       title:  Azure 101. Pierwsze kroki w chmurze - projekt na Azurze!
