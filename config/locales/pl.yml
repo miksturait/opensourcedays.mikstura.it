@@ -509,6 +509,18 @@ pl:
         - " => wzorców, które pomogą Ci kiedy bedziesz dostawał feedback"
         - " => oraz wielu innych koncepcji, które ułatwią Ci wykorzystać feedback w Twoim zespole"
       logo: feedback-shsuonline.wordpress.com.png
+    azure:
+      id: 910
+      lead:
+        - Katarzyna_Pawlonka
+        - Ryszard_Dalkowski
+      where: hackathon
+      title:  Azure 101. Pierwsze kroki w chmurze - projekt na Azurze!
+      description:
+        - Krótki przegląd dostępnych usług i technologii w chmurze Microsoft Azure. Scenariusze użycia usług (Web Sites, VM, Storage, Mobile, CDN i inne).
+        - Do czego może się przydać kreator – czyli CMS w 5 klikach. Co to jest blob w praktyce. Kilka drobiazgów na które warto zwrócić uwagę przy uruchamianiu projektu (a mogą mieć wpływ na koszty i wydajność). I wiele innych o których prowadzący może nie mieć pojęcia.
+      logo: azure.png
+
 
   venue:
     take_place: Konferencja odbędzie się na uczelni
@@ -820,6 +832,18 @@ pl:
       description: ''
       social:
         world: http://www.slodowniabielsko.pl/
+    Ryszard_Dalkowski:
+      name: Ryszard Dałkowski
+      title: CSI Lead
+      description: Ewangelista open source wewnątrz Microsoft
+      social:
+        linkedin: http://pl.linkedin.com/in/ryszardd
+    Katarzyna_Pawlonka:
+      name: Katarzyna Pawlonka
+      title: CEE Open Source Community Lead
+      description: Specjalistka od współpracy z ciekawymi ludźmi :-)
+      social:
+        linkedin: http://pl.linkedin.com/pub/katarzyna-pawlonka/5/6a8/852
 
   footer:
     is_organised_by: Konferencja Dni Wolnego Oprogramowania 2014 jest organizowana przez

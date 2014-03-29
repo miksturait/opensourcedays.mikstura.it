@@ -38,7 +38,7 @@ class HomeController < ApplicationController
   end
 
   def prepare_speakers
-    @speakers = %w(Aaron_Kaplan Kate_Terlecka Kamil_Galuszka Dariusz_Wylon Michal_Wyrobek Mikolaj_Pastuszko Rafal_Jagoda Anna_Warzecha Arkadiusz_Benedykt Marcin_Szalowicz Pawel_Marynowski Arkadiusz_Kwasny Tomasz_Mloduchowski Agnieszka_Pawlicka Karol_Ryt Carsten_Munk Bartosz_Piec Stanislaw_Klekot Henryk_Konsek Sebastian_Ewak Tomasz_Bak Wojtek_Ryrych Grzegorz_Nosek Krzysztof_Krej Halil_Karaca Pawel_Badenski Jacek_Konieczny Jakub_Duda Mateusz_Juscinski Michal_Czyz Tomasz_Nycz).
+    @speakers = %w(Aaron_Kaplan Kate_Terlecka Kamil_Galuszka Dariusz_Wylon Michal_Wyrobek Mikolaj_Pastuszko Rafal_Jagoda Anna_Warzecha Arkadiusz_Benedykt Marcin_Szalowicz Pawel_Marynowski Arkadiusz_Kwasny Tomasz_Mloduchowski Agnieszka_Pawlicka Karol_Ryt Carsten_Munk Bartosz_Piec Stanislaw_Klekot Henryk_Konsek Sebastian_Ewak Tomasz_Bak Wojtek_Ryrych Grzegorz_Nosek Krzysztof_Krej Halil_Karaca Pawel_Badenski Jacek_Konieczny Jakub_Duda Mateusz_Juscinski Michal_Czyz Tomasz_Nycz Katarzyna_Pawlonka Ryszard_Dalkowski).
         map { |speaker| Person.new(speaker) }
   end
 

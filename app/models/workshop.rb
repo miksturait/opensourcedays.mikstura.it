@@ -3,7 +3,7 @@ class Workshop < Struct.new(:id, :timeslot)
   def self.all
     workshops_schedule = I18n.translate('workshops_schedule').reverse
     [
-        [:open_source, :your_own_parser],
+        [:azure, :open_source, :your_own_parser],
         [:mindstorms, :ember_js],
         [:open_street_map, :continuous_delivery],
         [:unity3d, :feedback],
