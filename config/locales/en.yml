@@ -278,14 +278,6 @@ en:
           type: welcome
           speaker: Eunika_Tabak
         10-00:
-          id: 132
-          type: talk
-          speaker: Krzysztof_Krej
-          title: Virtual Reality - a training tool for officers and volunteers in humanitarian aid organizations.
-          description:
-            - We would like to present the prototype of a VR application which is meant as a proof-of-concept for a tool to support the training of humanitarian aid staff.
-            - The tool should help in particular those NGOs who deliver humanitarian aid in areas affected by armed conflicts. Officers and/or volunteers who go on their first mission in the field need to be trained how to behave in challenging situations. The application presented shall virtually be a simulator of some such life-threatening situations.
-        10-20:
           id: 134
           type: talk
           speaker: Karol_Ryt
@@ -298,6 +290,14 @@ en:
             - " * Is there anything else you can do? "
             - I would like to share the knowledge and experience I brought from gaming events in San Francisco last year.
             - I would in particular like to explore what can be done to early validate a concept rather than an emerging solution under implementation.
+        10-20:
+          id: 132
+          type: talk
+          speaker: Andreas_Papp
+          title: Virtual Reality - a training tool for officers and volunteers in humanitarian aid organizations.
+          description:
+            - We would like to present the prototype of a VR application which is meant as a proof-of-concept for a tool to support the training of humanitarian aid staff.
+            - The tool should help in particular those NGOs who deliver humanitarian aid in areas affected by armed conflicts. Officers and/or volunteers who go on their first mission in the field need to be trained how to behave in challenging situations. The application presented shall virtually be a simulator of some such life-threatening situations.
         10-40:
           id: 136
           type: talk

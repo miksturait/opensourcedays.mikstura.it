@@ -278,14 +278,6 @@ pl:
           type: welcome
           speaker: Eunika_Tabak
         10-00:
-          id: 132
-          type: talk
-          speaker: Krzysztof_Krej
-          title: Wirtualna rzeczywistość - narzędzie szkoleniowe dla wolontariuszy organizacji humanitarnych
-          description:
-            - Chcemy zaprezentować prototyp aplikacji VR (wirtualna rzeczywistość), która jest proof of concept dla narzędzia mającego w skuteczny sposób szkolić pracowników organizacji humanitarnych.
-            - W szczególności dotyczy ono pracowników NGO (organizacji pozarządowych), którzy niosą pomoc humanitarną w krajach dotkniętych konfliktem zbrojnym. Osoby te po raz pierwszy jadą na misję humanitarną i mają przejść szkolenie dotyczące zachowania się w niebezpiecznych sytuacjach. W skrócie prezentacja będzie dotyczyć symulatora potencjalnych niebezpiecznych sytuacji.
-        10-20:
           id: 134
           type: talk
           speaker: Karol_Ryt
@@ -298,6 +290,14 @@ pl:
             - " * Implementacja."
             - Teraz ważniejsze pytanie czy da się zrobić to jeszcze efektywniej?
             - Przenosząc wiedzę i doświadczenie z imprez z San Francisco gdzie spędziłem ponad 2 miesiące poprzedniego roku chciałbym zaprezentować co można zrobić by sprawdzić czy dany pomysł ma sens jeszcze w fazie pomysłu.
+        10-20:
+          id: 132
+          type: talk
+          speaker: Krzysztof_Krej
+          title: Wirtualna rzeczywistość - narzędzie szkoleniowe dla wolontariuszy organizacji humanitarnych
+          description:
+            - Chcemy zaprezentować prototyp aplikacji VR (wirtualna rzeczywistość), która jest proof of concept dla narzędzia mającego w skuteczny sposób szkolić pracowników organizacji humanitarnych.
+            - W szczególności dotyczy ono pracowników NGO (organizacji pozarządowych), którzy niosą pomoc humanitarną w krajach dotkniętych konfliktem zbrojnym. Osoby te po raz pierwszy jadą na misję humanitarną i mają przejść szkolenie dotyczące zachowania się w niebezpiecznych sytuacjach. W skrócie prezentacja będzie dotyczyć symulatora potencjalnych niebezpiecznych sytuacji.
         10-40:
           id: 136
           type: talk
