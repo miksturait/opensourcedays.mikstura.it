@@ -299,13 +299,12 @@ pl:
             - Teraz ważniejsze pytanie czy da się zrobić to jeszcze efektywniej?
             - Przenosząc wiedzę i doświadczenie z imprez z San Francisco gdzie spędziłem ponad 2 miesiące poprzedniego roku chciałbym zaprezentować co można zrobić by sprawdzić czy dany pomysł ma sens jeszcze w fazie pomysłu.
         10-40:
-          id: 135
+          id: 136
           type: talk
-          speaker: Tomasz_Mloduchowski
-          title: Bitcoin Enterprise Edition - Open Source z wielomiliardową kapitalizacją
+          speaker: Katarzyna_Pawlonka
+          title:  Open Source na platformie Windows Azure
           description:
-            - Czym jest i jak działa Bitcoin, zaczynając od teorii, a na doświadczeniu z uruchamianiem usług finansowych kończąc.
-            - Podczas wystąpienia przedstawię teoretyczne podstawy bezpieczeństwa sieci, opowiem o praktycznych aspektach wdrażania rozległych rozwiązań opartych na technologii Bitcoin, pułapkach czyhających na programistów integrujących się z siecią Bitcoin, a także o Bitcoin jako narzędziu umożliwiającym każdemu zapoznanie się z tematyką systemów klasy "Enterprise"
+            - Masz w perspektywie kolejny projekt open source z potencjałem na komercyjny sukces? Chcesz rozwinąć dojrzały projekt dając mu nowe możliwości, wprowadzając na nowy rynek i do nowych odbiorców? Jesteś otwarty na nową wiedzę, pomysły, technologie i kontakty? To daj sobie szansę i miej wybór! Skorzystaj z okazji, przyjdź i zobacz jak wykorzystać chmurę Microsoft w swoich projektach. Dowiesz się dlaczego warto myśleć o otwartych projektach na Azure. Sala szkoleniowa, magazyny danych, tani backup, dystrybucja Twojej aplikacji  i inne scenariusze użycia chmury w projektach open source. Nowe pomysły mile widziane i nagradzane.
         11-00:
           id: 133
           type: break
@@ -346,34 +345,17 @@ pl:
           title: C# - dlaczego lubie i co to w ogóle ma wspólnego z Open Source
           description: W czasie prezentacji chce pokazać kilka rzeczy które Lubie w c# i takie których  nie lubię.  Co z tego co używam codziennie jest otwarte i jak świat Microsoftowo zorientowanego  programisty wygląda.
         14-10:
-          id: 136
+          id: 135
           type: talk
-          speaker: Katarzyna_Pawlonka
-          title:  Open Source na platformie Windows Azure
+          speaker: Tomasz_Mloduchowski
+          title: Bitcoin Enterprise Edition - Open Source z wielomiliardową kapitalizacją
           description:
-            - Masz w perspektywie kolejny projekt open source z potencjałem na komercyjny sukces? Chcesz rozwinąć dojrzały projekt dając mu nowe możliwości, wprowadzając na nowy rynek i do nowych odbiorców? Jesteś otwarty na nową wiedzę, pomysły, technologie i kontakty? To daj sobie szansę i miej wybór! Skorzystaj z okazji, przyjdź i zobacz jak wykorzystać chmurę Microsoft w swoich projektach. Dowiesz się dlaczego warto myśleć o otwartych projektach na Azure. Sala szkoleniowa, magazyny danych, tani backup, dystrybucja Twojej aplikacji  i inne scenariusze użycia chmury w projektach open source. Nowe pomysły mile widziane i nagradzane.
+            - Czym jest i jak działa Bitcoin, zaczynając od teorii, a na doświadczeniu z uruchamianiem usług finansowych kończąc.
+            - Podczas wystąpienia przedstawię teoretyczne podstawy bezpieczeństwa sieci, opowiem o praktycznych aspektach wdrażania rozległych rozwiązań opartych na technologii Bitcoin, pułapkach czyhających na programistów integrujących się z siecią Bitcoin, a także o Bitcoin jako narzędziu umożliwiającym każdemu zapoznanie się z tematyką systemów klasy "Enterprise"
         14-30:
           id: 141
           type: break
         15-00:
-          id: 142
-          type: talk
-          speaker: Jacek_Konieczny
-          title: Wolne Oprogramowanie jako klocki do budowania własnych produktów
-          description:
-            - Opowiem jak używając wolnego oprogramowania (PLD Linux, Asterisk, Python, Xen, Corosync, Pacemaker i wiele, wiele innych) budujemy produkt dla naszych klientów.
-            - Co zyskujemy używając WO, co WO zyskuje przez takich użytkowników. Czemu czasem zamiast użyć gotowych, często komercyjnych, rozwiązań, warto się interesować otwartymi „półproduktami”, ale też na jakie trudności trzeba być przygotowanym.
-        15-20:
-          id: 143
-          type: talk
-          speaker: Jakub_Duda
-          title:   "Scrum vs open source - kunagi.org jako otwarta alternatywa dla komercyjnych systemów zarządzania projektami"
-          description:
-           - Scrum (a ogólniej – Agile) to obecnie najpopularniejsza filozofia realizacji projektów informatycznych. Tej popularności towarzyszy dużą ilość narzędzi wspomagających zwinne tworzenie oprogramowania.
-           - Czy Open Source ma coś do zaoferowania w tym temacie, czy jesteśmy skazani na rozwiązania komercyjne?
-           - A może samo oprogramowanie open source można tworzyć w w scrumie?
-           - Case study kunagi.org
-        15-40:
           id: 144
           type: talk
           speaker: Halil_Karaca
@@ -386,7 +368,17 @@ pl:
             - You find an interesting project and get on the boat, how about your first commit?
             - Case Study - My very first open-source experience.
             - "Bonus: How to win developers for your own open-source project."
-        16-00:
+        15-20:
+          id: 143
+          type: talk
+          speaker: Jakub_Duda
+          title:   "Scrum vs open source - kunagi.org jako otwarta alternatywa dla komercyjnych systemów zarządzania projektami"
+          description:
+           - Scrum (a ogólniej – Agile) to obecnie najpopularniejsza filozofia realizacji projektów informatycznych. Tej popularności towarzyszy dużą ilość narzędzi wspomagających zwinne tworzenie oprogramowania.
+           - Czy Open Source ma coś do zaoferowania w tym temacie, czy jesteśmy skazani na rozwiązania komercyjne?
+           - A może samo oprogramowanie open source można tworzyć w w scrumie?
+           - Case study kunagi.org
+        15-40:
           id: 145
           type: bye
           speaker: Dariusz_Wylon

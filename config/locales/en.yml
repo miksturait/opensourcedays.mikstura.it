@@ -299,13 +299,11 @@ en:
             - I would like to share the knowledge and experience I brought from gaming events in San Francisco last year.
             - I would in particular like to explore what can be done to early validate a concept rather than an emerging solution under implementation.
         10-40:
-          id: 135
+          id: 136
           type: talk
-          speaker: Tomasz_Mloduchowski
-          title: Bitcoin Enterprise Edition - Open Source with multibillion capitalization
-          description:
-            - What is Bitcoin? How does it work? From theory to the practice of running financial services.
-            - I will introduce the basics of the network security and talk about the practice of implementing solutions based on the Bitcoin technology, traps lurking for the developers who integrate with the Bitcoin network as well as about Bitcoin as a tool enabling you to familiarize yourself with the topic of enterprise-class systems.
+          speaker: Katarzyna_Pawlonka
+          title: Open Source on Windows Azure
+          description: Masz w perspektywie kolejny projekt open source z potencjałem na komercyjny sukces? Chcesz rozwinąć dojrzały projekt dając mu nowe możliwości, wprowadzając na nowy rynek i do nowych odbiorców? Jesteś otwarty na nową wiedzę, pomysły, technologie i kontakty? To daj sobie szansę i miej wybór! Skorzystaj z okazji, przyjdź i zobacz jak wykorzystać chmurę Microsoft w swoich projektach. Dowiesz się dlaczego warto myśleć o otwartych projektach na Azure. Sala szkoleniowa, magazyny danych, tani backup, dystrybucja Twojej aplikacji  i inne scenariusze użycia chmury w projektach open source. Nowe pomysły mile widziane i nagradzane.
         11-00:
           id: 133
           type: break
@@ -346,33 +344,17 @@ en:
           title: C# - why do I like it? What does it have to do with Open Source?
           description: During the presentation I would like to talk about the things I love in c# as well as those I do not particularly enjoy. I would like to show what is “open” and take you for a short trip into the world of an MS-oriented programmer.
         14-10:
-          id: 136
+          id: 135
           type: talk
-          speaker: Katarzyna_Pawlonka
-          title: Open Source on Windows Azure
-          description: Masz w perspektywie kolejny projekt open source z potencjałem na komercyjny sukces? Chcesz rozwinąć dojrzały projekt dając mu nowe możliwości, wprowadzając na nowy rynek i do nowych odbiorców? Jesteś otwarty na nową wiedzę, pomysły, technologie i kontakty? To daj sobie szansę i miej wybór! Skorzystaj z okazji, przyjdź i zobacz jak wykorzystać chmurę Microsoft w swoich projektach. Dowiesz się dlaczego warto myśleć o otwartych projektach na Azure. Sala szkoleniowa, magazyny danych, tani backup, dystrybucja Twojej aplikacji  i inne scenariusze użycia chmury w projektach open source. Nowe pomysły mile widziane i nagradzane.
+          speaker: Tomasz_Mloduchowski
+          title: Bitcoin Enterprise Edition - Open Source with multibillion capitalization
+          description:
+            - What is Bitcoin? How does it work? From theory to the practice of running financial services.
+            - I will introduce the basics of the network security and talk about the practice of implementing solutions based on the Bitcoin technology, traps lurking for the developers who integrate with the Bitcoin network as well as about Bitcoin as a tool enabling you to familiarize yourself with the topic of enterprise-class systems.
         14-30:
           id: 141
           type: break
         15-00:
-          id: 142
-          type: talk
-          speaker: Jacek_Konieczny
-          title: Open Source software - building blocks for your own software products.
-          description:
-            - I will talk about how we use open source software (PLD Linux, Asterisk, Python, Xen, Corosync, Pacemaker and the like) to build products for our clients.
-            - What do we gain from using WO? How does WO benefit from the users like us? Why is it sometimes better not to use ready-made proprietary solutions and consider open source “semi-finished products”? What challenges do you need to face if you choose the latter path?
-        15-20:
-          id: 143
-          type: talk
-          speaker: Jakub_Duda
-          title: Scrum vs. open source - kunagi.org as an open alternative to commercial project management systems
-          description:
-           - Scrum (or more broadly, Agile) is currently the most popular approach to the implementation of IT projects. The popularity brings with itself a number of tools with which to support agile software development
-           - Are there any open source solutions available or do we need to rely on commercial products?
-           - Why not use Scrum to create open source software?
-           - The case study of kunagi.org
-        15-40:
           id: 144
           type: talk
           speaker: Halil_Karaca
@@ -385,7 +367,17 @@ en:
             - You find an interesting project and get on the boat, how about your first commit?
             - Case Study - My very first open-source experience.
             - "Bonus: How to win developers for your own open-source project."
-        16-00:
+        15-20:
+          id: 143
+          type: talk
+          speaker: Jakub_Duda
+          title: Scrum vs. open source - kunagi.org as an open alternative to commercial project management systems
+          description:
+           - Scrum (or more broadly, Agile) is currently the most popular approach to the implementation of IT projects. The popularity brings with itself a number of tools with which to support agile software development
+           - Are there any open source solutions available or do we need to rely on commercial products?
+           - Why not use Scrum to create open source software?
+           - The case study of kunagi.org
+        15-40:
           id: 145
           type: bye
           speaker: Dariusz_Wylon
