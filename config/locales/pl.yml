@@ -414,7 +414,9 @@ pl:
       logo: python.wikipedia.org.png
     mindstorms:
       id: 902
-      lead: Agnieszka_Pawlicka
+      lead:
+        - Marcin_Pawlicki
+        - Agnieszka_Pawlicka
       where: computer
       title: Uwolnij pingwina – warsztaty z programowania Lego Mindstorms
       description:
@@ -854,6 +856,13 @@ pl:
       description: Each year MSF is saving lives and alleviates the suffering of millions of people all over the world - you can be part of it!
       social:
         world: https://www.aerzte-ohne-grenzen.at/hilfseinsaetze/alle-einsatzmitarbeiterinnen/details/papp/
+    Marcin_Pawlicki:
+      name: Marcin Pawlicki
+      title: Lego Engineer
+      description: Programista i konstruktor robotów, który dzięki umiejętności przestrzennego postrzegania świata i wieloletniemu doświadczeniu w grafice 3D posiada łatwość tworzenia skomplikowanych konstrukcji z klocków Lego.
+      social:
+        facebook: https://www.facebook.com/marcin.pawlicki.75436
+
 
   footer:
     is_organised_by: Konferencja Dni Wolnego Oprogramowania 2014 jest organizowana przez
