@@ -90,13 +90,13 @@ class ApiInfo::WhosHere
       {
           'mikstura.it' => {
               link: 'http://mikstura.it',
-              id: 10},
+              id: 11},
           'ath' => {
               link: 'http://info.ath.bielsko.pl/',
-              id: 10},
+              id: 12},
           'ath.reset' => {
               link: 'http://reset.ath.bielsko.pl/',
-              id: 10}
+              id: 13}
       }
     end
 
