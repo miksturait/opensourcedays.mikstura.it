@@ -1,6 +1,13 @@
 class ApiInfo::Schedule
   class << self
+    def clear
+      @days_data = []
+      @talks_data = []
+      @speakers_talks_data = []
+    end
+
     def data
+      clear
       collect_talks
       {
           talk_groups: days_data,
