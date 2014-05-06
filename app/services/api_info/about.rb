@@ -21,13 +21,10 @@ class ApiInfo::About
               url: "http://wbur-sc.streamguys.com/wbur.mp3"
           },
           title: t('only_title'),
-          short_title: t('short_title'),
           subtitle: t('subtitle'),
-          localization: {
-              lat: 49.783038,
-              lng: 19.0573,
-              address: 'ul. Willowa 2, Bielsko-Biała 43-300'
-          },
+          short_title: t('short_title'),
+          hashtag: t('hashtag'),
+          location: t('location'),
           intro_url: 'http://dwo.mikstura.it/assets/layout/backgrounds/intro_small.jpg'
       }
     end

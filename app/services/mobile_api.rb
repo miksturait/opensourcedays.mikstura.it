@@ -3,9 +3,9 @@ class MobileApi
     {
         time_stamp: Time.now,
         about: ApiInfo::About.data,
-        schedule: ApiInfo::Schedule.data,
-        workshops: ApiInfo::Workshops.data,
-        whos_here: ApiInfo::WhosHere.data
-    }
+    }.
+        merge(ApiInfo::Schedule.data).
+        merge(ApiInfo::WhosHere.data)
   end
 end
+

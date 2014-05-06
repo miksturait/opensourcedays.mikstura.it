@@ -1,10 +1,14 @@
 class Person < Struct.new(:key)
 
+  def self.all
+    I18n.t('people').keys.collect { |person_key| new(person_key) }
+  end
+
   def picture
     "#{key}.jpg"
   end
 
-  delegate :name, :title, :description, :social, to: :info
+  delegate :id, :name, :title, :description, :social, to: :info
 
   def info
     @info ||=
@@ -14,11 +18,14 @@ class Person < Struct.new(:key)
 
   def to_hash
     {
-        name: name,
-        avatar: avatar_url,
+        id: id,
+        social_profile_links: social,
+        rectangle_image_url: avatar_url,
+        ellipse_image_url: ellipse_avatar_url,
         title: title,
-        description: description,
-        social: social
+        first_name: first_name,
+        last_name: last_name,
+        description: [description],
     }
   end
 
@@ -26,8 +33,15 @@ class Person < Struct.new(:key)
     [I18n.t(:domain), 'assets/speakers', picture].join("/")
   end
 
+  def ellipse_avatar_url
+    [I18n.t(:domain), 'assets/speakers_ellipse', picture].join("/")
+  end
 
-  def talk_or_workshop_title
+  def first_name
+    name.split(' ').first
+  end
 
+  def last_name
+    name.split(' ').last
   end
 end

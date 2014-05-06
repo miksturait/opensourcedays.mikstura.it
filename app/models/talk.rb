@@ -1,5 +1,9 @@
 class Talk < Struct.new(:id, :day)
 
+  def self.talks_all
+
+  end
+
   def title
     info_title ||
         I18n.t(:header, scope: [:schedule, type])
@@ -10,13 +14,18 @@ class Talk < Struct.new(:id, :day)
   end
 
   # TODO - handle more then one speaker
-  def speaker
-    info_speaker ?
-        Person.new(info_speaker) : nil
+  def speakers
+    if info_speaker
+      [info_speaker].flatten.collect do |speaker_key|
+        Person.new(speaker_key)
+      end
+    else
+      []
+    end
   end
 
   delegate :type, to: :info
-  delegate :title, :description, :speaker, to: :info, prefix: true
+  delegate :id, :title, :description, :speaker, to: :info, prefix: true
 
   def place
     OpenStruct.new(
@@ -31,22 +40,38 @@ class Talk < Struct.new(:id, :day)
     time.strftime("%H:%M")
   end
 
+  def date_time_format(some_key)
+    Time.parse([date, some_key.to_s.sub("-", ":")].join(' '))
+  end
+
   def to_hash
     {
-        id: info.id,
+        id: info_id,
+        talk_group_id: day_id,
+        location_id: place.id,
         more_info: more_info,
-        start_at: start_at,
-        end_at: nil,
-        type: type,
-        place: place.to_h,
-        logo: nil,
+        start_at: date_time_format(id),
+        end_at: date_time_format(end_at_as_key),
+        type: 'presentation',
+        subtype: type,
+        image_url: image_url,
+        logo_url: nil,
         title: title,
         description: description,
-        speakers: [speaker].flatten.compact.map(&:to_hash)
+        tags: nil
     }
   end
 
   private
+
+  def image_url
+    if speakers.size > 1
+      picture_filename = speakers.map(&:key).collect { |some_key| some_key.gsub(/[a-z]/, '') }.join('_') << '.png'
+      [I18n.t(:domain), 'assets/speakers', picture_filename].join("/")
+    elsif speakers.size == 1
+      speakers.first.avatar_url
+    end
+  end
 
   def more_info
     %w(talk keynote).include? type
@@ -65,9 +90,26 @@ class Talk < Struct.new(:id, :day)
     {en: "%l:%M %P", pl: "%H:%M"}[I18n.locale]
   end
 
+  def date
+    t(:date, scope: [:schedule, day])
+  end
+
+  def day_id
+    t(:id, scope: [:schedule, day])
+  end
+
+  def end_at_as_key
+    sorted_keys = t(:agenda, scope: [:schedule, day]).keys.map(&:to_s).sort
+    sorted_keys[sorted_keys.index(id) + 1] || (time + 15.minutes).strftime("%H-%M")
+  end
+
   def info
     @info ||=
         OpenStruct.new(
             I18n.translate(id, scope: [:schedule, day, :agenda]))
+  end
+
+  def t(*args)
+    I18n.t(*args)
   end
 end

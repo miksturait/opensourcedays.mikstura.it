@@ -14,6 +14,10 @@ class Workshop < Struct.new(:id, :timeslot)
     end
   end
 
+  def self.all_workshops
+    I18n.t('workshops').keys.collect { |key| Workshop.new(key, nil) }
+  end
+
   def title
     info_title
   end
@@ -37,16 +41,20 @@ class Workshop < Struct.new(:id, :timeslot)
     leaders.map(&:picture)
   end
 
-  def leaders
-    info_leads.map { |info_lead| Person.new(info_lead) }
+  def speakers
+    if info_leads
+      info_leads.map { |info_lead| Person.new(info_lead) }
+    else
+      []
+    end
   end
 
   def info_leads
     info_lead.is_a?(Array) ? info_lead : [info_lead]
   end
 
-  delegate :type, :logo, to: :info
-  delegate :where, :title, :description, :lead, to: :info, prefix: true
+  delegate :type, :logo, :day, :start_at, to: :info
+  delegate :id, :where, :title, :description, :lead, to: :info, prefix: true
 
   def logo_url
     [I18n.t(:domain), 'assets/workshops', logo].join("/")
@@ -54,29 +62,57 @@ class Workshop < Struct.new(:id, :timeslot)
 
   def to_hash
     {
-        id: info.id,
+        id: info_id,
+        talk_group_id: day_id,
+        location_id: place.id,
         more_info: true,
-        start_at: timeslot.split(' ')[3],
-        end_at: timeslot.split(' ')[5],
+        start_at: start_at_date,
+        end_at: end_at_date,
         type: 'workshop',
-        place: place.to_h,
+        subtype: nil,
+        image_url: image_url,
+        logo_url: logo_url,
         title: title,
-        logo: logo_url,
         description: description,
-        speakers: leaders.map(&:to_hash)
+        tags: nil
     }
   end
 
-
   private
 
-  def workshops_schedule
-
+  def start_at_date
+    Time.parse([date, start_at].join(' '))
   end
+
+  def end_at_date
+    start_at_date + 90.minutes
+  end
+
+  def date
+    t(:date, scope: [:schedule, day])
+  end
+
+  def day_id
+    t(:id, scope: [:schedule, day])
+  end
+
+  def image_url
+    if speakers.size > 1
+      picture_filename = speakers.map(&:key).collect { |some_key| some_key.gsub(/[a-z]/, '') }.join('_') << '.png'
+      [I18n.t(:domain), 'assets/speakers', picture_filename].join("/")
+    elsif speakers.size == 1
+      speakers.first.avatar_url
+    end
+  end
+
 
   def info
     @info ||=
         OpenStruct.new(
             I18n.translate(id, scope: [:workshops]))
+  end
+
+  def t(*args)
+    I18n.t(*args)
   end
 end

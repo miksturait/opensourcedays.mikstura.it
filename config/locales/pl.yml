@@ -309,7 +309,9 @@ pl:
         10-40:
           id: 136
           type: talk
-          speaker: Katarzyna_Pawlonka
+          speaker:
+            - Katarzyna_Pawlonka
+            - Ryszard_Dalkowski
           title:  Open Source na platformie Windows Azure
           description:
             - Masz w perspektywie kolejny projekt open source z potencjałem na komercyjny sukces? Chcesz rozwinąć dojrzały projekt dając mu nowe możliwości, wprowadzając na nowy rynek i do nowych odbiorców? Jesteś otwarty na nową wiedzę, pomysły, technologie i kontakty? To daj sobie szansę i miej wybór! Skorzystaj z okazji, przyjdź i zobacz jak wykorzystać chmurę Microsoft w swoich projektach. Dowiesz się dlaczego warto myśleć o otwartych projektach na Azure. Sala szkoleniowa, magazyny danych, tani backup, dystrybucja Twojej aplikacji  i inne scenariusze użycia chmury w projektach open source. Nowe pomysły mile widziane i nagradzane.
@@ -400,6 +402,8 @@ pl:
     open_source:
       id: 900
       lead: Kamil_Galuszka
+      day: daytwo
+      start_at: 11:15
       where: computer
       title: Włącz się w ruch Open Source
       description:
@@ -415,6 +419,8 @@ pl:
     your_own_parser:
       id: 901
       lead: Stanislaw_Klekot
+      day: daytwo
+      start_at: 11:15
       where: small
       title: Ale parsery są trudne! A są?
       description:
@@ -425,6 +431,8 @@ pl:
       lead:
         - Marcin_Pawlicki
         - Agnieszka_Pawlicka
+      day: daytwo
+      start_at: 14:45
       where: computer
       title: Uwolnij pingwina – warsztaty z programowania Lego Mindstorms
       description:
@@ -436,6 +444,8 @@ pl:
       lead:
         - Pawel_Marynowski
         - Tomasz_Nycz
+      day: daytwo
+      start_at: 16:15
       where: computer
       title: OpenStreetMap - narysuj swoją okolicę
       description:
@@ -445,6 +455,8 @@ pl:
     continuous_delivery:
       id: 904
       lead: Mateusz_Juscinski
+      day: daytwo
+      start_at: 16:15
       where: small
       title: Problemy ludzi Pierwszego Świata, czyli jak zbudować środowisko Continuous Delivery
       description:
@@ -457,6 +469,8 @@ pl:
       lead:
         - Wojtek_Ryrych
         - Tomasz_Bak
+      day: daytwo
+      start_at: 14:45
       where: small
       title: Aplikacje webowe na miarę XXI wieku
       description:
@@ -467,6 +481,8 @@ pl:
       id: 906
       lead: Mikolaj_Pastuszko
       where: computer
+      day: daythree
+      start_at: 13:15
       title:  Projektowanie interakcji
       description:
         - Narysować interfejs potrafi każdy pingwin. Jednak nie każdy leming potrafi z takiego interfejsu skorzystać.
@@ -482,6 +498,8 @@ pl:
       lead:
         - Arkadiusz_Kwasny
         - Sebastian_Ewak
+      day: daythree
+      start_at: 13:15
       where: computer
       title: Tworzenie gier przy użyciu Unity 3D dla początkujących
       description:
@@ -492,6 +510,8 @@ pl:
     firefoxos:
       id: 908
       lead: Bartosz_Piec
+      day: daythree
+      start_at: 13:15
       where: small
       title: Firefox OS dla deweloperów
       description:
@@ -502,6 +522,8 @@ pl:
     feedback:
       id: 909
       lead: Pawel_Badenski
+      day: daythree
+      start_at: 11:15
       where: small
       title: Brakujący element Agile - najpierw ulepszać ludzi, a potem systemy
       description:
@@ -516,6 +538,8 @@ pl:
       id: 910
       lead:
         - Ryszard_Dalkowski
+      day: daytwo
+      start_at: '11:15'
       where: hackathon
       title:  Azure 101. Pierwsze kroki w chmurze - projekt na Azurze!
       description:
@@ -525,6 +549,8 @@ pl:
     humanitarian:
       id: 911
       lead: Andreas_Papp
+      day: daythree
+      start_at: 11:15
       where: computer
       title: Zastosowanie rzeczywistości wirtualnej (VR) w przygotowaniu do misji humanitarnej (Unity 3D + Oculus Rift)
       description:
@@ -608,6 +634,7 @@ pl:
     people_that_make: Ludzie którzy pomagają przy DWO '14.
   people:
     Kamil_Galuszka:
+     id: 1
      name: Kamil Gałuszka
      title: Python Developer
      description: Kamil w czasie wolnym chętnie angażuje się w działania społeczności Open Source
@@ -617,12 +644,14 @@ pl:
        google: https://plus.google.com/115271802415949853553/posts
        linkedin: http://pl.linkedin.com/pub/kamil-ga%C5%82uszka/4a/914/706
     Eunika_Tabak:
+     id: 2
      name: Eunika Tabak
      title: Fundacja Mikstura.IT
      description: Prezes fundacji Mikstura.IT oraz tłumacz języka migowego
      social:
        linkedin: http://pl.linkedin.com/pub/eunika-tabak/69/7b4/508
     Kate_Terlecka:
+     id: 3
      name: Kate Terlecka
      title: The Scrum Girl
      description: Kate Terlecka to jedna z najbardziej rozpoznawalnych twarzy polskiego Agile.
@@ -631,6 +660,7 @@ pl:
        google: https://plus.google.com/112917749347345443950/posts
        linkedin: http://pl.linkedin.com/pub/kate-terlecka/19/738/77a
     Dariusz_Wylon:
+     id: 4
      name: Dariusz Wylon
      title: Coach & Trainer
      description: Innowacyjny i kreatywny menedżer z dwunastoletnim doświadczeniem
@@ -638,6 +668,7 @@ pl:
        twitter: https://twitter.com/corporate_coach
        linkedin: http://pl.linkedin.com/in/dariuszwylon
     Dominik_Kozaczko:
+     id: 5
      name: Dominik Kozaczko
      title: Wykładowca ATH
      description: Ojciec założyciel Dni Wolnego Oprogramowania.
@@ -646,6 +677,7 @@ pl:
        google: https://plus.google.com/110911336147638586954/posts
        linkedin: http://pl.linkedin.com/pub/dominik-kozaczko/30/6a3/844
     Tomasz_Gancarczyk:
+     id: 6
      name: Tomasz Gancarczyk
      title: Wykładowca ATH
      description: Opiekun sekcji Systemy operacyjne koła RESET
@@ -653,6 +685,7 @@ pl:
        google: https://plus.google.com/112446594694346695781/posts
        facebook: https://www.facebook.com/tomasz.gancarczyk.bb
     Grzegorz_Rduch:
+     id: 7
      name: Grzegorz Rduch
      title: Fundacja Mikstura.IT
      description: Przewodniczący rady fundacji Mikstura.IT
@@ -660,6 +693,7 @@ pl:
        google: https://plus.google.com/110778338808339960678/posts
        linkedin: http://pl.linkedin.com/in/grzegorzrduch
     Michal_Czyz:
+     id: 8
      name: Michał Czyż
      title: Ruby Developer
      description: "Aktywny działacz społeczności Open Source"
@@ -668,6 +702,7 @@ pl:
        google: http://bit.ly/michalczyz_googleplus
        linkedin: http://linkd.in/michalczyz
     Michal_Wyrobek:
+     id: 9
      name: Michał Wyrobek
      title: Passionate Programming Teacher
      description:  The software developer, architect and the passionate programming teacher.
@@ -675,6 +710,7 @@ pl:
        world: http://michalwyrobek.com
        linkedin: http://pl.linkedin.com/in/mwyrobek
     Mateusz_Juscinski:
+      id: 10
       name: Mateusz Juściński
       title: Programista PHP
       description: Fan wysoko obciążonych systemów webowych, degustator dobrego kodu i miłośnik zastępowania ludzi małymi shellowymi skryptami.
@@ -682,6 +718,7 @@ pl:
         facebook: https://www.facebook.com/mateuszjuscinski
         linkedin: http://pl.linkedin.com/in/mateuszjuscinski
     Mikolaj_Pastuszko:
+      id: 11
       name: Mikołaj Pastuszko
       title: UX Designer
       description: Lubi to, co działa. Reaguje alergicznie na nieintuicyjne interfejsy i nieprzemyślane architektury informacji.
@@ -689,6 +726,7 @@ pl:
         twitter: https://twitter.com/mPastuszko
         linkedin: http://pl.linkedin.com/in/mikolajpastuszko
     Rafal_Jagoda:
+      id: 12
       name: Rafał Jagoda
       title: Programista Python
       description: Wierzy w wolność w internecie. Na co dzień korzysta z Linuksa. W wolnym czasie śpiewa amatorsko w chórze.
@@ -696,6 +734,7 @@ pl:
         facebook: https://www.facebook.com/rafal.jagoda
         linkedin: http://pl.linkedin.com/pub/rafał-jagoda/83/b62/166
     Anna_Warzecha:
+      id: 13
       name: Anna Warzecha
       title: Software Engineer
       description: Pracuje w firmie 10Clouds. Backendowiec z wyboru, frontendowiec z konieczności, linuksowiec z zamiłowania.
@@ -704,12 +743,14 @@ pl:
         google: https://plus.google.com/u/0/+AnnaWarzecha/
         twitter: https://twitter.com/aniawarzecha
     Marcin_Szalowicz:
+      id: 14
       name: Marcin Szałowicz
       title: Software Developer @ MySQL Developer Tools
       description: Used to be SQL developer and DBA, moved into C++ world.
       social:
         linkedin: http://pl.linkedin.com/pub/marcin-sza%C5%82owicz/65/841/ab0
     Arkadiusz_Benedykt:
+      id: 15
       name: Arkadiusz Benedykt
       title: Programista C#
       description: Programista z wykształcenia i z wyboru. Fan Uncle Boba i Lock Stock and two smoking barrels.
@@ -718,18 +759,21 @@ pl:
         google: https://plus.google.com/u/0/108534224745986821347/posts
         facebook: https://www.facebook.com/arkadiusz.benedykt
     Aaron_Kaplan:
+      id: 16
       name: Aaron Kaplan
       title: Unix Programmer
       description: Aaron is the founder of the FunkFeuer free wireless community network in Austria.
       social:
         world: http://www.funkfeuer.at
     Agnieszka_Pawlicka:
+      id: 17
       name: Agnieszka Pawlicka
       title: IT Trainer
       description: Wielka pasjonatka konstruowania robotów i ich programowania, wytrwale podążająca za najnowocześniejszymi technologiami.
       social:
         facebook: https://www.facebook.com/agnieszka.pawlicka2
     Pawel_Marynowski:
+      id: 18
       name: Paweł Marynowski
       title: Fan wolnej wiedzy
       description: Edytor OpenStreetMap z czteroletnim doświadczeniem. Członek zarządu Stowarzyszenia OpenStreetMap Polska.
@@ -737,6 +781,7 @@ pl:
         twitter: https://twitter.com/pmarynowski
         google:  http://gplus.to/pmarynowski
     Arkadiusz_Kwasny:
+      id: 19
       name: Arkadiusz Kwaśny
       title: Technology Consultant @ Selleo
       description: Prowadzę firmę informatyczną, a w wolnym czasie pasjonuję się tworzeniem gier w oparciu o silnik Unity 3D.
@@ -744,6 +789,7 @@ pl:
         linkedin: http://www.linkedin.com/in/arkadiuszkwasny
         twitter: https://twitter.com/arkadiuszkwasny
     Karol_Ryt:
+      id: 20
       name: Karol Ryt
       title: Unity 3D Ninja
       description:  One man army gamedev'owy. W wolnym czasie gra, zwiedza góry na rowerze albo i czyta książki wszelakie.
@@ -751,12 +797,14 @@ pl:
         linkedin: http://pl.linkedin.com/pub/karol-ryt/34/b28/b9a
         twitter: https://twitter.com/namassaTheMan
     Tomasz_Mloduchowski:
+      id: 21
       name: Tomasz Młoduchowski
       title: Tech Entrepreneur
       description: Współzałożyciel Warsaw Hackerspace. Absolwent MIT.
       social:
         linkedin: http://www.linkedin.com/in/tomaszmloduchowski
     Carsten_Munk:
+      id: 22
       name: Carsten Munk
       title: Chief Research Engineer
       description: Working on Mer Core and next generation mobile stacks on top of it as well as research efforts into whatever falls into my lap.
@@ -764,6 +812,7 @@ pl:
         linkedin: https://pl.linkedin.com/in/carstenmunk
         world: http://jolla.com/
     Bartosz_Piec:
+      id: 23
       name: Bartosz Piec
       title: Firefox OS Developer
       description: Programista z 10-letnim stażem, entuzjasta otwartych technologii i Internetu, aktualnie pracuje w Grupie LUX MED. Od 11 lat Mozillian, od niedawna Mozilla Rep, lider społeczności Mozilli w Polsce.
@@ -772,6 +821,7 @@ pl:
         twitter: https://twitter.com/bpiec
         linkedin: https://pl.linkedin.com/in/bartoszpiec
     Stanislaw_Klekot:
+      id: 24
       name: Stanisław Klekot
       title: System Administrator
       description: Zawodowo administruję serwerami linuksowymi, choć więcej czasu spędzam programując w rozmaitych językach.
@@ -779,30 +829,35 @@ pl:
         world: http://dozzie.jogger.pl/
         linkedin: http://pl.linkedin.com/in/dozzie
     Henryk_Konsek:
+      id: 25
       name: Henryk Konsek
       title: Inżynier @ Red Hat
       description: Jestem zaangażowany w ruch open source rozwijając takie projekty jak Apache Camel oraz Spring Scala. Promuję wypasione technologie open source.
       social:
         twitter: https://twitter.com/hekonsek
     Grzegorz_Nosek:
+      id: 26
       name: Grzegorz Nosek
       title: CTO @ MegiTeam
       description: Współzałożyciel i Chief Tinkering Officer w MegiTeam. Zbyt doświadczony administrator Linuksów i programista systemowy, programista Python/Django.
       social:
         twitter: https://twitter.com/@GrzegorzNosek
     Tomasz_Bak:
+      id: 27
       name: Tomasz Bąk
       title: RoR & JS Craftsman
       description: Ruby On Rails and Javascript Craftsman
       social:
         twitter: https://twitter.com/tomaszbak
     Wojtek_Ryrych:
+      id: 28
       name: Wojtek Ryrych
       title: Front-End Developer
       description:
       social:
         twitter: https://twitter.com/wryrych
     Sebastian_Ewak:
+      id: 29
       name: Sebastian Ewak
       title: Unity 3D Developer
       description:
@@ -811,12 +866,14 @@ pl:
         linkedin: https://www.linkedin.com/pub/sebastian-ewak/31/6aa/624
         google: https://plus.google.com/u/0/116461850930426670270/posts
     Krzysztof_Krej:
+      id: 30
       name: Krzysztof Krej
       title: Unity 3D Developer
       description:
       social:
         world: http://www.meetup.com/Krakow-Unity-3D-Meetup-Group/member/121393042/
     Halil_Karaca:
+      id: 31
       name: Halil Karaca
       title: Software Engineer
       description: A 'traveler' Software Engineer and a bass player. 4 jobs in 4 different countries and rigorous in building rock-solid back-end architecture.
@@ -825,60 +882,68 @@ pl:
         linkedin: http://www.linkedin.com/in/iiboo
         world: https://www.codeplex.com/site/users/view/halilk
     Pawel_Badenski:
+      id: 32
       name: Paweł Badeński
       title: Software Journeyman
       description: Pasjonat improwizacji teatralnej, psychologii stosowanej i neurobiologii, oraz ich zastosowania w kontekście tworzenia oprogramowania.
       social:
         twitter: https://twitter.com/pbadenski
     Jacek_Konieczny:
+      id: 33
       name: Jacek Konieczny
       title: Systems and Network Administrator
       description: Linuksowiec i miłośnik otwartego oprogramowania od prawie 20 lat. Czasem administrator, czasem programista.
       social:
         linkedin: https://pl.linkedin.com/pub/jacek-konieczny/2/424/23b
     Jakub_Duda:
+      id: 34
       name: Jakub Duda
       title: Dev & Design Lead at Incuvo
       description: Z „zawodu wyuczonego” programista, z zamiłowania biegacz, gracz i wreszcie „geek”.  Od 9 lat związany z grami video.
       social:
         linkedin: https://pl.linkedin.com/pub/jakub-duda/6/710/162
     Tomasz_Nycz:
+      id: 35
       name: Tomasz Nycz
       title: geograf, kartograf, strażak-ochotnik
       description: Od wielu lat zajmuje się tematyką wykorzystania informacji przestrzennej w ratownictwie. Współpracownik GIS-Support Sp. z o.o.,  Członek zarządu stowarzyszenia OpenStreetMap Polska.
       social:
         world: http://openstreetmap.org.pl/
     Slodownia:
+      id: 36
       name: Słodownia
       title: ''
       description: ''
       social:
         world: http://www.slodowniabielsko.pl/
     Ryszard_Dalkowski:
+      id: 37
       name: Ryszard Dałkowski
       title: CSI Lead
       description: Ewangelista open source wewnątrz Microsoft
       social:
         linkedin: http://pl.linkedin.com/in/ryszardd
     Katarzyna_Pawlonka:
+      id: 38
       name: Katarzyna Pawlonka
       title: CEE Open Source Community Lead
       description: Specjalistka od współpracy z ciekawymi ludźmi :-)
       social:
         linkedin: http://pl.linkedin.com/pub/katarzyna-pawlonka/5/6a8/852
     Andreas_Papp:
+      id: 39
       name: Andreas Papp
       title: Programme Director @  Médecins Sans Frontières (MSF) Austria
       description: Each year MSF is saving lives and alleviates the suffering of millions of people all over the world - you can be part of it!
       social:
         world: https://www.aerzte-ohne-grenzen.at/hilfseinsaetze/alle-einsatzmitarbeiterinnen/details/papp/
     Marcin_Pawlicki:
+      id: 40
       name: Marcin Pawlicki
       title: Lego Engineer
       description: Programista i konstruktor robotów, który dzięki umiejętności przestrzennego postrzegania świata i wieloletniemu doświadczeniu w grafice 3D posiada łatwość tworzenia skomplikowanych konstrukcji z klocków Lego.
       social:
         facebook: https://www.facebook.com/marcin.pawlicki.75436
-
 
   footer:
     is_organised_by: Konferencja Dni Wolnego Oprogramowania 2014 jest organizowana przez
