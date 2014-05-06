@@ -34,7 +34,7 @@ class HomeController < ApplicationController
   end
 
   def cache_json
-    cache_page(nil, "/#{I18n.locale}/#{action_name}.json")
+    cache_page(nil, "/#{I18n.locale}/v2.#{action_name}.json")
   end
 
   def prepare_speakers
