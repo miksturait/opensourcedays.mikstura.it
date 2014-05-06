@@ -17,7 +17,7 @@ class ApiInfo::About
               facebook: t('links.facebook'),
               google: "https://google.com/+MiksturaIt_Foundation"
           },
-          audiostream_url:"http://wbur-sc.streamguys.com/wbur.mp3",
+          audio_stream_url:"http://wbur-sc.streamguys.com/wbur.mp3",
           title: t('only_title'),
           subtitle: t('subtitle'),
           short_title: t('short_title'),

@@ -25,7 +25,7 @@ class Person < Struct.new(:key)
         title: title,
         first_name: first_name,
         last_name: last_name,
-        description: [description],
+        description_paragraphs: [description],
     }
   end
 
