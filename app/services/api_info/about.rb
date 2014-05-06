@@ -2,7 +2,8 @@ class ApiInfo::About
   class << self
     def data
       {
-          info: t('meta.description'),
+          updated_at: Time.now,
+          description: t('meta.description'),
           icons: {
               iphone: icon_path('iphone'),
               ipad: icon_path('ipad'),
@@ -10,22 +11,19 @@ class ApiInfo::About
               ipad_retina: icon_path('ipad-retina'),
 
           },
-          links: {
-              conference: domain,
+          website_url: domain,
+          social_profile_links: {
               twitter: "https://twitter.com/miksturait",
               facebook: t('links.facebook'),
               google: "https://google.com/+MiksturaIt_Foundation"
           },
-          audiostream: {
-              icon: "http://dwo.mikstura.it/assets/layout/dwo.png",
-              url: "http://wbur-sc.streamguys.com/wbur.mp3"
-          },
+          audiostream_url:"http://wbur-sc.streamguys.com/wbur.mp3",
           title: t('only_title'),
           subtitle: t('subtitle'),
           short_title: t('short_title'),
           hashtag: t('hashtag'),
           location: t('location'),
-          intro_url: 'http://dwo.mikstura.it/assets/layout/backgrounds/intro_small.jpg'
+          background_image_url: 'http://dwo.mikstura.it/assets/layout/backgrounds/intro_small.jpg'
       }
     end
 

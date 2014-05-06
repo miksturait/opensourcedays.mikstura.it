@@ -4,7 +4,7 @@ class ApiInfo::WhosHere
       {
           speakers: speakers_data,
           partners: partners_data,
-          partner_types: partners_types_data
+          partner_groups: partners_types_data
       }
     end
 
@@ -14,7 +14,7 @@ class ApiInfo::WhosHere
       collection.collect do |(code, data)|
         {
             id: data[:id],
-            partner_type_id: partner_types[type],
+            partner_group_id: partner_types[type],
             logo_url: image_url(type, code),
             link: data[:link]
         }

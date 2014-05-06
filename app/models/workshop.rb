@@ -73,7 +73,7 @@ class Workshop < Struct.new(:id, :timeslot)
         image_url: image_url,
         logo_url: logo_url,
         title: title,
-        description: description,
+        description_paragraphs: description,
         tags: nil
     }
   end

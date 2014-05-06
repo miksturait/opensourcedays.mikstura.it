@@ -57,7 +57,7 @@ class Talk < Struct.new(:id, :day)
         image_url: image_url,
         logo_url: nil,
         title: title,
-        description: description,
+        description_paragraphs: description,
         tags: nil
     }
   end
