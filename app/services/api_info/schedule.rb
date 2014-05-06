@@ -10,9 +10,9 @@ class ApiInfo::Schedule
       clear
       collect_talks
       {
-          talk_groups: days_data,
-          talks: talks_data,
-          speakers_talks: speakers_talks_data,
+          talk_groups: days_data.uniq,
+          talks: talks_data.uniq,
+          speakers_talks: speakers_talks_data.uniq,
       }
     end
 
