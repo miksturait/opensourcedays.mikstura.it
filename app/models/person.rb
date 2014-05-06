@@ -25,4 +25,9 @@ class Person < Struct.new(:key)
   def avatar_url
     [I18n.t(:domain), 'assets/speakers', picture].join("/")
   end
+
+
+  def talk_or_workshop_title
+
+  end
 end
