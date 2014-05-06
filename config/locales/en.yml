@@ -4,6 +4,11 @@ en:
   subtitle: 28th - 30th March - Bielsko-Biała
   short_title: DWO '14
   only_title: Open Source Days ‘14
+  hashtag: '#DWO14'
+  location:
+    lat: 49.783038
+    lng: 19.0573
+    address: "ul. Willowa 2, Bielsko-Biała 43-300"
   links:
     facebook: https://www.facebook.com/MiksturaIT
   meta:
@@ -91,6 +96,7 @@ en:
       header: afterparty
       description: 'ul. Rynek 1, Bielsko-Biała 43-300'
     dayone:
+      id: 1
       date: 2014-03-28
       title: Friday
       header: Friday, 28 March
@@ -144,6 +150,7 @@ en:
           type: party
           speaker: Slodownia
     daytwo:
+      id: 2
       date: 2014-03-29
       title: Saturday
       header: Saturday, 29 March
@@ -266,6 +273,7 @@ en:
           type: afterparty
           speaker: Slodownia
     daythree:
+      id: 3
       date: 2014-03-30
       title: Sunday
       header: Sunday, 30 March
@@ -540,15 +548,19 @@ en:
         description: "The map below shows some important locations: the conference venue, bus stops and links to schedules, hotels, hostels and restaurants"
     places:
       main:
+        id: 1
         code: L128
         name: main stage
       computer:
+        id: 2
         code: CH@4
         name: computer hall at floor 4th
       small:
+        id: 3
         code: HW@4
         name: hallway at floor 4th
       hackathon:
+        id: 4
         code: HA@4
         name: L412 at floor 4th
   sponsors:
@@ -574,6 +586,10 @@ en:
         rekord:
           description:
             - "REKORD SI - modern software solutions for public administration and manufacturing companies. 25 years of experience and hundreds of satisfied customers."
+  partner_types:
+    media: 1
+    sponsors: 2
+    organizers: 3
   contact_us:
     hint: Should you have any queries, please do not hesitate to contact us using the channels below.
     follow_us:

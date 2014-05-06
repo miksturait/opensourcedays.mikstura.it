@@ -4,6 +4,11 @@ pl:
   subtitle: 28 - 30 Marca - Bielsko-Biała
   short_title: DWO '14
   only_title: Dni Wolnego Oprogramowania '14
+  hashtag: '#DWO14'
+  location:
+    lat: 49.783038
+    lng: 19.0573
+    address: "ul. Willowa 2, Bielsko-Biała 43-300"
   links:
     facebook: https://www.facebook.com/MiksturaIT
   meta:
@@ -91,6 +96,7 @@ pl:
       header: afterparty
       description: 'ul. Rynek 1, Bielsko-Biała 43-300'
     dayone:
+      id: 1
       date: 2014-03-28
       title: Piątek
       header: Piątek, 28 Mar
@@ -144,6 +150,7 @@ pl:
           type: party
           speaker: Slodownia
     daytwo:
+      id: 2
       date: 2014-03-29
       title: Sobota
       header: Sobota, 29 Mar
@@ -266,6 +273,7 @@ pl:
           type: party
           speaker: Slodownia
     daythree:
+      id: 3
       date: 2014-03-30
       title: Niedziela
       header: Niedziela, 30 Mar
@@ -548,17 +556,21 @@ pl:
         description: "Na poniższej mapie zostały oznaczone ważne punkty, takie jak: miejsce konferencji :-), przystanki autobusowe wraz z linkami do szczegółowych rozkładów jazdy, hotele, hostele, restauracje"
     places:
       main:
+        id: 1
         code: L128
         name: główna scena
       computer:
+        id: 2
         code: CH@4
         name: sala komputerowa na piętrze czwartym
       small:
+        id: 3
         code: HW@4
-        name: "`korytarz` na piętrze czwartym"
+        name: "`korytarz`, piętro IV"
       hackathon:
+        id: 4
         code: HA@4
-        name: L412 na piętrze czwartym
+        name: "L412, piętro IV"
   sponsors:
     slogan: Sponsorzy mają zaczący wpływ na jakość konferencji
     slogan: Dzięki nim, Dni Wolnego Oprogramowania są wyjątkowe
@@ -582,6 +594,10 @@ pl:
         rekord:
           description:
             - "REKORD SI - najnowocześniejsze rozwiązania informatyczne dla jednostek administracji publicznej i przedsiębiorstw produkcyjnych, 25 lat doświadczenia i setki zadowolonych klientów."
+  partner_types:
+    media: 1
+    sponsors: 2
+    organizers: 3
   contact_us:
     hint: W razie pytań bądź wątpliwości, zachęcamy do kontaktu za pośrednictwem poniżej wymienionych kanałów.
     follow_us:
