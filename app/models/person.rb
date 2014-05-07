@@ -4,8 +4,8 @@ class Person < Struct.new(:key)
     I18n.t('people').keys.collect { |person_key| new(person_key) }
   end
 
-  def picture
-    "#{key}.jpg"
+  def picture(extension='jpg')
+    "#{key}.#{extension}"
   end
 
   delegate :id, :name, :title, :description, :social, to: :info
@@ -34,7 +34,7 @@ class Person < Struct.new(:key)
   end
 
   def ellipse_avatar_url
-    [I18n.t(:domain), 'assets/speakers_ellipse', picture].join("/")
+    [I18n.t(:domain), 'assets/speakers_ellipse', picture('png')].join("/")
   end
 
   def first_name
