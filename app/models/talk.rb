@@ -48,7 +48,7 @@ class Talk < Struct.new(:id, :day)
     {
         id: info_id,
         talk_group_id: day_id,
-        location_id: place.id,
+        talk_location_id: place.id,
         more_info: more_info,
         start_at: date_time_format(id),
         end_at: date_time_format(end_at_as_key),
