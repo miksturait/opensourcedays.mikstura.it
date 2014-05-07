@@ -13,6 +13,7 @@ class ApiInfo::Schedule
           talk_groups: days_data.uniq,
           talks: talks_data.uniq,
           speakers_talks: speakers_talks_data.uniq,
+          talk_locations: talk_locations_data
       }
     end
 
@@ -49,6 +50,9 @@ class ApiInfo::Schedule
       end
     end
 
+    def talk_locations_data
+      t('venue.places').values
+    end
 
     def days_data
       @days_data ||= []
