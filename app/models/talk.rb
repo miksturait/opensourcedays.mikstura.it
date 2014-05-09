@@ -1,7 +1,11 @@
 class Talk < Struct.new(:id, :day)
 
-  def self.talks_all
-
+  def self.all_talks
+    %i(dayone daytwo daythree).collect do |day|
+      I18n.translate(:agenda, scope: [:schedule, day]).keys.collect do |key|
+        new(key, day)
+      end
+    end.flatten
   end
 
   def title
