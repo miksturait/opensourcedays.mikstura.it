@@ -429,8 +429,8 @@ pl:
     mindstorms:
       id: 902
       lead:
-        - Marcin_Pawlicki
         - Agnieszka_Pawlicka
+        - Marcin_Pawlicki
       day: daytwo
       start_at: 14:45
       where: computer
@@ -496,8 +496,8 @@ pl:
     unity3d:
       id: 907
       lead:
-        - Arkadiusz_Kwasny
         - Sebastian_Ewak
+        - Arkadiusz_Kwasny
       day: daythree
       start_at: 13:15
       where: computer
