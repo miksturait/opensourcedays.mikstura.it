@@ -64,7 +64,7 @@ class Workshop < Struct.new(:id, :timeslot)
     {
         id: info_id,
         talk_group_id: day_id,
-        location_id: place.id,
+        talk_location_id: place.id,
         more_info: true,
         start_at: start_at_date,
         end_at: end_at_date,
