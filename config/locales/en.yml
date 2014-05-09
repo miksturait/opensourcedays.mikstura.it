@@ -635,14 +635,14 @@ en:
         twitter: https://twitter.com/galuszkak
         facebook: https://pl-pl.facebook.com/galuszkak
         google: https://plus.google.com/115271802415949853553/posts
-        linkedin: http://pl.linkedin.com/pub/kamil-ga%C5%82uszka/4a/914/706
+        linkedin: http://www.linkedin.com/pub/kamil-ga%C5%82uszka/4a/914/706
     Eunika_Tabak:
       id: 2
       name: Eunika Tabak
       title: Mikstura.IT Foundation
       description: President of the Board at Mikstura.IT Foundation and a sign language interpreter.
       social:
-        linkedin: http://pl.linkedin.com/pub/eunika-tabak/69/7b4/508
+        linkedin: http://www.linkedin.com/pub/eunika-tabak/69/7b4/508
     Kate_Terlecka:
       id: 3
       name: Kate Terlecka
@@ -651,7 +651,7 @@ en:
       social:
         twitter: https://twitter.com/kateterlecka
         google: https://plus.google.com/112917749347345443950/posts
-        linkedin: http://pl.linkedin.com/pub/kate-terlecka/19/738/77a
+        linkedin: http://www.linkedin.com/pub/kate-terlecka/19/738/77a
     Dariusz_Wylon:
       id: 4
       name: Dariusz Wylon
@@ -659,7 +659,7 @@ en:
       description: Innovative and creative manager with 12 years of professional experience to share.
       social:
         twitter: https://twitter.com/corporate_coach
-        linkedin: http://pl.linkedin.com/in/dariuszwylon
+        linkedin: http://www.linkedin.com/in/dariuszwylon
     Dominik_Kozaczko:
       id: 5
       name: Dominik Kozaczko
@@ -668,7 +668,7 @@ en:
       social:
         twitter: https://twitter.com/_DomKo_
         google: https://plus.google.com/110911336147638586954/posts
-        linkedin: http://pl.linkedin.com/pub/dominik-kozaczko/30/6a3/844
+        linkedin: http://www.linkedin.com/pub/dominik-kozaczko/30/6a3/844
     Tomasz_Gancarczyk:
       id: 6
       name: Tomasz Gancarczyk
@@ -684,7 +684,7 @@ en:
       description: Chairman of the Advisory Board at Mikstura.IT Foundation
       social:
         google: https://plus.google.com/110778338808339960678/posts
-        linkedin: http://pl.linkedin.com/in/grzegorzrduch
+        linkedin: http://www.linkedin.com/in/grzegorzrduch
     Michal_Czyz:
       id: 8
       name: Michał Czyż
@@ -701,7 +701,7 @@ en:
      description:  The software developer, architect and the passionate programming teacher.
      social:
        world: http://michalwyrobek.com
-       linkedin: http://pl.linkedin.com/in/mwyrobek
+       linkedin: http://www.linkedin.com/in/mwyrobek
     Mateusz_Juscinski:
       id: 10
       name: Mateusz Juściński
@@ -709,7 +709,7 @@ en:
       description: A fan of heavily loaded web systems, a connoisseur of well-crafted code and an aficionado of replacing people with small shell scripts.
       social:
         facebook: https://www.facebook.com/mateuszjuscinski
-        linkedin: http://pl.linkedin.com/in/mateuszjuscinski
+        linkedin: http://www.linkedin.com/in/mateuszjuscinski
     Mikolaj_Pastuszko:
       id: 11
       name: Mikołaj Pastuszko
@@ -717,7 +717,7 @@ en:
       description: Mikołaj likes what works and is allergic to non-intuitive interfaces and badly thought-out information architectures.
       social:
         twitter: https://twitter.com/mPastuszko
-        linkedin: http://pl.linkedin.com/in/mikolajpastuszko
+        linkedin: http://www.linkedin.com/in/mikolajpastuszko
     Rafal_Jagoda:
       id: 12
       name: Rafał Jagoda
@@ -725,7 +725,7 @@ en:
       description: Rafał believes in internet freedom, uses Linux on a daily basis and sings in a choir in his free time.
       social:
         facebook: https://www.facebook.com/rafal.jagoda
-        linkedin: http://pl.linkedin.com/pub/rafał-jagoda/83/b62/166
+        linkedin: http://www.linkedin.com/pub/rafał-jagoda/83/b62/166
     Anna_Warzecha:
       id: 13
       name: Anna Warzecha
@@ -741,14 +741,14 @@ en:
       title: Software Developer @ MySQL Developer Tools
       description: Used to be SQL developer and DBA, moved into C++ world.
       social:
-        linkedin: http://pl.linkedin.com/pub/marcin-sza%C5%82owicz/65/841/ab0
+        linkedin: http://www.linkedin.com/pub/marcin-sza%C5%82owicz/65/841/ab0
     Arkadiusz_Benedykt:
       id: 15
       name: Arkadiusz Benedykt
       title: C# Programmer
       description: A programmer of choice and by profession. A fan of Uncle Bob and Lock Stock and two smoking barrels.
       social:
-        linkedin: http://pl.linkedin.com/in/arkadiuszbenedykt
+        linkedin: http://www.linkedin.com/in/arkadiuszbenedykt
         google: https://plus.google.com/u/0/108534224745986821347/posts
         facebook: https://www.facebook.com/arkadiusz.benedykt
     Aaron_Kaplan:
@@ -787,7 +787,7 @@ en:
       title: Unity 3D Ninja
       description:  One man gamedev army. Loves gaming, mountain biking and reading widely.
       social:
-        linkedin: http://pl.linkedin.com/pub/karol-ryt/34/b28/b9a
+        linkedin: http://www.linkedin.com/pub/karol-ryt/34/b28/b9a
         twitter: https://twitter.com/namassaTheMan
     Tomasz_Mloduchowski:
       id: 21
@@ -820,7 +820,7 @@ en:
       description: Stanisław is a Linux Servers Administrator by profession, but he spends more time programming in different languages.
       social:
         world: http://dozzie.jogger.pl/
-        linkedin: http://pl.linkedin.com/in/dozzie
+        linkedin: http://www.linkedin.com/in/dozzie
     Henryk_Konsek:
       id: 25
       name: Henryk Konsek
@@ -915,14 +915,14 @@ en:
       title: CSI Lead
       description: Ewangelista open source wewnątrz Microsoft
       social:
-        linkedin: http://pl.linkedin.com/in/ryszardd
+        linkedin: http://www.linkedin.com/in/ryszardd
     Katarzyna_Pawlonka:
       id: 38
       name: Katarzyna Pawlonka
       title: CEE Open Source Community Lead
       description: Specjalistka od współpracy z ciekawymi ludźmi :-)
       social:
-        linkedin: http://pl.linkedin.com/pub/katarzyna-pawlonka/5/6a8/852
+        linkedin: http://www.linkedin.com/pub/katarzyna-pawlonka/5/6a8/852
     Andreas_Papp:
       id: 39
       name: Andreas Papp
