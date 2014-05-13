@@ -75,11 +75,26 @@ class Workshop < Struct.new(:id, :timeslot)
         logo_url: logo_url,
         title: title,
         description_paragraphs: description,
-        tags: nil
+        tags: nil,
+        social_share_text: social_share_text
     }
   end
 
   private
+
+  def social_share_text
+    ['#dwo14', "##{id}", speakers_twitter_handles].join(' ')
+  end
+
+  def speakers_twitter_handles
+    speakers.collect do |s|
+      if s.social[:twitter] && s.social[:twitter] =~ /.*\/\/twitter.com\/.*/
+        s.social[:twitter].gsub(/.*\/\/twitter.com\//, '@')
+      else
+        s.name
+      end
+    end.compact.join(' & ')
+  end
 
   def start_at_date
     Time.parse([date, start_at].join(' '))

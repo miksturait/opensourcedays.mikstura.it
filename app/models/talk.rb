@@ -63,11 +63,30 @@ class Talk < Struct.new(:id, :day, :position)
         logo_url: nil,
         title: title,
         description_paragraphs: description,
-        tags: nil
+        tags: nil,
+        social_share_text: social_share_text
     }
   end
 
   private
+
+  def social_share_text
+    if more_info
+      ['#dwo14', speakers_twitter_handles].join(' ')
+    else
+      ''
+    end
+  end
+
+  def speakers_twitter_handles
+    speakers.collect do |s|
+      if s.social[:twitter] && s.social[:twitter] =~ /.*\/\/twitter.com\/.*/
+        s.social[:twitter].gsub(/.*\/\/twitter.com\//, '@')
+      else
+        s.name
+      end
+    end.compact.join(' & ')
+  end
 
   def image_url
     if speakers.size > 1
