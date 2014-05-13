@@ -616,9 +616,9 @@ en:
           description:
             - "REKORD SI - modern software solutions for public administration and manufacturing companies. 25 years of experience and hundreds of satisfied customers."
   partner_types:
-    media: 1
     sponsors: 2
     organizers: 3
+    media: 1
   contact_us:
     hint: Should you have any queries, please do not hesitate to contact us using the channels below.
     follow_us:

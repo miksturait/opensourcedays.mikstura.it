@@ -38,9 +38,10 @@ class ApiInfo::WhosHere
     end
 
     def partners_types_data
-      partner_types.collect do |name, id|
+      partner_types.enum_for(:each_with_index).collect do |(name, id), position|
         {
             id: id,
+            position: position,
             name: name
         }
       end
@@ -50,18 +51,23 @@ class ApiInfo::WhosHere
       {
           "microsoft_openness" => {
               link: 'http://www.microsoft.com/en-us/openness/default.asp',
+              position: 0,
               id: 1},
           "selleo" => {
               link: 'http://selleo.com/',
+              position: 1,
               id: 2},
           "red_hat" => {
               link: 'http://www.redhat.com/',
+              position: 2,
               id: 3},
           "travis" => {
               link: 'http://travis-ci.com/',
+              position: 3,
               id: 4},
           "rekord" => {
               link: 'http://www.rekord.com.pl/',
+              position: 4,
               id: 5},
       }
     end
@@ -70,18 +76,23 @@ class ApiInfo::WhosHere
       {
           'magazyn.programista' => {
               link: 'http://programistamag.pl/',
+              position: 0,
               id: 6},
           'bb365info' => {
               link: 'http://www.bb365.info/',
+              position: 1,
               id: 7},
           'sdjournal' => {
               link: 'http://sdjournal.pl/',
+              position: 2,
               id: 8},
           'pracait' => {
               link: 'http://pracait.com/',
+              position: 3,
               id: 9},
           'webmastah' => {
               link: 'http://webmastah.pl',
+              position: 4,
               id: 10}
       }
     end
@@ -90,12 +101,15 @@ class ApiInfo::WhosHere
       {
           'mikstura.it' => {
               link: 'http://mikstura.it',
+              position: 0,
               id: 11},
           'ath' => {
               link: 'http://info.ath.bielsko.pl/',
+              position: 1,
               id: 12},
           'ath.reset' => {
               link: 'http://reset.ath.bielsko.pl/',
+              position: 2,
               id: 13}
       }
     end
