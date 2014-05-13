@@ -7,7 +7,7 @@ module Pictures
     end
 
     def convert_two
-      `convert -size 200x200 xc:white -alpha set -channel A -evaluate set 55% \\( #{next_picture} -gravity Center -crop 98x200+0+0 -repage 98x200+51+0 \\) -geometry -51x0 -composite \\( #{next_picture} -gravity Center -crop 98x200+0+0 -repage 98x200+51+0 \\) -geometry +51+0 -composite #{convert_url_to_path(dest_picture)}`
+      `convert -size 200x200 xc:white \\( #{next_picture} -gravity Center -crop 99x200+0+0 -repage 99x200+50.5+0 \\) -geometry -50.5x0 -composite \\( #{next_picture} -gravity Center -crop 99x200+0+0 -repage 99x200+50.5+0 \\) -geometry +50.5+0 -composite #{convert_url_to_path(dest_picture)}`
     end
 
     def next_picture
