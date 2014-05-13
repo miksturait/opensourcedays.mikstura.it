@@ -16,7 +16,7 @@ class ApiInfo::WhosHere
             id: data[:id],
             partner_group_id: partner_types[type],
             logo_url: image_url(type, code),
-            link: data[:link]
+            website_url: data[:link]
         }
       end
     end
