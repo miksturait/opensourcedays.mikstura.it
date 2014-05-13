@@ -403,7 +403,7 @@ pl:
       id: 900
       lead: Kamil_Galuszka
       day: daytwo
-      start_at: 11:15
+      start_at: '11:15'
       where: computer
       title: Włącz się w ruch Open Source
       description:
@@ -420,7 +420,7 @@ pl:
       id: 901
       lead: Stanislaw_Klekot
       day: daytwo
-      start_at: 11:15
+      start_at: '11:15'
       where: small
       title: Ale parsery są trudne! A są?
       description:
@@ -432,7 +432,7 @@ pl:
         - Agnieszka_Pawlicka
         - Marcin_Pawlicki
       day: daytwo
-      start_at: 14:45
+      start_at: '14:45'
       where: computer
       title: Uwolnij pingwina – warsztaty z programowania Lego Mindstorms
       description:
@@ -445,7 +445,7 @@ pl:
         - Pawel_Marynowski
         - Tomasz_Nycz
       day: daytwo
-      start_at: 16:15
+      start_at: '16:15'
       where: computer
       title: OpenStreetMap - narysuj swoją okolicę
       description:
@@ -456,7 +456,7 @@ pl:
       id: 904
       lead: Mateusz_Juscinski
       day: daytwo
-      start_at: 16:15
+      start_at: '16:15'
       where: small
       title: Problemy ludzi Pierwszego Świata, czyli jak zbudować środowisko Continuous Delivery
       description:
@@ -470,7 +470,7 @@ pl:
         - Wojtek_Ryrych
         - Tomasz_Bak
       day: daytwo
-      start_at: 14:45
+      start_at: '14:45'
       where: small
       title: Aplikacje webowe na miarę XXI wieku
       description:
@@ -482,7 +482,7 @@ pl:
       lead: Mikolaj_Pastuszko
       where: computer
       day: daythree
-      start_at: 13:15
+      start_at: '13:15'
       title:  Projektowanie interakcji
       description:
         - Narysować interfejs potrafi każdy pingwin. Jednak nie każdy leming potrafi z takiego interfejsu skorzystać.
@@ -499,7 +499,7 @@ pl:
         - Sebastian_Ewak
         - Arkadiusz_Kwasny
       day: daythree
-      start_at: 13:15
+      start_at: '13:15'
       where: computer
       title: Tworzenie gier przy użyciu Unity 3D dla początkujących
       description:
@@ -511,7 +511,7 @@ pl:
       id: 908
       lead: Bartosz_Piec
       day: daythree
-      start_at: 13:15
+      start_at: '13:15'
       where: small
       title: Firefox OS dla deweloperów
       description:
@@ -523,7 +523,7 @@ pl:
       id: 909
       lead: Pawel_Badenski
       day: daythree
-      start_at: 11:15
+      start_at: '11:15'
       where: small
       title: Brakujący element Agile - najpierw ulepszać ludzi, a potem systemy
       description:
@@ -550,7 +550,7 @@ pl:
       id: 911
       lead: Andreas_Papp
       day: daythree
-      start_at: 11:15
+      start_at: '11:15'
       where: computer
       title: Zastosowanie rzeczywistości wirtualnej (VR) w przygotowaniu do misji humanitarnej (Unity 3D + Oculus Rift)
       description:

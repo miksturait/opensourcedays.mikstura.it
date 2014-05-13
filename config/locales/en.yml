@@ -403,7 +403,7 @@ en:
       id: 900
       lead: Kamil_Galuszka
       day: daytwo
-      start_at: 11:15
+      start_at: '11:15'
       where: computer
       title: Join the Open Source movement.
       description:
@@ -415,7 +415,7 @@ en:
       id: 901
       lead: Stanislaw_Klekot
       day: daytwo
-      start_at: 11:15
+      start_at: '11:15'
       where: small
       title: But parsers are really hard! Are they indeed?
       description:
@@ -427,7 +427,7 @@ en:
         - Agnieszka_Pawlicka
         - Marcin_Pawlicki
       day: daytwo
-      start_at: 14:45
+      start_at: '14:45'
       where: computer
       title: Set the penguin free - a Lego Mindstorms programming workshop.
       description:
@@ -440,7 +440,7 @@ en:
         - Pawel_Marynowski
         - Tomasz_Nycz
       day: daytwo
-      start_at: 16:15
+      start_at: '16:15'
       where: computer
       title: OpenStreetMap - put your neighbourhood on the map.
       description:
@@ -451,7 +451,7 @@ en:
       id: 904
       lead: Mateusz_Juscinski
       day: daytwo
-      start_at: 16:15
+      start_at: '16:15'
       where: small
       title: The problems faced by first-world people - how to set up a continuous delivery environment.
       description:
@@ -465,7 +465,7 @@ en:
         - Wojtek_Ryrych
         - Tomasz_Bak
       day: daytwo
-      start_at: 14:45
+      start_at: '14:45'
       where: small
       title: 21st Century Web Applications
       description:
@@ -476,7 +476,7 @@ en:
       id: 906
       lead: Mikolaj_Pastuszko
       day: daythree
-      start_at: 13:15
+      start_at: '13:15'
       where: computer
       title:  Interaction design.
       description:
@@ -494,7 +494,7 @@ en:
         - Sebastian_Ewak
         - Arkadiusz_Kwasny
       day: daythree
-      start_at: 13:15
+      start_at: '13:15'
       where: computer
       title: Creating games with Unity 3D for beginners.
       description:
@@ -506,7 +506,7 @@ en:
       id: 908
       lead: Bartosz_Piec
       day: daythree
-      start_at: 13:15
+      start_at: '13:15'
       where: small
       title: Firefox OS for developers.
       description:
@@ -518,7 +518,7 @@ en:
       id: 909
       lead: Pawel_Badenski
       day: daythree
-      start_at: 11:15
+      start_at: '11:15'
       where: small
       title: The missing link of Agile - improve people first, systems next
       description:
@@ -534,7 +534,7 @@ en:
       lead:
         - Ryszard_Dalkowski
       day: daytwo
-      start_at: 11:15
+      start_at: '11:15'
       where: hackathon
       title:  Azure 101. Pierwsze kroki w chmurze - projekt na Azurze!
       description:
@@ -545,7 +545,7 @@ en:
       id: 911
       lead: Andreas_Papp
       day: daythree
-      start_at: 11:15
+      start_at: '11:15'
       where: computer
       title: Virtual Reality Simulations for Effective & Safe Humanitarian Aid Delivery (Unity 3D + Oculus Rift)
       description:
