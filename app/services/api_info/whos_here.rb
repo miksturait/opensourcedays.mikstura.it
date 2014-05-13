@@ -43,7 +43,7 @@ class ApiInfo::WhosHere
         {
             id: id,
             position: position,
-            name: I18n.t(name, scope: :section)
+            name: I18n.t(name, scope: [:section, :mobile])
         }
       end
     end

@@ -27,6 +27,10 @@ pl:
     news: Niusy
     contact: Kontakt
     organizers: Organizatorzy
+    mobile:
+      sponsors: Sponsorzy
+      media: Media
+      organizers: Organizatorzy
   intro:
     about_dwo:
       conference_name: DWO 2014

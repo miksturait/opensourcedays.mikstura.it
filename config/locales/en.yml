@@ -27,6 +27,10 @@ en:
     news: News
     contact: Contact
     organizers: Organizers
+    mobile:
+      sponsors: Sponsors & Partners
+      media: Media
+      organizers: Organizers
   intro:
     about_dwo:
       conference_name: Open Source Days 2014
