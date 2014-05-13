@@ -14,6 +14,7 @@ class ApiInfo::WhosHere
       collection.collect do |(code, data)|
         {
             id: data[:id],
+            position: data[:position],
             partner_group_id: partner_types[type],
             logo_url: image_url(type, code),
             website_url: data[:link]
