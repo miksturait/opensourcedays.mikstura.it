@@ -15,7 +15,7 @@ class Workshop < Struct.new(:id, :timeslot)
   end
 
   def self.all_workshops
-    I18n.t('workshops').keys.collect { |key| Workshop.new(key, nil) }
+    I18n.t('workshops').keys.collect { |key| Workshop.new(key, nil) }.sort { |a, b| [a.send(:day_id), a.send(:start_at)].join('_') <=> [b.send(:day_id), b.send(:start_at)].join('_') }
   end
 
   def title
@@ -60,9 +60,10 @@ class Workshop < Struct.new(:id, :timeslot)
     [I18n.t(:domain), 'assets/workshops', logo].join("/")
   end
 
-  def to_hash
+  def to_hash(position = 0)
     {
         id: info_id,
+        position: position,
         talk_group_id: day_id,
         talk_location_id: place.id,
         more_info: true,

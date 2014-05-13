@@ -20,28 +20,31 @@ class ApiInfo::Schedule
     private
 
     def collect_talks
-      [:dayone, :daytwo, :daythree].collect do |day|
+      [:dayone, :daytwo, :daythree].to_enum(:each_with_index).collect do |day, position|
         days_data.push({
                            id: t(:id, scope: [:schedule, day]),
+                           position: position,
                            date: t(:date, scope: [:schedule, day]),
                            title: t(:title, scope: [:schedule, day])
                        })
         sorted_keys = t(:agenda, scope: [:schedule, day]).keys.map(&:to_s).sort
-        sorted_keys.collect do |agenda_key|
-          talk = Talk.new(agenda_key, day)
+        sorted_keys.to_enum(:each_with_index).collect do |agenda_key, position|
+          talk = Talk.new(agenda_key, day, position)
           talks_data.push talk.to_hash
-          talk.speakers.each do |speaker|
+          talk.speakers.each_with_index do |speaker, position|
             speakers_talks_data.push({
+                                         position: position,
                                          speaker_id: speaker.id,
                                          talk_id: talk.info_id
                                      })
           end
         end
 
-        Workshop.all_workshops.each do |workshop|
-          talks_data.push workshop.to_hash
-          workshop.speakers.each do |speaker|
+        Workshop.all_workshops.each_with_index do |workshop, position|
+          talks_data.push workshop.to_hash(position)
+          workshop.speakers.each_with_index do |speaker, position|
             speakers_talks_data.push({
+                                         position: position,
                                          speaker_id: speaker.id,
                                          talk_id: workshop.info_id
                                      })

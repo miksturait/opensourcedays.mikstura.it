@@ -1,4 +1,4 @@
-class Talk < Struct.new(:id, :day)
+class Talk < Struct.new(:id, :day, :position)
 
   def self.all_talks
     %i(dayone daytwo daythree).collect do |day|
@@ -51,6 +51,7 @@ class Talk < Struct.new(:id, :day)
   def to_hash
     {
         id: info_id,
+        position: position,
         talk_group_id: day_id,
         talk_location_id: place.id,
         more_info: more_info,
