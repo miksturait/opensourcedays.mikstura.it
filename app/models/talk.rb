@@ -94,6 +94,8 @@ class Talk < Struct.new(:id, :day, :position)
       [I18n.t(:domain), 'assets/speakers', picture_filename].join("/")
     elsif speakers.size == 1
       speakers.first.avatar_url
+    else
+      [I18n.t(:domain), 'assets/speakers/pinguin.jpg'].join("/")
     end
   end
 
