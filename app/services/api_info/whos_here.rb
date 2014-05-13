@@ -42,7 +42,7 @@ class ApiInfo::WhosHere
         {
             id: id,
             position: position,
-            name: name
+            name: name.to_s
         }
       end
     end
