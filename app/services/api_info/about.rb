@@ -15,7 +15,9 @@ class ApiInfo::About
           social_profile_links: {
               twitter: "https://twitter.com/miksturait",
               facebook: t('links.facebook'),
-              google: "https://google.com/+MiksturaIt_Foundation"
+              google: "https://google.com/+MiksturaIt_Foundation",
+              youtube: "https://www.youtube.com/user/MiksturaIT"
+
           },
           audio_stream_url:"http://wbur-sc.streamguys.com/wbur.mp3",
           title: t('only_title'),
