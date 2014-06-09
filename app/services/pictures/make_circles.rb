@@ -1,4 +1,4 @@
-# Picture::MakeCircles.new('speakers', 'speakers_circle', /.*\.jpg/)
+# Picture::MakeCircles.new('/Users/michalczyz/projects/mikstura.it/opensourcedays.mikstura.it/public/assets/speakers', '/Users/michalczyz/projects/mikstura.it/opensourcedays.mikstura.it/public/assets/speakers_ellipse', /.*\.jpg/)
 module Picture
   class MakeCircles < Struct.new(:original_dir, :dest_dir, :pattern)
     def process

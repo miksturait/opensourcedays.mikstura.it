@@ -2,10 +2,12 @@ bin/rake assets:precompile
 bin/rails server -e production -d
 sleep 5
 
-curl http://localhost:3000/api.json?locale=en
-curl http://localhost:3000/timestamp.json?locale=en
-curl http://localhost:3000/timestamp.json?locale=pl
-curl http://localhost:3000/api.json?locale=pl
+# curl http://localhost:3000/api.json?locale=en
+# curl http://localhost:3000/timestamp.json?locale=en
+# curl http://localhost:3000/timestamp.json?locale=pl
+# curl http://localhost:3000/api.json?locale=pl
+curl http://localhost:3000/timestamp.json?locale=smartdevcon
+curl http://localhost:3000/api.json?locale=smartdevcon
 
 kill -QUIT `cat tmp/pids/server.pid`
 

@@ -57,7 +57,7 @@ class Talk < Struct.new(:id, :day, :position)
         more_info: more_info,
         start_at: date_time_format(id),
         end_at: date_time_format(end_at_as_key),
-        type: 'presentation',
+        type: group_type,
         subtype: type,
         image_url: image_url,
         logo_url: nil,
@@ -69,6 +69,10 @@ class Talk < Struct.new(:id, :day, :position)
   end
 
   private
+
+  def group_type
+    t('type', scope: [:schedule, day]) || 'presentation'
+  end
 
   def social_share_text
     if more_info

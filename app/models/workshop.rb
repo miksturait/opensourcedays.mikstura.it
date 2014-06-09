@@ -1,21 +1,29 @@
 class Workshop < Struct.new(:id, :timeslot)
 
   def self.all
-    workshops_schedule = I18n.translate('workshops_schedule').reverse
-    [
-        [:azure, :open_source, :your_own_parser],
-        [:mindstorms, :ember_js],
-        [:open_street_map, :continuous_delivery],
-        [:humanitarian, :feedback],
-        [:ux, :firefoxos, :unity3d]
-    ].collect do |workshops|
-      schedule = workshops_schedule.pop
-      workshops.collect { |workshop| new(workshop, schedule) }
+    if I18n.translate('workshops').is_a?(Hash)
+      workshops_schedule = I18n.translate('workshops_schedule').reverse
+      [
+          [:azure, :open_source, :your_own_parser],
+          [:mindstorms, :ember_js],
+          [:open_street_map, :continuous_delivery],
+          [:humanitarian, :feedback],
+          [:ux, :firefoxos, :unity3d]
+      ].collect do |workshops|
+        schedule = workshops_schedule.pop
+        workshops.collect { |workshop| new(workshop, schedule) }
+      end
+    else
+      []
     end
   end
 
   def self.all_workshops
-    I18n.t('workshops').keys.collect { |key| Workshop.new(key, nil) }.sort { |a, b| [a.send(:day_id), a.send(:start_at)].join('_') <=> [b.send(:day_id), b.send(:start_at)].join('_') }
+    if I18n.translate('workshops').is_a?(Hash)
+      I18n.t('workshops').keys.collect { |key| Workshop.new(key, nil) }.sort { |a, b| [a.send(:day_id), a.send(:start_at)].join('_') <=> [b.send(:day_id), b.send(:start_at)].join('_') }
+    else
+      []
+    end
   end
 
   def title
