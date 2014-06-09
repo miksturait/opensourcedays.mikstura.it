@@ -12,14 +12,7 @@ class ApiInfo::About
 
           },
           website_url: domain,
-          social_profile_links: {
-              twitter: "https://twitter.com/miksturait",
-              facebook: t('links.facebook'),
-              google: "https://google.com/+MiksturaIt_Foundation",
-              youtube: "https://www.youtube.com/user/MiksturaIT",
-              linkedin: "https://www.linkedin.com/company/mikstura-it-foundation"
-
-          },
+          social_profile_links: t('links'),
           audio_stream_url:"http://wbur-sc.streamguys.com/wbur.mp3",
           title: t('only_title'),
           subtitle: t('subtitle'),

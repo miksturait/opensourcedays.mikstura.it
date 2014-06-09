@@ -10,7 +10,11 @@ pl:
     lng: 19.0573
     address: "ul. Willowa 2, Bielsko-Biała 43-300"
   links:
+    twitter: "https://twitter.com/miksturait",
     facebook: https://www.facebook.com/MiksturaIT
+    google: "https://google.com/+MiksturaIt_Foundation",
+    youtube: "https://www.youtube.com/user/MiksturaIT",
+    linkedin: "https://www.linkedin.com/company/mikstura-it-foundation"
   meta:
     description:  Dni Wolnego Oprogramowania ‘14 to jedna z największych bezpłatnych konferencji Open Source w Europie.
     keywords: open source, conference, workshops, community
