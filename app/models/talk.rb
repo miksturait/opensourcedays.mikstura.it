@@ -71,7 +71,7 @@ class Talk < Struct.new(:id, :day, :position)
   private
 
   def group_type
-    t('type', scope: [:schedule, day]) || 'presentation'
+    t('type', scope: [:schedule, day])
   end
 
   def social_share_text

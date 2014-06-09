@@ -83,6 +83,7 @@ smartdevcon:
       date: 2013-09-12
       title: Thursday
       header: Thursday, 12 September
+      type: presentation
       agenda:
         09-00:
           id: 101
@@ -132,6 +133,7 @@ smartdevcon:
       date: 2013-09-13
       title: Friday
       header: Friday, 13 September
+      type: presentation
       agenda:
         09-00:
           id: 109
