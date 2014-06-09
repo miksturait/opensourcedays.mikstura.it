@@ -88,7 +88,7 @@ class Talk < Struct.new(:id, :day, :position)
 
   def speakers_twitter_handles
     speakers.collect do |s|
-      if s.social[:twitter] && s.social[:twitter] =~ /.*\/\/twitter.com\/.*/
+      if s.social && s.social[:twitter] && s.social[:twitter] =~ /.*\/\/twitter.com\/.*/
         s.social[:twitter].gsub(/.*\/\/twitter.com\//, '@')
       else
         s.name
