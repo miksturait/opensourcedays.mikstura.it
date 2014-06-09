@@ -10,10 +10,10 @@ en:
     lng: 19.0573
     address: "ul. Willowa 2, Bielsko-Biała 43-300"
   links:
-    twitter: "https://twitter.com/miksturait",
+    twitter: "https://twitter.com/miksturait"
     facebook: https://www.facebook.com/MiksturaIT
-    google: "https://google.com/+MiksturaIt_Foundation",
-    youtube: "https://www.youtube.com/user/MiksturaIT",
+    google: "https://google.com/+MiksturaIt_Foundation"
+    youtube: "https://www.youtube.com/user/MiksturaIT"
     linkedin: "https://www.linkedin.com/company/mikstura-it-foundation"
   meta:
     description:  The Open Source Days conference is one of the biggest free Open Source events in Europe.
