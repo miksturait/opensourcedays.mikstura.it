@@ -3,31 +3,17 @@ class ApiInfo::WhosHere
     def data
       {
           speakers: speakers_data,
-          partners: partners_data,
+          partners: prepare_collection,
           partner_groups: partners_types_data
       }
     end
 
-
-    def prepare_collection(type)
-      collection = send(type)
-      collection.collect do |(code, data)|
-        {
-            id: data[:id],
-            position: data[:position],
-            partner_group_id: partner_types[type],
-            logo_url: image_url(type, code),
-            website_url: data[:link]
-        }
-      end
-    end
-
     private
 
-    def partners_data
-      [prepare_collection(:sponsors),
-       prepare_collection(:media),
-       prepare_collection(:organizers)].flatten
+    def prepare_collection
+      I18n.t('partners').collect do |(code, data)|
+        data.merge({logo_url: image_url(code)})
+      end
     end
 
     def speakers_data
@@ -39,84 +25,18 @@ class ApiInfo::WhosHere
     end
 
     def partners_types_data
-      partner_types.enum_for(:each_with_index).collect do |(name, id), position|
-        {
-            id: id,
-            position: position,
-            name: I18n.t(name, scope: [:section, :mobile])
-        }
-      end
+      @partner_types_data ||=
+          partner_types.enum_for(:each_with_index).collect do |(name, id), position|
+            {
+                id: id,
+                position: position,
+                name: I18n.t(name, scope: [:section, :mobile])
+            }
+          end
     end
 
-    def sponsors
-      {
-          "microsoft_openness" => {
-              link: 'http://www.microsoft.com/en-us/openness/default.asp',
-              position: 0,
-              id: 1},
-          "selleo" => {
-              link: 'http://selleo.com/',
-              position: 1,
-              id: 2},
-          "red_hat" => {
-              link: 'http://www.redhat.com/',
-              position: 2,
-              id: 3},
-          "travis" => {
-              link: 'http://travis-ci.com/',
-              position: 3,
-              id: 4},
-          "rekord" => {
-              link: 'http://www.rekord.com.pl/',
-              position: 4,
-              id: 5},
-      }
-    end
-
-    def media
-      {
-          'magazyn.programista' => {
-              link: 'http://programistamag.pl/',
-              position: 0,
-              id: 6},
-          'bb365info' => {
-              link: 'http://www.bb365.info/',
-              position: 1,
-              id: 7},
-          'sdjournal' => {
-              link: 'http://sdjournal.pl/',
-              position: 2,
-              id: 8},
-          'pracait' => {
-              link: 'http://pracait.com/',
-              position: 3,
-              id: 9},
-          'webmastah' => {
-              link: 'http://webmastah.pl',
-              position: 4,
-              id: 10}
-      }
-    end
-
-    def organizers
-      {
-          'mikstura.it' => {
-              link: 'http://mikstura.it',
-              position: 0,
-              id: 11},
-          'ath' => {
-              link: 'http://info.ath.bielsko.pl/',
-              position: 1,
-              id: 12},
-          'ath.reset' => {
-              link: 'http://reset.ath.bielsko.pl/',
-              position: 2,
-              id: 13}
-      }
-    end
-
-    def image_url(type, code)
-      [I18n.t(:domain), "assets/#{type}/logo", "#{code}.png"].join("/")
+    def image_url(code)
+      [I18n.t(:domain), "assets/logo", "#{code}.png"].join("/")
     end
   end
 end
