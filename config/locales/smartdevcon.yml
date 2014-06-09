@@ -23,7 +23,7 @@ smartdevcon:
   event:
     navigation:
       general:
-        my_agenda: "Pin'ed"
+        my_agenda: "Pinned"
         presentations: "Track 1"
         workshops: "Track 2"
         partners: "Partners"
@@ -245,14 +245,3 @@ smartdevcon:
       title: SSE @ conc.pt
       description:
         - Wojciech Ziniewicz is Senior System Engineer at Concept conc.pt - I'm passionate about automation, volatality, big data and complex dynamical systems.
-
-  footer:
-    is_organised_by: The Open Source Days 2014 conference is organized by
-    mikstura_it: the Mikstura.IT Foundation
-    source_code_available: Source Code of that page is availble on GitHub
-    tos: Terms Of Service
-    policy: Privacy Policy
-    code_of_conduct:
-      header: Code of Conduct
-      message: "At Mikstura.IT and DWO, we assume that most people are intelligent and well-intended as well as able to use good judgment, and we refrain from telling people what to do. The core of our approach is this: we will do our best to ensure that all the people involved in the event are kind, respectful and helpful towards each other. We would also be very grateful to all our attendees for their help in keeping the event welcoming, respectful, and friendly to all participants. We strongly believe we will create an environment in which to gather and share knowledge in a pleasant atmosphere."
-      inspired_by_oreilly: Our Code of Conduct is based on that of O'Reily.

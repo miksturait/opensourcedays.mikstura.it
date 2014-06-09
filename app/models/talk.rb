@@ -76,10 +76,14 @@ class Talk < Struct.new(:id, :day, :position)
 
   def social_share_text
     if more_info
-      ['#dwo14', speakers_twitter_handles].join(' ')
+      [hashtag, speakers_twitter_handles].join(' ')
     else
-      ''
+      hashtag
     end
+  end
+
+  def hashtag
+    t('hashtag')
   end
 
   def speakers_twitter_handles
