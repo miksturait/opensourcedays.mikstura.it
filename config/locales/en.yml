@@ -31,6 +31,42 @@ en:
       sponsors: Sponsors
       media: Media
       organizers: Organizers
+  event:
+    navigation:
+      general:
+        my_agenda: "Pin'ed"
+        presentations: "Agenda"
+        workshops: "Workshops"
+        partners: "Partners"
+        about: "About Us"
+        refresh: "Refresh"
+        listen: "Listen"
+      ios:
+        presentations: "Agenda"
+      android:
+        presentations: "Agenda"
+      wp:
+        presentations: "Agenda"
+    feedback_items:
+      general:
+        more:
+          id: 1
+          position: 1
+          name: "Great"
+          description: "Podziel się z nami tym co się tobie podobało, i chciałbyś aby również miało miejsce w przyszłym roku"
+        ideas:
+          id: 2
+          position: 2
+          name: "Ideas"
+          description: "Co nowego chciałbyś zobaczyć w przyszłym roku"
+        improve_it:
+          id: 3
+          position: 3
+          name: "Fix It"
+          description: "Jeśli coś jest nie tak, daj nam znać postaramy się do poprawić"
+      ios:
+      android:
+      wp:
   intro:
     about_dwo:
       conference_name: Open Source Days 2014
