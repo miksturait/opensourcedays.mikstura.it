@@ -8,9 +8,9 @@ sleep 5
 # curl http://localhost:3000/api.json?locale=pl
 curl http://localhost:3000/timestamp.json?locale=smartdevcon
 curl http://localhost:3000/api.json?locale=smartdevcon
-mv public/pages/smardevcon/v2/api.json public/pages/smardevcon/v2/pl.json
-mv public/pages/smardevcon/v2/api.json.gz public/pages/smardevcon/v2/pl.json.gz
-cp public/pages/smardevcon/v2/pl.json public/pages/smardevcon/v2/en.json
+mv public/pages/smartdevcon/v2/api.json public/pages/smartdevcon/v2/pl.json
+mv public/pages/smartdevcon/v2/api.json.gz public/pages/smartdevcon/v2/pl.json.gz
+cp public/pages/smartdevcon/v2/pl.json public/pages/smartdevcon/v2/en.json
 
 kill -QUIT `cat tmp/pids/server.pid`
 
