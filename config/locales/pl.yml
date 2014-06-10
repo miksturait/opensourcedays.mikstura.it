@@ -69,11 +69,8 @@ pl:
           name: "Do Poprawy"
           description: "Jeśli coś jest nie tak, daj nam znać postaramy się do poprawić"
       ios:
-        name: "Chcę Więcej"
       android:
-        name: "Mam Pomysł"
       wp:
-        name: "Do Poprawy"
   intro:
     about_dwo:
       conference_name: DWO 2014
