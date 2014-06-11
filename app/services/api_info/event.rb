@@ -1,8 +1,6 @@
 class ApiInfo::Event
   def self.data
-    {
-        event: prepare_data
-    }
+    prepare_data
   end
 
   def self.prepare_data

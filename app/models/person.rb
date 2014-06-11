@@ -8,12 +8,17 @@ class Person < Struct.new(:key)
     "#{key}.#{extension}"
   end
 
+  delegate :social, to: :info, prefix: true
   delegate :id, :name, :title, :description, :social, to: :info
 
   def info
     @info ||=
         OpenStruct.new(
             I18n.translate(key, scope: [:people]))
+  end
+
+  def social
+    info_social || {}
   end
 
   def to_hash
