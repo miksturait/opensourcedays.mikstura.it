@@ -180,6 +180,26 @@ smartdevcon:
            - Lots of smart machines, with different operating systems. Lots of smartphones but different development environments. But don't you want to control every single devices as much as possible with just single smartphone.
            - We need to control everything but today it is not possible OR maybe it will! Today's biggest ecosystems are inventing on new web based world. Providers trying to add more HTML5 and other web based solutions into their OS. Also new OS coming with all modern web functions like Tizen and Firefox OS. At the same time, biggest mobile ecosystem provider keeps developing another web based OS and there is nothing can stop them to adopt it to mobile. All these different companies and ecosystems are coming together only in 2 topic. Web and Linux.
            - Oytun Sengul will review architectures and predict future of mobile technologies with development and new Linux kernel prospect.
+        10-00:
+          id: 113
+          duration: 60
+          type: talk
+          speaker: Petr_Dvorak
+          title: Mobile banking security
+          description: 
+            - As most people are aware, there has been an expansion in mobile banking applications in recent years. The Czech Republic is no exception to this, as nearly all banks have developed a mobile application for their modern mobile operating systems. Although different banks solve their security concepts in different ways, it is possible to discuss typical situations and problems that inevitably appear while designing mobile banking applications.
+        11-00:
+          id: 114
+          duration: 15
+          type: break
+        11-15:
+          id: 115
+          duration: 60
+          type: talk
+          speaker: Kuba_Brecka
+          title: Dark Side of iOS
+          description: 
+            - A workshop about the "dark side" of iOS, Objective-C and Xcode. Discussion about private API, why Apple doesn't want you to use it and how they enforce that. What information can you extract from a compiled binary? Let's take a look at the possibilities of reverse engineering including demos and showcases.
     daythree:
       id: 3
       date: 2013-09-13
