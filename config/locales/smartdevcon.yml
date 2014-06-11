@@ -112,7 +112,15 @@ smartdevcon:
           type: talk
           speaker: Rafal_Czuprynski
           title: Microsoft Windows Phone app development from zero to hero
-          description: <HowTo> design and write your first WP App debug and test your app use Azure mobile Services in your apps discover the full potential of WP write one app for WP and Windows 8 </HowTo> Feel free to join the presentation about Windows Phone app development. You’re more than welcome! 
+          description: 
+            - <HowTo> 
+            - design and write your first WP App
+            - debug and test your app
+            - use Azure mobile Services in your apps
+            - discover the full potential of WP
+            - write one app for WP and Windows 8 
+            - </HowTo> 
+            - Feel free to join the presentation about Windows Phone app development. You’re more than welcome! 
         13-45:
           id: 106
           duration: 60
@@ -123,14 +131,21 @@ smartdevcon:
           type: talk
           speaker: Holger_Bartel
           title: 180 Degrees East
-          description: For most of the tech world, the Asian market is the new frontier – the region of fast growth and opportunity. A large part of the web world currently seems to evolve around the West, most cutting edge design & technology originates from the US and Europe, whereas the actual user base is spread all over the world and those rather unknown or developing regions offer huge opportunities and potential for growth, especially Asia and its mobile market. My talk will give some insight on the Asian mobile web market, look at mobile & web statistics and user behaviour in comparison to the western world, cultural differences and personal as well as general challenges and pitfalls that I (and others) have encountered along the way.
+          description: 
+            - For most of the tech world, the Asian market is the new frontier – the region of fast growth and opportunity. A large part of the web world currently seems to evolve around the West, most cutting edge design & technology originates from the US and Europe, whereas the actual user base is spread all over the world and those rather unknown or developing regions offer huge opportunities and potential for growth, especially Asia and its mobile market.
+            - My talk will give some insight on the Asian mobile web market, look at mobile & web statistics and user behaviour in comparison to the western world, cultural differences and personal as well as general challenges and pitfalls that I (and others) have encountered along the way.
         15-45:
           id: 108
           duration: 60
           type: talk
           speaker: David_Greaves
           title: Sailfish & Mer? Oh, no, not another one!
-          description: Are you asking "Does the market need yet another mobile OS?"Maybe you are interested in what makes it relevant to your device strategy? Or you want to understand (part of) how Jolla can deliver so quickly and efficiently? Of course this is a technology-rich area so you may like a high-level technical perspective. There will be some background covering Mer's birth, the MeeGo years and how we now work in a truly collaborative and open project to make Mer productisable. The case in point is clearly how Jolla uses Mer in Sailfish. Mer supports organisational collaboration; our vendor focus drove the design from the project structure through the architecture, the deliverables and the processes. We continuously ask "How will this decision affect vendors using our solution to make a product?" Mer delivers a world-class platform for building products: after all, it's an ultra-modern Linux stack with a strong upstream focus that partners with Qt, a world-class graphical framework; it rocks! I'll explain why "code is not enough"; what else we deliver and how we ensure that the code, policies and processes you use, and tell your partners or customers to use, are up to the job.
+          description: 
+            - Are you asking "Does the market need yet another mobile OS?"Maybe you are interested in what makes it relevant to your device strategy? Or you want to understand (part of) how Jolla can deliver so quickly and efficiently? Of course this is a technology-rich area so you may like a high-level technical perspective. 
+            - There will be some background covering Mer's birth, the MeeGo years and how we now work in a truly collaborative and open project to make Mer productisable. The case in point is clearly how Jolla uses Mer in Sailfish. 
+            - Mer supports organisational collaboration; our vendor focus drove the design from the project structure through the architecture, the deliverables and the processes. We continuously ask "How will this decision affect vendors using our solution to make a product?" 
+            - Mer delivers a world-class platform for building products: after all, it's an ultra-modern Linux stack with a strong upstream focus that partners with Qt, a world-class graphical framework; it rocks! 
+            - I'll explain why "code is not enough"; what else we deliver and how we ensure that the code, policies and processes you use, and tell your partners or customers to use, are up to the job.
         16-45:
           id: 109
           duration: 15
@@ -141,7 +156,9 @@ smartdevcon:
           type: talk
           speaker: Mateusz_Herych
           title: Brief look over the best (and the worst) UX patterns on Android
-          description: How many times you find yourself trying to download file from Dropbox just to see that awful dialog blocking you from using the app until downloading of your 5GB-worth vacation movie is downloaded? Or feel confused of those 15 friendly notifications that just shown in your status bar because Google Play just decided to upgrade all of your apps? This talk does not contain any code. It's a quick overview of the possibilities that the Android platform offers you to serve your users the best experience.
+          description: 
+            - How many times you find yourself trying to download file from Dropbox just to see that awful dialog blocking you from using the app until downloading of your 5GB-worth vacation movie is downloaded? Or feel confused of those 15 friendly notifications that just shown in your status bar because Google Play just decided to upgrade all of your apps? 
+            - This talk does not contain any code. It's a quick overview of the possibilities that the Android platform offers you to serve your users the best experience.
         20-00:
           id: 111
           type: afterparty
@@ -154,7 +171,7 @@ smartdevcon:
       type: presentation
       agenda:
         09-00:
-          id: 109
+          id: 112
           duration: 60
           type: talk
           speaker: Oytun_Eren_Sengul
