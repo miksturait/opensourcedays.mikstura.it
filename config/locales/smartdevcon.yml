@@ -315,6 +315,58 @@ smartdevcon:
           title: How-to connect mobile device to external sensors
           description:
             - You can connect almost any sensor to your mobile phone using Bluetooth. You will see how to build external device for your mobile phone using open software and hardware platform .NET Micro Framework. You will see some practical usage and results from Czech Republic.
+        13-15:
+          id: 128
+          duration: 60
+          type: lunch break
+        14-15:
+          id: 129
+          duration: 60
+          type: talk
+          speaker: Lukasz_Dzierzak
+          title: The BlackBerry 10 Opportunity for Apps Developers
+          description:  
+            - The relative small number of 120 000 Apps in the BlackBerry App World compared to Android and iOS is for Apps Developers an opportunity because of less competitors and less investment need in marketing effort. Also as it has been proven on several occasions by many independent analysts that BlackBerry users are willing to pay more for the same app in BlackBerry World then on other Platforms. Take this opportunity and develop application for BlackBerry 10 platform. 
+        15-15:
+          id: 130
+          duration: 60
+          type: talk
+          speaker: Boleslaw_Tekielski
+          title: Software for people - building apps for visually impaired people
+          description:
+            - The main topic of the presentation is developing software for visually impaired people. We want to show our entire way, starting with "why", going though "how" and continuing with"when". We begin with "why", describing our motivation for the project and its purposes. We then describe how we have used the research conducted as a part of iVirtualEye POIG project and its outcomes to create a lever to the success and how iOS mobile platform makes (almost) perfect platform for such task. Then we smoothly move to "when”, revealing details of project timeframe, including initialisation, initial research, production and finally delivering to the market. After this introduction we describe challenges that we met during the project, including technology constraints, issues with getting through the Apple review, target group expectations. 
+            - We also present some of our experiences of launching the application to the market, building position, brand awareness, promotion and efforts to gain the market share, based on two of our recently launched applications, SeeingAssistant-Move and SeeingAssistant-Home. We summarise the presentation with our plans for the future, including creating the combined cloud - mobile software ecosystem, a platform for tools and applications dedicated to improve the quality of life of users with sight impairments. 
+        16-15:
+          id: 131
+          duration: 15
+          type: break    
+        16-30:
+          id: 132
+          duration: 60
+          type: talk
+          speaker: Stepan_Bechynsky
+          title: Reality of 3D printing
+          description: There are lot of rubbish around 3D printing. I will show you all steps from 3D model to printed product and how it really work. And you will see 3D printer Prusa Mendel i3 printing cat. 
+        17-30:
+          id: 133
+          duration: 60
+          type: talk
+          speaker: Matti_Pakarinen
+          title: Development Techniques for Native/Hybrid Tizen Apps
+          description: 
+            - STC presentation is on Development Techniques for Native/Hybrid Tizen Apps. Introducing different application types, advantages and disadvantages, meaning of hybrid apps and comparing reference to Android & IOS. Practices and different ways of creating hybrid apps and maker communication between web ui & native part, debugging, tools. Case Studies – examples from real life. 
+       21-00:
+          id: 122
+          duration: 60
+          type: afterparty
+          description: CLUBBING NA MARIACKIEJ
+     dayfour:
+      id: 4
+      date: 2013-09-14
+      title: Saturday
+      header: Saturday, 14 September
+      type: presentation
+      agenda:     
   venue:
     places:
       main:
