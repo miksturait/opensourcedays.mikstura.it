@@ -584,6 +584,27 @@ smartdevcon:
       partner_group_id: 4
       website_url: http://www.linux.org.pl/
       description: ' '
+    iStream:
+      id: 9
+      position: 1
+      partner_group_id: 2
+      website_url: http://istream.pl/ 
+      type: diamond
+      description: ' ' 
+    sauce labs:
+      id: 10
+      position: 2
+      partner_group_id: 2
+      website_url: https://saucelabs.com/
+      type: platinium
+      description: ' ' 
+    blackberry:
+      id: 11
+      position: 4
+      partner_group_id: 2
+      website_url: http://global.blackberry.com/sites.html?
+      type: platinium
+      description: ' '
   partner_types:
     sponsors: 2
     organizers: 3
