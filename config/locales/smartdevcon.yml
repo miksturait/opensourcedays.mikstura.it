@@ -507,6 +507,11 @@ smartdevcon:
           id: 153
           duration: 480
           type: workshop
+        18-00:  
+          id: 154
+          duration: 30
+          type: talk
+          title: Ogłoszenie wyników i rozdanie nagród
   venue:
     places:
       main:
