@@ -117,7 +117,7 @@ smartdevcon:
           id: 106
           duration: 60
           type: lunch break
-        10-45:
+        14-45:
           id: 107
           duration: 60
           type: talk
