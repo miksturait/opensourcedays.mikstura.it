@@ -675,6 +675,30 @@ smartdevcon:
       partner_group_id: 1
       website_url: http://smartmania.cz/
       description: ' '
+    konferencje.pl:
+      id: 23
+      position: 9
+      partner_group_id: 1
+      website_url: http://www.konferencje.pl/
+      description: ' '
+    dobre_programy:
+      id: 24
+      position: 10
+      partner_group_id: 1
+      website_url: http://www.dobreprogramy.pl/
+      description: ' '
+    PDAsite.pl:
+      id: 25
+      position: 11
+      partner_group_id: 1
+      website_url: http://pdasite.pl/
+      description: ' '
+    polish_JUG:
+      id: 26
+      position: 12
+      partner_group_id: 1
+      website_url: http://www.java.pl/
+      description: ' '
   partner_types:
     sponsors: 2
     organizers: 3
