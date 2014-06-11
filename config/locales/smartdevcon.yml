@@ -507,6 +507,7 @@ smartdevcon:
           id: 153
           duration: 480
           type: workshop
+          title: Mobile app hackathon
         18-00:  
           id: 154
           duration: 30
