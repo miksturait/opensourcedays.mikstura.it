@@ -142,9 +142,10 @@ smartdevcon:
           speaker: Mateusz_Herych
           title: Brief look over the best (and the worst) UX patterns on Android
           description: How many times you find yourself trying to download file from Dropbox just to see that awful dialog blocking you from using the app until downloading of your 5GB-worth vacation movie is downloaded? Or feel confused of those 15 friendly notifications that just shown in your status bar because Google Play just decided to upgrade all of your apps? This talk does not contain any code. It's a quick overview of the possibilities that the Android platform offers you to serve your users the best experience.
-        16-45:
+        20-00:
           id: 111
           type: afterparty
+          description: IMPREZA INTEGRACYJNA W KLUBIE 2B3 
     daytwo:
       id: 2
       date: 2013-09-13
