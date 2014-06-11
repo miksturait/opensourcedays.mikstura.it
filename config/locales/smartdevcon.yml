@@ -591,7 +591,7 @@ smartdevcon:
       website_url: http://istream.pl/ 
       type: diamond
       description: ' ' 
-    sauce labs:
+    sauce_labs:
       id: 10
       position: 2
       partner_group_id: 2
@@ -604,6 +604,76 @@ smartdevcon:
       partner_group_id: 2
       website_url: http://global.blackberry.com/sites.html?
       type: platinium
+      description: ' '
+    play:
+      id: 12
+      position: 1
+      partner_group_id: 2
+      website_url: http://www.play.pl/klienci-play.html
+      type: gold
+      description: ' '
+    vserv_mobi:
+      id: 13
+      position: 2
+      partner_group_id: 2
+      website_url: http://www.vserv.mobi/
+      type: gold
+      description: ' '
+    mozilla:
+      id: 14
+      position: 3
+      partner_group_id: 2
+      website_url: http://www.mozilla.org/pl/
+      type: gold
+      description: ' '
+    foxy_apps:
+      id: 15
+      position: 1
+      partner_group_id: 2
+      website_url: http://foxyapps.pl/
+      type: silver
+      description: ' '
+    openmobility:
+      id: 16
+      position: 2
+      partner_group_id: 4
+      website_url: http://www.openmobility.cz/en/
+      description: ' '
+    Software_Developer's_Journal:
+      id: 17
+      position: 3
+      partner_group_id: 1
+      website_url: http://sdjournal.org/
+      description: ' '
+    programista:
+      id: 18
+      position: 4
+      partner_group_id: 1
+      website_url: http://programistamag.pl/
+      description: ' '
+    osworld.pl:
+      id: 19
+      position: 5
+      partner_group_id: 1
+      website_url: http://osworld.pl/
+      description: ' '
+    smartmobil.sk:
+      id: 20
+      position: 6
+      partner_group_id: 1
+      website_url: http://smartmobil.sk/
+      description: ' '
+    tizen_experts:
+      id: 21
+      position: 7
+      partner_group_id: 1
+      website_url: http://www.tizenexperts.com/
+      description: ' '
+    smartmania:
+      id: 22
+      position: 8
+      partner_group_id: 1
+      website_url: http://smartmania.cz/
       description: ' '
   partner_types:
     sponsors: 2
