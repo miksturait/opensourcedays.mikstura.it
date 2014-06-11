@@ -102,6 +102,67 @@ smartdevcon:
           description:
             - The talk will present the Tizen operating system, its architecture as well as the development model.
             - What are Tizen differentiators. A comparison with other common operating systems will be presented to show possible applications of Tizen and opportunities it brings for both system and application developers. Open source development model for Tizen has been chosen.
+        11-45:
+          id: 104
+          duration: 30
+          type: break
+        12-15:
+          id: 105
+          duration: 90
+          type: talk
+          speaker: Rafal_Czuprynski
+          title: Microsoft Windows Phone app development from zero to hero
+          description: 
+            - <HowTo> 
+            - design and write your first WP App
+            - debug and test your app
+            - use Azure mobile Services in your apps
+            - discover the full potential of WP
+            - write one app for WP and Windows 8 
+            - </HowTo> 
+            - Feel free to join the presentation about Windows Phone app development. You’re more than welcome! 
+        13-45:
+          id: 106
+          duration: 60
+          type: lunch break
+        14-45:
+          id: 107
+          duration: 60
+          type: talk
+          speaker: Holger_Bartel
+          title: 180 Degrees East
+          description: 
+            - For most of the tech world, the Asian market is the new frontier – the region of fast growth and opportunity. A large part of the web world currently seems to evolve around the West, most cutting edge design & technology originates from the US and Europe, whereas the actual user base is spread all over the world and those rather unknown or developing regions offer huge opportunities and potential for growth, especially Asia and its mobile market.
+            - My talk will give some insight on the Asian mobile web market, look at mobile & web statistics and user behaviour in comparison to the western world, cultural differences and personal as well as general challenges and pitfalls that I (and others) have encountered along the way.
+        15-45:
+          id: 108
+          duration: 60
+          type: talk
+          speaker: David_Greaves
+          title: Sailfish & Mer? Oh, no, not another one!
+          description: 
+            - Are you asking "Does the market need yet another mobile OS?"Maybe you are interested in what makes it relevant to your device strategy? Or you want to understand (part of) how Jolla can deliver so quickly and efficiently? Of course this is a technology-rich area so you may like a high-level technical perspective. 
+            - There will be some background covering Mer's birth, the MeeGo years and how we now work in a truly collaborative and open project to make Mer productisable. The case in point is clearly how Jolla uses Mer in Sailfish. 
+            - Mer supports organisational collaboration; our vendor focus drove the design from the project structure through the architecture, the deliverables and the processes. We continuously ask "How will this decision affect vendors using our solution to make a product?" 
+            - Mer delivers a world-class platform for building products: after all, it's an ultra-modern Linux stack with a strong upstream focus that partners with Qt, a world-class graphical framework; it rocks! 
+            - I'll explain why "code is not enough"; what else we deliver and how we ensure that the code, policies and processes you use, and tell your partners or customers to use, are up to the job.
+        16-45:
+          id: 109
+          duration: 15
+          type: break
+        17-00:
+          id: 110
+          duration: 60
+          type: talk
+          speaker: Mateusz_Herych
+          title: Brief look over the best (and the worst) UX patterns on Android
+          description: 
+            - How many times you find yourself trying to download file from Dropbox just to see that awful dialog blocking you from using the app until downloading of your 5GB-worth vacation movie is downloaded? Or feel confused of those 15 friendly notifications that just shown in your status bar because Google Play just decided to upgrade all of your apps? 
+            - This talk does not contain any code. It's a quick overview of the possibilities that the Android platform offers you to serve your users the best experience.
+        20-00:
+          id: 111
+          type: afterparty
+          description: IMPREZA INTEGRACYJNA W KLUBIE 2B3 
     daytwo:
       id: 2
       date: 2013-09-13
@@ -110,7 +171,7 @@ smartdevcon:
       type: presentation
       agenda:
         09-00:
-          id: 109
+          id: 112
           duration: 60
           type: talk
           speaker: Oytun_Eren_Sengul
@@ -119,6 +180,90 @@ smartdevcon:
            - Lots of smart machines, with different operating systems. Lots of smartphones but different development environments. But don't you want to control every single devices as much as possible with just single smartphone.
            - We need to control everything but today it is not possible OR maybe it will! Today's biggest ecosystems are inventing on new web based world. Providers trying to add more HTML5 and other web based solutions into their OS. Also new OS coming with all modern web functions like Tizen and Firefox OS. At the same time, biggest mobile ecosystem provider keeps developing another web based OS and there is nothing can stop them to adopt it to mobile. All these different companies and ecosystems are coming together only in 2 topic. Web and Linux.
            - Oytun Sengul will review architectures and predict future of mobile technologies with development and new Linux kernel prospect.
+        10-00:
+          id: 113
+          duration: 60
+          type: talk
+          speaker: Petr_Dvorak
+          title: Mobile banking security
+          description: 
+            - As most people are aware, there has been an expansion in mobile banking applications in recent years. The Czech Republic is no exception to this, as nearly all banks have developed a mobile application for their modern mobile operating systems. Although different banks solve their security concepts in different ways, it is possible to discuss typical situations and problems that inevitably appear while designing mobile banking applications.
+        11-00:
+          id: 114
+          duration: 15
+          type: break
+        11-15:
+          id: 115
+          duration: 60
+          type: workshop
+          speaker: Kuba_Brecka
+          title: Dark Side of iOS
+          description: 
+            - A workshop about the "dark side" of iOS, Objective-C and Xcode. Discussion about private API, why Apple doesn't want you to use it and how they enforce that. What information can you extract from a compiled binary? Let's take a look at the possibilities of reverse engineering including demos and showcases.
+        12-15:
+          id: 116
+          duration: 60
+          type: talk
+          speaker: Michal_Jankowski  
+          title: Gamification in mobile world
+          description: 
+            - Do you know what gamification means? This old idea has got new strength together with smartphones and tablets market grow. Those two devices have changed the way how the world’s largest companies are trying to reach users. The world of TV, radio and even billboard advertisement is decreasing step by step. Right now the share of those three channels are being slowly taken by mobile applications that are installed on our devices. Your smartphone will tell you when you should change an oil in your car, what ingredients you need to buy for your favourite dinner, and so on.... 
+            - Do not you like ads? So maybe something else... Do you want to find out what should you do to make your application successful? 
+            - The key for that is to get to know idea of gamification better. During this speech you will be able to learn how to combine techniques known from games with your applications. You should remember that not only the main features are important. You should provide entertainment to users of yours’ applications. 
+            - After this lecture you will able to do this. During this speech compressed dose of theory will be presented in an accessible way together with huge number of examples. 
+        13-15:
+          id: 117
+          duration: 60
+          type: lunch break  
+        14-15:
+          id: 118
+          duration: 60
+          type: talk
+          speaker: Piotr_Zalewa 
+          title: Developing for FirefoxOS
+          description:
+            - I will talk about overall development for Firefox OS. I will cover architecture basics, application development itself, submission process and payment API.
+        15-15:
+          id: 119
+          duration: 60
+          type: talk
+          speaker: Kamil_Grondys 
+          title: Creating a Tizen Application
+          description: 
+            - The Tizen SDK is a comprehensive set of tools for developing Tizen Web applications. It consists of Web IDE, Emulator, toolchain, sample code, and documentation. Tizen Web API Overview and Native API Overview will be presented.
+            - Tizen Web applications may be developed without relying on an official Tizen IDE, as long as the application complies with Tizen packaging rules.
+        16-15:
+          id: 120
+          duration: 15
+          type: break
+        16-30:
+          id: 121
+          duration: 60
+          type: talk
+          speaker:
+            - Jacek_Serafinski
+            - Piotr_Szczechowiak
+          title: Delivering In-vehicle infotainment system based on Tizen and Ford's SmartDeviceLink
+          description: 
+            - During recent years car manufacturers identified added value for their business models in leveraging mobile connectivity and computation. The idea of smartphone as a main component of the car emerged and various auto makers including Ford and GM opened their environment by providing API not only for usual partners, but also for 3rd party developers willing to provide their own applications for in-car use. The idea of standardized On-board unit drove Samsung, Intel and several supporting entities to build Tizen, an open mobile platform for which In-vehicle infotainment system is one of target use cases.
+            - In this presentation I would like to introduce Tizen SDK and Ford's SmartDeviceLink by showing the production process of HTML5 based application for in-car use which takes advantage of target on-board screen, buttons and server in the backend.
+            - The presentation will consist of three parts:
+              - automotive trends and technology survey
+              - Introduction of Tizen SDK and SmartDeviceLink
+              - Application development for Tizen IVI (complete process for sample application) 
+        17-30:
+          id: 122
+          duration: 60
+          type: talk
+          speaker: Michal_Sawicz
+          title: Ubuntu Touch Q&A
+          description: 
+            - I would like to present an update / introduction to what Ubuntu Touch was, is now, and what it aims to be. I expect at least half of the session time to be a Q&A session, as there's so many components that it only feels right to fulfil the audience's expectations. 
+        21-00:
+          id: 123
+          duration: 60
+          type: afterparty
+          description: CLUBBING NA MARIACKIEJ
     daythree:
       id: 3
       date: 2013-09-13
@@ -127,7 +272,7 @@ smartdevcon:
       type: workshop
       agenda:
         09-00:
-          id: 129
+          id: 124
           duration: 60
           type: talk
           speaker:
@@ -140,6 +285,234 @@ smartdevcon:
             - " - How micro-transactions may create new services and open new markets"
             - " - How the acceleration of transaction confirmation speed may affect our day-to-day routines"
             - " - The difference between Ripple and crypto-curiences like Bitcoin or Litecoin"
+        10-00:
+          id: 125
+          duration: 60
+          type: talk
+          speaker: Marek_Suppa
+          title: How smart devices shape the world of robotics
+          description:  
+            - I believe many would agree that smart devices open up a huge amount of use cases, possibilities and opportunities. Now what do you think will happen if you combine a smart device with a machine whose name implies that it should be helpful to man? The only logical thing.
+            - Revolution.
+            - I am willing to state that this revolution is happening right now and we are part of it. In this talk I'd like to discuss how smart devices have changed the world of robotics, how they helped to make robots more personal and what they can do in the future. If time permits I'd also like to put my robot where my mouth is. 
+        11-00:
+          id: 126
+          duration: 15
+          type: break
+        11-15:
+          id: 127
+          duration: 60
+          type: talk
+          speaker: Jacek_Chmielewski
+          title: Fungible devices and ubiquitous apps
+          description:  
+            - In economics, the term ‘fungible’ is used to describe different products/services that are functionally equal. Current mobile devices are not fungible and almost all responsive web and cross-platform development efforts are aimed at this problem. Developers have to choose between web and native solutions, optimized web sites vs responsive website, native apps vs hybrid/cross-platform app, etc. Imagine you could implement a single version of an application using programming language and execution environment of your choice, and be able to make it available on ANY mobile device, maintaining access to device advanced hardware features and holding full control over the UI. I would like to give you an insight into the current research in this area, which could bring us the ability to build not only rich cross-platform applications, but truly ubiquitous applications! 
+        12-15:
+          id: 128
+          duration: 60
+          type: talk
+          speaker: Stepan_Bechynsky
+          title: How-to connect mobile device to external sensors
+          description:
+            - You can connect almost any sensor to your mobile phone using Bluetooth. You will see how to build external device for your mobile phone using open software and hardware platform .NET Micro Framework. You will see some practical usage and results from Czech Republic.
+        13-15:
+          id: 129
+          duration: 60
+          type: lunch break
+        14-15:
+          id: 130
+          duration: 60
+          type: talk
+          speaker: Lukasz_Dzierzak
+          title: The BlackBerry 10 Opportunity for Apps Developers
+          description:  
+            - The relative small number of 120 000 Apps in the BlackBerry App World compared to Android and iOS is for Apps Developers an opportunity because of less competitors and less investment need in marketing effort. Also as it has been proven on several occasions by many independent analysts that BlackBerry users are willing to pay more for the same app in BlackBerry World then on other Platforms. Take this opportunity and develop application for BlackBerry 10 platform. 
+        15-15:
+          id: 131
+          duration: 60
+          type: talk
+          speaker: Boleslaw_Tekielski
+          title: Software for people - building apps for visually impaired people
+          description:
+            - The main topic of the presentation is developing software for visually impaired people. We want to show our entire way, starting with "why", going though "how" and continuing with"when". We begin with "why", describing our motivation for the project and its purposes. We then describe how we have used the research conducted as a part of iVirtualEye POIG project and its outcomes to create a lever to the success and how iOS mobile platform makes (almost) perfect platform for such task. Then we smoothly move to "when”, revealing details of project timeframe, including initialisation, initial research, production and finally delivering to the market. After this introduction we describe challenges that we met during the project, including technology constraints, issues with getting through the Apple review, target group expectations. 
+            - We also present some of our experiences of launching the application to the market, building position, brand awareness, promotion and efforts to gain the market share, based on two of our recently launched applications, SeeingAssistant-Move and SeeingAssistant-Home. We summarise the presentation with our plans for the future, including creating the combined cloud - mobile software ecosystem, a platform for tools and applications dedicated to improve the quality of life of users with sight impairments. 
+        16-15:
+          id: 132
+          duration: 15
+          type: break    
+        16-30:
+          id: 133
+          duration: 60
+          type: talk
+          speaker: Stepan_Bechynsky
+          title: Reality of 3D printing
+          description: There are lot of rubbish around 3D printing. I will show you all steps from 3D model to printed product and how it really work. And you will see 3D printer Prusa Mendel i3 printing cat. 
+        17-30:
+          id: 134
+          duration: 60
+          type: talk
+          speaker: Matti_Pakarinen
+          title: Development Techniques for Native/Hybrid Tizen Apps
+          description: 
+            - STC presentation is on Development Techniques for Native/Hybrid Tizen Apps. Introducing different application types, advantages and disadvantages, meaning of hybrid apps and comparing reference to Android & IOS. Practices and different ways of creating hybrid apps and maker communication between web ui & native part, debugging, tools. Case Studies – examples from real life. 
+        21-00:
+          id: 135
+          duration: 60
+          type: afterparty
+          description: CLUBBING NA MARIACKIEJ
+     dayfour:
+      id: 4
+      date: 2013-09-14
+      title: Saturday
+      header: Saturday, 14 September
+      type: presentation
+      agenda:     
+        09-00:
+          id: 136
+          duration: 60
+          type: talk
+          speaker: Jakub_Duda
+          title: Can mobile users make games as easily as they create music and photos? Createrria case study
+          description: 
+           - In this talk I would like to discuss innovative technologies needed to "crack te code" of mobile game creation for casual users - from natural user interface based creation app to cross platform cloud backend.
+        10-00:
+          id: 137
+          duration: 60
+          type: talk
+          speaker: Ravi_Vyas
+          title: Monetization of Apps
+          description: 
+            - Monetization of Apps on a Mobile Platform can often come across as a challenge. The right monetization strategy goes beyond the basic question of Apps being paid or free. It depends on various factors like who your user is, the platform you are on etc. This talk will demystify the secrets of monetization of Apps.
+        11-00:
+          id: 138
+          duration: 15
+          type: break
+        11-15:
+          id: 139
+          duration: 60
+          type: talk
+          speaker: Jaroslaw_Staniek
+          title: Porting Qt to a new Smartphone for Fun and Fame
+          description:
+            - This presentation covers rarely discussed topics of porting Qt to a new smartphone platform. Goals, strategies, and technical challenges will be discussed.
+            - Qt is a cross-platform application framework that is widely used for developing application software with a graphical user interface. 
+            - Qt for Tizen is a community-driven port of Qt 5 to Tizen smartphones and possibly cars, tablets and notebooks. It brings the legendary programming experience of Qt to Tizen application developers. 
+        12-15:
+          id: 140
+          duration: 60
+          type: workshop
+          speaker: Vesa_Matti_Hartikainen
+          title: Developing applications for Jolla's Sailfish OS
+          description: 
+            - The workshop shows how to get started in developing applications for Jolla's Sailfish OS. The presentation introduces the basic structure of the platform, shows main UI concepts, and presents the main APIs. The presentation shows hands-on how to get started in creating beautiful applications for Jolla devices using Sailfish Silica UI components, Qt5, and Sailfish OS SDK. 
+        13-15:
+          id: 141
+          duration: 60
+          type: lunch break
+        14-15:
+          id: 142
+          duration: 60
+          type: talk
+          speaker:
+            - Magdalena_Kubisa
+            - Michal_Ajduk
+          title: Play API
+          description:   
+            - How to use operators’ technical infrastructure to monetize mobile application? Introduction to Play API solution – business aspects, technical solution and examples. Play introduced “Play for future” – program for application developers to encourage innovation and support start-ups. Listen about our idea and check if you can take advantage of it! 
+        15-15:
+          id: 143
+          duration: 60
+          type: talk
+          speaker: Lukasz_Dierzak
+          title: BlackBerry Game Development
+          description:     
+            - You'd like to start developing games but you don't have idea how? You don't know which programming language will be the best or you are afraid that you won't be able to develop quality product? Attend this session and learn how to start your game development using Adobe Air, Unity 3D or HTML5.
+        16-15:
+          id: 144
+          duration: 15
+          type: break 
+        16-30:
+          id: 145
+          duration: 60
+          type: talk
+          speaker: Jonathan_Lipps
+          title: Appium: Mobile Automation Made Awesome
+          description: 
+            - The tools and practices refined over the last decade by web developers have not crossed over easily into the mobile community. Mobile devs have been without tools like continuous integration and automated testing, which enable delivery of high-quality apps more rapidly. A key piece of the solution for mobile is Appium, an open-source, cross-platform, language-agnostic mobile automation framework you can use to write automated UI tests for Android and iOS apps (native, hybrid, web), to be run on emulators or devices.
+            - In this talk we will explore the philosophy that underlies the work behind Appium, in essence justifying Appium's existence vis a vis other mobile automation tools that exist. Appium's open-source community is another important aspect of this section, and I'll highlight the community's diversity, activity, and friendliness.
+            - After a brief explanation of the technology that powers Appium, we'll move into the technical portion of the talk, where attendees will learn how to write Appium scripts using the WebDriver protocol in their favorite language. We'll showcase a UI test for a sample app, and show how easy it is to integrate that test into a CI system using some Selenium infrastructure (like Selenium Grid or Sauce Labs). Ultimately, attendees will be given motivation for moving from manual QA to automated testing, understanding of the mobile automation landscape, and a solid introduction to Appium, which I consider to be the most promising solution for mobile automation.
+        17-30:
+          id: 146
+          duration: 60
+          type: talk
+          speaker: Wojciech_Bielawski
+          title: Appium: HTML5 Features
+          description:  
+            - One of the most widespread technologies in our times is HTML. Until recently it was penurious in multimedia support. Since HTML5 introduction the new era has started. Nowadays web pages/applications have potential almost like native applications have.
+            - HTML5 standard has been proposed by W3C as a candidate recommendation since December 2012. However it is strongly supported by most of (if not all) common web browsers right now. Tizen's implementation is one of the most consistent with recent W3C recommendations. 
+        18-30:
+          id: 147
+          duration: 15
+          type: See you next year!
+    dayfive:
+      id: 5
+      date: 2013-09-14
+      title: Saturday
+      header: Saturday, 14 September
+      type: workshop
+      agenda:
+        09-00: 
+          id: 148
+          duration: 60
+          type: talk
+          speaker: Janusz_Majnert
+          title: Appium: WebRuntime in Tizen
+          description:
+            - This presentation will introduce listeners to the subject of Web Runtime and give a brief outline of its history, including past and current standards and their implementations. It will also try to highlight the differences between web runtimes and regular web browsers and present the ongoing effort of developing new standards to enable feature rich and secure applications. 
+        10-00: 
+          id: 149
+          duration: 60
+          type: talk
+          speaker: Attila_Csipa
+          title: Developing for the Nokia Asha Software Platform
+          description:
+            - An introduction to the Nokia Asha Software platform, starting with it's history, status and heading. An overview of the new user experience paradigm and the available development technologies to leverage it. Porting advices for developers coming from other platforms
+        11-00:
+          id: 150
+          duration: 15
+          type: break   
+        11-15: 
+          id: 151
+          duration: 60
+          type: talk
+          speaker: 
+            - Michal_Knapinski
+            - Michal_Pawluk
+          title: Accessibility solution for Tizen
+          description:  
+            - Newly born, but half – matured mobile OS requires careful approach to design and development of accessibility solution. It can not violate existing technologies on the platform and moreover, must be transparent. Native frameworks, currently utilized on the platform, must not be altered, but it’s features expanded with accessibility. Thus, background, motivation, approach and benefits, of proposed accessibility solution for Tizen platform, are to be highlighted within this paper.
+            - Major part of lecture is to be occupied by presentation of Enlightenment Accessibility Implementation Library (EAIL) that provides accessibility functionality for Tizen platform. EAIL architecture, coverage of user interface and its events and finally appliance are to be shown during this session. 
+        18-30:
+          id: 152
+          duration: 15
+          type: See you next year!    
+    daysix:
+      id: 6
+      date: 2013-09-15
+      title: Sunday
+      header: Sunday, 15 September
+      type: workshop
+      agenda:
+        10-00:  
+          id: 153
+          duration: 480
+          type: workshop
+          title: Mobile app hackathon
+        18-00:  
+          id: 154
+          duration: 30
+          type: talk
+          title: Ogłoszenie wyników i rozdanie nagród
   venue:
     places:
       main:
