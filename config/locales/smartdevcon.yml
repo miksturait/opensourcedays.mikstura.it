@@ -272,7 +272,7 @@ smartdevcon:
       type: workshop
       agenda:
         09-00:
-          id: 129
+          id: 123
           duration: 60
           type: talk
           speaker:
@@ -285,6 +285,36 @@ smartdevcon:
             - " - How micro-transactions may create new services and open new markets"
             - " - How the acceleration of transaction confirmation speed may affect our day-to-day routines"
             - " - The difference between Ripple and crypto-curiences like Bitcoin or Litecoin"
+        10-00:
+          id: 124
+          duration: 60
+          type: talk
+          speaker: Marek_Suppa
+          title: How smart devices shape the world of robotics
+          description:  
+            - I believe many would agree that smart devices open up a huge amount of use cases, possibilities and opportunities. Now what do you think will happen if you combine a smart device with a machine whose name implies that it should be helpful to man? The only logical thing.
+            - Revolution.
+            - I am willing to state that this revolution is happening right now and we are part of it. In this talk I'd like to discuss how smart devices have changed the world of robotics, how they helped to make robots more personal and what they can do in the future. If time permits I'd also like to put my robot where my mouth is. 
+        11-00:
+          id: 125
+          duration: 15
+          type: break
+        11-15:
+          id: 126
+          duration: 60
+          type: talk
+          speaker: Jacek_Chmielewski
+          title: Fungible devices and ubiquitous apps
+          description:  
+            - In economics, the term ‘fungible’ is used to describe different products/services that are functionally equal. Current mobile devices are not fungible and almost all responsive web and cross-platform development efforts are aimed at this problem. Developers have to choose between web and native solutions, optimized web sites vs responsive website, native apps vs hybrid/cross-platform app, etc. Imagine you could implement a single version of an application using programming language and execution environment of your choice, and be able to make it available on ANY mobile device, maintaining access to device advanced hardware features and holding full control over the UI. I would like to give you an insight into the current research in this area, which could bring us the ability to build not only rich cross-platform applications, but truly ubiquitous applications! 
+        12-15:
+          id: 127
+          duration: 60
+          type: talk
+          speaker: Stepan_Bechynsky
+          title: How-to connect mobile device to external sensors
+          description:
+            - You can connect almost any sensor to your mobile phone using Bluetooth. You will see how to build external device for your mobile phone using open software and hardware platform .NET Micro Framework. You will see some practical usage and results from Czech Republic.
   venue:
     places:
       main:
