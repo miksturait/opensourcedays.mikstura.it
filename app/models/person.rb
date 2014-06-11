@@ -25,8 +25,12 @@ class Person < Struct.new(:key)
         title: title,
         first_name: first_name,
         last_name: last_name,
-        description_paragraphs: [description],
+        description_paragraphs: flatten_description,
     }
+  end
+
+  def flatten_description
+    [description].flatten
   end
 
   def avatar_url
