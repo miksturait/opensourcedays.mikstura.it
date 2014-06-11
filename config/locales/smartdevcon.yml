@@ -401,7 +401,7 @@ smartdevcon:
           id: 140
           duration: 60
           type: talk
-          speaker: Vesa-Matti_Hartikainen
+          speaker: Vesa_Matti_Hartikainen
           title: Developing applications for Jolla's Sailfish OS
           description: 
             - The workshop shows how to get started in developing applications for Jolla's Sailfish OS. The presentation introduces the basic structure of the platform, shows main UI concepts, and presents the main APIs. The presentation shows hands-on how to get started in creating beautiful applications for Jolla devices using Sailfish Silica UI components, Qt5, and Sailfish OS SDK. 
@@ -430,7 +430,30 @@ smartdevcon:
        16-15:
           id: 144
           duration: 15
-          type: break     
+          type: break 
+       16-30:
+          id: 145
+          duration: 60
+          type: talk
+          speaker: Jonathan_Lipps
+          title: Appium: Mobile Automation Made Awesome
+          description: 
+            - The tools and practices refined over the last decade by web developers have not crossed over easily into the mobile community. Mobile devs have been without tools like continuous integration and automated testing, which enable delivery of high-quality apps more rapidly. A key piece of the solution for mobile is Appium, an open-source, cross-platform, language-agnostic mobile automation framework you can use to write automated UI tests for Android and iOS apps (native, hybrid, web), to be run on emulators or devices.
+            - In this talk we will explore the philosophy that underlies the work behind Appium, in essence justifying Appium's existence vis a vis other mobile automation tools that exist. Appium's open-source community is another important aspect of this section, and I'll highlight the community's diversity, activity, and friendliness.
+            - After a brief explanation of the technology that powers Appium, we'll move into the technical portion of the talk, where attendees will learn how to write Appium scripts using the WebDriver protocol in their favorite language. We'll showcase a UI test for a sample app, and show how easy it is to integrate that test into a CI system using some Selenium infrastructure (like Selenium Grid or Sauce Labs). Ultimately, attendees will be given motivation for moving from manual QA to automated testing, understanding of the mobile automation landscape, and a solid introduction to Appium, which I consider to be the most promising solution for mobile automation.
+       17-30:
+          id: 146
+          duration: 60
+          type: talk
+          speaker: Wojciech_Bielawski
+          title: Appium: HTML5 Features
+          description:  
+            - One of the most widespread technologies in our times is HTML. Until recently it was penurious in multimedia support. Since HTML5 introduction the new era has started. Nowadays web pages/applications have potential almost like native applications have.
+            - HTML5 standard has been proposed by W3C as a candidate recommendation since December 2012. However it is strongly supported by most of (if not all) common web browsers right now. Tizen's implementation is one of the most consistent with recent W3C recommendations. 
+      18-30:
+          id: 147
+          duration: 15
+          type: See you next year!    
   venue:
     places:
       main:
