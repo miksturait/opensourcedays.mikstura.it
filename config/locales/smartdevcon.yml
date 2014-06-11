@@ -102,6 +102,28 @@ smartdevcon:
           description:
             - The talk will present the Tizen operating system, its architecture as well as the development model.
             - What are Tizen differentiators. A comparison with other common operating systems will be presented to show possible applications of Tizen and opportunities it brings for both system and application developers. Open source development model for Tizen has been chosen.
+        11-45:
+          id: 104
+          duration: 30
+          type: break
+        12-15:
+          id: 105
+          duration: 90
+          type: talk
+          speaker: Rafal_Czuprynski
+          title: Microsoft Windows Phone app development from zero to hero
+          description: <HowTo> design and write your first WP App debug and test your app use Azure mobile Services in your apps discover the full potential of WP write one app for WP and Windows 8 </HowTo> Feel free to join the presentation about Windows Phone app development. You’re more than welcome! 
+        13-45:
+          id: 106
+          duration: 60
+          type: lunch break
+        10-45:
+          id: 107
+          duration: 60
+          type: talk
+          speaker: Holger_Bartel
+          title: 180 Degrees East
+          description: For most of the tech world, the Asian market is the new frontier – the region of fast growth and opportunity. A large part of the web world currently seems to evolve around the West, most cutting edge design & technology originates from the US and Europe, whereas the actual user base is spread all over the world and those rather unknown or developing regions offer huge opportunities and potential for growth, especially Asia and its mobile market. My talk will give some insight on the Asian mobile web market, look at mobile & web statistics and user behaviour in comparison to the western world, cultural differences and personal as well as general challenges and pitfalls that I (and others) have encountered along the way. 
     daytwo:
       id: 2
       date: 2013-09-13
