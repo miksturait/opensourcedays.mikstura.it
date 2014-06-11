@@ -200,6 +200,70 @@ smartdevcon:
           title: Dark Side of iOS
           description: 
             - A workshop about the "dark side" of iOS, Objective-C and Xcode. Discussion about private API, why Apple doesn't want you to use it and how they enforce that. What information can you extract from a compiled binary? Let's take a look at the possibilities of reverse engineering including demos and showcases.
+        12-15:
+          id: 116
+          duration: 60
+          type: talk
+          speaker: Michal_Jankowski  
+          title: Gamification in mobile world
+          description: 
+            - Do you know what gamification means? This old idea has got new strength together with smartphones and tablets market grow. Those two devices have changed the way how the world’s largest companies are trying to reach users. The world of TV, radio and even billboard advertisement is decreasing step by step. Right now the share of those three channels are being slowly taken by mobile applications that are installed on our devices. Your smartphone will tell you when you should change an oil in your car, what ingredients you need to buy for your favourite dinner, and so on.... 
+            - Do not you like ads? So maybe something else... Do you want to find out what should you do to make your application successful? 
+            - The key for that is to get to know idea of gamification better. During this speech you will be able to learn how to combine techniques known from games with your applications. You should remember that not only the main features are important. You should provide entertainment to users of yours’ applications. 
+            - After this lecture you will able to do this. During this speech compressed dose of theory will be presented in an accessible way together with huge number of examples. 
+        13-15:
+          id: 117
+          duration: 60
+          type: lunch break  
+        14-15:
+          id: 118
+          duration: 60
+          type: talk
+          speaker: Piotr_Zalewa 
+          title: Developing for FirefoxOS
+          description:
+            - I will talk about overall development for Firefox OS. I will cover architecture basics, application development itself, submission process and payment API.
+        15-15:
+          id: 119
+          duration: 60
+          type: talk
+          speaker: Kamil_Grondys 
+          title: Creating a Tizen Application
+          description: 
+            - The Tizen SDK is a comprehensive set of tools for developing Tizen Web applications. It consists of Web IDE, Emulator, toolchain, sample code, and documentation. Tizen Web API Overview and Native API Overview will be presented.
+            - Tizen Web applications may be developed without relying on an official Tizen IDE, as long as the application complies with Tizen packaging rules.
+        16-15:
+          id: 120
+          duration: 15
+          type: break
+        16-30:
+          id: 121
+          duration: 60
+          type: talk
+          speaker:
+            - Jacek_Serafinski
+            - Piotr_Szczechowiak
+          title: Delivering In-vehicle infotainment system based on Tizen and Ford's SmartDeviceLink
+          description: 
+            - During recent years car manufacturers identified added value for their business models in leveraging mobile connectivity and computation. The idea of smartphone as a main component of the car emerged and various auto makers including Ford and GM opened their environment by providing API not only for usual partners, but also for 3rd party developers willing to provide their own applications for in-car use. The idea of standardized On-board unit drove Samsung, Intel and several supporting entities to build Tizen, an open mobile platform for which In-vehicle infotainment system is one of target use cases.
+            - In this presentation I would like to introduce Tizen SDK and Ford's SmartDeviceLink by showing the production process of HTML5 based application for in-car use which takes advantage of target on-board screen, buttons and server in the backend.
+            - The presentation will consist of three parts:
+              - automotive trends and technology survey
+              - Introduction of Tizen SDK and SmartDeviceLink
+              - Application development for Tizen IVI (complete process for sample application) 
+        17-30:
+          id: 122
+          duration: 60
+          type: talk
+          speaker: Michal_Sawicz
+          title: Ubuntu Touch Q&A
+          description: 
+            - I would like to present an update / introduction to what Ubuntu Touch was, is now, and what it aims to be. I expect at least half of the session time to be a Q&A session, as there's so many components that it only feels right to fulfil the audience's expectations. 
+        21-00:
+          id: 122
+          duration: 60
+          type: afterparty
+          description: CLUBBING NA MARIACKIEJ
     daythree:
       id: 3
       date: 2013-09-13
