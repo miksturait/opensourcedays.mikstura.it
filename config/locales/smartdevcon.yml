@@ -618,3 +618,80 @@ smartdevcon:
       title: SSE @ conc.pt
       description:
         - Wojciech Ziniewicz is Senior System Engineer at Concept conc.pt - I'm passionate about automation, volatality, big data and complex dynamical systems.
+    Holger_Bartel:
+      id: 45
+      name: Holger Bartel
+      description:
+        - My name is Holger and I am a digital strategist and web designer/developer, living in Hong Kong where I opened an office in 2009, after co-founding uforepublic in Germany in 2001. I now mostly work as a freelance consultant and developer, being passionate about bringing the latest in web technologies to Asia and to build awareness for a future-friendly & standards-based web. I also founded and run the Open Device Lab HK. 
+    Michal_Knapinski:
+      id: 46
+      name: Michał Knapiński
+      description: 
+        - Comarch employee for over 7 year.Involved in linux based projects including Maemo and MeeGo. Mainly focused on software quality assurance and continuous improvement. Currently, Tizen accessibility project leader. 
+    Michal_Pawluk:
+      id: 47
+      name: Michal Pawluk
+      description:
+        - Michał Pawluk has joined Samsung in 2012. Initially he was taking a part in a team working on Tizen Native C API maintenance and improvement project. Currently he leads Tizen accessibility project in cooperation with Comarch corporation. 
+    Jonathan_Lipps:
+      id: 48
+      name: Jonathan Lipps
+      description:
+        - Jonathan Lipps has been making things out of code as long as he can remember. He currently works as Senior Software Developer for Sauce Labs, which enables him to write code for various open-source projects, like Appium (for which he's the primary architect and lead contributor). Jonathan has worked as a programmer in the startup world on and off for over a decade, but is also passionate about academic discussion. Jonathan has master's degrees in philosophy and linguistics, from Stanford and Oxford respectively. Living in San Francisco, he's an avid homebrewer, rock climber, and writer on topics he considers vital, like the relationship of technology to what it means to be human.
+    Lukasz_Dierzak:
+      id: 49
+      name: Łukasz Dierzak
+      description:
+        - Student, blogger, new technology enthusiast, loves HTML5 and Javascript. Bachelor of Science in Biomedical Engineering at University of Silesia, student of M.Sc. studies in Informatics at University of Silesia. Started developing webOS applications in 2009, then started developing using WebWorks for BlackBerry devices and BlackBerry Playbook. Creator of Package Tracking and Children's Piano apps. BlackBerry Developer Evangelist. 
+    Mateusz_Herych:
+      id: 50
+      name: Mateusz Herych
+      description:
+        - Mateusz is an organizer of several events related to Android and mobile (cracow.mobi, KrakDroid, Android Tech Talks). He is also known from its speeches that he gave at several conferences, like SmartDevCon or Mobilization. Working as an Android Developer at Base, where he is developing the first CRM system built for people. 
+    Jakub_Duda:
+      id: 51
+      name: Jakub Duda
+      description:
+        - I am Incuvo co-founder, programmer, designer and entrepreneur. Previously I have created, bootstrapped and exited gaming start-up. I have also lead console development studio for one of Poland's leading game developers, delivering titles for Nintendo (DS, Wii), Sony (PS3), XBox 360 and PC platforms. 
+    Kamil_Grondys:
+      id: 52
+      name: Kamil Grondys
+      description: Kamil is a tech. evangelist and part leader at Samsung Developer Relations group. Experienced in web/mobile applications development. 
+    Kuba_Brecka:
+      id: 53
+      name: Kuba Břečka
+      description:
+        - I am a software developer from Czech Republic, currently focusing on iOS and Objective-C. I am interested in many areas of IT, including security, compilers and binary analysis. 
+    Jacek_Serafinski:
+      id: 54
+      name: Jacek Serafiński
+      description: 
+        - Senior Research Scientist and co-owner of Zylia Sp. z o.o. working in Carmesh project. Working with novel automotive technologies, creating visual UIs and middleware for automotive services and applications. 
+    Piotr_Szczechowiak:
+      id: 55
+      name: Piotr Szczechowiak
+      description:
+        - Piotr is a co-owner of Zylia Sp. z o.o. and Marie Curie research fellow working in EU FP7 IAPP project Carmesh. Piotr did his PhD in Electronic Engineering at Dublin City University Ireland in 2010 and has more than 7 years of experience in the area of embedded systems and software. His main interest cover mobile computing, vehicular communications, smart cities and internet of things.
+    Vesa_Matti_Hartikainen:
+      id: 56
+      name: Vesa-Matti Hartikainen
+      description:
+        - Vesa-Matti Hartikainen is an experienced mobile device developer. Latest years he has worked on developing frameworks and applications for Linux based mobile operating systems such as MeeGo, and Sailfish OS. Currently he is an engineer at Jolla, and develops Sailfish OS core applications, and the operating system. 
+    Attila_Csipa:
+      id: 57
+      name: Attila Csipa
+      description:
+        - A Technology Wizard in Nokia's Developer Relations unit, Attila has been developing and contributing code for a number of Open Source projects and promoting Nokia platforms around the world, currently evangelizing the New Asha Software Platform 
+    Matti_Pakarinen:
+      id: 58
+      name: Matti Pakarinen
+      description:
+        - Matti is MsC CS and Senior sales director at Symphony Teleca Software service company, having extensive background on different R&D roles and partnership offerings and sales. 
+    
+      
+      
+      
+      
+      
+      
+      
