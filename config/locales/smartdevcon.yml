@@ -687,6 +687,88 @@ smartdevcon:
       name: Matti Pakarinen
       description:
         - Matti is MsC CS and Senior sales director at Symphony Teleca Software service company, having extensive background on different R&D roles and partnership offerings and sales. 
+    Piotr_Zalewa:
+      id: 59
+      name: Piotr Zalewa
+      description:
+        - Senior Web Developer at Mozilla, involved in projects around web apps universum. Piotr is also the Founder of JSFiddle. He's a dedicated family man, in the free time he's hunting for vinyl records. 
+    Jacek_Chmielewski:
+      id: 60
+      name: Jacek Chmielewski
+      description:
+        - By day I am an Assistant Professor at Department of Information Technology, Poznan University of Economics. By night I do freelance jobs as a mobile and Internet solutions architect. My current interests are focused on device-independent applications and multi-device applications. I am leading research projects for companies such as ABB Corporate Research and Santander Group and I run courses related to mobile technology, programming, and Internet of Things/Internet of Services. 
+    Wojciech_Bielawski:
+      id: 61
+      name: Wojciech Bielawski
+      description:
+        - Wojciech Bielawski is a senior developer at Samsung Electronics. He is interested in everything connected with web technologies. For several years he was involved in web runtime engine development. Currently focuses on web engines. 
+    Michal_Jankowski:
+      id: 62
+      name: Michał Jankowski
+      description:
+        - Developer, designer and sometimes an architect. He began programming over 15 years ago starting from Basic and Assembler for 8-bit computers. For over 8-years he is creating applications for .net platform for the world’s largest companies. From the beginning he is Windows Phone platform passionate. Applications he has created are the most downloaded and highest rated app in Polish Windows Phone Store. In free time – passionate blogger - Zawód.Programista.NET(). 
+    Marek_Suppa:
+      id: 63
+      name: Marek Šuppa 
+      description:
+        - For the past few years I've been playing with (kind of) smart machines which are pretentiously called robots in some parts of the world. Right now I'm leading a robotic football team, building tools to help others start with robots and setting off for a new venture to see how far will the current technology let us forward to the goal of creating a robot as it was first defined. 
+    Stepan_Bechynsky:
+      id: 64
+      name: Štěpán Bechynský
+      description:
+        - I like to build gadgets running .NET Micro Framework, 3D printing with my Prusa Mendel i3 printer, cooking and speaking on conferences around Europe.
+    Petr_Dvorak:
+      id: 65
+      name: Petr Dvořák'
+      description:
+        - Petr Dvorak is partner and mobile technologies advisor at Inmite company. Currently he spends most of his time to build mobile strategies for leading Czech financial institutions. His responsibilities also include technical assistance at iOS development, architectural design of complex mobile solutions and mobile security consultancy. Prior his employment at Inmite company he was developer of NetBeans at Sun Microsystems company. Peter has graduated at Charles University in Prague, field software engineering. 
+    Ravi_Vyas:
+      id: 66
+      name: Ravi Vyas
+      description:
+        - Ravi Vyas drives Developer Products at Vserv.mobi and has over 7 years of experience in the IT / Mobile industry. A mobile evangelist at heart Ravi, he has worked in various fields including development, marketing, management and teaching. Ravi holds a Masters degree in Computer Science from Florida State University and is also the Co-Organizer of the Bangalore Android User Group, the largest Android group outside USA.
+    Magdalena_Kubisa:
+      id: 67
+      name: Magdalena Kubisa
+      description:
+        - Magdalena Kubisa, New Services Development Team Manager at Play (P4 Sp. z o. o.), involved in different projects with mobile applications' developers, delivering business perspective on creating of monetization ecosystem based on operator charging capabilities. Magdalena has been working in telco business for over ten years and during this time she has always been looking for the most innovative areas. She is also a passionate traveller and tchoukball player. 
+    Michal_Ajduk:
+      id: 68
+      name: Michał Ajduk
+      description:
+        - Michał Ajduk is a mobile services and applications expert at P4 Sp. z o. o., currently involved in designing and implementing solutions enabling exposing network messaging and charging capabilities to the 3rd party partners. Michał has graduated Warsaw University of Technology, field Telecommunications. His interests include sailing, biking and embedded systems programming, especially Raspberry Pi. 
+    Jaroslaw_Staniek:
+      id: 69
+      name: Jarosław Staniek
+      description:
+        - Jarosław Staniek since 1998 he develops multiplatform applications using C++ and Qt. He has 10 years of experience in open source development, worked for Open Office Polska, and other open source and Qt-oriented companies. He is founder of KDE on Windows, co-founder of Qt for Tizen, and maintainer of the Calligra/Kexi project. Since 2008 he is also active in mobile/embedded development in Samsung Poland Research & Development Center. 
+    David_Greaves:
+      id: 70
+      name: David Greaves
+      description:
+        - David Greaves is one of the co-founders of the Mer Project where he focuses on systems and vendor relations. He currently works with Jolla so he knows for sure that Mer can deliver world-class devices. 
+    Boleslaw_Tekielski:
+      id: 71
+      name: Bolesław Tekielski
+      description:
+        - Technical teams coordinator @Transition Technologies S.A. with strong technical background, responsible for building and coordination of development teams, clients acquisition, business development and strategy. Working experience in variety of technologies, and variety of projects, ranging from large scale systems to small entertainment applications. 
+    Michal_Sawicz:
+      id: 72
+      name: Michał Sawicz 
+      description:
+        - I am involved in Linux and open source software for more than ten years, working with different projects - from websites through administration to UI.
+        - I have been employed at Canonical for two years, where since beginning I have been dealing with Ubuntu on devices different than desktop computers - TV, tablet and phone. For half a year I'm leading the team working on Unity version 8. 
+    Janusz_Majnert:
+      id: 73
+      name: Janusz Majnert
+      description:
+        - Janusz Majnert has joined Samsung in 2008 to work on what is now known as Tizen OS. He spent most of his time developing WebRuntime technologies and representing Samsung in various standards organizations. Currently he’sW3C WebApps and SysApps working groups member. 
+    Rafal_Czuprynski:
+      id: 74
+      name: Rafał Czupryński
+      description:
+        - Rafał Czupryński is Microsoft Technical Evangelist focused on Windows Phone, Windows, Kinect. He educates developers, partners, enthusiast, and community on Microsoft’s newest technologies.
+        - A passionate technology fan and user, dedicated especially to future technologies and game development. An out-of-the-box thinker, influencing people with silence and sound. 
     
       
       
