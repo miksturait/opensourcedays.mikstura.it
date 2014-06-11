@@ -367,6 +367,70 @@ smartdevcon:
       header: Saturday, 14 September
       type: presentation
       agenda:     
+        9-00:
+          id: 136
+          duration: 60
+          type: talk
+          speaker: Jakub_Duda
+          title: Can mobile users make games as easily as they create music and photos? Createrria case study
+          description: 
+            - In this talk I would like to discuss innovative technologies needed to "crack te code" of mobile game creation for casual users - from natural user interface based creation app to cross platform cloud backend.
+       10-00:
+          id: 137
+          duration: 60
+          type: talk
+          speaker: Ravi_Vyas
+          title: Monetization of Apps
+          description: 
+            - Monetization of Apps on a Mobile Platform can often come across as a challenge. The right monetization strategy goes beyond the basic question of Apps being paid or free. It depends on various factors like who your user is, the platform you are on etc. This talk will demystify the secrets of monetization of Apps.
+       11-00:
+          id: 138
+          duration: 15
+          type: break
+       11-15:
+          id: 139
+          duration: 60
+          type: talk
+          speaker: Jaroslaw_Staniek
+          title: Porting Qt to a new Smartphone for Fun and Fame
+          description:
+            - This presentation covers rarely discussed topics of porting Qt to a new smartphone platform. Goals, strategies, and technical challenges will be discussed.
+            - Qt is a cross-platform application framework that is widely used for developing application software with a graphical user interface. 
+            - Qt for Tizen is a community-driven port of Qt 5 to Tizen smartphones and possibly cars, tablets and notebooks. It brings the legendary programming experience of Qt to Tizen application developers. 
+       12-15:
+          id: 140
+          duration: 60
+          type: talk
+          speaker: Vesa-Matti_Hartikainen
+          title: Developing applications for Jolla's Sailfish OS
+          description: 
+            - The workshop shows how to get started in developing applications for Jolla's Sailfish OS. The presentation introduces the basic structure of the platform, shows main UI concepts, and presents the main APIs. The presentation shows hands-on how to get started in creating beautiful applications for Jolla devices using Sailfish Silica UI components, Qt5, and Sailfish OS SDK. 
+       13-15:
+          id: 141
+          duration: 60
+          type: lunch break
+       14-15:
+          id: 142
+          duration: 60
+          type: talk
+          speaker:
+            - Magdalena_Kubisa
+            - Michal_Ajduk
+          title: Play API
+          description:   
+            - How to use operators’ technical infrastructure to monetize mobile application? Introduction to Play API solution – business aspects, technical solution and examples. Play introduced “Play for future” – program for application developers to encourage innovation and support start-ups. Listen about our idea and check if you can take advantage of it! 
+       15-15:
+          id: 143
+          duration: 60
+          type: talk
+          speaker: Lukasz_Dierzak
+          title: BlackBerry Game Development
+          description:     
+            - You'd like to start developing games but you don't have idea how? You don't know which programming language will be the best or you are afraid that you won't be able to develop quality product? Attend this session and learn how to start your game development using Adobe Air, Unity 3D or HTML5.
+       16-15:
+          id: 144
+          duration: 15
+          type: break     
   venue:
     places:
       main:
