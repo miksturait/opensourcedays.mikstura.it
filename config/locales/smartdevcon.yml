@@ -30,9 +30,9 @@ smartdevcon:
         about: "About Us"
         refresh: "Refresh"
         listen: "Listen"
-      ios:
-      android:
-      wp:
+#      ios:
+#      android:
+#      wp:
     feedback_items:
       general:
         more:
@@ -50,9 +50,9 @@ smartdevcon:
           position: 3
           name: "Fix It"
           description: "Jeśli coś jest nie tak, daj nam znać postaramy się do poprawić"
-      ios:
-      android:
-      wp:
+#      ios:
+#      android:
+#      wp:
   schedule:
     registration:
       header: Registration
@@ -360,20 +360,20 @@ smartdevcon:
           duration: 60
           type: afterparty
           description: CLUBBING NA MARIACKIEJ
-     dayfour:
+    dayfour:
       id: 4
       date: 2013-09-14
       title: Saturday
       header: Saturday, 14 September
       type: presentation
-      agenda:     
+      agenda:
         09-00:
           id: 136
           duration: 60
           type: talk
           speaker: Jakub_Duda
           title: Can mobile users make games as easily as they create music and photos? Createrria case study
-          description: 
+          description:
            - In this talk I would like to discuss innovative technologies needed to "crack te code" of mobile game creation for casual users - from natural user interface based creation app to cross platform cloud backend.
         10-00:
           id: 137
@@ -381,7 +381,7 @@ smartdevcon:
           type: talk
           speaker: Ravi_Vyas
           title: Monetization of Apps
-          description: 
+          description:
             - Monetization of Apps on a Mobile Platform can often come across as a challenge. The right monetization strategy goes beyond the basic question of Apps being paid or free. It depends on various factors like who your user is, the platform you are on etc. This talk will demystify the secrets of monetization of Apps.
         11-00:
           id: 138
@@ -395,16 +395,16 @@ smartdevcon:
           title: Porting Qt to a new Smartphone for Fun and Fame
           description:
             - This presentation covers rarely discussed topics of porting Qt to a new smartphone platform. Goals, strategies, and technical challenges will be discussed.
-            - Qt is a cross-platform application framework that is widely used for developing application software with a graphical user interface. 
-            - Qt for Tizen is a community-driven port of Qt 5 to Tizen smartphones and possibly cars, tablets and notebooks. It brings the legendary programming experience of Qt to Tizen application developers. 
+            - Qt is a cross-platform application framework that is widely used for developing application software with a graphical user interface.
+            - Qt for Tizen is a community-driven port of Qt 5 to Tizen smartphones and possibly cars, tablets and notebooks. It brings the legendary programming experience of Qt to Tizen application developers.
         12-15:
           id: 140
           duration: 60
           type: workshop
           speaker: Vesa_Matti_Hartikainen
           title: Developing applications for Jolla's Sailfish OS
-          description: 
-            - The workshop shows how to get started in developing applications for Jolla's Sailfish OS. The presentation introduces the basic structure of the platform, shows main UI concepts, and presents the main APIs. The presentation shows hands-on how to get started in creating beautiful applications for Jolla devices using Sailfish Silica UI components, Qt5, and Sailfish OS SDK. 
+          description:
+            - The workshop shows how to get started in developing applications for Jolla's Sailfish OS. The presentation introduces the basic structure of the platform, shows main UI concepts, and presents the main APIs. The presentation shows hands-on how to get started in creating beautiful applications for Jolla devices using Sailfish Silica UI components, Qt5, and Sailfish OS SDK.
         13-15:
           id: 141
           duration: 60
@@ -417,27 +417,27 @@ smartdevcon:
             - Magdalena_Kubisa
             - Michal_Ajduk
           title: Play API
-          description:   
-            - How to use operators’ technical infrastructure to monetize mobile application? Introduction to Play API solution – business aspects, technical solution and examples. Play introduced “Play for future” – program for application developers to encourage innovation and support start-ups. Listen about our idea and check if you can take advantage of it! 
+          description:
+            - How to use operators’ technical infrastructure to monetize mobile application? Introduction to Play API solution – business aspects, technical solution and examples. Play introduced “Play for future” – program for application developers to encourage innovation and support start-ups. Listen about our idea and check if you can take advantage of it!
         15-15:
           id: 143
           duration: 60
           type: talk
           speaker: Lukasz_Dierzak
           title: BlackBerry Game Development
-          description:     
+          description:
             - You'd like to start developing games but you don't have idea how? You don't know which programming language will be the best or you are afraid that you won't be able to develop quality product? Attend this session and learn how to start your game development using Adobe Air, Unity 3D or HTML5.
         16-15:
           id: 144
           duration: 15
-          type: break 
+          type: break
         16-30:
           id: 145
           duration: 60
           type: talk
           speaker: Jonathan_Lipps
-          title: Appium: Mobile Automation Made Awesome
-          description: 
+          title: "Appium: Mobile Automation Made Awesome"
+          description:
             - The tools and practices refined over the last decade by web developers have not crossed over easily into the mobile community. Mobile devs have been without tools like continuous integration and automated testing, which enable delivery of high-quality apps more rapidly. A key piece of the solution for mobile is Appium, an open-source, cross-platform, language-agnostic mobile automation framework you can use to write automated UI tests for Android and iOS apps (native, hybrid, web), to be run on emulators or devices.
             - In this talk we will explore the philosophy that underlies the work behind Appium, in essence justifying Appium's existence vis a vis other mobile automation tools that exist. Appium's open-source community is another important aspect of this section, and I'll highlight the community's diversity, activity, and friendliness.
             - After a brief explanation of the technology that powers Appium, we'll move into the technical portion of the talk, where attendees will learn how to write Appium scripts using the WebDriver protocol in their favorite language. We'll showcase a UI test for a sample app, and show how easy it is to integrate that test into a CI system using some Selenium infrastructure (like Selenium Grid or Sauce Labs). Ultimately, attendees will be given motivation for moving from manual QA to automated testing, understanding of the mobile automation landscape, and a solid introduction to Appium, which I consider to be the most promising solution for mobile automation.
@@ -446,10 +446,10 @@ smartdevcon:
           duration: 60
           type: talk
           speaker: Wojciech_Bielawski
-          title: Appium: HTML5 Features
-          description:  
+          title: "Appium: HTML5 Features"
+          description:
             - One of the most widespread technologies in our times is HTML. Until recently it was penurious in multimedia support. Since HTML5 introduction the new era has started. Nowadays web pages/applications have potential almost like native applications have.
-            - HTML5 standard has been proposed by W3C as a candidate recommendation since December 2012. However it is strongly supported by most of (if not all) common web browsers right now. Tizen's implementation is one of the most consistent with recent W3C recommendations. 
+            - HTML5 standard has been proposed by W3C as a candidate recommendation since December 2012. However it is strongly supported by most of (if not all) common web browsers right now. Tizen's implementation is one of the most consistent with recent W3C recommendations.
         18-30:
           id: 147
           duration: 15
@@ -466,7 +466,7 @@ smartdevcon:
           duration: 60
           type: talk
           speaker: Janusz_Majnert
-          title: Appium: WebRuntime in Tizen
+          title: "Appium: WebRuntime in Tizen"
           description:
             - This presentation will introduce listeners to the subject of Web Runtime and give a brief outline of its history, including past and current standards and their implementations. It will also try to highlight the differences between web runtimes and regular web browsers and present the ongoing effort of developing new standards to enable feature rich and secure applications. 
         10-00: 
