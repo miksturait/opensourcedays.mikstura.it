@@ -124,7 +124,7 @@ smartdevcon:
         13-45:
           id: 106
           duration: 60
-          type: lunch break
+          type: lunch
         14-45:
           id: 107
           duration: 60
@@ -140,12 +140,12 @@ smartdevcon:
           type: talk
           speaker: David_Greaves
           title: Sailfish & Mer? Oh, no, not another one!
-          description: 
-            - "Are you asking "Does the market need yet another mobile OS?"Maybe you are interested in what makes it relevant to your device strategy? Or you want to understand (part of) how Jolla can deliver so quickly and efficiently? Of course this is a technology-rich area so you may like a high-level technical perspective."
+          description:
+            - "Are you asking 'Does the market need yet another mobile OS?' Maybe you are interested in what makes it relevant to your device strategy? Or you want to understand (part of) how Jolla can deliver so quickly and efficiently? Of course this is a technology-rich area so you may like a high-level technical perspective."
             - "There will be some background covering Mer's birth, the MeeGo years and how we now work in a truly collaborative and open project to make Mer productisable. The case in point is clearly how Jolla uses Mer in Sailfish."
-            - "Mer supports organisational collaboration; our vendor focus drove the design from the project structure through the architecture, the deliverables and the processes. We continuously ask "How will this decision affect vendors using our solution to make a product?"
+            - "Mer supports organisational collaboration; our vendor focus drove the design from the project structure through the architecture, the deliverables and the processes. We continuously ask 'How will this decision affect vendors using our solution to make a product?'"
             - "Mer delivers a world-class platform for building products: after all, it's an ultra-modern Linux stack with a strong upstream focus that partners with Qt, a world-class graphical framework; it rocks!"
-            - "I'll explain why "code is not enough"; what else we deliver and how we ensure that the code, policies and processes you use, and tell your partners or customers to use, are up to the job."
+            - "I'll explain why 'code is not enough'; what else we deliver and how we ensure that the code, policies and processes you use, and tell your partners or customers to use, are up to the job."
         16-45:
           id: 109
           duration: 15
@@ -177,9 +177,9 @@ smartdevcon:
           speaker: Oytun_Eren_Sengul
           title: Tizen, Firefox OS and the Future of Android
           description:
-           - Lots of smart machines, with different operating systems. Lots of smartphones but different development environments. But don't you want to control every single devices as much as possible with just single smartphone.
-           - We need to control everything but today it is not possible OR maybe it will! Today's biggest ecosystems are inventing on new web based world. Providers trying to add more HTML5 and other web based solutions into their OS. Also new OS coming with all modern web functions like Tizen and Firefox OS. At the same time, biggest mobile ecosystem provider keeps developing another web based OS and there is nothing can stop them to adopt it to mobile. All these different companies and ecosystems are coming together only in 2 topic. Web and Linux.
-           - Oytun Sengul will review architectures and predict future of mobile technologies with development and new Linux kernel prospect.
+            - Lots of smart machines, with different operating systems. Lots of smartphones but different development environments. But don't you want to control every single devices as much as possible with just single smartphone.
+            - We need to control everything but today it is not possible OR maybe it will! Today's biggest ecosystems are inventing on new web based world. Providers trying to add more HTML5 and other web based solutions into their OS. Also new OS coming with all modern web functions like Tizen and Firefox OS. At the same time, biggest mobile ecosystem provider keeps developing another web based OS and there is nothing can stop them to adopt it to mobile. All these different companies and ecosystems are coming together only in 2 topic. Web and Linux.
+            - Oytun Sengul will review architectures and predict future of mobile technologies with development and new Linux kernel prospect.
         10-00:
           id: 113
           duration: 60
@@ -374,7 +374,7 @@ smartdevcon:
           speaker: Jakub_Duda
           title: Can mobile users make games as easily as they create music and photos? Createrria case study
           description:
-           - In this talk I would like to discuss innovative technologies needed to "crack te code" of mobile game creation for casual users - from natural user interface based creation app to cross platform cloud backend.
+            - In this talk I would like to discuss innovative technologies needed to "crack te code" of mobile game creation for casual users - from natural user interface based creation app to cross platform cloud backend.
         10-00:
           id: 137
           duration: 60
@@ -501,7 +501,7 @@ smartdevcon:
       date: 2013-09-15
       title: Sunday
       header: Sunday, 15 September
-      type: workshop
+      type: presentation
       agenda:
         10-00:  
           id: 153
