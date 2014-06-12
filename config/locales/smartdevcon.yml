@@ -141,11 +141,11 @@ smartdevcon:
           speaker: David_Greaves
           title: Sailfish & Mer? Oh, no, not another one!
           description: 
-            - Are you asking "Does the market need yet another mobile OS?"Maybe you are interested in what makes it relevant to your device strategy? Or you want to understand (part of) how Jolla can deliver so quickly and efficiently? Of course this is a technology-rich area so you may like a high-level technical perspective. 
-            - There will be some background covering Mer's birth, the MeeGo years and how we now work in a truly collaborative and open project to make Mer productisable. The case in point is clearly how Jolla uses Mer in Sailfish. 
-            - Mer supports organisational collaboration; our vendor focus drove the design from the project structure through the architecture, the deliverables and the processes. We continuously ask "How will this decision affect vendors using our solution to make a product?" 
-            - Mer delivers a world-class platform for building products: after all, it's an ultra-modern Linux stack with a strong upstream focus that partners with Qt, a world-class graphical framework; it rocks! 
-            - I'll explain why "code is not enough"; what else we deliver and how we ensure that the code, policies and processes you use, and tell your partners or customers to use, are up to the job.
+            - "Are you asking "Does the market need yet another mobile OS?"Maybe you are interested in what makes it relevant to your device strategy? Or you want to understand (part of) how Jolla can deliver so quickly and efficiently? Of course this is a technology-rich area so you may like a high-level technical perspective."
+            - "There will be some background covering Mer's birth, the MeeGo years and how we now work in a truly collaborative and open project to make Mer productisable. The case in point is clearly how Jolla uses Mer in Sailfish."
+            - "Mer supports organisational collaboration; our vendor focus drove the design from the project structure through the architecture, the deliverables and the processes. We continuously ask "How will this decision affect vendors using our solution to make a product?"
+            - "Mer delivers a world-class platform for building products: after all, it's an ultra-modern Linux stack with a strong upstream focus that partners with Qt, a world-class graphical framework; it rocks!"
+            - "I'll explain why "code is not enough"; what else we deliver and how we ensure that the code, policies and processes you use, and tell your partners or customers to use, are up to the job."
         16-45:
           id: 109
           duration: 15
@@ -245,12 +245,12 @@ smartdevcon:
             - Piotr_Szczechowiak
           title: Delivering In-vehicle infotainment system based on Tizen and Ford's SmartDeviceLink
           description: 
-            - During recent years car manufacturers identified added value for their business models in leveraging mobile connectivity and computation. The idea of smartphone as a main component of the car emerged and various auto makers including Ford and GM opened their environment by providing API not only for usual partners, but also for 3rd party developers willing to provide their own applications for in-car use. The idea of standardized On-board unit drove Samsung, Intel and several supporting entities to build Tizen, an open mobile platform for which In-vehicle infotainment system is one of target use cases.
-            - In this presentation I would like to introduce Tizen SDK and Ford's SmartDeviceLink by showing the production process of HTML5 based application for in-car use which takes advantage of target on-board screen, buttons and server in the backend.
-            - The presentation will consist of three parts:
-              - automotive trends and technology survey
-              - Introduction of Tizen SDK and SmartDeviceLink
-              - Application development for Tizen IVI (complete process for sample application) 
+            - "During recent years car manufacturers identified added value for their business models in leveraging mobile connectivity and computation. The idea of smartphone as a main component of the car emerged and various auto makers including Ford and GM opened their environment by providing API not only for usual partners, but also for 3rd party developers willing to provide their own applications for in-car use. The idea of standardized On-board unit drove Samsung, Intel and several supporting entities to build Tizen, an open mobile platform for which In-vehicle infotainment system is one of target use cases."
+            - "In this presentation I would like to introduce Tizen SDK and Ford's SmartDeviceLink by showing the production process of HTML5 based application for in-car use which takes advantage of target on-board screen, buttons and server in the backend."
+            - "The presentation will consist of three parts:"
+            - " => automotive trends and technology survey"
+            - " => Introduction of Tizen SDK and SmartDeviceLink"
+            - " => Application development for Tizen IVI (complete process for sample application)"
         17-30:
           id: 122
           duration: 60
