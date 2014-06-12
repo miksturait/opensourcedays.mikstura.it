@@ -77,7 +77,6 @@ smartdevcon:
       description: ' '
     party:
       header: afterparty
-      description: 'ul. Rynek 1, Bielsko-Biała 43-300'
     dayone:
       id: 1
       date: 2013-09-12
@@ -161,7 +160,7 @@ smartdevcon:
             - This talk does not contain any code. It's a quick overview of the possibilities that the Android platform offers you to serve your users the best experience.
         20-00:
           id: 111
-          type: afterparty
+          type: party
           description: IMPREZA INTEGRACYJNA W KLUBIE 2B3 
     daytwo:
       id: 2
@@ -214,7 +213,7 @@ smartdevcon:
         13-15:
           id: 117
           duration: 60
-          type: lunch break  
+          type: lunch
         14-15:
           id: 118
           duration: 60
@@ -262,7 +261,7 @@ smartdevcon:
         21-00:
           id: 123
           duration: 60
-          type: afterparty
+          type: party
           description: CLUBBING NA MARIACKIEJ
     daythree:
       id: 3
@@ -318,7 +317,7 @@ smartdevcon:
         13-15:
           id: 129
           duration: 60
-          type: lunch break
+          type: lunch
         14-15:
           id: 130
           duration: 60
@@ -358,7 +357,7 @@ smartdevcon:
         21-00:
           id: 135
           duration: 60
-          type: afterparty
+          type: party
           description: CLUBBING NA MARIACKIEJ
     dayfour:
       id: 4
@@ -408,7 +407,7 @@ smartdevcon:
         13-15:
           id: 141
           duration: 60
-          type: lunch break
+          type: lunch
         14-15:
           id: 142
           duration: 60
