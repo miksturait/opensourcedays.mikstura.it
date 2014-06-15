@@ -77,6 +77,9 @@ smartdevcon:
       description: ' '
     party:
       header: afterparty
+    hackathon_winners:
+      header: WINNERS & PRIZES
+      description: ' '
     dayone:
       id: 1
       date: 2013-09-12
@@ -194,7 +197,7 @@ smartdevcon:
         11-15:
           id: 115
           duration: 60
-          type: workshop
+          type: talk
           speaker: Kuba_Brecka
           title: Dark Side of iOS
           description: 
@@ -399,7 +402,7 @@ smartdevcon:
         12-15:
           id: 140
           duration: 60
-          type: workshop
+          type: talk
           speaker: Vesa_Matti_Hartikainen
           title: Developing applications for Jolla's Sailfish OS
           description:
@@ -452,7 +455,7 @@ smartdevcon:
         18-30:
           id: 147
           duration: 15
-          type: See you next year!
+          type: bye
     dayfive:
       id: 5
       date: 2013-09-14
@@ -491,10 +494,6 @@ smartdevcon:
           description:  
             - Newly born, but half – matured mobile OS requires careful approach to design and development of accessibility solution. It can not violate existing technologies on the platform and moreover, must be transparent. Native frameworks, currently utilized on the platform, must not be altered, but it’s features expanded with accessibility. Thus, background, motivation, approach and benefits, of proposed accessibility solution for Tizen platform, are to be highlighted within this paper.
             - Major part of lecture is to be occupied by presentation of Enlightenment Accessibility Implementation Library (EAIL) that provides accessibility functionality for Tizen platform. EAIL architecture, coverage of user interface and its events and finally appliance are to be shown during this session. 
-        18-30:
-          id: 152
-          duration: 15
-          type: See you next year!    
     daysix:
       id: 6
       date: 2013-09-15
@@ -505,13 +504,16 @@ smartdevcon:
         10-00:  
           id: 153
           duration: 480
-          type: workshop
+          type: talk
           title: Mobile app hackathon
+          description:
+            - "You are free to choose your preferred platform of choice but we encourage you to try the new platforms that were presented in the conference, like Jolla's SailFish OS, Samsung's Tizen, BlackBerry's BB10 or Firefox OS."
+            - "The platform of choice will not affect the score of your application, but we think this is a great opportunity to get hands-on experience with these exciting new platforms. There are experts among the organizers who can help you with issues you might encounter on the way."
+            - "You can participate in teams of two or alone. The score one-man-show is intended to compensate for the disadvantages of one-man teams."
         18-00:  
           id: 154
           duration: 30
-          type: talk
-          title: Ogłoszenie wyników i rozdanie nagród
+          type: hackathon_winners
   venue:
     places:
       main:
