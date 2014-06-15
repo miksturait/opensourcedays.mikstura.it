@@ -1,6 +1,11 @@
-# Picture::MakeCircles.new('/Users/michalczyz/projects/mikstura.it/opensourcedays.mikstura.it/public/assets/speakers', '/Users/michalczyz/projects/mikstura.it/opensourcedays.mikstura.it/public/assets/speakers_ellipse', /.*\.jpg/)
 module Picture
   class MakeCircles < Struct.new(:original_dir, :dest_dir, :pattern)
+    def self.for_all
+      source_path = Rails.root.join('public/assets/speakers')
+      dest_path = Rails.root.join('public/assets/speakers_ellipse')
+      new(source_path, dest_path, /.*\.jpg/)
+    end
+
     def process
       picture_files_list.map(&:convert)
     end
