@@ -20,7 +20,7 @@ class ApiInfo::Schedule
     private
 
     def collect_talks
-      [:dayone, :daytwo, :daythree].to_enum(:each_with_index).collect do |day, position|
+      [:dayone, :daytwo, :daythree, :dayfour, :dayfive, :daysix].to_enum(:each_with_index).collect do |day, position|
         days_data.push({
                            id: t(:id, scope: [:schedule, day]),
                            position: position,
