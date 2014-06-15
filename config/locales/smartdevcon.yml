@@ -561,7 +561,7 @@ smartdevcon:
       website_url: http://selleo.com
       type: silver
       description: ' '
-    wacemo:
+    wecemo:
       id: 5
       position: 1
       partner_group_id: 3
@@ -585,7 +585,7 @@ smartdevcon:
       partner_group_id: 4
       website_url: http://www.linux.org.pl/
       description: ' '
-    iStream:
+    istream:
       id: 9
       position: 1
       partner_group_id: 2
@@ -640,7 +640,7 @@ smartdevcon:
       partner_group_id: 4
       website_url: http://www.openmobility.cz/en/
       description: ' '
-    Software_Developer's_Journal:
+    sdj:
       id: 17
       position: 3
       partner_group_id: 1
