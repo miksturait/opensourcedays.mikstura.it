@@ -561,7 +561,7 @@ smartdevcon:
       website_url: http://selleo.com
       type: silver
       description: ' '
-    wecemo:
+    wecamo:
       id: 5
       position: 1
       partner_group_id: 3
