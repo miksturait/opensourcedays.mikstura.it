@@ -549,7 +549,7 @@ smartdevcon:
       description: ' '
     jolla:
       id: 3
-      position: 3
+      position: 2
       partner_group_id: 2
       website_url: http://jolla.com/
       type: platinium
@@ -601,21 +601,21 @@ smartdevcon:
       description: ' ' 
     blackberry:
       id: 11
-      position: 4
+      position: 2
       partner_group_id: 2
       website_url: http://global.blackberry.com/sites.html?
       type: platinium
       description: ' '
     play:
       id: 12
-      position: 1
+      position: 3
       partner_group_id: 2
       website_url: http://www.play.pl/klienci-play.html
       type: gold
       description: ' '
     vserv_mobi:
       id: 13
-      position: 2
+      position: 3
       partner_group_id: 2
       website_url: http://www.vserv.mobi/
       type: gold
@@ -629,7 +629,7 @@ smartdevcon:
       description: ' '
     foxy_apps:
       id: 15
-      position: 1
+      position: 4
       partner_group_id: 2
       website_url: http://foxyapps.pl/
       type: silver

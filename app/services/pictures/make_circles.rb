@@ -1,4 +1,4 @@
-module Picture
+module Pictures
   class MakeCircles < Struct.new(:original_dir, :dest_dir, :pattern)
     def self.for_all
       source_path = Rails.root.join('public/assets/speakers')
