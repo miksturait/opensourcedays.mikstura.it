@@ -1,0 +1,158 @@
+!!!
+%html{ lang:'en'}
+  %head
+
+    %meta{charset:'utf-8'}
+    %meta{content:'IE=edge', 'http-equiv' => 'X-UA-Compatible'}
+    %meta{content:'width=device-width, initial-scale=1', name:'viewport'}
+    %meta{content:'', name:'description'}
+    %meta{content:'', name:'author'}/
+
+    %title DWO2015
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
+    = javascript_include_tag 'application', 'data-turbolinks-track' => true
+    = csrf_meta_tags
+    /[if lt IE 9]
+      <script src='https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js'></script>
+      <script src='https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js'></script>
+
+  %body#page-top.index
+
+    %nav.navbar.navbar-default.navbar-fixed-top
+      .container
+        .navbar-header.page-scroll
+          %button.navbar-toggle{type:'button',  data: {toggle:'collapse', target:'#bs-example-navbar-collapse-1'}}
+            %span.sr-only Toggle navigation
+            %span.icon-bar
+            %span.icon-bar
+            %span.icon-bar
+          %a.navbar-brand{href:'#page-top'} DWO 2015
+
+        #bs-example-navbar-collapse-1.collapse.navbar-collapse
+          %ul.nav.navbar-nav.navbar-right
+            %li.hidden
+              %a{href:'#page-top'}
+            %li.page-scroll
+              %a{href:'#portfolio'} Portfolio
+            %li.page-scroll
+              %a{href:'#about'} About
+            %li.page-scroll
+              %a{href:'#contact'} Contact
+    %header
+      .container
+        .row
+          .col-lg-12
+            %img.logo{alt:'', src:'dwo.png'}
+              .intro-text
+                %span.name DWO 2015
+                %hr.star-light
+                  %span.place 28–30 Marca 2014 Bielsko-Biała
+
+    %section#portfolio
+      .container
+        .row
+          .col-lg-12.text-center
+            %h2 Portfolio
+            %hr.star-primary
+        .row
+          .col-sm-4.portfolio-item
+            %a.portfolio-link{href:''}
+              .caption
+                .caption-content
+                  %i.fa.fa-search-plus
+              %img.img-responsive{alt:'', src:''}
+          .col-sm-4.portfolio-item
+            %a.portfolio-link{href:''}
+              .caption
+                .caption-content
+                  %i.fa.fa-search-plus
+              %img.img-responsive{alt:'', src:''}
+          .col-sm-4.portfolio-item
+            %a.portfolio-link{href:''}
+              .caption
+                .caption-content
+                  %i.fa.fa-search-plus
+              %img.img-responsive{alt:'', src:''}
+          .col-sm-4.portfolio-item
+            %a.portfolio-link{ href:''}
+              .caption
+                .caption-content
+                  %i.fa.fa-search-plus
+              %img.img-responsive{alt:'', src:''}
+          .col-sm-4.portfolio-item
+            %a.portfolio-link{ href:''}
+              .caption
+                .caption-content
+                  %i.fa.fa-search-plus
+              %img.img-responsive{alt:'', src:''}
+          .col-sm-4.portfolio-item
+            %a.portfolio-link{href:''}
+              .caption
+                .caption-content
+                  %i.fa.fa-search-plus
+              %img.img-responsive{alt:'', src:''}
+
+    %section#about.text-center
+      .container
+        .row
+          .col-lg-12.text-center
+            %h2 About
+            %hr.star-light
+        .row
+          .col-lg-4
+            %h3 About Freelancer
+            %p Ruch Open Source to przede wszystkim nastawienie na innowacyjność, kreatywność i chęć dzielenia się wiedzą. Nie ogranicza się on wyłącznie do kodu źródłowego aplikacji - ruch ten wywiera wpływ na ekologię, sprzęt, powszechny dostęp do wiedzy i edukacji.
+          .col-lg-4
+            %h3 About Freelancer
+            %p Żadna idea nigdy nie odniosła sukcesu bez zaangażowania zwykłych ludzi. Ty również możesz zmieniać świat wokół nas! ‘Uwolnij się’ :-) i dołącz do społeczności Open Source!
+          .col-lg-4
+            %h3 About Freelancer
+            %p W społeczności Open Source jest wiele osób, które posiadają konkretne umiejętności, a przy tym chętnie się nimi dzielą. Wielu jest również tych, którzy starają się tego rodzaju umiejętności w sobie wykształcić. Warsztaty pozwalają im się spotkać.
+
+          .col-lg-6.col-lg-offset-3.text-center
+            .video-container
+              %iframe{frameborder:'0', height:'315', src:'http://www.youtube.com/embed/aWfCKHDdRKk?autoplay=0', width:'560'}
+
+    %section#contact
+      .container
+        .row
+          .col-lg-12.text-center
+            %h2 Kontakt
+            %p W razie pytań bądź wątpliwości, zachęcamy do kontaktu za pośrednictwem poniżej wymienionych kanałów.
+            %ul.list-inline
+              %li
+                %a.btn-social.btn-outline{href:'#'}
+                  %i.fa.fa-fw.fa-facebook
+              %li
+                %a.btn-social.btn-outline{href:'#'}
+                  %i.fa.fa-fw.fa-google-plus
+              %li
+                %a.btn-social.btn-outline{href:'#'}
+                  %i.fa.fa-fw.fa-twitter
+              %li
+                %a.btn-social.btn-outline{href:'#'}
+                  %i.fa.fa-fw.fa-linkedin
+              %li
+                %a.btn-social.btn-outline{href:'#'}
+                  %i.fa.fa-fw.fa-dribbble
+
+  %footer.text-center
+    .footer-above
+      .container
+        .row
+          .footer-col.col-md-12
+            %h3 DWO '15
+            %p Konferencja Dni Wolnego Oprogramowania 2014 jest organizowana przez :
+            %a{href:'#'} Fundacja Mikstura.IT
+            %a{href:'#'} Fundacja Mikstura.IT
+            %a{href:'#'} Fundacja Mikstura.IT
+            %a{href:'#'} Fundacja Mikstura.IT
+            %a{href:'#'} Fundacja Mikstura.IT
+    .footer-below
+      .container
+        .row
+          .col-lg-12
+            Copyright &copy; Selleo 2015
+
+    .scroll-top.page-scroll.visible-xs.visble-sm
+      %a.btn.btn-primary{href:'#page-top'}
