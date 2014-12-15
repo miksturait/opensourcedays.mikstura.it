@@ -3,12 +3,12 @@ DWO 2015
 
 ## Development
 
-### 1. Download and setup appliaction
+### 1. Download and setup application
 
 ```bash
 git clone git@github.com:Selleo/
 cd DWO2015
-bundle install
+bundle install```
 
 ### 2. Running Rails Server
 
