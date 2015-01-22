@@ -11,7 +11,20 @@ class ApiInfo::WhosHere
     private
 
     def prepare_collection
-      []
+      [
+          {
+             link: 'http://mikstura.it',
+             avatar_url: '/assets/organizers/logo/mikstura.it.png'
+          },
+          {
+              link: 'http://info.ath.bielsko.pl/',
+              avatar_url: '/assets/organizers/logo/ath.png'
+          },
+          {
+              link: 'http://reset.ath.bielsko.pl/',
+              avatar_url: '/assets/organizers/logo/ath.reset.png'
+          }
+      ]
       # I18n.t('partners').collect do |(code, data)|
       #   data.merge({logo_url: image_url(code)})
       # end
