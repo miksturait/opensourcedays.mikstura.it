@@ -1,12 +1,14 @@
 bin/rake assets:precompile
 bin/rails server -e production -d
+git rm -r public/assets/application-* public/assets/manifest-* public/2015/en public/2015/pl
+git commit -m 'cleanup'
 sleep 5
 
 curl http://0.0.0.0:3000?locale=pl
 curl http://0.0.0.0:3000?locale=en
+curl http://0.0.0.0:3000/policy?locale=pl
 curl http://0.0.0.0:3000/policy?locale=en
-curl http://0.0.0.0:3000/policy?locale=en
-curl http://0.0.0.0:3000/rules?locale=en
+curl http://0.0.0.0:3000/rules?locale=pl
 curl http://0.0.0.0:3000/rules?locale=en
 
 kill -QUIT `cat tmp/pids/server.pid`
