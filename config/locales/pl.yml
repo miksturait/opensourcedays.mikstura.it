@@ -1,10 +1,10 @@
 pl:
-  title: Dni Wolnego Oprogramowania '14, 28 - 30 Marca - Bielsko-Biała
+  title: Dni Wolnego Oprogramowania '15, 17 - 19 Kwietnia - Bielsko-Biała
   domain: http://dwo.mikstura.it
-  subtitle: 28 - 30 Marca - Bielsko-Biała
-  short_title: DWO '14
-  only_title: Dni Wolnego Oprogramowania '14
-  hashtag: '#DWO14'
+  subtitle: 17 - 19 Kwietnia - Bielsko-Biała
+  short_title: DWO '15
+  only_title: Dni Wolnego Oprogramowania '15
+  hashtag: '#DWO15'
   location:
     lat: 49.783038
     lng: 19.0573
@@ -16,7 +16,7 @@ pl:
     youtube: "https://www.youtube.com/user/MiksturaIT"
     linkedin: "https://www.linkedin.com/company/mikstura-it-foundation"
   meta:
-    description:  Dni Wolnego Oprogramowania ‘14 to jedna z największych bezpłatnych konferencji Open Source w Europie.
+    description:  Dni Wolnego Oprogramowania ‘15 to jedna z największych bezpłatnych konferencji Open Source w Europie.
     keywords: open source, conference, workshops, community
     author: Fundacja Mikstura.IT
   section:
@@ -73,8 +73,8 @@ pl:
       wp:
   intro:
     about_dwo:
-      conference_name: DWO 2014
-      month: Marca
+      conference_name: DWO 2015
+      month: Kwietnia
       ticket: Zarejestruj się
     became_speaker:
       call_4_action: Zostań Prelegentem
@@ -87,7 +87,7 @@ pl:
   about:
     info:
       header: Dni Wolnego Oprogramowania
-      month: Marca
+      month: Kwietnia
       idea:
         header: Idea
         message: Ruch Open Source to przede wszystkim nastawienie na innowacyjność, kreatywność i chęć dzielenia się wiedzą. Nie ogranicza się on wyłącznie do kodu źródłowego aplikacji - ruch ten wywiera wpływ na  ekologię, sprzęt, powszechny dostęp do wiedzy i edukacji.
@@ -645,7 +645,7 @@ pl:
     slogan: Sponsorzy mają zaczący wpływ na jakość konferencji
     slogan: Dzięki nim, Dni Wolnego Oprogramowania są wyjątkowe
     slogan: Przygarnij pingwinka pod swoje skrzydła :-)
-    join_us: i zostań sponsorem DWO '14
+    join_us: i zostań sponsorem DWO '15
     link:
       text: Dowiedz się więcej z broszury dla sponsorów?
       url: "http://dwo.mikstura.it/booklets/broszura_dla_sponsorow.pdf"
@@ -674,8 +674,8 @@ pl:
       header: Bądź na bieżąco
     email: fundacja@mikstura.it
   team:
-    header: Zespół DWO '14
-    people_that_make: Ludzie którzy pomagają przy DWO '14.
+    header: Zespół DWO '15
+    people_that_make: Ludzie którzy pomagają przy DWO '15.
   people:
     Kamil_Galuszka:
      id: 1
@@ -990,7 +990,7 @@ pl:
         facebook: https://www.facebook.com/marcin.pawlicki.75436
 
   footer:
-    is_organised_by: Konferencja Dni Wolnego Oprogramowania 2014 jest organizowana przez
+    is_organised_by: Konferencja Dni Wolnego Oprogramowania 2015 jest organizowana przez
     mikstura_it: Fundacja Mikstura.IT
     source_code_available: Kod źródłowy tej strony jest dostępny w serwisie GitHub
     tos: Regulamin Konferencji

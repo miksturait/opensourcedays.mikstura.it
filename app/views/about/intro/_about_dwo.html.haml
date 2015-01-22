@@ -1,9 +1,11 @@
 %h1= t(:conference_name, scope: i18n_scope)
 %h3.info
-  %span.days 28&ndash;30
+  %span.days 17&ndash;19
   %span.month
     %b= t(:month, scope: i18n_scope)
-  %span.year 2014
+  %span.year 2015
   %span.location Bielsko-Biała
+%h5
+  %span.small.small= t('meta.description')
 -#= link_to "/#register", class: "btn btn-large" do
 -#  = t(:ticket, scope: i18n_scope)
