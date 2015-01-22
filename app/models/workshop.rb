@@ -57,6 +57,10 @@ class Workshop < Struct.new(:id, :timeslot)
     end
   end
 
+  def leaders
+    speakers
+  end
+
   def info_leads
     info_lead.is_a?(Array) ? info_lead : [info_lead]
   end

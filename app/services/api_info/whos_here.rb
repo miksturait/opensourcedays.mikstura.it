@@ -11,9 +11,10 @@ class ApiInfo::WhosHere
     private
 
     def prepare_collection
-      I18n.t('partners').collect do |(code, data)|
-        data.merge({logo_url: image_url(code)})
-      end
+      []
+      # I18n.t('partners').collect do |(code, data)|
+      #   data.merge({logo_url: image_url(code)})
+      # end
     end
 
     def speakers_data

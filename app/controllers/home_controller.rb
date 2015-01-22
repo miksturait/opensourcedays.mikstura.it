@@ -1,7 +1,6 @@
 class HomeController < ApplicationController
   layout 'base'
   after_action :cache_it, only: [:index, :rules, :policy]
-  after_action :cache_json, only: [:api, :timestamp]
 
   def index
     prepare_team
@@ -17,24 +16,10 @@ class HomeController < ApplicationController
     render template: '/legal/policy', layout: 'plain'
   end
 
-  def api
-    render json: MobileApi.data,
-           root: false
-  end
-
-  def timestamp
-    render json: {timestamp: Time.now},
-           root: false
-  end
-
   private
 
   def cache_it
-    cache_page(nil, "/#{I18n.locale}/#{action_name}.html")
-  end
-
-  def cache_json
-    cache_page(nil, "/#{I18n.locale}/v2/#{action_name}.json")
+    cache_page(nil, "/2015/#{I18n.locale}/#{action_name}.html")
   end
 
   def prepare_speakers

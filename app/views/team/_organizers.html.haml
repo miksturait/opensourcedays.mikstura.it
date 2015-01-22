@@ -2,7 +2,7 @@
   .module-header.sponsors-header
     %h4= t('section.organizers')
 #organizers.text-center
-  - ApiInfo::WhosHere.prepare_collection(:organizers).each do |organizer|
+  - ApiInfo::WhosHere.data[:partners].each do |organizer|
     .span4
       = link_to organizer[:link], target: :blank do
         = image_tag(organizer[:avatar_url])

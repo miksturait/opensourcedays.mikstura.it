@@ -28,6 +28,10 @@ class Talk < Struct.new(:id, :day, :position)
     end
   end
 
+  def speaker
+    speakers.first
+  end
+
   delegate :type, to: :info
   delegate :id, :title, :description, :speaker, to: :info, prefix: true
 
