@@ -19,7 +19,7 @@ class HomeController < ApplicationController
   private
 
   def cache_it
-    cache_page(nil, "/2015/#{I18n.locale}/#{action_name}.html")
+    cache_page(nil, "/#{I18n.locale}/#{action_name}.html")
   end
 
   def prepare_speakers
