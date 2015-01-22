@@ -14,6 +14,6 @@ kill -QUIT `cat tmp/pids/server.pid`
 mv public/pages/en public/2015/
 mv public/pages/pl public/2015/
 
-git add public/2015/**/* git add public/assets/*
+git add public/2015/en/* public/2015/pl/* public/assets/*
 git commit -m 'updating cache'
 git push origin master
