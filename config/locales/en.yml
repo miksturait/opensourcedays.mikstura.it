@@ -2,7 +2,7 @@ en:
   title: The Open Source Days ‘14, 28th - 30th March - Bielsko-Biała
   domain: http://opensourcedays.mikstura.it
   subtitle: 28th - 30th March - Bielsko-Biała
-  short_title: DWO '14
+  short_title: DWO '15
   only_title: Open Source Days ‘14
   hashtag: '#DWO14'
   location:
@@ -73,7 +73,7 @@ en:
       wp:
   intro:
     about_dwo:
-      conference_name: Open Source Days 2014
+      conference_name: Open Source Days 2015
       month: March
       ticket: Register
     became_speaker:
@@ -111,7 +111,7 @@ en:
     topic_cloud: "client side applications, free software, open source software, design, NGOs, non-profits, effective communication, immutable data types, programming, free culture, private cloud computing, education, schools, soft skills, operating systems, open hardware, dispersed & distributed teams, data analysis, software craftsmanship, automated testing, teamwork, training and learning, how to start, data visualisation, information architecture, programming games, functional programming, case studies, communities, open access, interface design, design and programming techniques, dataset co-creation, methodologies, Open Source, Khan Academy, edx.org, coursera.org, architecture, domain driven design, Vim, Eclipse, RubyMine, FireBug, yeoman, grunt, guard, GitHub, Travis CI, Code Climate, SCRUM, Kanban, Nagios, Zabix, Arduino, Beagle Board, Raspberry Pi, Artoo.io, WikiSpeed, Firefox OS, Ubuntu OS, Sailfish OS, Jolla, Tizen, R, Processing, Orange, Clojure, Datomic, Ember.js, Angular.js, CoffeeScript, SASS, Compass, HTML5, Open Shift, Eucalyptus, Cloud Foundry, Docker, UX, UI, IT, Wikipedia, OpenStreetMap, Jamendo"
     learn_them_description:
       one: 'The Open Source Days cover a wide variety of topics.'
-      two: 'In 2014 we would very much like to explore some of the topics listed below. Still we are open for other OS-related ideas.'
+      two: 'In 2015 we would very much like to explore some of the topics listed below. Still we are open for other OS-related ideas.'
     register_as_speaker_url: http://bit.ly/DWO_2014_C4P_EN
     submit_your_talk: Submit your presentation / workshop
   schedule:
@@ -471,7 +471,7 @@ en:
         - Agnieszka_Pawlicka
         - Marcin_Pawlicki
       day: daytwo
-      start_at: '14:45'
+      start_at: '15:45'
       where: computer
       title: Set the penguin free - a Lego Mindstorms programming workshop.
       description:
@@ -985,7 +985,7 @@ en:
         facebook: https://www.facebook.com/marcin.pawlicki.75436
 
   footer:
-    is_organised_by: The Open Source Days 2014 conference is organized by
+    is_organised_by: The Open Source Days 2015 conference is organized by
     mikstura_it: the Mikstura.IT Foundation
     source_code_available: Source Code of that page is availble on GitHub
     tos: Terms Of Service
