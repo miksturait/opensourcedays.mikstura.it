@@ -1,7 +1,7 @@
-bin/rake assets:precompile
-bin/rails server -e production -d
 git rm -r public/assets/application-* public/assets/manifest-* public/2015/en public/2015/pl
 git commit -m 'cleanup'
+bin/rake assets:precompile
+bin/rails server -e production -d
 sleep 5
 
 curl http://0.0.0.0:3000?locale=pl
