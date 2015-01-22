@@ -1,9 +1,9 @@
 en:
-  title: The Open Source Days ‘14, 28th - 30th March - Bielsko-Biała
+  title: The Open Source Days ‘15, 17th - 19th April - Bielsko-Biała
   domain: http://opensourcedays.mikstura.it
-  subtitle: 28th - 30th March - Bielsko-Biała
+  subtitle: 17th - 19th April - Bielsko-Biała
   short_title: DWO '15
-  only_title: Open Source Days ‘14
+  only_title: Open Source Days ‘15
   hashtag: '#DWO14'
   location:
     lat: 49.783038
@@ -143,7 +143,7 @@ en:
       id: 1
       date: 2014-03-28
       title: Friday
-      header: Friday, 28 March
+      header: Friday, 28 April
       agenda:
         15-00:
           id: 101
@@ -197,7 +197,7 @@ en:
       id: 2
       date: 2014-03-29
       title: Saturday
-      header: Saturday, 29 March
+      header: Saturday, 29 April
       agenda:
         09-00:
           id: 109
@@ -320,7 +320,7 @@ en:
       id: 3
       date: 2014-03-30
       title: Sunday
-      header: Sunday, 30 March
+      header: Sunday, 30 April
       agenda:
         09-00:
           id: 129
@@ -437,11 +437,11 @@ en:
           type: bye
           speaker: Dariusz_Wylon
   workshops_schedule:
-    - 'Saturday, March 29th 11:15AM - 12:45PM'
-    - 'Saturday, March 29th 2:45PM - 4:15PM'
-    - 'Saturday, March 29th 4:15PM - 5:45PM'
-    - 'Sunday, March 30th 11:15AM - 12:45PM'
-    - 'Sunday, March 30th 1:15PM - 2:45PM'
+    - 'Saturday, April 29th 11:15AM - 12:45PM'
+    - 'Saturday, April 29th 2:45PM - 4:15PM'
+    - 'Saturday, April 29th 4:15PM - 5:45PM'
+    - 'Sunday, April 30th 11:15AM - 12:45PM'
+    - 'Sunday, April 30th 1:15PM - 2:45PM'
   workshops:
     open_source:
       id: 900
@@ -640,7 +640,7 @@ en:
     slogan: Sponsors do have an impact on the quality of the conference!
     slogan: They help make the Open Source Days a unique event.
     slogan: Offer your support and
-    join_us: sponsor the Open Source Days ‘14
+    join_us: sponsor the Open Source Days ‘15
     link:
       text: Check the Sponsorship Booklet for details
       url: "http://opensourcedays.mikstura.it/booklets/sponsorship_booklet.pdf"
@@ -669,8 +669,8 @@ en:
       header: Follow us & stay up to date
     email: foundation@mikstura.it
   team:
-    header: The Open Source Days ‘14 Team
-    people_that_make: The people who help organize the Open Source Days ‘14 event.
+    header: The Open Source Days ‘15 Team
+    people_that_make: The people who help organize the Open Source Days ‘15 event.
   people:
     Kamil_Galuszka:
       id: 1
