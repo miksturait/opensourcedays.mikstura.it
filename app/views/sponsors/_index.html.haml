@@ -9,78 +9,73 @@
   %p
     = link_to t('sponsors.link.text'), t('sponsors.link.url')
 
-.divider-space
-
-#gold.text-center
-  .span12#microsoft_openness
-  -#.span6
-  -#  .sponsor-description{style: 'margin-top: 5em; margin-bottom: 1em;'}
-  -#    - I18n.t('sponsors.sponsors.gold.microsoft_openness.description').each do |paragraph|
-  -#      %p= paragraph
-  .span6.offset3
-    = link_to 'http://www.microsoft.com/en-us/openness/default.aspx', target: :blank do
-      = image_tag('/assets/sponsors/logo/microsoft_openness.png')
-  .span12#selleo
-    .span5
-      = link_to 'http://selleo.com/', target: :blank do
-        = image_tag('/assets/sponsors/logo/selleo.png')
-    .span6
-      .sponsor-description{style: 'margin-top: 5em; margin-bottom: 1em;'}
-        - I18n.t('sponsors.sponsors.gold.selleo.description').each do |paragraph|
-          %p= paragraph
-  .span6.offset3
-    = link_to 'http://www.redhat.com/', target: :blank do
-      = image_tag('/assets/sponsors/logo/red_hat.png')
-  .span12
-#silver.text-center
-  .span6#travis
-    = link_to 'http://travis-ci.com/', target: :blank do
-      = image_tag('/assets/sponsors/logo/travis.png')
-  .span6#rekord
-    = link_to 'http://www.rekord.com.pl/', target: :blank do
-      = image_tag('/assets/sponsors/logo/rekord.png')
-  .span4.offset1#travis_desc
-    = t('sponsors.sponsors.silver.travis.description').first
-  .span4.offset2#rekord_desc
-    = t('sponsors.sponsors.silver.rekord.description').first
-
-.span12.divider-space
-
-#bronze.text-center
-  - { jetbrains: 'http://jetbrains.com',
-      helion: 'http://helion.pl/',
-      aip: 'http://przedsiebiorca.pl/aip/',
-      oracle: 'http://www.oracle.com/index.html',
-      codeschool: 'http://www.codeschool.com/',
-      mysql: 'http://www.mysql.com/',
-      innapl: 'http://www.inna.pl/',
-      hotel_na_bloniach: 'http://www.hotelnabloniach.pl/',
-      us_cieszyn_2: 'http://wart.us.edu.pl/' }.each do |code, link|
-    .span4{id: code}
-      = link_to link, target: :blank do
-        = image_tag("/assets/sponsors/logo/#{code}.png")
-  .span4.offset4#ostrava
-    = link_to 'http://www.osu.cz/', target: :blank do
-      = image_tag('/assets/sponsors/logo/ostrava.png')
-
-
-.span12.divider-space
-  .module-header.sponsors-header.text-center
-    %h4= t('section.media')
-
-.span12.divider-space
-
-#media.text-center
-  - { 'http://programistamag.pl/' => 'magazyn.programista.png',
-      'http://www.bb365.info/' => 'bb365info.png',
-      'http://webmastah.pl' => 'webmastah.png' }.each do |url, picture|
-    .span4
-      = link_to url, target: :blank do
-        = image_tag("/assets/media/logo/#{picture}")
-  .span12.divider-space
-  .span2
-  - { 'http://sdjournal.pl/' => 'sdjournal.png',
-      'http://pracait.com/' => 'pracait.png' }.each do |url, picture|
-    .span4
-      = link_to url, target: :blank do
-        = image_tag("/assets/media/logo/#{picture}")
+-#.divider-space
+-#
+-##gold.text-center
+-#  .span6.offset3
+-#    = link_to 'http://www.microsoft.com/en-us/openness/default.aspx', target: :blank do
+-#      = image_tag('/assets/sponsors/logo/microsoft_openness.png')
+-#  .span12#selleo
+-#    .span5
+-#      = link_to 'http://selleo.com/', target: :blank do
+-#        = image_tag('/assets/sponsors/logo/selleo.png')
+-#    .span6
+-#      .sponsor-description{style: 'margin-top: 5em; margin-bottom: 1em;'}
+-#        - I18n.t('sponsors.sponsors.gold.selleo.description').each do |paragraph|
+-#          %p= paragraph
+-#  .span6.offset3
+-#    = link_to 'http://www.redhat.com/', target: :blank do
+-#      = image_tag('/assets/sponsors/logo/red_hat.png')
+-#  .span12
+-##silver.text-center
+-#  .span6#travis
+-#    = link_to 'http://travis-ci.com/', target: :blank do
+-#      = image_tag('/assets/sponsors/logo/travis.png')
+-#  .span6#rekord
+-#    = link_to 'http://www.rekord.com.pl/', target: :blank do
+-#      = image_tag('/assets/sponsors/logo/rekord.png')
+-#  .span4.offset1#travis_desc
+-#    = t('sponsors.sponsors.silver.travis.description').first
+-#  .span4.offset2#rekord_desc
+-#    = t('sponsors.sponsors.silver.rekord.description').first
+-#
+-#.span12.divider-space
+-#
+-##bronze.text-center
+-#  - { jetbrains: 'http://jetbrains.com',
+-#      helion: 'http://helion.pl/',
+-#      aip: 'http://przedsiebiorca.pl/aip/',
+-#      oracle: 'http://www.oracle.com/index.html',
+-#      codeschool: 'http://www.codeschool.com/',
+-#      mysql: 'http://www.mysql.com/',
+-#      innapl: 'http://www.inna.pl/',
+-#      hotel_na_bloniach: 'http://www.hotelnabloniach.pl/',
+-#      us_cieszyn_2: 'http://wart.us.edu.pl/' }.each do |code, link|
+-#    .span4{id: code}
+-#      = link_to link, target: :blank do
+-#        = image_tag("/assets/sponsors/logo/#{code}.png")
+-#  .span4.offset4#ostrava
+-#    = link_to 'http://www.osu.cz/', target: :blank do
+-#      = image_tag('/assets/sponsors/logo/ostrava.png')
+-#
+-#
+-#.span12.divider-space
+-#  .module-header.sponsors-header.text-center
+-#    %h4= t('section.media')
+-#
+-#.span12.divider-space
+-#
+-##media.text-center
+-#  - { 'http://programistamag.pl/' => 'magazyn.programista.png',
+-#      'http://www.bb365.info/' => 'bb365info.png',
+-#      'http://webmastah.pl' => 'webmastah.png' }.each do |url, picture|
+-#    .span4
+-#      = link_to url, target: :blank do
+-#        = image_tag("/assets/media/logo/#{picture}")
+-#  .span12.divider-space
+-#  .span2
+-#  - { 'http://sdjournal.pl/' => 'sdjournal.png',
+-#      'http://pracait.com/' => 'pracait.png' }.each do |url, picture|
+-#    .span4
+-#      = link_to url, target: :blank do
+-#        = image_tag("/assets/media/logo/#{picture}")

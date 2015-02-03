@@ -2,27 +2,37 @@
   .module-header.speakers-header
     %h4= t('section.speakers')
 .span12.hero-unit.text-center.white
-  %h2= t('speakers.learn_from')
-  %p= t('speakers.learn_from_description')
-.span12
-  .divider-space
-.span12
-  .carouselslider.speakers-carousel.item-4
-    - @speakers.each_slice(3) do |slice|
-      .span12
-        %ul.people
-          - slice.each do |speaker|
-            %li
-              .item
-                .photo-wrap.hover_colour
-                  %img{:alt => speaker.name, :src => "/assets/speakers/#{speaker.picture}"}
-                .text-wrap.white
-                  %h3= speaker.name
-                  %h5= speaker.title
-                  %hr.divider-short.center/
-                  %p.description= speaker.description
-                .social
-                  - speaker.social.each do |(name, url)|
-                    = link_to url, title: name.to_s.humanize, target: :blank, class: "icon-wrap small #{name}" do
-                      %i{class: "iconf-#{name}"}
+  %h2= t('speakers.learn_them')
+  %p
+    = t('speakers.learn_them_description.one')
+    %br
+    = t('speakers.learn_them_description.two')
+  .divider-space-big
+    = link_to t('speakers.register_as_speaker_url'), class: "btn btn-large", target: :blank do
+      = t('speakers.submit_your_talk')
+
+-#.span12.hero-unit.text-center.white
+-#  %h2= t('speakers.learn_from')
+-#  %p= t('speakers.learn_from_description')
+-#.span12
+-#  .divider-space
+-#.span12
+-#  .carouselslider.speakers-carousel.item-4
+-#    - @speakers.each_slice(3) do |slice|
+-#      .span12
+-#        %ul.people
+-#          - slice.each do |speaker|
+-#            %li
+-#              .item
+-#                .photo-wrap.hover_colour
+-#                  %img{:alt => speaker.name, :src => "/assets/speakers/#{speaker.picture}"}
+-#                .text-wrap.white
+-#                  %h3= speaker.name
+-#                  %h5= speaker.title
+-#                  %hr.divider-short.center/
+-#                  %p.description= speaker.description
+-#                .social
+-#                  - speaker.social.each do |(name, url)|
+-#                    = link_to url, title: name.to_s.humanize, target: :blank, class: "icon-wrap small #{name}" do
+-#                      %i{class: "iconf-#{name}"}
 

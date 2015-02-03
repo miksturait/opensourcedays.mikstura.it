@@ -112,7 +112,7 @@ pl:
     learn_them_description:
       one: 'Dni Wolnego Oprogramowania mają bardzo szeroką tematykę - jesteśmy otwarci na Wasze propozycje.'
       two: 'W tym roku w szczególności interesują nas wystąpienia poświęcone następującym zagadnieniom:'
-    register_as_speaker_url: http://bit.ly/DWO_2014_C4P
+    register_as_speaker_url: http://bit.ly/DWO_2015_C4P
     submit_your_talk: Zgłoś Swoją Prezentację
   schedule:
     registration:
@@ -648,7 +648,7 @@ pl:
     join_us: i zostań sponsorem DWO '15
     link:
       text: Dowiedz się więcej z broszury dla sponsorów?
-      url: "http://2015.dwo.mikstura.it//Users/michalczyz/projects/mikstura.it/opensourcedays.mikstura.it/public/assets/sponsors/Dni_Wolnego_Oprogramowania_2015_Oferta_Sponsorska.pdf"
+      url: "http://2015.dwo.mikstura.it/sponsors/Dni_Wolnego_Oprogramowania_2015_Oferta_Sponsorska.pdf"
     sponsors:
       gold:
         selleo:
