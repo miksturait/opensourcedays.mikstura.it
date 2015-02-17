@@ -983,6 +983,119 @@ en:
       description: Programista i konstruktor robotów, który dzięki umiejętności przestrzennego postrzegania świata i wieloletniemu doświadczeniu w grafice 3D posiada łatwość tworzenia skomplikowanych konstrukcji z klocków Lego.
       social:
         facebook: https://www.facebook.com/marcin.pawlicki.75436
+    Katarzyna_Jasiewicz:
+     id: 41
+     name: Katarzyna Jasiewicz
+     title: 'Prezes Koła Informatycznego Reset'
+     description: ' '
+     social:
+       world: 'http://reset.ath.bielsko.pl/'
+       facebook: 'https://www.facebook.com/kasia.jasiewicz.1'
+    Joanna_Walus:
+     id: 42
+     name: Joanna Waluś
+     title: 'Wolontariusz'
+     description: ' '
+     social:
+       world: 'http://reset.ath.bielsko.pl/'
+    Pawel_Rudyk:
+     id: 43
+     name: Paweł Rudyk
+     title: 'Wolontariusz'
+     description: ' '
+     social:
+       world: 'http://reset.ath.bielsko.pl/'
+    Lukasz_Czulak:
+     id: 44
+     name: Łukasz Czulak
+     title: 'Wolontariusz'
+     description: ' '
+     social:
+       world: 'http://reset.ath.bielsko.pl/'
+    Tomasz_Kaminski:
+     id: 45
+     name: Tomasz Kamiński
+     title: 'Wolontariusz'
+     description: ' '
+     social:
+       world: 'http://reset.ath.bielsko.pl/'
+    Krzysztof_Gren:
+     id: 46
+     name: Krzysztof Greń
+     title: 'Wolontariusz'
+     description: ' '
+     social:
+       world: 'http://reset.ath.bielsko.pl/'
+    Andrzej_Kastelik:
+     id: 47
+     name: Andrzej Kastelik
+     title: 'Wolontariusz'
+     description: ' '
+     social:
+       world: 'http://reset.ath.bielsko.pl/'
+    Pawel_Krusinski:
+     id: 48
+     name: Paweł Krusiński
+     title: 'Wolontariusz'
+     description: ' '
+     social:
+       world: 'http://reset.ath.bielsko.pl/'
+    Beata_Goluch:
+     id: 49
+     name: Beata Gołuch
+     title: 'Wolontariusz'
+     description: ' '
+     social:
+       world: 'http://reset.ath.bielsko.pl/'
+    Piotr_Juroszek:
+     id: 50
+     name: Piotr Juroszek
+     title: 'Wolontariusz'
+     description: ' '
+     social:
+       world: 'http://reset.ath.bielsko.pl/'
+    Justyna_Jasek:
+     id: 51
+     name: Justyna Jasek
+     title: 'Wolontariusz'
+     description: ' '
+     social:
+       world: 'http://reset.ath.bielsko.pl/'
+    Michal_Krzus:
+     id: 52
+     name: Michał Krzus
+     title: 'Wolontariusz'
+     description: ' '
+     social:
+       world: 'http://reset.ath.bielsko.pl/'
+    Janusz_Zukowicz:
+     id: 53
+     name: Janusz Żukowicz
+     title: 'Wolontariusz'
+     description: ' '
+     social:
+       world: 'http://reset.ath.bielsko.pl/'
+    Jan_Frindt:
+     id: 54
+     name: Jan Frindt
+     title: 'Wolontariusz'
+     description: ' '
+     social:
+       world: 'http://reset.ath.bielsko.pl/'
+    Maciej_Kwasniak:
+     id: 55
+     name: Maciej Kwaśniak
+     title: 'Wolontariusz'
+     description: ' '
+     social:
+       world: 'http://reset.ath.bielsko.pl/'
+    Artur_Loska:
+     id: 56
+     name: Artur Loska
+     title: 'Wolontariusz'
+     description: ' '
+     social:
+       world: 'http://reset.ath.bielsko.pl/'
 
   footer:
     is_organised_by: The Open Source Days 2015 conference is organized by
