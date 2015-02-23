@@ -28,7 +28,7 @@ class HomeController < ApplicationController
   end
 
   def prepare_team
-    @team = %w(Dominik_Kozaczko Eunika_Tabak Dariusz_Wylon Michal_Czyz Tomasz_Gancarczyk Grzegorz_Rduch Marcin_Szalowicz Anna_Warzecha Katarzyna_Jasiewicz Joanna_Walus Pawel_Rudyk Lukasz_Czulak Tomasz_Kaminski Krzysztof_Gren Andrzej_Kastelik Pawel_Krusinski Beata_Goluch Piotr_Juroszek Justyna_Jasek Michal_Krzus Janusz_Zukowicz Jan_Frindt Maciej_Kwasniak Artur_Loska).map { |speaker| Person.new(speaker) }
+    @team = %w(Dominik_Kozaczko Eunika_Tabak Dariusz_Wylon Michal_Czyz Tomasz_Gancarczyk Grzegorz_Rduch Marcin_Szalowicz Anna_Warzecha Katarzyna_Jasiewicz Joanna_Walus Pawel_Rudyk Lukasz_Czulak Tomasz_Kaminski Krzysztof_Gren Andrzej_Kastelik Pawel_Krusinski Beata_Goluch Piotr_Juroszek Justyna_Jasek Michal_Krzus Janusz_Zukowicz Jan_Frindt Maciej_Kwasniak Artur_Loska Adam_Dziendziel).map { |speaker| Person.new(speaker) }
   end
 
   def prepare_talks
