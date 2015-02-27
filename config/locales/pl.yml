@@ -664,6 +664,8 @@ pl:
         rekord:
           description:
             - "REKORD SI - najnowocześniejsze rozwiązania informatyczne dla jednostek administracji publicznej i przedsiębiorstw produkcyjnych, 25 lat doświadczenia i setki zadowolonych klientów."
+  partners:
+    header: "Wspierają Nas"
   partner_types:
     sponsors: 2
     organizers: 3
