@@ -1103,15 +1103,6 @@ pl:
      description: ' '
      social:
        world: 'http://reset.ath.bielsko.pl/'
-    Adam_Dziendziel:
-      id: 57
-      name: Adam Dziendziel
-      title: 'UX explorer'
-      description: 'Software developer, którego zafascynowało projektowanie zorientowane na użytkownika. Ludzie. Ludzie są ważni.'
-      social:
-        linkedin: http://pl.linkedin.com/in/adziendziel
-        google: https://plus.google.com/106277846060032469683
-        twitter: https://twitter.com/fadehelix
 
   footer:
     is_organised_by: Konferencja Dni Wolnego Oprogramowania 2015 jest organizowana przez
