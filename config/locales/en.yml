@@ -250,15 +250,14 @@ en:
           id: 116
           type: lunch
         14-00:
-          id: 501
+          id: 503
           type: talk
-          speaker: Michal_Zyndul
-          title: Vagrant
+          speaker: Marcin_Hlybin
+          title: Ansible - wzorce projektowe
           description:
-            - 'Vagrant - czym jest jak używać, dlaczego jest fajny i jak ułatwia pracę.'
-            - 'Na wykładzie skupię się na tym jak to narzędzie pomaga nam w pracy.'
-            - 'Jak grafik może w kilka minut postawić działający skomplikowany projekt na swojej maszynie za pomocą kilku poleceń'
-            - 'Opowiem kilka historii z życia programisty, kiedy to vagrant okazał się dobrym wyborem'
+            - 'Używanie Ansible jest proste, organizacja danych już nie.'
+            - 'Oprócz skromnych Best Practices, nie znajdziesz w dokumentacji informacji jaki organizować zadania, struktury danych, jak pisać generyczne role i jaki jest najsłuszniejszy sposób na getting things done.'
+            - 'Podczas wystąpienia przedstawię własne rozwiązania, przemyślenia oraz pułapki, na które się natknąłem podczas konfiguracji maszyn. Wykład będzie zawierać szybki wstęp do Ansible, aby każdy mógł skorzystać.'
         14-20:
           id: 502
           type: talk
@@ -269,14 +268,15 @@ en:
             - 'Społeczność Open Source ma bardzo dobrą odpowiedź na tą potrzebę: docker'
             - 'Chciałbym pokazać czym jest oraz co może dla ciebie zrobić.'
         14-40:
-          id: 503
+          id: 501
           type: talk
-          speaker: Marcin_Hlybin
-          title: Ansible - wzorce projektowe
+          speaker: Michal_Zyndul
+          title: Vagrant
           description:
-            - 'Używanie Ansible jest proste, organizacja danych już nie.'
-            - 'Oprócz skromnych Best Practices, nie znajdziesz w dokumentacji informacji jaki organizować zadania, struktury danych, jak pisać generyczne role i jaki jest najsłuszniejszy sposób na getting things done.'
-            - 'Podczas wystąpienia przedstawię własne rozwiązania, przemyślenia oraz pułapki, na które się natknąłem podczas konfiguracji maszyn. Wykład będzie zawierać szybki wstęp do Ansible, aby każdy mógł skorzystać.'
+            - 'Vagrant - czym jest jak używać, dlaczego jest fajny i jak ułatwia pracę.'
+            - 'Na wykładzie skupię się na tym jak to narzędzie pomaga nam w pracy.'
+            - 'Jak grafik może w kilka minut postawić działający skomplikowany projekt na swojej maszynie za pomocą kilku poleceń'
+            - 'Opowiem kilka historii z życia programisty, kiedy to vagrant okazał się dobrym wyborem'
         15-00:
           id: 418
           type: break
