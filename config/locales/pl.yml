@@ -355,122 +355,73 @@ pl:
           speaker: Na_Bloniach
     daythree:
       id: 3
-      date: 2014-03-30
+      date: 2015-04-19
       title: Niedziela
-      header: Niedziela, 30 Mar
+      header: Niedziela, 19 Kwietnia
       agenda:
-        09-00:
-          id: 129
-          type: breakfest
-        09-45:
-          id: 147
+        09-55:
+          id: 447
           type: welcome
-          speaker: Eunika_Tabak
+          speaker: Dariusz_Wylon
         10-00:
-          id: 134
-          type: talk
-          speaker: Karol_Ryt
-          title: Jak robić gry to z głową, czyli jak zrobić coś sensownego. Wczesne metody weryfikacji pomysłów.
-          description:
-            - Wiele osób chce zrealizować jakiś określony projekt. Jak to bywa w gamedevie znany jest tylko kierunek a wykonanie przychodzi w formie luźnej adaptacji w celu zrealizowania projektu.
-            - Jak zrobić to optymalnie?
-            - " * Powinno się zrewaulować problem pod względem dostępnych istniejących rozwiązań."
-            - " * Gdy ich nie ma zastanawić się jak to rozwiązać."
-            - " * Implementacja."
-            - Teraz ważniejsze pytanie czy da się zrobić to jeszcze efektywniej?
-            - Przenosząc wiedzę i doświadczenie z imprez z San Francisco gdzie spędziłem ponad 2 miesiące poprzedniego roku chciałbym zaprezentować co można zrobić by sprawdzić czy dany pomysł ma sens jeszcze w fazie pomysłu.
-        10-20:
-          id: 132
-          type: talk
-          speaker: Krzysztof_Krej
-          title: Wirtualna rzeczywistość - narzędzie szkoleniowe dla wolontariuszy organizacji humanitarnych
-          description:
-            - Chcemy zaprezentować prototyp aplikacji VR (wirtualna rzeczywistość), która jest proof of concept dla narzędzia mającego w skuteczny sposób szkolić pracowników organizacji humanitarnych.
-            - W szczególności dotyczy ono pracowników NGO (organizacji pozarządowych), którzy niosą pomoc humanitarną w krajach dotkniętych konfliktem zbrojnym. Osoby te po raz pierwszy jadą na misję humanitarną i mają przejść szkolenie dotyczące zachowania się w niebezpiecznych sytuacjach. W skrócie prezentacja będzie dotyczyć symulatora potencjalnych niebezpiecznych sytuacji.
-        10-40:
-          id: 136
-          type: talk
-          speaker:
-            - Katarzyna_Pawlonka
-            - Ryszard_Dalkowski
-          title:  Open Source na platformie Windows Azure
-          description:
-            - Masz w perspektywie kolejny projekt open source z potencjałem na komercyjny sukces? Chcesz rozwinąć dojrzały projekt dając mu nowe możliwości, wprowadzając na nowy rynek i do nowych odbiorców? Jesteś otwarty na nową wiedzę, pomysły, technologie i kontakty? To daj sobie szansę i miej wybór! Skorzystaj z okazji, przyjdź i zobacz jak wykorzystać chmurę Microsoft w swoich projektach. Dowiesz się dlaczego warto myśleć o otwartych projektach na Azure. Sala szkoleniowa, magazyny danych, tani backup, dystrybucja Twojej aplikacji  i inne scenariusze użycia chmury w projektach open source. Nowe pomysły mile widziane i nagradzane.
-        11-00:
-          id: 133
-          type: break
-        11-30:
-          id: 130
-          type: talk
-          speaker: Stanislaw_Klekot
-          title: Topic maps -- wyższy poziom organizacji wiedzy
-          description:
-            - "Silniki wiki znają praktycznie wszyscy. Administratorzy trzymają w nich notatki o sieci, programiści opisy architektury aplikacji i dokumentację użytkowników. Czy da się ulepszyć ten system? Spróbujemy to zrobić za pomocą mało znanej struktury: map tematów."
-        11-50:
-          id: 131
-          type: talk
-          speaker: Grzegorz_Nosek
-          title: Kiedy rozum śpi, budzą się backupy
-          description: Bacula to system backupowy wysublimowany jak radziecki traktor, ale rewelacyjny przy dużej ilości danych (wydajny, skalowalny , w pełni buzzword-compliant).
-        12-10:
-          id: 138
-          type: talk
-          speaker: Michal_Wyrobek
-          title: Programowanie funkcyjne - czyste podejście kontra rzeczywistość
-          description: Lisp, Clojure, Data Oriented Programming vs Smalltalk i podejście obiektowe.
-        12-30:
-          id: 137
-          type: lunch
-        13-30:
-          id: 139
+          id: 434
           type: talk
           speaker: Marcin_Szalowicz
-          title: Mysql Workbench - jak ulatwic sobie prace z bazami MySQL
-          description:
-            - Ogolny opis srodowiska mysql workbench, Revers Engineering baz na diagram eer, synchronizacja zmian,
-            - Informacje ktore mozemy uzyskac z poziomu programu dotyczace stanu bazy danych
-        13-50:
-          id: 140
+          title: MySQL 5.7
+          description: Co nowego można znaleść w nadchodzącym wydaniu MySQL 5.7.
+        10-20:
+          id: 432
           type: talk
-          speaker: Arkadiusz_Benedykt
-          title: C# - dlaczego lubie i co to w ogóle ma wspólnego z Open Source
-          description: W czasie prezentacji chce pokazać kilka rzeczy które Lubie w c# i takie których  nie lubię.  Co z tego co używam codziennie jest otwarte i jak świat Microsoftowo zorientowanego  programisty wygląda.
-        14-10:
-          id: 135
-          type: talk
-          speaker: Tomasz_Mloduchowski
-          title: Bitcoin Enterprise Edition - Open Source z wielomiliardową kapitalizacją
+          speaker: Krzysztof_Ksiazek
+          title: Scaling out MySQL
           description:
-            - Czym jest i jak działa Bitcoin, zaczynając od teorii, a na doświadczeniu z uruchamianiem usług finansowych kończąc.
-            - Podczas wystąpienia przedstawię teoretyczne podstawy bezpieczeństwa sieci, opowiem o praktycznych aspektach wdrażania rozległych rozwiązań opartych na technologii Bitcoin, pułapkach czyhających na programistów integrujących się z siecią Bitcoin, a także o Bitcoin jako narzędziu umożliwiającym każdemu zapoznanie się z tematyką systemów klasy "Enterprise"
-        14-30:
-          id: 141
+            - "Short overview of currently available technologies:"
+            - "* 'Traditional' replication"
+            - "* GTID-based replication"
+            - "* Galera Cluster"
+            - "Most common patterns for scaling out MySQL:"
+            - "* RW split"
+            - "* GTID + Multi-threaded slave"
+            - "* functional sharding"
+            - "* logical sharding"
+            - "___ * function-based sharding"
+            - "___ * metadb-based sharding"
+        10-40:
+          id: 436
+          type: talk
+          speaker: Jaroslaw_Czub
+          title: Przekroczyć próg wydajności
+          description:
+            - "Próba znalezienia drogi do polepszenia wydajności serwisu przy wykorzystaniu baz SQL i NoSQL, modułowości i łączenia różnych technologii."
+            - " Podczas spotkania chciałbym poruszyć tematy:"
+            - " * przepływ danych w serwisach"
+            - " * czy istnieje technologia uniwersalna? W czym lepiej sprawdzą się bazy SQL i NoSQL"
+            - " * braki i nadmiar optymalizacji, z punktu biznesowego niekiedy nie warto optymalizować kodu"
+            - " * jaka wydajność na start ? Czy warto zapewnić maksymalną wydajność na start systemu"
+            - " * izolacja elementów serwisu jako koncepcja na bezpieczeństwo, testowanie i wydajność"
+        11-00:
+          id: 433
           type: break
-        15-00:
-          id: 144
+        11-20:
+          id: 430
           type: talk
-          speaker: Halil_Karaca
-          title: The Dark Matter Programmer's Guide to the Open Source Galaxy
+          speaker: Agnieszka_Pilch
+          title: Polymer
           description:
-            - The aim of this speech is to encourage developers to contribute to open-source projects, increase awareness of the open-source universe and the importance of giving back to the community, for those who don’t have any online presence and community experience yet; a.k.a the ‘dark matter programmers’.
-            - Who are the Dark Matter Programmers?
-            - Why One Should Contribute to Open Source Projects?
-            - How to find an open source project to contribute to?
-            - You find an interesting project and get on the boat, how about your first commit?
-            - Case Study - My very first open-source experience.
-            - "Bonus: How to win developers for your own open-source project."
-        15-20:
-          id: 143
+            - Przyszłość web design
+            - https://www.polymer-project.org/
+        11-40:
+          id: 431
           type: talk
-          speaker: Jakub_Duda
-          title:   "Scrum vs open source - kunagi.org jako otwarta alternatywa dla komercyjnych systemów zarządzania projektami"
-          description:
-           - Scrum (a ogólniej – Agile) to obecnie najpopularniejsza filozofia realizacji projektów informatycznych. Tej popularności towarzyszy dużą ilość narzędzi wspomagających zwinne tworzenie oprogramowania.
-           - Czy Open Source ma coś do zaoferowania w tym temacie, czy jesteśmy skazani na rozwiązania komercyjne?
-           - A może samo oprogramowanie open source można tworzyć w w scrumie?
-           - Case study kunagi.org
-        15-40:
-          id: 145
+          title: TBA
+          description: TBA
+        12-20:
+          id: 438
+          type: talk
+          title: TBA
+          description: TBA
+        12-40:
+          id: 445
           type: bye
           speaker: Dariusz_Wylon
   workshops_schedule:
@@ -1219,6 +1170,30 @@ pl:
         linkedin: https://www.linkedin.com/in/tomaszborowski
         twitter: https://twitter.com/TomaszBorowski
         world: http://tomaszborowski.com/#/home
+    Krzysztof_Ksiazek:
+      id: 67
+      name: Krzysztof Książek
+      title: MySQL DBA
+      description: ''
+      social:
+        linkedin: https://pl.linkedin.com/in/krzysztofksiazek
+        world: http://blog.ksiazek.info/
+    Jaroslaw_Czub:
+      id: 68
+      name: Jarosław Czub
+      title: JAVA / PHP Developer
+      description: ' '
+      social:
+        linkedin: http://pl.linkedin.com/pub/jaros%C5%82aw-czub/5/859/942
+        world: http://www.shad.mobi/
+    Agnieszka_Pilch:
+      id: 69
+      name: Agnieszka Pilch
+      title: Angular.js Developer
+      description:
+      social:
+        linkedin: https://www.linkedin.com/pub/agnieszka-pilch/13/763/43a
+
 
 
 

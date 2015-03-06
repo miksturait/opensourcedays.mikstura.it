@@ -23,12 +23,12 @@ class HomeController < ApplicationController
   end
 
   def prepare_speakers
-    @speakers = %w(Karol_Ryt Dariusz_Wylon Heitor_Medrado Michal_Papis Agnieszka_Pawlicka Marek_Wiera Michal_Zyndul Tomasz_Borowski Slawomir_Rewaj Karol_Karczewski Marcin_Hlybin Mikolaj_Pastuszko Marcin_Szalowicz Arkadiusz_Kwasny Henryk_Konsek Tomasz_Bak Mateusz_Juscinski Michal_Czyz Katarzyna_Pawlonka Ryszard_Dalkowski).
+    @speakers = %w(Karol_Ryt Dariusz_Wylon Heitor_Medrado Michal_Papis Agnieszka_Pawlicka Marek_Wiera Michal_Zyndul Tomasz_Borowski Slawomir_Rewaj Karol_Karczewski Agnieszka_Pilch Marcin_Hlybin Mikolaj_Pastuszko Arkadiusz_Kwasny Marcin_Szalowicz Henryk_Konsek Katarzyna_Pawlonka Michal_Czyz Ryszard_Dalkowski Jaroslaw_Czub Tomasz_Bak Krzysztof_Ksiazek Mateusz_Juscinski).
         map { |speaker| Person.new(speaker) }
   end
 
   def prepare_team
-    @team = %w(Dominik_Kozaczko Eunika_Tabak Dariusz_Wylon Michal_Czyz Tomasz_Gancarczyk Grzegorz_Rduch Marcin_Szalowicz Anna_Warzecha Katarzyna_Jasiewicz Joanna_Walus Pawel_Rudyk Lukasz_Czulak Tomasz_Kaminski Krzysztof_Gren Andrzej_Kastelik Pawel_Krusinski Beata_Goluch Piotr_Juroszek Justyna_Jasek Michal_Krzus Janusz_Zukowicz Jan_Frindt Maciej_Kwasniak Artur_Loska).map { |speaker| Person.new(speaker) }
+    @team = %w(Dominik_Kozaczko Eunika_Tabak Dariusz_Wylon Michal_Czyz Tomasz_Gancarczyk Grzegorz_Rduch Marcin_Szalowicz Katarzyna_Jasiewicz Joanna_Walus Pawel_Rudyk Lukasz_Czulak Tomasz_Kaminski Krzysztof_Gren Andrzej_Kastelik Pawel_Krusinski Beata_Goluch Piotr_Juroszek Justyna_Jasek Michal_Krzus Janusz_Zukowicz Jan_Frindt Maciej_Kwasniak Artur_Loska).map { |speaker| Person.new(speaker) }
   end
 
   def prepare_talks
