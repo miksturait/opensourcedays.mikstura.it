@@ -3,7 +3,7 @@
     %h4= t('section.schedule')
 .span12
   %ul#schedule-tabs.nav.nav-pills.tab-fillspace
-    - (all_days = %i(dayone daytwo daythree)).each do |day|
+    - (all_days = %i(dayone)).each do |day|
       %li{ class: day_is_active(day)}
         %a{"data-toggle" => "tab", :href => "##{day}"}
           = t(:header, scope: [:schedule, day])

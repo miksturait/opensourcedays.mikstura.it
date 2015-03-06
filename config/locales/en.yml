@@ -141,23 +141,23 @@ en:
       description: 'ul. Rynek 1, Bielsko-Biała 43-300'
     dayone:
       id: 1
-      date: 2014-03-28
+      date: 2015-04-17
       title: Friday
-      header: Friday, 28 April
+      header: Friday, 17 April
       agenda:
         15-00:
-          id: 101
+          id: 301
           type: registration
-        16-00:
-          id: 102
+        16-20:
+          id: 302
           type: welcome
-          speaker: Dominik_Kozaczko
+          speaker: Dariusz_Wylon
         16-30:
-          id: 103
+          id: 303
           type: talk
-          speaker: Kamil_Galuszka
-          title: An Introduction to the World of Free & Open Source
-          description: Open Source has changed and is changing the world. I would like to show how those who are interested might start to contribute their skills and effort to co-create open code with other great people in the community.
+          speaker: Tomasz_Bak
+          title: Jak wnieść wkład w Open Source?
+          description: Czym jest open source? Kto tworzy open source? Jak można wnieść wkład?
         16-50:
           id: 104
           type: talk
@@ -1088,6 +1088,14 @@ en:
      description: ' '
      social:
        world: 'http://reset.ath.bielsko.pl/'
+    Michal_Konieczny:
+      id: 57
+      name: Michał Konieczny
+      title: 'UX Designer'
+      description: 'and web services producer. Since 2007.'
+      social:
+        linkedin: http://pl.linkedin.com/in/koniecznymichal
+
 
   footer:
     is_organised_by: The Open Source Days 2015 conference is organized by

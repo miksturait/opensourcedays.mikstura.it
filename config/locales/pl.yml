@@ -141,55 +141,58 @@ pl:
       description: 'ul. Rynek 1, Bielsko-Biała 43-300'
     dayone:
       id: 1
-      date: 2014-03-28
-      title: Piątek
-      header: Piątek, 28 Mar
+      date: 2015-04-17
+      title: Friday
+      header: Friday, 17 April
       agenda:
         15-00:
-          id: 101
+          id: 301
           type: registration
-        16-00:
-          id: 102
+        16-20:
+          id: 302
           type: welcome
-          speaker: Dominik_Kozaczko
-        16-30:
-          id: 103
-          type: talk
-          speaker: Kamil_Galuszka
-          title: Wprowadzenie do świata free & Open Source
-          description: Open Source jest czymś co zmieniło i zmienia świat. Chcę pokazać jak Ty drogi uczestniku możesz zaangażować się w świat otwartego kodu budowanego przez społeczność wielu niesamowitych ludzi.
-        16-50:
-          id: 104
-          type: talk
-          speaker: Michal_Czyz
-          title: A więc chciałbyś zostać Hakerem
-          description: ' '
-        17-10:
-          id: 105
-          type: talk
           speaker: Dariusz_Wylon
-          title: Czy można zaprogramować człowieka?
-          description: "Chcesz dowiedzieć się co zrobić, aby osoby w Twoim otoczeniu lepiej rozumiały to co chcesz im przekazać. Chcesz sprawić, aby wypowiadane przez Ciebie  komunikaty były bardziej skuteczne. Co prawda nie powiem jak zaprogramować człowieka aby zrobił to co chcemy, ale chętnie podzielę się z Tobą wiedzą na temat komunikacji międzyludzkiej, która dotychczas dostępna była jedynie na najlepszych szkoleniach."
-        17-30:
-          id: 106
-          type: break
-        18-00:
-          id: 107
+        16-30:
+          id: 303
           type: talk
-          speaker: Kate_Terlecka
-          title: Scrum - czyli jak poddać się zmianom i zrobić swoje
-          description: Scrum to ostatnio bardzo mądre słowo. Ale w Polsce spotkałam dopiero 4 firmy, które na prawdę wiedzą o co w tym chodzi. Chcę wam przybliżyć co to jest Scrum i dlaczego jeśli już go wprowadzamy, to zapominamy o jego sercu.
-        19-15:
-          id: 146
-          type: panel
-          speaker:
-          title: 'Panel Dyskusyjny: "Kariera IT"'
-          description: TBA
-        20-00:
-          id: 108
+          speaker: Tomasz_Bak
+          title: Jak wnieść wkład w Open Source?
+          description: Czym jest open source? Kto tworzy open source? Jak można wnieść wkład?
+        16-50:
+          id: 304
+          type: talk
+          speaker: Michal_Konieczny
+          title: Cechy charakteru i otoczenia wymagane dla sukcesu projektu
+          description:
+            - Na bazie case studies opowiem o tym, co przyczynia się do realizacji udanych projektów. Będzie o umiejętnościach miękkich i o twardych danych.
+            - Powiem o metodyce Agile, o budowaniu start-upów, o rozwijaniu funkcjonalności w modelu Lean, o MVP i o innych efektywnych narzędziach.
+            - Opowiem również o pasji i zaangażowaniu, o rekrutowaniu właściwych współpracowników, o motywowaniu, o wychodzeniu ze strefy komfortu i o podejmowaniu decyzji w oparciu o dane.
+            - Opiszę cechy charakteru, jakie warto rozwijać u siebie i szukać u innych. Z kim pracować i w jakim otoczeniu? I jak przy tym wszystkim zachować work-life balance.
+            - Zapraszam.
+        17-10:
+          id: 405
+          type: talk
+          speaker: Mikolaj_Pastuszko
+          title: Nie mamy projektanta! Co robić?!
+          description:
+            - Stworzyć aplikację potrafi każdy pingwin. Jednak tylko nieliczne z nich osiągają sukces. A wystarczy dostosować ją do rzeczywistych potrzeb użytkowników, by pokochali nasz produkt i chętnie za niego płacili. Tym zajmuje się projektant UX.
+            - Niekiedy jednak nie możemy sobie pozwolić na zatrudnienie UX Designera. Co wtedy zrobić? Jak poznać potrzeby użytkowników zanim wyskrobiemy pierwszą linię kodu? Jak pisać kod, który już od pierwszych linii realizuje potrzeby użytkowników? Jak przejść od hurraoptymizmu do stawiania hipotez projektowych? Co zrobić, by zespół programistów tworzył używalne rozwiązania? Jak sprawdzić czy rozwijamy aplikację w dobrym kierunku?
+            - Zapraszam na praktyczny poradnik dla osób, które chcą, by ich produkt pokochały miliony użytkowników.
+        17-30:
+          id: 406
+          type: break
+        17-45:
+          id: 407
+          type: talk
+          speaker: Karol_Ryt
+          title: Kreatywny Inżynier, czy jest to możliwe?
+          description:
+            - Krótka rozprawa o tym czy bycie inżynierem jest synonimem nudnej, żmudnej pracy, czy też może być ciekawa pełna zaskakujących i ciekawych pomysłów.
+        18-30:
+          id: 408
           type: see_you_tomorrow
-          speaker: Dominik_Kozaczko
-        20-30:
+          speaker: Dariusz_Wylon
+        20-00:
           id: 201
           type: party
           speaker: Slodownia
@@ -708,7 +711,7 @@ pl:
     Dariusz_Wylon:
      id: 4
      name: Dariusz Wylon
-     title: Coach & Trainer
+     title: CCO @ Selleo
      description: Innowacyjny i kreatywny menedżer z dwunastoletnim doświadczeniem
      social:
        twitter: https://twitter.com/corporate_coach
@@ -741,12 +744,12 @@ pl:
     Michal_Czyz:
      id: 8
      name: Michał Czyż
-     title: Ruby Developer
-     description: "Aktywny działacz społeczności Open Source"
+     title: CTO @ Selleo
+     description: "Ostatni czasy odpowiedzialny głownie za szkolenie Web Developer'ów"
      social:
        twitter: http://bit.ly/twitter_michalczyz
-       google: http://bit.ly/michalczyz_googleplus
        linkedin: http://linkd.in/michalczyz
+       world: http://selleo.com
     Michal_Wyrobek:
      id: 9
      name: Michał Wyrobek
@@ -817,6 +820,7 @@ pl:
       title: IT Trainer
       description: Wielka pasjonatka konstruowania robotów i ich programowania, wytrwale podążająca za najnowocześniejszymi technologiami.
       social:
+        linkedin: http://pl.linkedin.com/pub/agnieszka-pawlicka/94/222/2ab/en
         facebook: https://www.facebook.com/agnieszka.pawlicka2
     Pawel_Marynowski:
       id: 18
@@ -1103,6 +1107,13 @@ pl:
      description: ' '
      social:
        world: 'http://reset.ath.bielsko.pl/'
+    Michal_Konieczny:
+      id: 57
+      name: Michał Konieczny
+      title: 'UX Designer'
+      description: 'and web services producer. Since 2007.'
+      social:
+        linkedin: http://pl.linkedin.com/in/koniecznymichal
 
   footer:
     is_organised_by: Konferencja Dni Wolnego Oprogramowania 2015 jest organizowana przez
