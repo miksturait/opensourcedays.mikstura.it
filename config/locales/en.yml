@@ -139,6 +139,9 @@ en:
     party:
       header: afterparty
       description: 'ul. Rynek 1, Bielsko-Biała 43-300'
+    grill:
+      header: Grill Na Błoniach
+      description: 'Pocztowa 39, Bielsko-Biała'
     dayone:
       id: 1
       date: 2015-04-17
@@ -159,163 +162,197 @@ en:
           title: Jak wnieść wkład w Open Source?
           description: Czym jest open source? Kto tworzy open source? Jak można wnieść wkład?
         16-50:
-          id: 104
+          id: 304
           type: talk
-          speaker: Michal_Czyz
-          title: So You Wanna Be a Hacker?
-          description: ' '
+          speaker: Michal_Konieczny
+          title: Cechy charakteru i otoczenia wymagane dla sukcesu projektu
+          description:
+            - Na bazie case studies opowiem o tym, co przyczynia się do realizacji udanych projektów. Będzie o umiejętnościach miękkich i o twardych danych.
+            - Powiem o metodyce Agile, o budowaniu start-upów, o rozwijaniu funkcjonalności w modelu Lean, o MVP i o innych efektywnych narzędziach.
+            - Opowiem również o pasji i zaangażowaniu, o rekrutowaniu właściwych współpracowników, o motywowaniu, o wychodzeniu ze strefy komfortu i o podejmowaniu decyzji w oparciu o dane.
+            - Opiszę cechy charakteru, jakie warto rozwijać u siebie i szukać u innych. Z kim pracować i w jakim otoczeniu? I jak przy tym wszystkim zachować work-life balance.
+            - Zapraszam.
         17-10:
-          id: 105
+          id: 405
           type: talk
-          speaker: Dariusz_Wylon
-          title: Can Human Minds be Programmed?
-          description: "Keen to find out how to make others better understand your message? Determined to become a more effective communicator? I won’t tell you how to program the human mind, but I will surely share what I have so far delivered during multiple communication workshops meant for professionals."
+          speaker: Mikolaj_Pastuszko
+          title: Nie mamy projektanta! Co robić?!
+          description:
+            - Stworzyć aplikację potrafi każdy pingwin. Jednak tylko nieliczne z nich osiągają sukces. A wystarczy dostosować ją do rzeczywistych potrzeb użytkowników, by pokochali nasz produkt i chętnie za niego płacili. Tym zajmuje się projektant UX.
+            - Niekiedy jednak nie możemy sobie pozwolić na zatrudnienie UX Designera. Co wtedy zrobić? Jak poznać potrzeby użytkowników zanim wyskrobiemy pierwszą linię kodu? Jak pisać kod, który już od pierwszych linii realizuje potrzeby użytkowników? Jak przejść od hurraoptymizmu do stawiania hipotez projektowych? Co zrobić, by zespół programistów tworzył używalne rozwiązania? Jak sprawdzić czy rozwijamy aplikację w dobrym kierunku?
+            - Zapraszam na praktyczny poradnik dla osób, które chcą, by ich produkt pokochały miliony użytkowników.
         17-30:
-          id: 106
+          id: 406
           type: break
-        18-00:
-          id: 107
+        17-45:
+          id: 407
           type: talk
-          speaker: Kate_Terlecka
-          title: SCRUM - How to flow with change and get things done
-          description: Scrum has recently become a buzzword. Still I have so far found just 4 companies in Poland who do know what Scrum is really about. I would like to introduce you to Scrum and explain why we often forget about its very core when it is introduced.
-        19-15:
-          id: 146
-          type: panel
-          speaker:
-          title: 'A discussion panel: "Careers in IT"'
-          description: ' '
-        20-00:
-          id: 108
+          speaker: Karol_Ryt
+          title: Kreatywny Inżynier, czy jest to możliwe?
+          description:
+            - Krótka rozprawa o tym czy bycie inżynierem jest synonimem nudnej, żmudnej pracy, czy też może być ciekawa pełna zaskakujących i ciekawych pomysłów.
+        18-30:
+          id: 408
           type: see_you_tomorrow
-          speaker: Dominik_Kozaczko
-        21-00:
+          speaker: Dariusz_Wylon
+        20-00:
           id: 201
           type: party
           speaker: Slodownia
     daytwo:
       id: 2
-      date: 2014-03-29
+      date: 2014-04-18
       title: Saturday
-      header: Saturday, 29 April
+      header: Saturday, 18 April
       agenda:
-        09-00:
-          id: 109
-          type: breakfest
         09-45:
-          id: 110
+          id: 410
           type: welcome
-          speaker: Dariusz_Wylon
-        10-00:
-          id: 111
+          speaker: Eunika_Tabak
+        09-50:
+          id: 411
           type: keynote
+          title: TBA
+          description:
+        10-50:
+          id: 412
+          type: break
+        11-10:
+          id: 413
+          type: talk
           speaker: Mikolaj_Pastuszko
-          title: User Experience Design
+          title: Czego mój pies nauczył mnie o projektowaniu?
           description:
-           - A few years ago nobody spoke about designing the user experience. In recent years the acronym UX has become a buzzword in the IT world and the demand for UX services is growing dynamically.
-           - What do UX designers actually do? Who are they? Where do they come from? How are they different from other people? How do they multiply profits? What is their toolkit? How to talk to them? Why do they love their work and why are they unusually happy?
-           - The presentation shall be a stream of impressions radiating a fascination for the discipline.
-        11-00:
-          id: 112
-          type: break
+            - 'Odkąd w moim domu zamieszkał pies, stan mieszkania zastany po powrocie z pracy stanowi codzienną zagadkę. Pomysłowość zwierzaka potrafi zaskoczyć i wymaga od człowieka szczególnej ostrożności.'
+            - 'Użytkownicy naszych aplikacji także miewają rozmaite pomysły. A przecież chcemy, by czuli się bezpiecznie korzystając z naszego produktu. Jak projektować, aby dostarczane przez nas rozwiązania były bezpieczne? Jak zabezpieczyć użytkownika przed wykonaniem niepożądanych akcji? Jak ostrzegać o zagrożeniu, jednocześnie nie strasząc? Co zrobić, żeby użytkownik nie dokonał autodestrukcji?'
+            - 'Zapraszam na serię porad, przykładów, antyprzykładów i zdjęć psa.'
         11-30:
-          id: 113
+          id: 414
           type: talk
-          speaker: Rafal_Jagoda
-          title: Offline web application - how to “use it” without internet access.
-          description: I will present the features of HTML5 which enable the user to explore websites in the browser without internet access. I will also talk about creating offline applications which ensure supreme user experience. We will consider if it is better to build a suite of native apps for specific platforms or develop just one mobile HTML5-based application as a viable alternative.
+          speaker: Tomasz_Borowski
+          title: Aplikacje mobilne tworzone w technologiach webowych
+          description: 'Android, iOS, Windows Phone... Czy zróżnicowanie platform i języków programowania musi być przeszkodą w tworzeniu aplikacji mobilnych? Na szczęście nie! Dzięki technologiom webowym możemy tworzyć oprogramowanie działające na wielu platformach, a posiadane doświadczenie w HTML i JavaScript może znacznie przyspieszyć pracę i ukończenie projektu. Podczas wystąpienia zostaną przedstawione dostępne narzędzia i biblioteki do tworzenia cross-platformowych aplikacji mobilnych.'
         11-50:
-          id: 114
-          type: talk
-          speaker: Anna_Warzecha
-          title: Angular.js
-          description: The presentation will be a brief and compact introduction to angular.js. You will find out when to use it, what to use it for, and what it might mean for the project on which it is deployed.
-        12-10:
-          id: 115
-          type: talk
-          speaker: Agnieszka_Pawlicka
-          title: Playfully simple programming
-          description:
-            - Has anyone ever told you that programming is hard?
-            - Have they told you it is dead boring?
-            - I shall prove it can be different. You just need to stack the blocks right. It is so simple.
-        12-30:
-          id: 116
-          type: lunch
-        13-30:
-          id: 117
-          type: keynote
-          speaker: Aaron_Kaplan
-          title:  Don't connect to the 'net, *be* the net! Why are you no ISP yet?
-          description:
-            - 'While open source democratized access to software and enabled a very successful copy & paste, remix & fork approach to software engineering, there are still two important aspects of our digital infrastructure which are not easily accessible for anyone: open hardware and open networks.'
-            - 'However, concerning open networks, some groups already had some successes.'
-            - 'More than 10 years ago, in 2003 a couple of initiatives in Austria, Germany, Greece and other countries discovered in parallel that you could "hack-open" standard Wi-Fi routers and install mesh software on them. The combination of hackable cheap Wi-Fi routers and open source thus spund the creation of open networks (often also termed "bottom-up networks" or "community wireless networks"). By inverting the traditional role of ISPs and allowing anyone to be part of a community wireless network, these open networks were born.'
-            - 'Now, after ten years of development and research, some of these networks developed and flourished into large communities, covering vast areas. Some other networks dissappeared.'
-            - 'However the development of these individual community networks turned out, one thing is clear: mesh networking is here to stay. It is *the* way to do mobile ad-hoc networking for potentially moving networks nodes.'
-            - 'The talk will also explain the basics of mesh networking and OLSR.org in particular: how to get it running and experiement with it and how to connect devices over a mesh.'
-            - 'But just having a mesh running is only part of the story. You need to connect to the global Internet to become a "real" ISP. There are a couple of steps involved with that and lots of pitfalls. The presenter - also a pioneer of the community wireless network movement - will look back at 10 years of community wireless network development, draw some lessons learned and show a straight forward path to create your own ISP.'
-            - 'Next, the presenter will discuss current issues of mesh networking research and point out opportunities for further research.'
-            - 'The talk will close with a vision for the next ten years in mesh research and community wireless ISP research.'
-        14-30:
-          id: 118
-          type: break
-        15-00:
-          id: 119
-          type: talk
-          speaker: Grzegorz_Nosek
-          title: 'Ansible: the f-word in devops is now "fun"'
-          description: A powerful tool to manage the configuration of multiple machines. It combines the strengths of puppet, capistrano as well as the ordinary ssh and as such leaves the other similar tools far behind.
-        15-20:
-          id: 120
-          type: talk
-          speaker: Henryk_Konsek
-          title: Infracoding. JBoss - Fuse Fabric + Docker
-          description:
-            - I will talk about how Red Hat (using JBoss) help their biggest enterprise clients design solutions which simply work well after they have been deployed to production.
-            - I will attempt to introduce “infracoding” as a technique which reduces the risk of software failure after the code created by a developer is deployed to a cluster in a data centre or the cloud.
-            - I will also try to explain how such open source projects as Fuse Fabric and Docker help transform a developer into a devops.
-        15-40:
-          id: 121
+          id: 415
           type: talk
           speaker: Mateusz_Juscinski
-          title: Throw away FTP - an intro to Continuous Delivery
+          title: PHP dziś i jutro
           description:
-            - So you are a programmer and you are lazy (you have to be!). You want your freshly baked code to land on the server without bothering to touch the FTP client (or resorting to a git pull)? You have heard about "continuous integration" and wonder if this is the way to go. This presentation is for you then.
-            - I will introduce the concept of “continuous delivery”, which enables you to work more efficiently and guards you against making stupid mistakes. i jej wdrożenie daje +100 do informatycznego lansu na dzielni.
-        16-00:
-          id: 122
-          type: break
-        16-30:
-          id: 123
+            - 'W tym roku Internet świętuje 20-lecie powstania PHP, języka programowania który miał ogromny wpływ na przejście ze statycznych na dynamicznie generowane strony WWW.'
+            - 'Podczas tej prezentacji pokażę co w PHP zmieniło się w ostatnich czasach i jak PHP wygląda dziś, opowiem czym jest HHVM i Hack. Następnie pomówimy o przyszłości języka jaką jest, zapowiedziana na październik, wersja 7.'
+        12-20:
+          id: 501
           type: talk
-          speaker: Carsten_Munk
-          title:  Jolla and SailfishOS - an introduction for both power and ordinary users
-          description:
-            - Jolla is a company with roughly 90 employees, headquartered in Helsinki, Finland. In less than 2 years we have put a mobile phone product on the market in November 2013 and a alternative mobile operating system, non-Android based - named SailfishOS, based on a lot of well known open source technologies.
-            - This talk serves to present the story behind Jolla the company, what makes our mobile device and Sailfish operating system different from other offerings and introduce some of the open source technologies such as Qt in use and how it's leveraged. In addition to that, some discussions about business possibilities with Sailfish and the powerful concept of The Other Half.
-        17-10:
-          id: 125
-          type: talk
-          speaker: Bartosz_Piec
-          title: Firefox OS - what is it all about?
-          description: It is only last year that Firefox OS had its debut in Poland. What is this innovative, fully open source mobile operating system all about? I will highlight the key features of the Firefox OS, discuss its technological foundations and talk about the future of the platform.
-        17-30:
-          id: 126
-          type: break
-        18-00:
-          id: 127
-          type: lightningtalks
-          title: Lightning Talks
+          speaker: Katarzyna_Pawlonka
+          title: TBA
           description: TBA
-        19-00:
-          id: 128
+        12-35:
+          id: 116
+          type: lunch
+        14-00:
+          id: 501
+          type: talk
+          speaker: Michal_Zyndul
+          title: Vagrant
+          description:
+            - 'Vagrant - czym jest jak używać, dlaczego jest fajny i jak ułatwia pracę.'
+            - 'Na wykładzie skupię się na tym jak to narzędzie pomaga nam w pracy.'
+            - 'Jak grafik może w kilka minut postawić działający skomplikowany projekt na swojej maszynie za pomocą kilku poleceń'
+            - 'Opowiem kilka historii z życia programisty, kiedy to vagrant okazał się dobrym wyborem'
+        14-20:
+          id: 502
+          type: talk
+          speaker: Slawomir_Rewaj
+          title: One to rule them all - Docker
+          description:
+            - 'Kiedy tworzymy aplikacje czy systemy produkcyjne, niekoniecznie chcemy spędzać dużo czasu na konfiguracje środowiska pracy (jak i środowiska testowego i produkcyjnego). Chcemy również aby te środowiska były jak najbardziej zbliżone do siebie, aby uniknąć problemów typu "Dziwne, u mnie działa".'
+            - 'Społeczność Open Source ma bardzo dobrą odpowiedź na tą potrzebę: docker'
+            - 'Chciałbym pokazać czym jest oraz co może dla ciebie zrobić.'
+        14-40:
+          id: 503
+          type: talk
+          speaker: Marcin_Hlybin
+          title: Ansible - wzorce projektowe
+          description:
+            - 'Używanie Ansible jest proste, organizacja danych już nie.'
+            - 'Oprócz skromnych Best Practices, nie znajdziesz w dokumentacji informacji jaki organizować zadania, struktury danych, jak pisać generyczne role i jaki jest najsłuszniejszy sposób na getting things done.'
+            - 'Podczas wystąpienia przedstawię własne rozwiązania, przemyślenia oraz pułapki, na które się natknąłem podczas konfiguracji maszyn. Wykład będzie zawierać szybki wstęp do Ansible, aby każdy mógł skorzystać.'
+        15-00:
+          id: 418
+          type: break
+        15-20:
+          id: 419
+          type: talk
+          speaker: Karol_Karczewski
+          title: 'Open hardware - czym jest i jak możemy wykorzystać jego możliwości?'
+          description: "Przegląd najpopularniejszych rozwiązań, omówienie nowinek w zakresie 'open hardware', a także przykłady wykorzystania możliwości, jakie niesie ze sobą udostępnianie materiałów przez producentów."
+        15-40:
+          id: 120
+          type: talk
+          speaker: Michal_Papis
+          title:  Czy PGP to iluzja, a może możemy skorzystać na jego użyciu?
+          description:
+            - 'Chcę odpowiedzieć na pytanie: __czy podpisywanie kodu ma jakieś znaczenie__?'
+            - Przez długi czas sam szukałem odpowiedzi na nie. Myślałem nie możemy się ukryć przed inwigilacją i podpisywanie kod nic nam nie da. Ale myliłem się i teraz chcę się podzielić moimi doświadczeniami jak podpisywanie kodu może być dobre dla nas i co musimy zrobić żeby byś pewnym że nasze podpisy mają znaczenie.
+            - Chciałbym także przytoczyć podstawy tworzenia kluczy PGP do podpisywania i budowania łańcuchów zaufania. Było by świetnie gdyby ta prezentacja była kontynuowana następnego dnia w postaci sesji udostępniania identyfikatorów kluczy przez wszystkich zainteresowanych - tak że zbudujemy silną sieć zaufania. Dodatkowo dobrym pomysłem był by lokalny serwer kluczy aby przyśpieszyć wymianę kluczy.
+        16-00:
+          id: 421
+          type: talk
+          speaker: Marek_Wiera
+          title: Otwarta licencja na program komputerowy w polskim prawie autorskim
+          description:
+            - 'W ramach wykładu planowane jest omówienie następujących zagadnień'
+            - 'Program komputerowy jako przedmiot obrotu'
+            - '* program komputerowy w polskim prawie;'
+            - '* jakie przepisy winny być stosowane do programów komputerowych.'
+            - 'Licencja jako instytucja prawa autorskiego'
+            - '* istota licencji;'
+            - '* sposoby nabywania licencji;'
+            - '* różnice pomiędzy licencją oraz nabyciem autorskich praw majątkowych;'
+            - '* pola eksploatacji oraz nabycie licencji na różnych polach eksploatacji.'
+            - 'Omówienie założeń otwartego oprogramowania wobec ustawowej konstrukcji licencji na program komputerowy'
+            - '* licencja na czas oznaczony i nieoznaczony;'
+            - '* wypowiedzenie licencji;'
+            - '* dozwolony użytek;'
+            - '* wyczerpanie prawa do programu komputerowego.'
+        16-20:
+          id: 422
+          type: break
+        16-40:
+          id: 423
+          type: talk
+          speaker: Heitor_Medrado
+          title: 'Bacula: the Open Source Backup Tool [EN]'
+          description: "Great hands on presentation that also exploits the backup future, trends and main concepts. I'll show how to package install or build from code a complete backup system in a few minutes!"
+        17-30:
+          id: 425
+          type: talk
+          speaker: Henryk_Konsek
+          title: Wprowadzenie do mikroserwisów
+          description:
+            - Wszyscy programiści wiedzą, że nie należy umieszczać całej logiki aplikacji w jednej klasie. Wszyscy programiści wiedzą, że kod utrzymywalny, to kod podzielony logicznie na możliwie niezależne moduły. Wszyscy programiści wiedzą, że tylko kod logicznie podzielony może być łatwo i bezpiecznie modyfikowany.
+            - A co, gdyby podobną logikę zastosować na poziomie architektury aplikacji? Czy możliwe jest podzielenie systemu na mniejsze części, luźno komunikujące się ze sobą? Czy takie podejście ma sens? Co można na nim zyskać? Jakie problemy i niebezpieczeństwa są związane z podziałem aplikacji na mniejsze, niezależne części?
+            - Z mojej prezentacji dowiesz się, co to jest architektura zorientowana na mikroserwisy oraz jakie praktyczne wyzwania wiążą się z jej implementacją oraz produkcyjnym utrzymaniem.
+        18-00:
+          id: 426
+          type: break
+        18-20:
+          id: 427
+          type: panel
+          speaker: Arkadiusz_Kwasny
+          title: 'panel "future is now"'
+          description:
+            - W panelu dyskusyjnym zamierzamy przedstawić koncepcję rzeczywistości, gdzie człowiek może działać sprawniej dzięki wykorzystaniu VR, AR oraz Dronów.
+            - Chcemy przedstawić technologię, która dostępna jest już dziś oraz przedstawić wizję jej połączonoego wykorzystania.
+            - Całość będzie się składać z 3 prezentacji technologii oraz końcowej prezentacji łączącej je w całość.
+        19-20:
+          id: 428
           type: see_you_tomorrow
           speaker: Dariusz_Wylon
         20-00:
-          id: 202
-          type: afterparty
-          speaker: Slodownia
+          id: 602
+          type: grill
+          speaker: Na_Bloniach
     daythree:
       id: 3
       date: 2014-03-30
@@ -802,6 +839,7 @@ en:
       title: IT Trainer
       description: A new tech geek, passionate about building and programming robots.
       social:
+        linkedin: http://pl.linkedin.com/pub/agnieszka-pawlicka/94/222/2ab/en
         facebook: https://www.facebook.com/agnieszka.pawlicka2
     Pawel_Marynowski:
       id: 18
@@ -865,6 +903,7 @@ en:
       title: ENGINEER @ RED HAT
       description: Henryk is engaged in the open source movement developing such projects as Apache Camel and Spring Scala. An avid advocate for cool open source technologies.
       social:
+        linkedin: https://www.linkedin.com/profile/view?id=13283742
         twitter: https://twitter.com/hekonsek
     Grzegorz_Nosek:
       id: 26
@@ -1095,6 +1134,76 @@ en:
       description: 'and web services producer. Since 2007.'
       social:
         linkedin: http://pl.linkedin.com/in/koniecznymichal
+    Michal_Zyndul:
+      id: 58
+      name: Michał Zyndul
+      title: Team Leader
+      description: Senior Web Software Engineer
+      social:
+        linkedin: http://pl.linkedin.com/in/michalzyndul
+    Slawomir_Rewaj:
+      id: 59
+      name: Sławomir Rewaj
+      title: Cloud system specialist
+      description: " "
+      social:
+        linkedin: http://pl.linkedin.com/pub/slawomir-rewaj/10/999/a11
+    Marcin_Hlybin:
+      id: 60
+      name: Marcin Hlybin
+      title: Linux System Administrator
+      description: Ansible automation expert
+      social:
+        linkedin: https://www.linkedin.com/in/marcinhlybin
+        world: Ansible automation expert
+    Karol_Karczewski:
+      id: 61
+      name: Karol Karczewski
+      title: Programista, elektronik, robotyk.
+      description: Autor innowacyjnych projektów i rozwiązań hardware'owo-software'owych.
+      social:
+        linkedin: https://www.linkedin.com/profile/view?id=379741914
+    Michal_Papis:
+      id: 62
+      name: Michał Papis
+      title: Open Source Developer
+      description: Writing code usually in Ruby and Shell.
+      social:
+        linkedin: http://pl.linkedin.com/in/mpapis
+        twitter: https://twitter.com/mpapis
+        github: https://github.com/mpapis
+    Marek_Wiera:
+      id: 63
+      name: Marek Wiera
+      title: Adwokat, doktorant w
+      description: katedrze Prawa Gospodarczego i Handlowego na Wydziale Prawa i Administracji Uniwerystetu Śląskiego w Katowicach.
+      social:
+        linkedin: http://pl.linkedin.com/pub/marek-wiera/88/3bb/a28/en
+        twitter: https://twitter.com/MarekWiera
+        global: http://itlawyer.pl/blog-pl/
+    Heitor_Medrado:
+      id: 64
+      name: Heitor Medrado de Faria
+      title: Bacula Open Source Backup Software
+      description: Open Source Licenses x Fundamental Rights books author. Brazilian Bacula Community founder, teacher, consultant, evangelist, speaker.
+      social:
+        linekdin: https://www.linkedin.com/profile/view?id=10242718
+    Na_Bloniach:
+      id: 65
+      name: Grill na Błoniach
+      title: ''
+      description: ''
+      social:
+        world: http://restauracjawirtuozeria.pl/
+    Tomasz_Borowski:
+      id: 66
+      name: Tomasz Borowski
+      title: Lead Developer @ Selleo
+      desription: Full stack developer who works in Software Development House in Bielsko-Biała.
+      social:
+        linkedin: https://www.linkedin.com/in/tomaszborowski
+        twitter: https://twitter.com/TomaszBorowski
+        world: http://tomaszborowski.com/#/home
 
 
   footer:
