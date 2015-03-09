@@ -101,7 +101,7 @@ pl:
       modal:
         title: Zarejestruj się
         close: Zamknij
-      tickets_available: Wszystkie bilety wyprzedane :-)
+      tickets_available: Zarejestruj się już teraz!
       admitance_free: (uczestnictwo w konferencji jest bezpłatne)
       register_now:
   speakers:
@@ -1154,7 +1154,7 @@ pl:
       title: Bacula Open Source Backup Software
       description: Open Source Licenses x Fundamental Rights books author. Brazilian Bacula Community founder, teacher, consultant, evangelist, speaker.
       social:
-        linekdin: https://www.linkedin.com/profile/view?id=10242718
+        linkedin: https://www.linkedin.com/profile/view?id=10242718
     Na_Bloniach:
       id: 65
       name: Grill na Błoniach

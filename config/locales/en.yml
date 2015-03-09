@@ -101,7 +101,7 @@ en:
       modal:
         title: Register
         close: Close
-      tickets_available: All tickets SOLD OUT :-)
+      tickets_available: Register now :-)
       admitance_free: Attendance is free
       register_now:
   speakers:
@@ -626,7 +626,7 @@ en:
         name: L412 at floor 4th
   sponsors:
     slogan: Sponsors do have an impact on the quality of the conference!
-    slogan: They help make the Open Source Days a unique event.
+    slogan: They help make the Open Source Days a uniqueeevent.
     slogan: Offer your support and
     join_us: sponsor the Open Source Days ‘15
     link:
@@ -1139,7 +1139,7 @@ en:
       title: Bacula Open Source Backup Software
       description: Open Source Licenses x Fundamental Rights books author. Brazilian Bacula Community founder, teacher, consultant, evangelist, speaker.
       social:
-        linekdin: https://www.linkedin.com/profile/view?id=10242718
+        linkedin: https://www.linkedin.com/profile/view?id=10242718
     Na_Bloniach:
       id: 65
       name: Grill na Błoniach
