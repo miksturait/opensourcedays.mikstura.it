@@ -151,22 +151,24 @@ en:
         15-00:
           id: 301
           type: registration
-        16-20:
+        16-10:
           id: 302
           type: welcome
           speaker: Dariusz_Wylon
-        16-30:
+        16-20:
           id: 303
           type: talk
           speaker: Tomasz_Bak
           title: Jak wnieść wkład w Open Source?
           description: Czym jest open source? Kto tworzy open source? Jak można wnieść wkład?
-        16-50:
-          id: 491
+        16-40:
+          id: 415
           type: talk
-          speaker:
-          title: TBA
-          description: TBA
+          speaker: Mateusz_Juscinski
+          title: PHP dziś i jutro
+          description:
+            - 'W tym roku Internet świętuje 20-lecie powstania PHP, języka programowania który miał ogromny wpływ na przejście ze statycznych na dynamicznie generowane strony WWW.'
+            - 'Podczas tej prezentacji pokażę co w PHP zmieniło się w ostatnich czasach i jak PHP wygląda dziś, opowiem czym jest HHVM i Hack. Następnie pomówimy o przyszłości języka jaką jest, zapowiedziana na październik, wersja 7.'
         17-10:
           id: 446
           type: talk
@@ -229,20 +231,20 @@ en:
       title: Sobota
       header: Sobota, 18 Kwietnia
       agenda:
-        09-45:
+        09-55:
           id: 410
           type: welcome
           speaker: Eunika_Tabak
-        09-50:
+        10-00:
           id: 411
           type: keynote
           speaker: Dariusz_Wylon
           title: TBA
           description: TBA
-        10-50:
+        11-00:
           id: 412
           type: break
-        11-10:
+        11-20:
           id: 413
           type: talk
           speaker: Mikolaj_Pastuszko
@@ -251,30 +253,22 @@ en:
             - 'Odkąd w moim domu zamieszkał pies, stan mieszkania zastany po powrocie z pracy stanowi codzienną zagadkę. Pomysłowość zwierzaka potrafi zaskoczyć i wymaga od człowieka szczególnej ostrożności.'
             - 'Użytkownicy naszych aplikacji także miewają rozmaite pomysły. A przecież chcemy, by czuli się bezpiecznie korzystając z naszego produktu. Jak projektować, aby dostarczane przez nas rozwiązania były bezpieczne? Jak zabezpieczyć użytkownika przed wykonaniem niepożądanych akcji? Jak ostrzegać o zagrożeniu, jednocześnie nie strasząc? Co zrobić, żeby użytkownik nie dokonał autodestrukcji?'
             - 'Zapraszam na serię porad, przykładów, antyprzykładów i zdjęć psa.'
-        11-30:
+        11-40:
           id: 414
           type: talk
           speaker: Tomasz_Borowski
           title: Aplikacje mobilne tworzone w technologiach webowych
           description: 'Android, iOS, Windows Phone... Czy zróżnicowanie platform i języków programowania musi być przeszkodą w tworzeniu aplikacji mobilnych? Na szczęście nie! Dzięki technologiom webowym możemy tworzyć oprogramowanie działające na wielu platformach, a posiadane doświadczenie w HTML i JavaScript może znacznie przyspieszyć pracę i ukończenie projektu. Podczas wystąpienia zostaną przedstawione dostępne narzędzia i biblioteki do tworzenia cross-platformowych aplikacji mobilnych.'
-        11-50:
-          id: 415
-          type: talk
-          speaker: Mateusz_Juscinski
-          title: PHP dziś i jutro
-          description:
-            - 'W tym roku Internet świętuje 20-lecie powstania PHP, języka programowania który miał ogromny wpływ na przejście ze statycznych na dynamicznie generowane strony WWW.'
-            - 'Podczas tej prezentacji pokażę co w PHP zmieniło się w ostatnich czasach i jak PHP wygląda dziś, opowiem czym jest HHVM i Hack. Następnie pomówimy o przyszłości języka jaką jest, zapowiedziana na październik, wersja 7.'
-        12-20:
+        12-00:
           id: 501
           type: talk
           speaker: Katarzyna_Pawlonka
           title: TBA
           description: TBA
-        12-35:
+        12-15:
           id: 116
           type: lunch
-        14-00:
+        14-15:
           id: 503
           type: talk
           speaker: Marcin_Hlybin
@@ -283,7 +277,7 @@ en:
             - 'Używanie Ansible jest proste, organizacja danych już nie.'
             - 'Oprócz skromnych Best Practices, nie znajdziesz w dokumentacji informacji jaki organizować zadania, struktury danych, jak pisać generyczne role i jaki jest najsłuszniejszy sposób na getting things done.'
             - 'Podczas wystąpienia przedstawię własne rozwiązania, przemyślenia oraz pułapki, na które się natknąłem podczas konfiguracji maszyn. Wykład będzie zawierać szybki wstęp do Ansible, aby każdy mógł skorzystać.'
-        14-20:
+        14-35:
           id: 502
           type: talk
           speaker: Slawomir_Rewaj
@@ -292,7 +286,7 @@ en:
             - 'Kiedy tworzymy aplikacje czy systemy produkcyjne, niekoniecznie chcemy spędzać dużo czasu na konfiguracje środowiska pracy (jak i środowiska testowego i produkcyjnego). Chcemy również aby te środowiska były jak najbardziej zbliżone do siebie, aby uniknąć problemów typu "Dziwne, u mnie działa".'
             - 'Społeczność Open Source ma bardzo dobrą odpowiedź na tą potrzebę: docker'
             - 'Chciałbym pokazać czym jest oraz co może dla ciebie zrobić.'
-        14-40:
+        14-55:
           id: 501
           type: talk
           speaker: Michal_Zyndul
@@ -302,10 +296,10 @@ en:
             - 'Na wykładzie skupię się na tym jak to narzędzie pomaga nam w pracy.'
             - 'Jak grafik może w kilka minut postawić działający skomplikowany projekt na swojej maszynie za pomocą kilku poleceń'
             - 'Opowiem kilka historii z życia programisty, kiedy to vagrant okazał się dobrym wyborem'
-        15-00:
+        15-15:
           id: 418
           type: break
-        15-20:
+        15-35:
           id: 492
           type: talk
           speaker: Lukasz_Wieclaw
@@ -313,7 +307,7 @@ en:
           description:
             - Krótki wstęp do biometrii.
             - Przegląd metod biometrycznej identyfikacji i weryfikacji tożsamości. Czy trudno jest oszukać system biometryczny? Systemy biometryczne w środowisku Open Source.
-        15-40:
+        15-55:
           id: 120
           type: talk
           speaker: Michal_Papis
@@ -322,7 +316,7 @@ en:
             - 'Chcę odpowiedzieć na pytanie: __czy podpisywanie kodu ma jakieś znaczenie__?'
             - Przez długi czas sam szukałem odpowiedzi na nie. Myślałem nie możemy się ukryć przed inwigilacją i podpisywanie kod nic nam nie da. Ale myliłem się i teraz chcę się podzielić moimi doświadczeniami jak podpisywanie kodu może być dobre dla nas i co musimy zrobić żeby byś pewnym że nasze podpisy mają znaczenie.
             - Chciałbym także przytoczyć podstawy tworzenia kluczy PGP do podpisywania i budowania łańcuchów zaufania. Było by świetnie gdyby ta prezentacja była kontynuowana następnego dnia w postaci sesji udostępniania identyfikatorów kluczy przez wszystkich zainteresowanych - tak że zbudujemy silną sieć zaufania. Dodatkowo dobrym pomysłem był by lokalny serwer kluczy aby przyśpieszyć wymianę kluczy.
-        16-00:
+        16-15:
           id: 421
           type: talk
           speaker: Marek_Wiera
@@ -342,10 +336,10 @@ en:
             - '* wypowiedzenie licencji;'
             - '* dozwolony użytek;'
             - '* wyczerpanie prawa do programu komputerowego.'
-        16-20:
+        16-35:
           id: 422
           type: break
-        16-40:
+        16-55:
           id: 427
           type: panel
           speaker: Arkadiusz_Kwasny
@@ -354,22 +348,22 @@ en:
             - W panelu dyskusyjnym zamierzamy przedstawić koncepcję rzeczywistości, gdzie człowiek może działać sprawniej dzięki wykorzystaniu VR, AR oraz Dronów.
             - Chcemy przedstawić technologię, która dostępna jest już dziś oraz przedstawić wizję jej połączonoego wykorzystania.
             - Całość będzie się składać z 3 prezentacji technologii oraz końcowej prezentacji łączącej je w całość.
-        17-40:
+        17-55:
           id: 426
           type: break
-        18-00:
+        18-15:
           id: 419
           type: talk
           speaker: Karol_Karczewski
           title: 'Open hardware - czym jest i jak możemy wykorzystać jego możliwości?'
           description: "Przegląd najpopularniejszych rozwiązań, omówienie nowinek w zakresie 'open hardware', a także przykłady wykorzystania możliwości, jakie niesie ze sobą udostępnianie materiałów przez producentów."
-        18-20:
+        18-35:
           id: 423
           type: talk
           speaker: Heitor_Medrado
           title: 'Bacula: the Open Source Backup Tool [EN]'
           description: "Great hands on presentation that also exploits the backup future, trends and main concepts. I'll show how to package install or build from code a complete backup system in a few minutes!"
-        19-10:
+        19-25:
           id: 428
           type: see_you_tomorrow
           speaker: Dariusz_Wylon
