@@ -145,8 +145,8 @@ en:
     dayone:
       id: 1
       date: 2015-04-17
-      title: Friday
-      header: Friday, 17 April
+      title: Piątek
+      header: Piątek, 17 Kwietnia
       agenda:
         15-00:
           id: 301
@@ -162,11 +162,11 @@ en:
           title: Jak wnieść wkład w Open Source?
           description: Czym jest open source? Kto tworzy open source? Jak można wnieść wkład?
         16-50:
-          id: 419
+          id: 491
           type: talk
-          speaker: Karol_Karczewski
-          title: 'Open hardware - czym jest i jak możemy wykorzystać jego możliwości?'
-          description: "Przegląd najpopularniejszych rozwiązań, omówienie nowinek w zakresie 'open hardware', a także przykłady wykorzystania możliwości, jakie niesie ze sobą udostępnianie materiałów przez producentów."
+          speaker:
+          title: TBA
+          description: TBA
         17-10:
           id: 446
           type: talk
@@ -225,9 +225,9 @@ en:
           speaker: Dariusz_Wylon
     daytwo:
       id: 2
-      date: 2014-04-18
-      title: Saturday
-      header: Saturday, 18 April
+      date: 2014-03-29
+      title: Sobota
+      header: Sobota, 18 Kwietnia
       agenda:
         09-45:
           id: 410
@@ -236,8 +236,9 @@ en:
         09-50:
           id: 411
           type: keynote
+          speaker: Dariusz_Wylon
           title: TBA
-          description:
+          description: TBA
         10-50:
           id: 412
           type: break
@@ -304,6 +305,14 @@ en:
         15-00:
           id: 418
           type: break
+        15-20:
+          id: 492
+          type: talk
+          speaker: Lukasz_Wieclaw
+          title: 'Biomteria - Sam jesteś unikalnym dokumentem tożsamości'
+          description:
+            - Krótki wstęp do biometrii.
+            - Przegląd metod biometrycznej identyfikacji i weryfikacji tożsamości. Czy trudno jest oszukać system biometryczny? Systemy biometryczne w środowisku Open Source.
         15-40:
           id: 120
           type: talk
@@ -337,24 +346,6 @@ en:
           id: 422
           type: break
         16-40:
-          id: 423
-          type: talk
-          speaker: Heitor_Medrado
-          title: 'Bacula: the Open Source Backup Tool [EN]'
-          description: "Great hands on presentation that also exploits the backup future, trends and main concepts. I'll show how to package install or build from code a complete backup system in a few minutes!"
-        17-30:
-          id: 425
-          type: talk
-          speaker: Henryk_Konsek
-          title: Wprowadzenie do mikroserwisów
-          description:
-            - Wszyscy programiści wiedzą, że nie należy umieszczać całej logiki aplikacji w jednej klasie. Wszyscy programiści wiedzą, że kod utrzymywalny, to kod podzielony logicznie na możliwie niezależne moduły. Wszyscy programiści wiedzą, że tylko kod logicznie podzielony może być łatwo i bezpiecznie modyfikowany.
-            - A co, gdyby podobną logikę zastosować na poziomie architektury aplikacji? Czy możliwe jest podzielenie systemu na mniejsze części, luźno komunikujące się ze sobą? Czy takie podejście ma sens? Co można na nim zyskać? Jakie problemy i niebezpieczeństwa są związane z podziałem aplikacji na mniejsze, niezależne części?
-            - Z mojej prezentacji dowiesz się, co to jest architektura zorientowana na mikroserwisy oraz jakie praktyczne wyzwania wiążą się z jej implementacją oraz produkcyjnym utrzymaniem.
-        18-00:
-          id: 426
-          type: break
-        18-20:
           id: 427
           type: panel
           speaker: Arkadiusz_Kwasny
@@ -363,7 +354,22 @@ en:
             - W panelu dyskusyjnym zamierzamy przedstawić koncepcję rzeczywistości, gdzie człowiek może działać sprawniej dzięki wykorzystaniu VR, AR oraz Dronów.
             - Chcemy przedstawić technologię, która dostępna jest już dziś oraz przedstawić wizję jej połączonoego wykorzystania.
             - Całość będzie się składać z 3 prezentacji technologii oraz końcowej prezentacji łączącej je w całość.
-        19-20:
+        17-40:
+          id: 426
+          type: break
+        18-00:
+          id: 419
+          type: talk
+          speaker: Karol_Karczewski
+          title: 'Open hardware - czym jest i jak możemy wykorzystać jego możliwości?'
+          description: "Przegląd najpopularniejszych rozwiązań, omówienie nowinek w zakresie 'open hardware', a także przykłady wykorzystania możliwości, jakie niesie ze sobą udostępnianie materiałów przez producentów."
+        18-20:
+          id: 423
+          type: talk
+          speaker: Heitor_Medrado
+          title: 'Bacula: the Open Source Backup Tool [EN]'
+          description: "Great hands on presentation that also exploits the backup future, trends and main concepts. I'll show how to package install or build from code a complete backup system in a few minutes!"
+        19-10:
           id: 428
           type: see_you_tomorrow
           speaker: Dariusz_Wylon
@@ -374,8 +380,8 @@ en:
     daythree:
       id: 3
       date: 2015-04-19
-      title: Sunday
-      header: Sunday, 19 April
+      title: Niedziela
+      header: Niedziela, 19 Kwietnia
       agenda:
         09-55:
           id: 447
@@ -431,14 +437,20 @@ en:
         11-40:
           id: 431
           type: talk
-          title: TBA
-          description: TBA
-        12-20:
+          title: Erlang Ecosystem
+          description:
+            - 'Once upon a time, especially in the brownfield project we are faced with a hard problem - how we make our application more reliable?'
+            - 'Obviously, everyone who knows this question, knows also the answer, that certain hard problems have to be resolved during the project evolution and grow and not on its end.'
+            - 'I would like to introduce a solution which is almost 30 years proven and battle-tested. It is an ideal platform for building reliable, distributed systems.'
+            - 'In the presentation we will talk briefly about the history, we introduce the ecosystem, we will talk about possible choices in that environment and we will present some patterns distinctive for the Erlang VM.'
+        12-00:
           id: 438
           type: talk
-          title: TBA
+          speaker: Lukasz_Zemczak
+          title:  The Ubuntu Touch release process
           description: TBA
-        12-40:
+            - 'The talk overviews various steps of the Ubuntu Touch image release process, starting from code merge proposals to the actual moment when the change is shipped to user phones. This includes information about the Ubuntu archives, CI Train, bzr merge-proposals, image channels, click packages and image promotion procedures.'
+        12-20:
           id: 445
           type: bye
           speaker: Dariusz_Wylon
@@ -1214,6 +1226,29 @@ en:
       social:
         linkedin: https://pl.linkedin.com/pub/martyna-bargiel/b0/388/575
         facebook: https://www.facebook.com/bargielle
+    Lukasz_Wieclaw:
+      id: 72
+      name: Łukasz Więcław
+      title: Specjalista z zakresu biometrii
+      description: Doktor nauk technicznych w dziedzinie informatyka. Współzałożyciel startupu sprawy24 - Kancelaria prawna w chmurze.
+      social:
+        linkedin: http://pl.linkedin.com/pub/%C5%82ukasz-wi%C4%99c%C5%82aw/43/710/115/en
+    Wojtek_Gawronski:
+      id: 73
+      name: Wojtek Gawroński
+      title: Software Enineer at White Rock
+      description: He is a passionate programmer (he would like to call himself a hacker), specialized in web development and distributed systems with over 5 years of professional experience.
+      social:
+        linkedin: https://pl.linkedin.com/in/afronski/en
+        twitter: http://twitter.com/afronski
+        world: http://www.afronski.pl/
+    Lukasz_Zemczak:
+      id: 74
+      name: Łukasz 'sil2100' Zemczak
+      title: Software Engineer at Canonical Ltd.
+      description: Currently working for Canonical Ltd, the company behind the Ubuntu operating system.
+      social:
+        linkedin: http://pl.linkedin.com/pub/%C5%82ukasz-zemczak/31/a59/212/en
 
 
 
