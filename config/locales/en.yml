@@ -244,7 +244,7 @@ en:
         11-00:
           id: 412
           type: break
-        11-20:
+        11-30:
           id: 413
           type: talk
           speaker: Mikolaj_Pastuszko
@@ -253,19 +253,19 @@ en:
             - 'Odkąd w moim domu zamieszkał pies, stan mieszkania zastany po powrocie z pracy stanowi codzienną zagadkę. Pomysłowość zwierzaka potrafi zaskoczyć i wymaga od człowieka szczególnej ostrożności.'
             - 'Użytkownicy naszych aplikacji także miewają rozmaite pomysły. A przecież chcemy, by czuli się bezpiecznie korzystając z naszego produktu. Jak projektować, aby dostarczane przez nas rozwiązania były bezpieczne? Jak zabezpieczyć użytkownika przed wykonaniem niepożądanych akcji? Jak ostrzegać o zagrożeniu, jednocześnie nie strasząc? Co zrobić, żeby użytkownik nie dokonał autodestrukcji?'
             - 'Zapraszam na serię porad, przykładów, antyprzykładów i zdjęć psa.'
-        11-40:
+        11-50:
           id: 414
           type: talk
           speaker: Tomasz_Borowski
           title: Aplikacje mobilne tworzone w technologiach webowych
           description: 'Android, iOS, Windows Phone... Czy zróżnicowanie platform i języków programowania musi być przeszkodą w tworzeniu aplikacji mobilnych? Na szczęście nie! Dzięki technologiom webowym możemy tworzyć oprogramowanie działające na wielu platformach, a posiadane doświadczenie w HTML i JavaScript może znacznie przyspieszyć pracę i ukończenie projektu. Podczas wystąpienia zostaną przedstawione dostępne narzędzia i biblioteki do tworzenia cross-platformowych aplikacji mobilnych.'
-        12-00:
+        12-10:
           id: 501
           type: talk
           speaker: Katarzyna_Pawlonka
           title: TBA
           description: TBA
-        12-15:
+        12-25:
           id: 116
           type: lunch
         14-15:
@@ -299,7 +299,7 @@ en:
         15-15:
           id: 418
           type: break
-        15-35:
+        15-45:
           id: 492
           type: talk
           speaker: Lukasz_Wieclaw
@@ -307,7 +307,7 @@ en:
           description:
             - Krótki wstęp do biometrii.
             - Przegląd metod biometrycznej identyfikacji i weryfikacji tożsamości. Czy trudno jest oszukać system biometryczny? Systemy biometryczne w środowisku Open Source.
-        15-55:
+        16-05:
           id: 120
           type: talk
           speaker: Michal_Papis
@@ -316,7 +316,7 @@ en:
             - 'Chcę odpowiedzieć na pytanie: __czy podpisywanie kodu ma jakieś znaczenie__?'
             - Przez długi czas sam szukałem odpowiedzi na nie. Myślałem nie możemy się ukryć przed inwigilacją i podpisywanie kod nic nam nie da. Ale myliłem się i teraz chcę się podzielić moimi doświadczeniami jak podpisywanie kodu może być dobre dla nas i co musimy zrobić żeby byś pewnym że nasze podpisy mają znaczenie.
             - Chciałbym także przytoczyć podstawy tworzenia kluczy PGP do podpisywania i budowania łańcuchów zaufania. Było by świetnie gdyby ta prezentacja była kontynuowana następnego dnia w postaci sesji udostępniania identyfikatorów kluczy przez wszystkich zainteresowanych - tak że zbudujemy silną sieć zaufania. Dodatkowo dobrym pomysłem był by lokalny serwer kluczy aby przyśpieszyć wymianę kluczy.
-        16-15:
+        16-25:
           id: 421
           type: talk
           speaker: Marek_Wiera
@@ -336,10 +336,10 @@ en:
             - '* wypowiedzenie licencji;'
             - '* dozwolony użytek;'
             - '* wyczerpanie prawa do programu komputerowego.'
-        16-35:
+        16-45:
           id: 422
           type: break
-        16-55:
+        17-15:
           id: 427
           type: panel
           speaker: Arkadiusz_Kwasny
@@ -348,22 +348,22 @@ en:
             - W panelu dyskusyjnym zamierzamy przedstawić koncepcję rzeczywistości, gdzie człowiek może działać sprawniej dzięki wykorzystaniu VR, AR oraz Dronów.
             - Chcemy przedstawić technologię, która dostępna jest już dziś oraz przedstawić wizję jej połączonoego wykorzystania.
             - Całość będzie się składać z 3 prezentacji technologii oraz końcowej prezentacji łączącej je w całość.
-        17-55:
+        18-15:
           id: 426
           type: break
-        18-15:
+        18-30:
           id: 419
           type: talk
           speaker: Karol_Karczewski
           title: 'Open hardware - czym jest i jak możemy wykorzystać jego możliwości?'
           description: "Przegląd najpopularniejszych rozwiązań, omówienie nowinek w zakresie 'open hardware', a także przykłady wykorzystania możliwości, jakie niesie ze sobą udostępnianie materiałów przez producentów."
-        18-35:
+        18-50:
           id: 423
           type: talk
           speaker: Heitor_Medrado
           title: 'Bacula: the Open Source Backup Tool [EN]'
           description: "Great hands on presentation that also exploits the backup future, trends and main concepts. I'll show how to package install or build from code a complete backup system in a few minutes!"
-        19-25:
+        19-40:
           id: 428
           type: see_you_tomorrow
           speaker: Dariusz_Wylon
@@ -420,7 +420,7 @@ en:
         11-00:
           id: 433
           type: break
-        11-20:
+        11-30:
           id: 430
           type: talk
           speaker: Agnieszka_Pilch
@@ -428,7 +428,7 @@ en:
           description:
             - Przyszłość web design
             - https://www.polymer-project.org/
-        11-40:
+        11-50:
           id: 431
           type: talk
           speaker: Wojtek_Gawronski
@@ -438,14 +438,14 @@ en:
             - 'Praktycznie niemożliwe jest stworzenie kompletnego rozwiązania a na końcu dodanie do niego wspomnianych własności. Projektując systemy musimy mieć na uwadze, że te cechy muszą być uwzględnione od samego początku oraz pielęgnowane podczas życia projektu.'
             - 'Chciałbym podczas prezentacji przedstawić solidną podstawę dotyczącą omawianych problemów. Wraz z tym rozwiązaniem otrzymujemy środowisko sprawdzone w boju, z prawie 30 letnimi doświadczeniami i myślą inżynierską. Erlang, bo o tej platformie mowa, powstał prawie trzy dekady temu z myślą właśnie o tej klasie problemów. Budując nowy system, który ma bardzo duże wymagania dotyczące skalowalności stabilności, grzechem byłoby nie skorzystać z tak olbrzymiej wiedzy zgromadzonej w postaci solidnej maszyny wirtualnej i bogatego ekosystemu skupionego dookoła niej.'
             - 'Podczas prezentacji skupimy się na historii tej platformy, porozmawiamy o możliwych ścieżkach, które można wybrać w tym środowisku oraz zaprezentujemy kluczowe koncepcje oraz wzorce, umożliwiające budowę aplikacji stabilnych, wytrzymałych i skalowalnych.'
-        12-00:
+        12-10:
           id: 438
           type: talk
           speaker: Lukasz_Zemczak
           title: Procesy wydawania i rozwoju Ubuntu Touch
           description:
             - 'Proces tworzenia i wydawania nowych wersji Ubuntu Touch, mobilnej wersji Ubuntu, składają się z wielu etapów z udziałem wielu narzędzi. Prezentacja przedstawi w ogólnym zakresie jak te etapy wyglądają, jakich narzędzi używamy i odpowie na pytanie: jak i kiedy wybrana zmiana w kodzie znajdzie się w nowym uaktualnieniu mojego telefonu/tabletu? Pokrótce omówię rzeczy takie jak: bzr merge-proposal, CI Train, archiwa Ubuntu, pakiety click i procedury 'image promotion'.'
-        12-45:
+        12-55:
           id: 445
           type: bye
           speaker: Dariusz_Wylon
