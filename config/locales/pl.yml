@@ -162,6 +162,12 @@ pl:
           title: Jak wnieść wkład w Open Source?
           description: Czym jest open source? Kto tworzy open source? Jak można wnieść wkład?
         16-40:
+          id: 446
+          type: talk
+          speaker: Krystian_Cieslak
+          title: 'Mikronawigacja i iBeacony'
+          description: 'Kilka argumentów, dla których możesz zapomnieć o całej reszcie'
+        17-00:
           id: 415
           type: talk
           speaker: Mateusz_Juscinski
@@ -169,12 +175,6 @@ pl:
           description:
             - 'W tym roku Internet świętuje 20-lecie powstania PHP, języka programowania który miał ogromny wpływ na przejście ze statycznych na dynamicznie generowane strony WWW.'
             - 'Podczas tej prezentacji pokażę co w PHP zmieniło się w ostatnich czasach i jak PHP wygląda dziś, opowiem czym jest HHVM i Hack. Następnie pomówimy o przyszłości języka jaką jest, zapowiedziana na październik, wersja 7.'
-        17-10:
-          id: 446
-          type: talk
-          speaker: Krystian_Cieslak
-          title: 'Mikronawigacja i iBeacony'
-          description: 'Kilka argumentów, dla których możesz zapomnieć o całej reszcie'
         17-30:
           id: 447
           type: break
@@ -231,11 +231,11 @@ pl:
       title: Sobota
       header: Sobota, 18 Kwietnia
       agenda:
-        09-55:
+        09-25:
           id: 410
           type: welcome
           speaker: Eunika_Tabak
-        10-00:
+        09-30:
           id: 411
           type: keynote
           speaker: Dariusz_Wylon
