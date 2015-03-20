@@ -442,10 +442,10 @@ pl:
           id: 438
           type: talk
           speaker: Lukasz_Zemczak
-          title:  The Ubuntu Touch release process
-          description: TBA
-            - 'The talk overviews various steps of the Ubuntu Touch image release process, starting from code merge proposals to the actual moment when the change is shipped to user phones. This includes information about the Ubuntu archives, CI Train, bzr merge-proposals, image channels, click packages and image promotion procedures.'
-        12-20:
+          title:  Procesy wydawania i rozwoju Ubuntu Touch
+          description:
+            - 'Proces tworzenia i wydawania nowych wersji Ubuntu Touch, mobilnej wersji Ubuntu, składają się z wielu etapów z udziałem wielu narzędzi. Prezentacja przedstawi w ogólnym zakresie jak te etapy wyglądają, jakich narzędzi używamy i odpowie na pytanie: jak i kiedy wybrana zmiana w kodzie znajdzie się w nowym uaktualnieniu mojego telefonu/tabletu? Pokrótce omówię rzeczy takie jak: bzr merge-proposal, CI Train, archiwa Ubuntu, pakiety click i procedury 'image promotion'.'
+        12-45:
           id: 445
           type: bye
           speaker: Dariusz_Wylon
