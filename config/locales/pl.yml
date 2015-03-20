@@ -1158,7 +1158,7 @@ pl:
       social:
         linkedin: http://pl.linkedin.com/in/mpapis
         twitter: https://twitter.com/mpapis
-        github: https://github.com/mpapis
+        world: https://github.com/mpapis
     Marek_Wiera:
       id: 63
       name: Marek Wiera
@@ -1167,7 +1167,7 @@ pl:
       social:
         linkedin: http://pl.linkedin.com/pub/marek-wiera/88/3bb/a28/en
         twitter: https://twitter.com/MarekWiera
-        global: http://itlawyer.pl/blog-pl/
+        world: http://itlawyer.pl/blog-pl/
     Heitor_Medrado:
       id: 64
       name: Heitor Medrado de Faria
