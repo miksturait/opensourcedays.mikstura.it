@@ -431,12 +431,13 @@ pl:
         11-40:
           id: 431
           type: talk
-          title: Erlang Ecosystem
+          speaker: Wojtek_Gawronski
+          title: Ekosystem Erlanga
           description:
-            - 'Once upon a time, especially in the brownfield project we are faced with a hard problem - how we make our application more reliable?'
-            - 'Obviously, everyone who knows this question, knows also the answer, that certain hard problems have to be resolved during the project evolution and grow and not on its end.'
-            - 'I would like to introduce a solution which is almost 30 years proven and battle-tested. It is an ideal platform for building reliable, distributed systems.'
-            - 'In the presentation we will talk briefly about the history, we introduce the ecosystem, we will talk about possible choices in that environment and we will present some patterns distinctive for the Erlang VM.'
+            - 'Podczas tworzenia systemów złożonych z wielu komponentów, napotykamy bardzo często na wymagania dotyczące stabilności i dostępności projektowanego rozwiązania. To wystarczająco trudny problem, który można sobie dodatkowo utrudnić na poziomie doboru technologii.'
+            - 'Praktycznie niemożliwe jest stworzenie kompletnego rozwiązania a na końcu dodanie do niego wspomnianych własności. Projektując systemy musimy mieć na uwadze, że te cechy muszą być uwzględnione od samego początku oraz pielęgnowane podczas życia projektu.'
+            - 'Chciałbym podczas prezentacji przedstawić solidną podstawę dotyczącą omawianych problemów. Wraz z tym rozwiązaniem otrzymujemy środowisko sprawdzone w boju, z prawie 30 letnimi doświadczeniami i myślą inżynierską. Erlang, bo o tej platformie mowa, powstał prawie trzy dekady temu z myślą właśnie o tej klasie problemów. Budując nowy system, który ma bardzo duże wymagania dotyczące skalowalności stabilności, grzechem byłoby nie skorzystać z tak olbrzymiej wiedzy zgromadzonej w postaci solidnej maszyny wirtualnej i bogatego ekosystemu skupionego dookoła niej.'
+            - 'Podczas prezentacji skupimy się na historii tej platformy, porozmawiamy o możliwych ścieżkach, które można wybrać w tym środowisku oraz zaprezentujemy kluczowe koncepcje oraz wzorce, umożliwiające budowę aplikacji stabilnych, wytrzymałych i skalowalnych.'
         12-00:
           id: 438
           type: talk
@@ -1245,7 +1246,7 @@ pl:
     Wojtek_Gawronski:
       id: 73
       name: Wojtek Gawroński
-      title: Software Enineer at White Rock
+      title: Software Engineer (White Rook, rspective)
       description: He is a passionate programmer (he would like to call himself a hacker), specialized in web development and distributed systems with over 5 years of professional experience.
       social:
         linkedin: https://pl.linkedin.com/in/afronski/en
