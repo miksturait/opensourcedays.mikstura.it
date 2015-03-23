@@ -1351,6 +1351,29 @@ pl:
       description: JavaScript, AngularJS, C#/.Net, node.js/io.js software engineer.
       social:
         linkedin: https://www.linkedin.com/profile/view?id=359182292
+    Marcin_Wadon:
+      id: 82
+      name: Marcin Wadoń
+      title: Microsoft Student Partner
+      description: ''
+      social:
+        facebook: https://www.facebook.com/mateusz.wadon
+    Bartosz_Szczepanski:
+      id: 83
+      name: Bartosz	Szczepański-Bernaś
+      title: 'Wolontariusz'
+      description: ''
+      social:
+        world: http://reset.ath.bielsko.pl/
+    Bartlomiej_Borak:
+      id: 84
+      name: Bartłomiej Borak
+      title: 'Wolontariusz'
+      description: ''
+      social:
+        world: http://reset.ath.bielsko.pl/
+        facebook: https://www.facebook.com/bartek.borak
+
 
 
 
