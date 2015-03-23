@@ -496,19 +496,18 @@ pl:
       title: TBA
       description: TBA
       logo: raspberry-wikipedia_org.jpg
-    azure:
+    azure_one:
       id: 901
       position: 8
       lead:
         - Ryszard_Dalkowski
         - Michal_Smereczynski
-      schedule: 'Sobota 18 Kwietnia 14:15 - 16:25'
+      schedule: 'Sobota 18 Kwietnia 14:15 - 14:55'
       day: daytwo
       start_at: '14:15'
       where: L3xx
-      title: Microsoft Azzure
+      title: 'Wprowadzenie do chmury Microsoft Azzure'
       description:
-        - 'Warsztat 1 - Wprowadzenie do chmury Microsoft Azzure - 40 minut'
         - 'Teoria dużej chmury'
         - ' * Dlaczego duża serwerownia to nie chmura.'
         - ' * Ekonomia chmury.'
@@ -525,9 +524,19 @@ pl:
         - ' * Przydatne klocki infrastruktury'
         - ' * Dane - nie tylko w bazach'
         - ' * Inne usługi gotowe do wykorzystania: Media Services, Mobile Services, Authentication, Remote App…'
-        - ''
-        - ''
-        - 'Warsztat 2 - IaaS w praktyce - 45 minut'
+      logo: microsoft_azzure-azzure_microsoft_com.jpg
+    azure_2:
+      id: 910
+      position: 9
+      lead:
+        - Ryszard_Dalkowski
+        - Michal_Smereczynski
+      schedule: 'Sobota 18 Kwietnia 14:55 - 15:40'
+      day: daytwo
+      start_at: '14:15'
+      where: L3xx
+      title: 'IaaS w praktyce'
+      description:
         - 'To trzeba wiedzieć - availability set, affinity group, storage, disks, endpoints…'
         - 'Budujemy wirtualną serwerownię'
         - ' * Sieci wirtualne i lokalne - konfiguracja'
@@ -537,9 +546,19 @@ pl:
         - ' * Własny Linux w "microsofcie"'
         - 'Cloud Services'
         - ' * czyli skalowanie rozwiązań'
-        - ''
-        - ''
-        - 'Warsztat 3 - PaaS w praktyce - 45 minut'
+      logo: microsoft_azzure-azzure_microsoft_com.jpg
+    azure_3:
+      id: 911
+      position: 10
+      lead:
+        - Ryszard_Dalkowski
+        - Michal_Smereczynski
+      schedule: 'Sobota 18 Kwietnia 15:40 - 16:25'
+      day: daytwo
+      start_at: '14:15'
+      where: L3xx
+      title: 'PaaS w praktyce'
+      description:
         - 'Platforma aplikacyjna Azure'
         - ' * Dostępne technologie'
         - ' * Galeria aplikacji czyli repozytorium także dla Ciebie'
@@ -601,7 +620,7 @@ pl:
       logo: typography-John_LeMansney-365sketches_org.jpg
     package:
       id: 908
-      position: 10
+      position: 12
       lead: Dominik_Mierzejewski
       schedule: 'Niedziela 19 Kwietnia 10:00 - 12:00'
       day: daythree
@@ -616,7 +635,7 @@ pl:
       logo: rpm_package-iconshock_com.jpg
     microservices:
       id: 909
-      position: 11
+      position: 13
       lead: Marek_Talik
       schedule: 'Niedziela 19 Kwietnia 10:00 - 12:00'
       day: daythree
