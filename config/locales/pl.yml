@@ -549,7 +549,7 @@ pl:
         - 'Jak to działa?'
         - ' * Co tam jest pod spodem'
         - ' * Skalowanie aplikacji'
-      logo: azure.png
+      logo: microsoft_azzure-azzure_microsoft_com.jpg
     rails:
       id: 905
       position: 6
