@@ -17,6 +17,7 @@ gem 'actionpack-page_caching'
 
 group :development do
   gem 'better_errors'
+  gem 'binding_of_caller'
   gem 'guard-bundler'
   gem 'guard-rails'
   gem 'guard-livereload', require: false

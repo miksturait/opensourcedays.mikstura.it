@@ -1,21 +1,9 @@
-class Workshop < Struct.new(:id, :timeslot)
+class Workshop < Struct.new(:id)
 
   def self.all
-    if I18n.translate('workshops').is_a?(Hash)
-      workshops_schedule = I18n.translate('workshops_schedule').reverse
-      [
-          [:azure, :open_source, :your_own_parser],
-          [:mindstorms, :ember_js],
-          [:open_street_map, :continuous_delivery],
-          [:humanitarian, :feedback],
-          [:ux, :firefoxos, :unity3d]
-      ].collect do |workshops|
-        schedule = workshops_schedule.pop
-        workshops.collect { |workshop| new(workshop, schedule) }
-      end
-    else
-      []
-    end
+    I18n.translate('workshops').keys.map do |workshop_data|
+      new(workshop_data)
+    end.sort_by { |workshop| workshop.info_position }
   end
 
   def self.all_workshops
@@ -57,6 +45,10 @@ class Workshop < Struct.new(:id, :timeslot)
     end
   end
 
+  def timeslot
+    schedule
+  end
+
   def leaders
     speakers
   end
@@ -65,8 +57,8 @@ class Workshop < Struct.new(:id, :timeslot)
     info_lead.is_a?(Array) ? info_lead : [info_lead]
   end
 
-  delegate :type, :logo, :day, :start_at, to: :info
-  delegate :id, :where, :title, :description, :lead, to: :info, prefix: true
+  delegate :type, :logo, :day, :start_at, :schedule, to: :info
+  delegate :id, :position, :where, :title, :description, :lead, to: :info, prefix: true
 
   def logo_url
     [I18n.t(:domain), 'assets/workshops', logo].join("/")

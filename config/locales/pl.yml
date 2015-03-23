@@ -445,175 +445,196 @@ pl:
           id: 445
           type: bye
           speaker: Dariusz_Wylon
-  workshops_schedule:
-    - 'Sobota 29 Marca 11:15 - 12:45'
-    - 'Sobota 29 Marca 14:45 - 16:15'
-    - 'Sobota 29 Marca 16:15 - 17:45'
-    - 'Niedziela 30 Marca 11:15 - 12:45'
-    - 'Niedziela 30 Marca 13:15 - 14:45'
   workshops:
-    open_source:
+    koa_framework:
       id: 900
-      lead: Kamil_Galuszka
+      position: 4
+      lead: Piotr_Koscielniak
+      schedule: 'Sobota 18 Kwietnia 11:15 - 13:15'
       day: daytwo
       start_at: '11:15'
-      where: computer
-      title: Włącz się w ruch Open Source
+      where: L3xx
+      title: Koa framework nowej generacji dla node.js/io.js
       description:
-        - Celem warsztatów jest umożliwienie uczestnikom zapoznanie z narzędziami wykorzystywanymi przez społeczność Open source. Uczestnik po warsztatach ma wiedzę i umiejętności by aktywnie wspierać społeczność swoimi poprawkami, nowymi funkcjonalnościami do oprogramowania oraz innymi umiejętnościami (jak tłumaczenie, testowanie itd).
-        - Warsztaty bedą w trybie BYOL(bring your own laptop). Nie ma żadnych ograniczeń jaki system jest na urządzeniu.
-        - "Podczas warsztatów bedą mentorzy którzy bedą wspierali was wiedzą i pomocą. Między innymi:"
-        - "=> Piotr Kościelniak (NodeJS)"
-        - "=> Michał Pipa (PHP)"
-        - "=> Justyna Żarna (Python)"
-        - "=> Aleksander Małaszkiewicz (Ruby)"
-        - "=> Agnieszka Matysek (Ruby)"
-      logo: open_source_wikipedia.org.png
-    your_own_parser:
-      id: 901
-      lead: Stanislaw_Klekot
-      day: daytwo
-      start_at: '11:15'
-      where: small
-      title: Ale parsery są trudne! A są?
-      description:
-        - Na tych warsztatach opowiem jak są zbudowane kompilatory i pokażę, jak napisać w Pythonie własny interpreter dla wymyślonego języka programowania
-      logo: python.wikipedia.org.png
-    mindstorms:
+        - 'Podczas 120 minutowego warsztatu chciałbym zaznajomić uczestników z frameworkiem koa. Będzie to warsztat dla osób początkujących. Podczas warsztatu uczestnicy stworzą od podstaw prostą lecz kompletną aplikację webową. Aplikacja ta zostanie stworzona z wykorzystaniem node.js/io.js oraz frameworka koa. Podczas tworzenia aplikacji uczestnicy poznają podstawy oraz dobre praktyki w node.js. Warsztat będzie zawierał szereg zadań dla uczestników, tak aby mogli oni od razu wykorzystać w praktyce zdobytą wiedzę.'
+      logo: koa-koajs_com.jpg
+    scrum:
       id: 902
-      lead:
-        - Agnieszka_Pawlicka
-        - Marcin_Pawlicki
+      position: 1
+      lead: Agnieszka_Pawlicka
+      schedule: 'Sobota 18 Kwietnia 11:15 - 13:15'
       day: daytwo
-      start_at: '14:45'
-      where: computer
-      title: Uwolnij pingwina – warsztaty z programowania Lego Mindstorms
+      start_at: '11:10'
+      where: aci
+      title: Scrum is Fun - czyli symulacja projektu zwinnego za pomocą klocków Lego
       description:
-        - Jesteś fanem wolnego oprogramowania? Zawsze chciałeś uwolnić pingwina? A może chcesz sprawić, żeby chodził, ruszał skrzydłami, śpiewał, czy nawet tańczył?
-        - Przyjdź na warsztaty, a za pomocą Lego Mindstorms zbudujesz i zaprogramujesz swojego własnego Robo-pingwina! Uwolnij wyobraźnię!
-      logo: lego.mindstorms.jpg
-    open_street_map:
+        - 'Chcesz dowiedzieć się jak sprostać codziennym wyzwaniom, jakie przed developerem stawiają agilowe projekty? Jak zmierzyć prędkość zespołu i zaplanować kolejny sprint? Jak planować i negocjować zadania do wykonania podczas jednej iteracji? Jak zrozumieć klienta i czego on właściwie od nas chce?'
+        - 'Wszystkie te pytania będą przedmiotem warsztatów ze Scruma, a odpowiedzi na nie zbudujemy wspólnie z klocków Lego. Pracując w kilkuosobowych zespołach, wcielisz się w rolę developera i w praktyczny sposób przećwiczysz zasady Scruma. W atmosferze zabawy poznasz praktyczne elementy pracy w metodyce Scrum. Symulacja dodatkowo stworzy możliwość omówienia błędów i naruszeń reguł, które mogą skutkować problemami w trakcie pracy nad produktem.'
+        - 'Warsztaty ze Scruma przy użyciu klocków Lego to intrygujące wprowadzenie w świat zwinnego zarządzania projektami. Świat ciekawy i wciągający jak zabawa z klockami Lego. Zapraszam :-)'
+      logo: scrum_is_fun_lego-wikipedia_org.jpg
+    drupal:
       id: 903
-      lead:
-        - Pawel_Marynowski
-        - Tomasz_Nycz
+      position: 3
+      lead: Grzegorz_Bartman
+      schedule: 'Sobota 18 Kwietnia 11:15 - 13:15'
       day: daytwo
-      start_at: '16:15'
-      where: computer
-      title: OpenStreetMap - narysuj swoją okolicę
+      start_at: '11:10'
+      where: L412
+      title: Podstawy systemu CMS Drupal
       description:
-        - OpenStreetMap to globalny projekt mający na celu stworzenie darmowej oraz swobodnie dostępnej mapy świata. Wszelkie dane zawarte w projekcie udostępniane są na otwartej licencji, co umożliwia dalsze ich wykorzystywanie, między innymi w systemach nawigacji GPS oraz wszelkiego rodzaju planach oraz mapach.
-        - Podczas warsztatów będziecie mieli możliwość zapoznania się z filozofią oraz podstawami teoretycznymi projektu. Teorię uzupełni kurs edytowania OpenStreetMap przy pomocy aplikacji JOSM. Warsztaty przeznaczone są zarówno dla osób początkujących jak i chętnych do zapoznania się z projektem. Na pewno dowiesz się jak zgłosić błędy na mapie, w jaki sposób samodzielnie dodać nowe informacje oraz poprawić istniejące.
-      logo: open.street.map.wikipedia.org.png
-    continuous_delivery:
+        - Skrócona wersja zajęć praktycznych z DrupalDay
+        - http://www.slideshare.net/grzegorzbartman/drupalday-drupal-global-training-days-wprowadzenie-do-drupala
+      logo: drupal-wikimedia_org.jpg
+    raspberry:
       id: 904
-      lead: Mateusz_Juscinski
+      position: 2
+      lead: Kamil_Galuszka
+      schedule: 'Sobota 18 Kwietnia 11:15 - 13:15'
       day: daytwo
-      start_at: '16:15'
-      where: small
-      title: Problemy ludzi Pierwszego Świata, czyli jak zbudować środowisko Continuous Delivery
-      description:
-        - Jeśli w swoim projekcie piszesz testy i wprowadziłeś/łaś Continuous Integration to jeszcze nie jesteś zwycięzcą. Pójdź o krok dalej, zautomatyzuj proces deploymentu kodu (lub go ulepsz) i zostań prawdziwym zwycięzcą!
-        - Na tym spotkaniu chciałbym podzielić się moimi doświadczeniami dotyczącymi tworzenia środowisk CD. Zaczniemy od elementów niezbędnych do złożenia takiego środowiska, przejdziemy przez architekturę aplikacji i skończymy na narzędziach, które mogą się przydać.
-        - Podczas warsztatu nie przewiduję klepania komend w konsoli, jego celem jest prezentacja problemów i dyskusja nad ich rozwiązaniami.
-      logo: infinite.wikipedia.org.png
-    ember_js:
-      id: 905
-      lead:
-        - Wojtek_Ryrych
-        - Tomasz_Bak
-      day: daytwo
-      start_at: '14:45'
-      where: small
-      title: Aplikacje webowe na miarę XXI wieku
-      description:
-        - Na podstawie przykładowej aplikacji poznamy jak działa technologia Ember.js - nowoczesny framework MVVC Javascript do, jak to trafnie ujęli jego twórcy, 'budowania ambitnych aplikacji'.
-        - Mając za sobą potężne wsparcie społeczności, Ember.js stał się tym, czym dla programistów back-end stał się Ruby On Rails czy Django. Obficie korzystając z konwencji znanych w Railsach, Ember.js służy po prostu do wykonywania roboty, stając się przedłużeniem ręki programisty, nie jego zmorą.
-      logo: ember.js.emberjs.com.png
-    ux:
-      id: 906
-      lead: Mikolaj_Pastuszko
-      where: computer
-      day: daythree
-      start_at: '13:15'
-      title:  Projektowanie interakcji
-      description:
-        - Narysować interfejs potrafi każdy pingwin. Jednak nie każdy leming potrafi z takiego interfejsu skorzystać.
-        - Zaprojektowanie przejrzystego i zrozumiałego dla użytkownika interfejsu może się wydawać zadaniem łatwym. Jednakże konfrontacja oczekiwań z zachowaniem prawdziwych użytkowników niejednokrotnie przynosi rozczarowanie. A przecież to właśnie dla nich tworzymy.
-        - "Podczas warsztatów nauczymy się:"
-        - " => Budować prototyp interfejsu użytkownika"
-        - " => Oceniać interfejs metodą ewaluacji heurystycznej"
-        - " => Testować używalność interfejsu z udziałem użytkowników"
-        - Prototypować będziemy na papierze. Komputery nie będą potrzebne.
-      logo: ux.de.wikipedia.org.png
-    unity3d:
-      id: 907
-      lead:
-        - Sebastian_Ewak
-        - Arkadiusz_Kwasny
-      day: daythree
-      start_at: '13:15'
-      where: computer
-      title: Tworzenie gier przy użyciu Unity 3D dla początkujących
-      description:
-        - Podczas tego warsztatu uczestnicy będą mieli okazje poznać środowisko tworzenia gier Unity 3D oraz stworzyć bardzo proste gry oparte o mechanizmy, które zostaną przedstawione.
-        - Nacisk zostanie położony na wykorzystanie gotowych narzędzi, z których większość nie wymaga żadnego programowania.
-        - Jest szansa, że podczas warsztatów zostanie również udostępnione demo wirtualnej rzeczywistości w oparciu o wykorzystanie Unity 3D oraz Oculus Rift.
-      logo: unity3d.en.wikipedia.org.png
-    firefoxos:
-      id: 908
-      lead: Bartosz_Piec
-      day: daythree
-      start_at: '13:15'
-      where: small
-      title: Firefox OS dla deweloperów
-      description:
-        - Prezentacja technologii, na której oparty jest Firefox OS oraz podstaw programowania na ten system.
-        - Podczas warsztatu przejdziemy przez dostępne narzędzia, pokażę jak zamienić istniejącą stronę na aplikację dla systemu Firefox OS, oraz jak zbudowć przykładową aplikację wykorzystującą stworzone przez Mozillę API.
-        - Podczas warsztatów będzie również można zapoznać się z przykładowymi telefonami z systemem Firefox OS.
-      logo: firefox.os.mozilla.org.png
-    feedback:
-      id: 909
-      lead: Pawel_Badenski
-      day: daythree
-      start_at: '11:15'
-      where: small
-      title: Brakujący element Agile - najpierw ulepszać ludzi, a potem systemy
-      description:
-        - "Mamy TDD, BDD, CI, CD, chmurę, REST - miało być tak pięknie, a wyszło jak zwykle. Pominęliśmy takie szczegóły jak “twój kod jest kiepski”, “nie chcę tu więcej pracować”, “ja tu tylko sprzątam”."
-        - "Podczas warsztatu nauczysz się:"
-        - " => jak radzić komuś tak, żeby się dogadać"
-        - " => jak ominąć przeszkody, które napotkasz dając feedback innym"
-        - " => wzorców, które pomogą Ci kiedy bedziesz dostawał feedback"
-        - " => oraz wielu innych koncepcji, które ułatwią Ci wykorzystać feedback w Twoim zespole"
-      logo: feedback-shsuonline.wordpress.com.png
+      start_at: '11:10'
+      where: L406
+      title: TBA
+      description: TBA
+      logo: raspberry-wikipedia_org.jpg
     azure:
-      id: 910
+      id: 901
+      position: 8
       lead:
         - Ryszard_Dalkowski
+        - Michal_Smereczynski
+      schedule: 'Sobota 18 Kwietnia 14:15 - 16:25'
       day: daytwo
-      start_at: '11:15'
-      where: hackathon
-      title:  Azure 101. Pierwsze kroki w chmurze - projekt na Azurze!
+      start_at: '14:15'
+      where: L3xx
+      title: Microsoft Azzure
       description:
-        - Krótki przegląd dostępnych usług i technologii w chmurze Microsoft Azure. Scenariusze użycia usług (Web Sites, VM, Storage, Mobile, CDN i inne).
-        - Do czego może się przydać kreator – czyli CMS w 5 klikach. Co to jest blob w praktyce. Kilka drobiazgów na które warto zwrócić uwagę przy uruchamianiu projektu (a mogą mieć wpływ na koszty i wydajność). I wiele innych o których prowadzący może nie mieć pojęcia.
+        - 'Warsztat 1 - Wprowadzenie do chmury Microsoft Azzure - 40 minut'
+        - 'Teoria dużej chmury'
+        - ' * Dlaczego duża serwerownia to nie chmura.'
+        - ' * Ekonomia chmury.'
+        - ' * Microsoft Azure a konkurencja - czy coś go wyróżnia?'
+        - 'Centrum zarządzania wszechświatem'
+        - ' * Panel zarządzania v.1'
+        - ' * Panel zarządzania v.2'
+        - ' * Linia komend CLI'
+        - ' * Powershell'
+        - ' * Inne narzędzia dla administratora'
+        - 'Krótki przegląd dostępnych usług i technologii'
+        - ' * Nie tylko wirtualizacja'
+        - ' * Open Source - ważny element układanki'
+        - ' * Przydatne klocki infrastruktury'
+        - ' * Dane - nie tylko w bazach'
+        - ' * Inne usługi gotowe do wykorzystania: Media Services, Mobile Services, Authentication, Remote App…'
+        - ''
+        - ''
+        - 'Warsztat 2 - IaaS w praktyce - 45 minut'
+        - 'To trzeba wiedzieć - availability set, affinity group, storage, disks, endpoints…'
+        - 'Budujemy wirtualną serwerownię'
+        - ' * Sieci wirtualne i lokalne - konfiguracja'
+        - 'Uruchamianie serwerów (i nie tylko)'
+        - ' * Skąd się bierze VM do Azure - 1300 do wyboru'
+        - ' * Z "ręki" czy z kreatorem?'
+        - ' * Własny Linux w "microsofcie"'
+        - 'Cloud Services'
+        - ' * czyli skalowanie rozwiązań'
+        - ''
+        - ''
+        - 'Warsztat 3 - PaaS w praktyce - 45 minut'
+        - 'Platforma aplikacyjna Azure'
+        - ' * Dostępne technologie'
+        - ' * Galeria aplikacji czyli repozytorium także dla Ciebie'
+        - 'Uruchamiamy aplikacje'
+        - ' * CMS z repozytorium (Drupal, Joomla!, Wordpress i inne do wyboru)'
+        - ' * Własna aplikacja na kilka sposobów'
+        - 'Jak to działa?'
+        - ' * Co tam jest pod spodem'
+        - ' * Skalowanie aplikacji'
       logo: azure.png
-    humanitarian:
-      id: 911
-      lead: Andreas_Papp
-      day: daythree
-      start_at: '11:15'
-      where: computer
-      title: Zastosowanie rzeczywistości wirtualnej (VR) w przygotowaniu do misji humanitarnej (Unity 3D + Oculus Rift)
+    rails:
+      id: 905
+      position: 6
+      schedule: 'Sobota 18 Kwietnia 14:15 - 16:15'
+      lead:
+        - Lukasz_Gawel
+        - Mateusz_Swiszcz
+      day: daytwo
+      start_at: '14:15'
+      where: L406
+      title: Rails - less is more - czyli jak pisać więcej kodu w krótszym czasie
       description:
-        - Kontekst
-        - Technologie rzeczywistości wirtualnej (VR) mogą być z powodzeniem wykorzystywane w szkoleniu pracowników oraz wolontariuszy organizacji pozarządowych niosących pomoc humanitarną w rejonach świata dotkniętych klęskami żywiołowymi lub konfliktami zbrojnymi.
-        - Przykładem tego typu przedsięwzięć może być aktywność Polskiej Akcji Humanitarnej, w Sudanie Południowym, Palestynie oraz Somalii, gdzie PAH realizuje projekty wodno-sanitarne, żywnościowe, edukacyjne oraz rolnicze. Warsztat będzie prowadzony przez Pana Andreasa Pappa z międzynarodowej organizacji humanitarnej Doctors Without Borders, który był uczestnikiem kilkunastu misji humanitarnych.
-        - Problem
-        - Misje prowadzone są w krajach, które zarówno kulturowo jak i środowiskowo różnią się w dużym stopniu od naszego codziennego otoczenia. Dodatkowo w wielu przypadkach pojawia się istotny element konfliktu zbrojnego jaki panuje w danym kraju.
-        - Celem warsztatów jest poszerzenie świadomości specjalistów IT w odniesieniu do misji humanitarnej, jako specificznego kontekstu wykorzystania nowoczesnych technologii VR do przeprowadzania szkoleń dla poprawy bezpieczeństwa pracowników i wolontariuszy niosących pomoc humanitarną. Głównym atutem wirtualnej rzeczywistości jest możliwość przeprowadzenia symulacji niebezpiecznych sytuacji w warunkach całkowicie kontrolowanych, bez konieczności ponoszenia dużych kosztów związanych z realizacją takiej symulacji w rzeczywistości.
-      logo: camp.wikimedia.org.png
+        - 'Podczas warsztatów chcielibyśmy pokazać najpopularniejsze narzędzia, które przyspieszają pisanie kodu w Ruby on Rails oraz ułatwiają prowadzenie projektu.'
+        - 'Między innymi:'
+        - '1) Podstawowe gemy ułatwiające pracę takie jak:'
+        - '  * Simple Form'
+        - '  * Decent Exposure'
+        - '  * Draper'
+        - '  * Pry'
+        - '  * Better Errors'
+        - '  * Guard'
+        - '2) Użycie Slim zamiast HTML/Erb'
+        - '3) Użycie CoffeeScript zamiast zwykłego JavaScriptu'
+        - '4) Użycie Sass zamiast CSS'
+      logo: Ruby_on_Rails-wikimedia_org.jpg
+    php:
+      id: 906
+      position: 7
+      lead: Mateusz_Juscinski
+      schedule: 'Sobota 18 Kwietnia 14:15 - 16:15'
+      day: daytwo
+      start_at: '14:15'
+      where: L412
+      title: Warsztaty z nowoczesnego programowania w PHP
+      description:
+        - 'Podczas mojej przygody z PHP język znacznie się zmienił, programiści otrzymali całą gamę narzędzi, które ułatwiają im życie. Niestety często spotykam się z wykorzystywaniem niewygodnych i przestarzałych elementów języka, mimo dostępności nowocześniejszych rozwiązań.'
+        - 'Podczas tych warsztatów odbędziemy podróż w czasie. Zaczynając od 2003 roku, rozwiniemy nasze umiejętności programowania w PHP o 12 lat rozwoju tego języka i wylądujemy w 2015 roku. Zaprezentuję domyślnie dostępne narzędzia, bez których nie widzę możliwości programowania w PHP, które są zupełnie nieznane wielu programistom.'
+      logo: php-blog_mrwebmaster_it.jpg
+    typografia:
+      id: 907
+      position: 5
+      lead: Martyna_Bargiel
+      schedule: 'Sobota 18 Kwietnia 14:15 - 16:15'
+      day: daytwo
+      start_at: '14:15'
+      where: aci
+      title: TBA
+      description: TBA
+      logo: typography-John_LeMansney-365sketches_org.jpg
+    package:
+      id: 908
+      position: 10
+      lead: Dominik_Mierzejewski
+      schedule: 'Niedziela 19 Kwietnia 10:00 - 12:00'
+      day: daythree
+      start_at: '10:00'
+      where: L412
+      title: Idealny prezent, czyli jak dobrze spaczkować
+      description:
+        - 'Jednym z głównych zadań twórców dystrybucji Linuksa jest tworzenie pakietów z oprogramowaniem i opieka nad nimi. Paczka musi być łatwa do zainstalowania, dobrze działać i integrować się z resztą dystrybucji. Podczas warsztatów opowiem, jak to robimy w Fedorze i przybliżę najważniejsze wytyczne tworzenia pakietów w tej dystrybucji. Potem zajmiemy się częścią praktyczną, czyli przygotujemy pakiet zgodny z tymi wytycznymi, gotowy do zgłoszenia do recenzji.'
+        - 'Wymagania:'
+        - ' * umiejętność skompilowania i zainstalowania typowego projektu open-source ze źródeł'
+        - ' * zainstalowana dowolna wspierana wersja Fedory (20, 21, 22, rawhide) lub Red Hat/CentOS (5, 6), może być na maszynie wirtualnej'
+      logo: rpm_package-iconshock_com.jpg
+    microservices:
+      id: 909
+      position: 11
+      lead: Marek_Talik
+      schedule: 'Niedziela 19 Kwietnia 10:00 - 12:00'
+      day: daythree
+      start_at: '10:00'
+      where: L406
+      title: Architektura mikroserwisów
+      description:
+        - "Koncepcja architektury systemów rozproszonych zbudowanych z usług komunikujących się ze sobą nie jest nowa. W ekosystemie Javy (także innych) od wielu lat istnieją technologie pomagające budować systemy typu SOA (Service Oreineted Architecture) - począwszy od pojedyńczych WebService'ów (RPC, SOAP, REST) skończywszy na otwartych lub komercyjnych platformach integracyjnych ESB. Dlaczego by nie przenieść tych doświadczeń, patternów i technologii do świata pojedyńczej aplikacji? Jakie korzyści i wyzwania niesie ze sobą rozbicie monolitycznej aplikacji na niezależne 'klocki' realizujące usługę poprzez swój interfejs?"
+        - 'Podczas warsztatów pracować będziemy z przykładową aplikacją składającą się z 2-3 mikroserwisów.'
+        - 'Będzie to okazja do dyskusji m.in na temat:'
+        - ' * zakresu pojedynczej mikrousługi'
+        - ' * organizacji developmentu i deploymentu'
+        - ' * wykorzystanych technologii (Spring-Boot, Spring-REST)'
+        - 'Dla osób zainteresowanych aktywnie wziąć udział w warsztatach wymaganym będzie:'
+        - ' * zainstalowana Java 8'
+        - ' * zainstalowany Maven 3'
+        - ' * ulubione IDE do Javy'
+      logo: microservices-thenewstack_io.jpg
 
   venue:
     take_place: Konferencja odbędzie się na uczelni
@@ -638,18 +659,22 @@ pl:
         id: 1
         code: L128
         name: główna scena
-      computer:
+      aci:
         id: 2
-        code: CH@4
-        name: sala komputerowa na piętrze czwartym
-      small:
+        code: ACI
+        name: sala ACI, piętro IV
+      L406:
         id: 3
-        code: HW@4
-        name: "`korytarz`, piętro IV"
-      hackathon:
+        code: L406
+        name: sala L406, piętro IV
+      L412:
         id: 4
-        code: HA@4
-        name: "L412, piętro IV"
+        code: L412
+        name: sala L412, piętro IV
+      L3xx:
+        id: 5
+        code: L3xx
+        name: sala L3xx, piętro III
   sponsors:
     slogan: Sponsorzy mają zaczący wpływ na jakość konferencji
     slogan: Dzięki nim, Dni Wolnego Oprogramowania są wyjątkowe
@@ -823,8 +848,8 @@ pl:
     Agnieszka_Pawlicka:
       id: 17
       name: Agnieszka Pawlicka
-      title: IT Trainer
-      description: Wielka pasjonatka konstruowania robotów i ich programowania, wytrwale podążająca za najnowocześniejszymi technologiami.
+      title: Scrum Master @ Selleo
+      description: Wielka pasjonatka Lego, robotyki i metodyk zwinnych, zgłębiająca tajemnice Agile z taką samą pasją jak konstruowanie z klocków Lego.
       social:
         linkedin: http://pl.linkedin.com/pub/agnieszka-pawlicka/94/222/2ab/en
         facebook: https://www.facebook.com/agnieszka.pawlicka2
@@ -1254,7 +1279,59 @@ pl:
       description: Currently working for Canonical Ltd, the company behind the Ubuntu operating system.
       social:
         linkedin: http://pl.linkedin.com/pub/%C5%82ukasz-zemczak/31/a59/212/en
-
+    Marek_Talik:
+      id: 75
+      name: Marek Talik
+      title: CEO at Coderion
+      description:
+      social:
+        linkedin: https://www.linkedin.com/profile/view?id=33132333
+    Dominik_Mierzejewski:
+      id: 76
+      name: Dominik Mierzejewski
+      title: Experienced System Administrator and Opensourcerer
+      description: Na co dzień administratorem Unix w dużej korporacji. Od lat jest zwolennikiem wolnego oprogramowania i mniej lub bardziej aktywnie uczestniczy w kilku projektach open source.
+      social:
+        linkedin: https://www.linkedin.com/in/dmierzej
+    Lukasz_Gawel:
+      id: 77
+      name: Łukasz Gaweł
+      title: Developer @ Selleo
+      description:
+      social:
+        linkedin: https://www.linkedin.com/pub/%C5%82ukasz-gawe%C5%82/72/100/386/en
+        facebook: https://www.facebook.com/lemoniak2
+    Mateusz_Swiszcz:
+      id: 78
+      name: Mateusz Świszcz
+      title: Developer @ Selleo
+      description:
+      social:
+        linkedin: https://www.linkedin.com/in/mswiszcz
+        facebook: https://www.facebook.com/swiszczmateusz
+    Michal_Smereczynski:
+      id: 79
+      name: Michał Smereczyński
+      title: CEO @ Free Media
+      description:
+      social:
+        linkedin: https://www.linkedin.com/in/smereczynski
+        twitter: https://twitter.com/smereczynski
+    Grzegorz_Bartman:
+      id: 80
+      name: Grzegorz Bartman
+      title: Co-founder at Droptica
+      description: Drupal Developer
+      social:
+        linkedin: https://www.linkedin.com/in/grzegorzbartman
+        twitter: https://twitter.com/grzegorzbartman
+    Piotr_Koscielniak:
+      id: 81
+      name: Piotr Koscielniak
+      title: Software engineer at Rekord
+      description: JavaScript, AngularJS, C#/.Net, node.js/io.js software engineer.
+      social:
+        linkedin: https://www.linkedin.com/profile/view?id=359182292
 
 
 
