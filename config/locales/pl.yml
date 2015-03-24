@@ -237,10 +237,13 @@ pl:
           speaker: Eunika_Tabak
         09-30:
           id: 411
-          type: keynote
+          type: talk
           speaker: Dariusz_Wylon
-          title: TBA
-          description: TBA
+          title: Management 3.0 WorkOut. Budowanie zaangażowania w samoorganizujących się zespołach.
+          description:
+            - 'Jesteś menadżerem w firmie IT i chciałbyś zmienić swój styl zarządzania? Czujesz, że firma, w której pracujesz w dalszym ciąguorganizuje pracę zespołów zgodnie z modelami z ubiegłego wieku? Przyjdź na specjalny blok poświęcony najnowszym trendom wzarządzaniu i do wiedz się jak koncepcje Management 3.0 mogąodmienić Twoje ś rodowisko pracy.'
+            - 'Zacznij budować samoorganizujące się zespoły oraz atmosferęwzajemnego zaufa nia i motywacji. Poznaj techniki umożliwiającewykorzystanie po tencjału i wewnętrznej motywacji członków zespołupoprzez poszerza nie zakresu odpowiedzialnością, autonomii i wpływu'
+            - 'Weź udział w interaktywnej grze opartej o narzędzia Management 3.0,która zadebiutuj e właśnie podczas DWO i razem z przedstawicielamiinnowacyjnych firm z branży IT podejmuj decyzje dotyczące zarządzania organizacją.'
         11-00:
           id: 412
           type: break
