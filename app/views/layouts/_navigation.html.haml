@@ -1,4 +1,6 @@
 %ul#mainnav.nav
+  %li
+    = link_to 'BLOG', 'http://mikstura.it/pl/blog/', target: :blank, class: 'external'
   - %w(about speakers schedule workshops venue sponsors contact).each do |section|
     %li
       = link_to t(section, scope: [:section]), anchor: section
