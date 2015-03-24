@@ -23,3 +23,11 @@ ul.people {
 .code-of-conduct {
     color: black;
 }
+
+.navbar .nav > li > a.emphased {
+    color: #EE9C2D;
+}
+
+.alt .navbar .nav > li > a.emphased {
+    color: #e97e1b;
+}
