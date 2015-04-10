@@ -10,4 +10,3 @@
 .tab-content
   - all_days.each do |day|
     = render partial: 'schedule/day', locals: { day: day, active: day_is_active(day) }
-
