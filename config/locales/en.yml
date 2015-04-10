@@ -647,7 +647,7 @@ en:
       title: Architektura mikroserwisów
       description:
         - "Koncepcja architektury systemów rozproszonych zbudowanych z usług komunikujących się ze sobą nie jest nowa. W ekosystemie Javy (także innych) od wielu lat istnieją technologie pomagające budować systemy typu SOA (Service Oreineted Architecture) - począwszy od pojedyńczych WebService'ów (RPC, SOAP, REST) skończywszy na otwartych lub komercyjnych platformach integracyjnych ESB. Dlaczego by nie przenieść tych doświadczeń, patternów i technologii do świata pojedyńczej aplikacji? Jakie korzyści i wyzwania niesie ze sobą rozbicie monolitycznej aplikacji na niezależne 'klocki' realizujące usługę poprzez swój interfejs?"
-        - 'Podczas warsztatów pracować będziemy z przykładową aplikacją składającą się z 2-3 mikroserwisów.'
+        - "Podczas warsztatów pracować będziemy z przykładową aplikacją składającą się z 2-3 mikroserwisów."
         - 'Będzie to okazja do dyskusji m.in na temat:'
         - ' * zakresu pojedynczej mikrousługi'
         - ' * organizacji developmentu i deploymentu'
@@ -657,6 +657,57 @@ en:
         - ' * zainstalowany Maven 3'
         - ' * ulubione IDE do Javy'
       logo: microservices-thenewstack_io.jpg
+    docker:
+      id: 910
+      position: 14
+      lead: Justyna Ilczuk
+      schedule: 'Niedziela 19 Kwietnia 10:20 - 12:20'
+      day: daythree
+      start_at: '10:20'
+      where: L3xx
+      title: Pierwsze starcie z kontenerami - Docker jako narzędzie w developmencie
+      description:
+        - "Warsztat jest adresowany do osób, które co nieco już słyszały o Dockerze, ale nie mają z nim jeszcze doświadczenia i chciałyby się nauczyć stosować go w praktyce."
+        - 'Podczas warsztatu:'
+        - ' * ściągniemy obraz kontenera z internetu'
+        - ' * uruchomimy prostą komendę w kontenerze'
+        - ' * komenda run'
+        - ' * montowanie wolumenów, forwardowanie portów, uruchamianie kontenerów w trybie zdemonizowanym'
+        - ' * utrwalanie kontenerów na podstawie commitowania kontenera'
+        - " * wstęp do Dockerfile'a (specyfikacji budowy obrazów dockerowych)"
+        - ' * moja pierwsza aplikacja w Dockerowym kontenerze.'
+      logo: docker_logo.png
+    xpgame:
+      id: 911
+      position: 15
+      lead:
+        - Daniel_Wicher
+        - Marcin_Balda
+      schedule: 'Niedziela 19 Kwietnia 11:00 - 13:00'
+      day: daythree
+      start_at: '11:00'
+      where: aci
+      title: XP Game. Nie tylko programowanie może być ekstremalne.
+      description:
+        - "XP Game to zabawny sposób na zapoznanie graczy z elementami konceptu Programowania Ekstremalnego (Xtreme Programming). Gracze będą mieli okazje poznać takie elementy jak:"
+        - " * velocity, estymacje historyjek, zasada „yesterday's weather” (wczorajszej pogody) oraz cyklu życia w XP."
+        - ' Każdy może wziąć udział! W XP Game każdy z graczy może wcielić się w rolę klienta oraz dostawcy (developera) rozwiązania.'
+      logo: extreme_programming.jpg
+    raspberrypi:
+      id: 912
+      position: 16
+      lead:
+        - Lukasz_Oles
+        - Blazej_Faliszek
+      schedule: 'Niedziela 19 Kwietnia 12:20 - 14:20'
+      day: daythree
+      start_at: '12:20'
+      where: L406
+      title: Warsztaty z Raspberry Pi
+      description:
+      - 'Warsztaty z Raspberry Pi przybliżą jeden z najpopularniejszych mikrokoputerów osobom, które nie miały z nim jeszcze do czynienia oraz pozwolą na podszlifowanie wiedzy oraz umiejętności tym wszystkim, którzy już kiedyś realizowali projekty oparte o ten mikrokomputer. W czasie warsztatów postaramy się wprowadzić początkujące osoby w świat elektroniki oraz pokazać kilka ciekawych zastosowań dla Raspberry Pi.'
+      logo: raspberry_pi.jpg
+      
   venue:
     take_place: "The conference will take place at the university"
     ath: Akademia Techniczno-Humanistyczna in Bielsko-Biała
@@ -1380,7 +1431,27 @@ en:
       description: Scrum Master z powołania i zamiłowania. Mówi o sobie, że jest jak wódka – rozwiązuje problemy. Obecnie pełni rolę Agile Coacha w organizacji, gdzie stara się przekazać tajniki zwinnego tworzenia oprogramowania innym inżynierom w firmie.
       social:
         linkedin: https://www.linkedin.com/in/dwicher
-
+    Justyna_Ilczuk:
+      id: 87
+      name: Justyna Ilczuk
+      title: Senior Software Engineer at Syncano
+      description: Passionate pythonista that loves crafting complex yet simple to use software. Recently immeresed in DevOps.
+      social:
+        linkedin: https://pl.linkedin.com/in/justynailczuk
+    Blazej_Faliszek:
+      id: 88
+      name: Błażej Faliszek
+      title: Founder and Blogger at MalinowePi.pl
+      description: ''
+      social:
+        linkedin: https://www.linkedin.com/in/blazejfaliszek
+    Lukasz_Oles:
+      id: 89
+      name: Łukasz Oleś
+      title: Software Developer at Mirantis
+      description: ''
+      social:
+        linkedin: https://pl.linkedin.com/pub/łukasz-oleś/14/9a4/459/pl
 
   footer:
     is_organised_by: The Open Source Days 2015 conference is organized by
