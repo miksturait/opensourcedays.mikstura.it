@@ -695,11 +695,11 @@ en:
       logo: extreme_programming.jpg
     raspberrypi:
       id: 912
-      position: 16
+      position: 2
       lead:
         - Lukasz_Oles
         - Blazej_Faliszek
-      schedule: 'Niedziela 19 Kwietnia 12:20 - 14:20'
+      schedule: 'Sobota 18 Kwietnia 14:15 - 16:15'
       day: daythree
       start_at: '12:20'
       where: L406

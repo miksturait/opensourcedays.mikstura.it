@@ -488,17 +488,6 @@ pl:
         - Skrócona wersja zajęć praktycznych z DrupalDay
         - http://www.slideshare.net/grzegorzbartman/drupalday-drupal-global-training-days-wprowadzenie-do-drupala
       logo: drupal-wikimedia_org.jpg
-    raspberry:
-      id: 904
-      position: 2
-      lead: Kamil_Galuszka
-      schedule: 'Sobota 18 Kwietnia 11:15 - 13:15'
-      day: daytwo
-      start_at: '11:10'
-      where: L406
-      title: TBA
-      description: TBA
-      logo: raspberry-wikipedia_org.jpg
     azure_one:
       id: 901
       position: 8
@@ -695,11 +684,11 @@ pl:
       logo: extreme_programming.jpg
     raspberrypi:
       id: 912
-      position: 16
+      position: 2
       lead:
         - Lukasz_Oles
         - Blazej_Faliszek
-      schedule: 'Niedziela 19 Kwietnia 12:20 - 14:20'
+      schedule: 'Sobota 18 Kwietnia 11:15 - 13:15'
       day: daythree
       start_at: '12:20'
       where: L406
