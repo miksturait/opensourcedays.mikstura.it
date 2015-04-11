@@ -661,9 +661,9 @@ en:
       id: 910
       position: 14
       lead: Justyna Ilczuk
-      schedule: 'Niedziela 19 Kwietnia 10:20 - 12:20'
+      schedule: 'Niedziela 19 Kwietnia 10:00 - 12:00'
       day: daythree
-      start_at: '10:20'
+      start_at: '10:00'
       where: L3xx
       title: Pierwsze starcie z kontenerami - Docker jako narzędzie w developmencie
       description:
@@ -683,9 +683,9 @@ en:
       lead:
         - Daniel_Wicher
         - Marcin_Balda
-      schedule: 'Niedziela 19 Kwietnia 11:00 - 13:00'
+      schedule: 'Niedziela 19 Kwietnia 10:00 - 12:00'
       day: daythree
-      start_at: '11:00'
+      start_at: '10:00'
       where: aci
       title: XP Game. Nie tylko programowanie może być ekstremalne.
       description:
@@ -707,7 +707,7 @@ en:
       description:
       - 'Warsztaty z Raspberry Pi przybliżą jeden z najpopularniejszych mikrokoputerów osobom, które nie miały z nim jeszcze do czynienia oraz pozwolą na podszlifowanie wiedzy oraz umiejętności tym wszystkim, którzy już kiedyś realizowali projekty oparte o ten mikrokomputer. W czasie warsztatów postaramy się wprowadzić początkujące osoby w świat elektroniki oraz pokazać kilka ciekawych zastosowań dla Raspberry Pi.'
       logo: raspberry_pi.jpg
-      
+
   venue:
     take_place: "The conference will take place at the university"
     ath: Akademia Techniczno-Humanistyczna in Bielsko-Biała

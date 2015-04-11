@@ -650,9 +650,9 @@ pl:
       id: 910
       position: 14
       lead: Justyna_Ilczuk
-      schedule: 'Niedziela 19 Kwietnia 10:20 - 12:20'
+      schedule: 'Niedziela 19 Kwietnia 10:00 - 12:00'
       day: daythree
-      start_at: '10:20'
+      start_at: '10:00'
       where: L3xx
       title: Pierwsze starcie z kontenerami - Docker jako narzędzie w developmencie
       description:
@@ -672,9 +672,9 @@ pl:
       lead:
         - Daniel_Wicher
         - Marcin_Balda
-      schedule: 'Niedziela 19 Kwietnia 11:00 - 13:00'
+      schedule: 'Niedziela 19 Kwietnia 10:00 - 12:00'
       day: daythree
-      start_at: '11:00'
+      start_at: '10:00'
       where: aci
       title: XP Game. Nie tylko programowanie może być ekstremalne.
       description:
