@@ -660,7 +660,7 @@ en:
     docker:
       id: 910
       position: 14
-      lead: Justyna Ilczuk
+      lead: Justyna_Ilczuk
       schedule: 'Niedziela 19 Kwietnia 10:00 - 12:00'
       day: daythree
       start_at: '10:00'
