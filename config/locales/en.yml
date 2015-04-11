@@ -239,7 +239,7 @@ en:
           id: 411
           type: talk
           speaker: Dariusz_Wylon
-          title: Management 3.0 WorkOut. Budowanie zaangażowania w samoorganizujących się zespołach.
+          title: Management 3.0 WorkOut. Budowanie zaangażowania w samoorganizujących się zespołach
           description:
             - 'Jesteś menadżerem w firmie IT i chciałbyś zmienić swój styl zarządzania? Czujesz, że firma, w której pracujesz w dalszym ciągu organizuje pracę zespołów zgodnie z modelami z ubiegłego wieku? Przyjdź na specjalny blok poświęcony najnowszym trendom w zarządzaniu i dowiedz się jak koncepcje Management 3.0 mogą odmienić Twoje środowisko pracy.'
             - 'Zacznij budować samoorganizujące się zespoły oraz atmosferę wzajemnego zaufania i motywacji. Poznaj techniki umożliwiające wykorzystanie potencjału i wewnętrznej motywacji członków zespołu poprzez poszerzanie zakresu odpowiedzialności, autonomii i wpływu'
@@ -306,7 +306,7 @@ en:
           id: 492
           type: talk
           speaker: Lukasz_Wieclaw
-          title: 'Biomteria - Sam jesteś unikalnym dokumentem tożsamości'
+          title: 'Biometria - Sam jesteś unikalnym dokumentem tożsamości'
           description:
             - Krótki wstęp do biometrii.
             - Przegląd metod biometrycznej identyfikacji i weryfikacji tożsamości. Czy trudno jest oszukać system biometryczny? Systemy biometryczne w środowisku Open Source.
@@ -812,7 +812,7 @@ en:
     Dominik_Kozaczko:
       id: 5
       name: Dominik Kozaczko
-      title: Lecturer at ATH
+      title: Lecturer @ ATH
       description: The founding father of the Open Source Days conference.
       social:
         twitter: https://twitter.com/_DomKo_
@@ -821,7 +821,7 @@ en:
     Tomasz_Gancarczyk:
       id: 6
       name: Tomasz Gancarczyk
-      title: Lecturer at  ATH
+      title: Lecturer @ ATH
       description: The tutor of the operating systems division at the ATH RESET IT community.
       social:
         google: https://plus.google.com/112446594694346695781/posts
@@ -918,7 +918,7 @@ en:
     Pawel_Marynowski:
       id: 18
       name: Paweł Marynowski
-      title: A fan of open knowledge.
+      title: A fan of open knowledge
       description: OpenStreetMap editor with 4 years of experience to share. A board member of the OpenStreetMap Association in Poland.
       social:
         twitter: https://twitter.com/pmarynowski
@@ -1042,7 +1042,7 @@ en:
     Jakub_Duda:
       id: 34
       name: Jakub Duda
-      title: Dev & Design Lead at Incuvo
+      title: Dev & Design Lead @ Incuvo
       description: Educated to be a programmer by profession. A fan of running and gaming, and a geek. Working with video games for 9 years.
       social:
         linkedin: https://pl.linkedin.com/pub/jakub-duda/6/710/162
@@ -1305,7 +1305,7 @@ en:
     Krystian_Cieslak:
       id: 70
       name: Krystian Cieslak
-      title: CMO at Infinity
+      title: CMO @ Infinity
       description: PR consultant. Communication practitioner. Vision guy. iBeacons geek.
       social:
         facebook: https://www.facebook.com/krystian.cieslak
@@ -1338,14 +1338,14 @@ en:
     Lukasz_Zemczak:
       id: 74
       name: Łukasz 'sil2100' Zemczak
-      title: Software Engineer at Canonical Ltd.
+      title: Software Engineer @ Canonical Ltd.
       description: Currently working for Canonical Ltd, the company behind the Ubuntu operating system.
       social:
         linkedin: http://pl.linkedin.com/pub/%C5%82ukasz-zemczak/31/a59/212/en
     Marek_Talik:
       id: 75
       name: Marek Talik
-      title: CEO at Coderion
+      title: CEO @ Coderion
       description:
       social:
         linkedin: https://www.linkedin.com/profile/view?id=33132333
@@ -1383,7 +1383,7 @@ en:
     Grzegorz_Bartman:
       id: 80
       name: Grzegorz Bartman
-      title: Co-founder at Droptica
+      title: Co-founder @ Droptica
       description: Drupal Developer
       social:
         linkedin: https://www.linkedin.com/in/grzegorzbartman
@@ -1391,7 +1391,7 @@ en:
     Piotr_Koscielniak:
       id: 81
       name: Piotr Koscielniak
-      title: Software engineer at Rekord
+      title: Software engineer @ Rekord
       description: JavaScript, AngularJS, C#/.Net, node.js/io.js software engineer.
       social:
         linkedin: https://www.linkedin.com/profile/view?id=359182292
@@ -1420,35 +1420,35 @@ en:
     Marcin_Balda:
       id: 85
       name: Marcin Bałda
-      title: Developer at Future Processing
+      title: Developer @ Future Processing
       description: Zajmuje się tworzeniem aplikacji webowych opartych o platformę .NET. Do zainteresowań zawodowych należą również metodyki Agile'owe oraz wdrażanie w projektach zasady KISS (Keep It Simple, Stupid).
       social:
         linkedin: https://www.linkedin.com/pub/marcin-ba%C5%82da/58/938/387
     Daniel_Wicher:
       id: 86
       name: Daniel Wicher
-      title: Agile Coach at Future Processing
+      title: Agile Coach @ Future Processing
       description: Scrum Master z powołania i zamiłowania. Mówi o sobie, że jest jak wódka – rozwiązuje problemy. Obecnie pełni rolę Agile Coacha w organizacji, gdzie stara się przekazać tajniki zwinnego tworzenia oprogramowania innym inżynierom w firmie.
       social:
         linkedin: https://www.linkedin.com/in/dwicher
     Justyna_Ilczuk:
       id: 87
       name: Justyna Ilczuk
-      title: Senior Software Engineer at Syncano
+      title: Senior Software Engineer @ Syncano
       description: Passionate pythonista that loves crafting complex yet simple to use software. Recently immeresed in DevOps.
       social:
         linkedin: https://pl.linkedin.com/in/justynailczuk
     Blazej_Faliszek:
       id: 88
       name: Błażej Faliszek
-      title: Founder and Blogger at MalinowePi.pl
+      title: Founder and Blogger @ MalinowePi.pl
       description: ''
       social:
         linkedin: https://www.linkedin.com/in/blazejfaliszek
     Lukasz_Oles:
       id: 89
       name: Łukasz Oleś
-      title: Software Developer at Mirantis
+      title: Software Developer @ Mirantis
       description: ''
       social:
         linkedin: https://pl.linkedin.com/pub/łukasz-oleś/14/9a4/459/pl
