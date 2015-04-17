@@ -164,7 +164,7 @@ pl:
         16-50:
           id: 446
           type: talk
-          speaker: Krystian_Cieslak
+          speaker: Wojciech_Bachta
           title: 'Mikronawigacja i iBeacony'
           description: 'Kilka argumentów, dla których możesz zapomnieć o całej reszcie'
         17-10:
@@ -179,19 +179,6 @@ pl:
           id: 447
           type: break
         18-00:
-          id: 448
-          type: talk
-          speaker: Martyna_Bargiel
-          title: Czy typografia rządzi światem i dlaczego tak
-          description:
-            - 'Internet to w 95% typografia. Nasze postindustrialne społeczeństwo informacyjne bezustannie generuje i przetwarza informacje, posługując się walutą komunikatu. Cyfrowa komunikacja to w ogromnej mierze posługiwanie się tekstem pisanym, a jego wizualne parametry pozwalają manipulować przenoszonym komunikatem. Z niniejszej prezentacji dowiesz się między innymi:'
-            - ' * jak ekranowa typografia wpływa na komunikację'
-            - ' * dlaczego wybór fontu to nie typografia'
-            - ' * dlaczego powinniśmy traktować tekst jak User Interface'
-            - ' * jak zaprojektować informację'
-            - ' * czy typografia rządzi światem (a przynajmniej Twoim klientem) i dlaczego tak.'
-            - 'Zapraszam na 20-minutową prezentację, której celem jest rozbudowanie świadomości wszystkich, obcujących z tekstem - zarówno na front- jak i back-endzie.'
-        18-20:
           id: 304
           type: talk
           speaker: Michal_Konieczny
@@ -202,7 +189,7 @@ pl:
             - Opowiem również o pasji i zaangażowaniu, o rekrutowaniu właściwych współpracowników, o motywowaniu, o wychodzeniu ze strefy komfortu i o podejmowaniu decyzji w oparciu o dane.
             - Opiszę cechy charakteru, jakie warto rozwijać u siebie i szukać u innych. Z kim pracować i w jakim otoczeniu? I jak przy tym wszystkim zachować work-life balance.
             - Zapraszam.
-        18-40:
+        18-20:
           id: 405
           type: talk
           speaker: Mikolaj_Pastuszko
@@ -211,17 +198,14 @@ pl:
             - Stworzyć aplikację potrafi każdy pingwin. Jednak tylko nieliczne z nich osiągają sukces. A wystarczy dostosować ją do rzeczywistych potrzeb użytkowników, by pokochali nasz produkt i chętnie za niego płacili. Tym zajmuje się projektant UX.
             - Niekiedy jednak nie możemy sobie pozwolić na zatrudnienie UX Designera. Co wtedy zrobić? Jak poznać potrzeby użytkowników zanim wyskrobiemy pierwszą linię kodu? Jak pisać kod, który już od pierwszych linii realizuje potrzeby użytkowników? Jak przejść od hurraoptymizmu do stawiania hipotez projektowych? Co zrobić, by zespół programistów tworzył używalne rozwiązania? Jak sprawdzić czy rozwijamy aplikację w dobrym kierunku?
             - Zapraszam na praktyczny poradnik dla osób, które chcą, by ich produkt pokochały miliony użytkowników.
-        19-00:
-          id: 406
-          type: break
-        19-15:
+        18-40:
           id: 407
           type: talk
           speaker: Karol_Ryt
           title: Kreatywny Inżynier, czy jest to możliwe?
           description:
             - Krótka rozprawa o tym czy bycie inżynierem jest synonimem nudnej, żmudnej pracy, czy też może być ciekawa pełna zaskakujących i ciekawych pomysłów.
-        20-00:
+        19-25:
           id: 408
           type: see_you_tomorrow
           speaker: Dariusz_Wylon
@@ -343,6 +327,19 @@ pl:
           id: 422
           type: break
         17-15:
+          id: 448
+          type: talk
+          speaker: Martyna_Bargiel
+          title: Czy typografia rządzi światem i dlaczego tak
+          description:
+            - 'Internet to w 95% typografia. Nasze postindustrialne społeczeństwo informacyjne bezustannie generuje i przetwarza informacje, posługując się walutą komunikatu. Cyfrowa komunikacja to w ogromnej mierze posługiwanie się tekstem pisanym, a jego wizualne parametry pozwalają manipulować przenoszonym komunikatem. Z niniejszej prezentacji dowiesz się między innymi:'
+            - ' * jak ekranowa typografia wpływa na komunikację'
+            - ' * dlaczego wybór fontu to nie typografia'
+            - ' * dlaczego powinniśmy traktować tekst jak User Interface'
+            - ' * jak zaprojektować informację'
+            - ' * czy typografia rządzi światem (a przynajmniej Twoim klientem) i dlaczego tak.'
+            - 'Zapraszam na 20-minutową prezentację, której celem jest rozbudowanie świadomości wszystkich, obcujących z tekstem - zarówno na front- jak i back-endzie.'
+        17-35:
           id: 427
           type: panel
           speaker: Arkadiusz_Kwasny
@@ -1451,6 +1448,15 @@ pl:
       description: ''
       social:
         linkedin: https://pl.linkedin.com/pub/łukasz-oleś/14/9a4/459/pl
+    Wojciech_Bachta:
+      id: 90
+      name: Wojciech Bachta
+      title: COO at Da Vinci Studio
+      description: 'Ifinity Partner. iBeacons&Smart Cities fan.'
+      social:
+        linkedin: https://pl.linkedin.com/in/wbachta
+        twitter: https://twitter.com/wojciechbachta
+        facebook: https://www.facebook.com/wojciech.bachta
 
   footer:
     is_organised_by: Konferencja Dni Wolnego Oprogramowania 2015 jest organizowana przez
