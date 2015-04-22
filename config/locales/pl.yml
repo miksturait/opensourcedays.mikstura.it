@@ -1,5 +1,5 @@
 pl:
-  title: Dni Wolnego Oprogramowania '15, 17 - 19 Kwietnia - Bielsko-Biała
+#  title: Dni Wolnego Oprogramowania '15, 17 - 19 Kwietnia - Bielsko-Biała
   domain: http://dwo.mikstura.it
   subtitle: 17 - 19 Kwietnia - Bielsko-Biała
   short_title: DWO '15
@@ -142,557 +142,560 @@ pl:
     grill:
       header: Grill Na Błoniach
       description: 'Pocztowa 39, Bielsko-Biała'
-    dayone:
-      id: 1
-      date: 2015-04-17
-      title: Piątek
-      header: Piątek, 17 Kwietnia
-      agenda:
-        15-00:
-          id: 301
-          type: registration
-        16-25:
-          id: 302
-          type: welcome
-          speaker: Dariusz_Wylon
-        16-30:
-          id: 303
-          type: talk
-          speaker: Tomasz_Bak
-          title: Jak wnieść wkład w Open Source?
-          description: Czym jest open source? Kto tworzy open source? Jak można wnieść wkład?
-        16-50:
-          id: 446
-          type: talk
-          speaker: Wojciech_Bachta
-          title: 'Mikronawigacja i iBeacony'
-          description: 'Kilka argumentów, dla których możesz zapomnieć o całej reszcie'
-        17-10:
-          id: 415
-          type: talk
-          speaker: Mateusz_Juscinski
-          title: PHP dziś i jutro
-          description:
-            - 'W tym roku Internet świętuje 20-lecie powstania PHP, języka programowania który miał ogromny wpływ na przejście ze statycznych na dynamicznie generowane strony WWW.'
-            - 'Podczas tej prezentacji pokażę co w PHP zmieniło się w ostatnich czasach i jak PHP wygląda dziś, opowiem czym jest HHVM i Hack. Następnie pomówimy o przyszłości języka jaką jest, zapowiedziana na październik, wersja 7.'
-        17-40:
-          id: 447
-          type: break
-        18-00:
-          id: 304
-          type: talk
-          speaker: Michal_Konieczny
-          title: Cechy charakteru i otoczenia wymagane dla sukcesu projektu
-          description:
-            - Na bazie case studies opowiem o tym, co przyczynia się do realizacji udanych projektów. Będzie o umiejętnościach miękkich i o twardych danych.
-            - Powiem o metodyce Agile, o budowaniu start-upów, o rozwijaniu funkcjonalności w modelu Lean, o MVP i o innych efektywnych narzędziach.
-            - Opowiem również o pasji i zaangażowaniu, o rekrutowaniu właściwych współpracowników, o motywowaniu, o wychodzeniu ze strefy komfortu i o podejmowaniu decyzji w oparciu o dane.
-            - Opiszę cechy charakteru, jakie warto rozwijać u siebie i szukać u innych. Z kim pracować i w jakim otoczeniu? I jak przy tym wszystkim zachować work-life balance.
-            - Zapraszam.
-        18-20:
-          id: 405
-          type: talk
-          speaker: Mikolaj_Pastuszko
-          title: Nie mamy projektanta! Co robić?!
-          description:
-            - Stworzyć aplikację potrafi każdy pingwin. Jednak tylko nieliczne z nich osiągają sukces. A wystarczy dostosować ją do rzeczywistych potrzeb użytkowników, by pokochali nasz produkt i chętnie za niego płacili. Tym zajmuje się projektant UX.
-            - Niekiedy jednak nie możemy sobie pozwolić na zatrudnienie UX Designera. Co wtedy zrobić? Jak poznać potrzeby użytkowników zanim wyskrobiemy pierwszą linię kodu? Jak pisać kod, który już od pierwszych linii realizuje potrzeby użytkowników? Jak przejść od hurraoptymizmu do stawiania hipotez projektowych? Co zrobić, by zespół programistów tworzył używalne rozwiązania? Jak sprawdzić czy rozwijamy aplikację w dobrym kierunku?
-            - Zapraszam na praktyczny poradnik dla osób, które chcą, by ich produkt pokochały miliony użytkowników.
-        18-40:
-          id: 407
-          type: talk
-          speaker: Karol_Ryt
-          title: Kreatywny Inżynier, czy jest to możliwe?
-          description:
-            - Krótka rozprawa o tym czy bycie inżynierem jest synonimem nudnej, żmudnej pracy, czy też może być ciekawa pełna zaskakujących i ciekawych pomysłów.
-        19-25:
-          id: 408
-          type: see_you_tomorrow
-          speaker: Dariusz_Wylon
-    daytwo:
-      id: 2
-      date: 2014-03-29
-      title: Sobota
-      header: Sobota, 18 Kwietnia
-      agenda:
-        09-25:
-          id: 410
-          type: welcome
-          speaker: Eunika_Tabak
-        09-30:
-          id: 411
-          type: talk
-          speaker: Dariusz_Wylon
-          title: Management 3.0 WorkOut. Budowanie zaangażowania w samoorganizujących się zespołach
-          description:
-            - 'Jesteś menadżerem w firmie IT i chciałbyś zmienić swój styl zarządzania? Czujesz, że firma, w której pracujesz w dalszym ciągu organizuje pracę zespołów zgodnie z modelami z ubiegłego wieku? Przyjdź na specjalny blok poświęcony najnowszym trendom w zarządzaniu i dowiedz się jak koncepcje Management 3.0 mogą odmienić Twoje środowisko pracy.'
-            - 'Zacznij budować samoorganizujące się zespoły oraz atmosferę wzajemnego zaufania i motywacji. Poznaj techniki umożliwiające wykorzystanie potencjału i wewnętrznej motywacji członków zespołu poprzez poszerzanie zakresu odpowiedzialności, autonomii i wpływu'
-            - 'Weź udział w interaktywnej grze opartej o narzędzia Management 3.0, która zadebiutuje właśnie podczas DWO i razem z przedstawicielami innowacyjnych firm z branży IT podejmuj decyzje dotyczące zarządzania organizacją.'
-        11-00:
-          id: 412
-          type: break
-        11-30:
-          id: 413
-          type: talk
-          speaker: Mikolaj_Pastuszko
-          title: Czego mój pies nauczył mnie o projektowaniu?
-          description:
-            - 'Odkąd w moim domu zamieszkał pies, stan mieszkania zastany po powrocie z pracy stanowi codzienną zagadkę. Pomysłowość zwierzaka potrafi zaskoczyć i wymaga od człowieka szczególnej ostrożności.'
-            - 'Użytkownicy naszych aplikacji także miewają rozmaite pomysły. A przecież chcemy, by czuli się bezpiecznie korzystając z naszego produktu. Jak projektować, aby dostarczane przez nas rozwiązania były bezpieczne? Jak zabezpieczyć użytkownika przed wykonaniem niepożądanych akcji? Jak ostrzegać o zagrożeniu, jednocześnie nie strasząc? Co zrobić, żeby użytkownik nie dokonał autodestrukcji?'
-            - 'Zapraszam na serię porad, przykładów, antyprzykładów i zdjęć psa.'
-        11-50:
-          id: 414
-          type: talk
-          speaker: Tomasz_Borowski
-          title: Aplikacje mobilne tworzone w technologiach webowych
-          description: 'Android, iOS, Windows Phone... Czy zróżnicowanie platform i języków programowania musi być przeszkodą w tworzeniu aplikacji mobilnych? Na szczęście nie! Dzięki technologiom webowym możemy tworzyć oprogramowanie działające na wielu platformach, a posiadane doświadczenie w HTML i JavaScript może znacznie przyspieszyć pracę i ukończenie projektu. Podczas wystąpienia zostaną przedstawione dostępne narzędzia i biblioteki do tworzenia cross-platformowych aplikacji mobilnych.'
-        12-10:
-          id: 501
-          type: talk
-          speaker: Katarzyna_Pawlonka
-          title: Co zrobić, żeby zarobić z Microsoft
-          description: Programy wsparcia dla projektów, StartUp-ów i firm opartych na technologiach OpenSource w Microsoft.
-        12-25:
-          id: 116
-          type: lunch
-        14-15:
-          id: 503
-          type: talk
-          speaker: Marcin_Hlybin
-          title: Ansible - wzorce projektowe
-          description:
-            - 'Używanie Ansible jest proste, organizacja danych już nie.'
-            - 'Oprócz skromnych Best Practices, nie znajdziesz w dokumentacji informacji jaki organizować zadania, struktury danych, jak pisać generyczne role i jaki jest najsłuszniejszy sposób na getting things done.'
-            - 'Podczas wystąpienia przedstawię własne rozwiązania, przemyślenia oraz pułapki, na które się natknąłem podczas konfiguracji maszyn. Wykład będzie zawierać szybki wstęp do Ansible, aby każdy mógł skorzystać.'
-        14-35:
-          id: 502
-          type: talk
-          speaker: Slawomir_Rewaj
-          title: One to rule them all - Docker
-          description:
-            - 'Kiedy tworzymy aplikacje czy systemy produkcyjne, niekoniecznie chcemy spędzać dużo czasu na konfiguracje środowiska pracy (jak i środowiska testowego i produkcyjnego). Chcemy również aby te środowiska były jak najbardziej zbliżone do siebie, aby uniknąć problemów typu "Dziwne, u mnie działa".'
-            - 'Społeczność Open Source ma bardzo dobrą odpowiedź na tą potrzebę: docker'
-            - 'Chciałbym pokazać czym jest oraz co może dla ciebie zrobić.'
-        14-55:
-          id: 501
-          type: talk
-          speaker: Michal_Zyndul
-          title: Vagrant
-          description:
-            - 'Vagrant - czym jest jak używać, dlaczego jest fajny i jak ułatwia pracę.'
-            - 'Na wykładzie skupię się na tym jak to narzędzie pomaga nam w pracy.'
-            - 'Jak grafik może w kilka minut postawić działający skomplikowany projekt na swojej maszynie za pomocą kilku poleceń'
-            - 'Opowiem kilka historii z życia programisty, kiedy to vagrant okazał się dobrym wyborem'
-        15-15:
-          id: 418
-          type: break
-        15-45:
-          id: 492
-          type: talk
-          speaker: Lukasz_Wieclaw
-          title: 'Biometria - Sam jesteś unikalnym dokumentem tożsamości'
-          description:
-            - Krótki wstęp do biometrii.
-            - Przegląd metod biometrycznej identyfikacji i weryfikacji tożsamości. Czy trudno jest oszukać system biometryczny? Systemy biometryczne w środowisku Open Source.
-        16-05:
-          id: 120
-          type: talk
-          speaker: Michal_Papis
-          title:  Czy PGP to iluzja, a może możemy skorzystać na jego użyciu?
-          description:
-            - 'Chcę odpowiedzieć na pytanie: __czy podpisywanie kodu ma jakieś znaczenie__?'
-            - Przez długi czas sam szukałem odpowiedzi na nie. Myślałem nie możemy się ukryć przed inwigilacją i podpisywanie kod nic nam nie da. Ale myliłem się i teraz chcę się podzielić moimi doświadczeniami jak podpisywanie kodu może być dobre dla nas i co musimy zrobić żeby byś pewnym że nasze podpisy mają znaczenie.
-            - Chciałbym także przytoczyć podstawy tworzenia kluczy PGP do podpisywania i budowania łańcuchów zaufania. Było by świetnie gdyby ta prezentacja była kontynuowana następnego dnia w postaci sesji udostępniania identyfikatorów kluczy przez wszystkich zainteresowanych - tak że zbudujemy silną sieć zaufania. Dodatkowo dobrym pomysłem był by lokalny serwer kluczy aby przyśpieszyć wymianę kluczy.
-        16-25:
-          id: 421
-          type: talk
-          speaker: Marek_Wiera
-          title: Otwarta licencja na program komputerowy w polskim prawie autorskim
-          description:
-            - 'W ramach wykładu planowane jest omówienie następujących zagadnień'
-            - 'Program komputerowy jako przedmiot obrotu'
-            - '* program komputerowy w polskim prawie;'
-            - '* jakie przepisy winny być stosowane do programów komputerowych.'
-            - 'Licencja jako instytucja prawa autorskiego'
-            - '* istota licencji;'
-            - '* sposoby nabywania licencji;'
-            - '* różnice pomiędzy licencją oraz nabyciem autorskich praw majątkowych;'
-            - '* pola eksploatacji oraz nabycie licencji na różnych polach eksploatacji.'
-            - 'Omówienie założeń otwartego oprogramowania wobec ustawowej konstrukcji licencji na program komputerowy'
-            - '* licencja na czas oznaczony i nieoznaczony;'
-            - '* wypowiedzenie licencji;'
-            - '* dozwolony użytek;'
-            - '* wyczerpanie prawa do programu komputerowego.'
-        16-45:
-          id: 422
-          type: break
-        17-15:
-          id: 448
-          type: talk
-          speaker: Martyna_Bargiel
-          title: Czy typografia rządzi światem i dlaczego tak
-          description:
-            - 'Internet to w 95% typografia. Nasze postindustrialne społeczeństwo informacyjne bezustannie generuje i przetwarza informacje, posługując się walutą komunikatu. Cyfrowa komunikacja to w ogromnej mierze posługiwanie się tekstem pisanym, a jego wizualne parametry pozwalają manipulować przenoszonym komunikatem. Z niniejszej prezentacji dowiesz się między innymi:'
-            - ' * jak ekranowa typografia wpływa na komunikację'
-            - ' * dlaczego wybór fontu to nie typografia'
-            - ' * dlaczego powinniśmy traktować tekst jak User Interface'
-            - ' * jak zaprojektować informację'
-            - ' * czy typografia rządzi światem (a przynajmniej Twoim klientem) i dlaczego tak.'
-            - 'Zapraszam na 20-minutową prezentację, której celem jest rozbudowanie świadomości wszystkich, obcujących z tekstem - zarówno na front- jak i back-endzie.'
-        17-35:
-          id: 427
-          type: panel
-          speaker: Arkadiusz_Kwasny
-          title: 'panel "future is now"'
-          description:
-            - W panelu dyskusyjnym zamierzamy przedstawić koncepcję rzeczywistości, gdzie człowiek może działać sprawniej dzięki wykorzystaniu VR, AR oraz Dronów.
-            - Chcemy przedstawić technologię, która dostępna jest już dziś oraz przedstawić wizję jej połączonoego wykorzystania.
-            - Całość będzie się składać z 3 prezentacji technologii oraz końcowej prezentacji łączącej je w całość.
-        18-15:
-          id: 426
-          type: break
-        18-30:
-          id: 419
-          type: talk
-          speaker: Karol_Karczewski
-          title: 'Open hardware - czym jest i jak możemy wykorzystać jego możliwości?'
-          description: "Przegląd najpopularniejszych rozwiązań, omówienie nowinek w zakresie 'open hardware', a także przykłady wykorzystania możliwości, jakie niesie ze sobą udostępnianie materiałów przez producentów."
-        18-50:
-          id: 423
-          type: talk
-          speaker: Heitor_Medrado
-          title: 'Bacula: the Open Source Backup Tool [EN]'
-          description: "Great hands on presentation that also exploits the backup future, trends and main concepts. I'll show how to package install or build from code a complete backup system in a few minutes!"
-        19-40:
-          id: 428
-          type: see_you_tomorrow
-          speaker: Dariusz_Wylon
-    daythree:
-      id: 3
-      date: 2015-04-19
-      title: Niedziela
-      header: Niedziela, 19 Kwietnia
-      agenda:
-        09-55:
-          id: 447
-          type: welcome
-          speaker: Dariusz_Wylon
-        10-00:
-          id: 434
-          type: talk
-          speaker: Marcin_Szalowicz
-          title: MySQL 5.7
-          description: Co nowego można znaleść w nadchodzącym wydaniu MySQL 5.7.
-        10-20:
-          id: 432
-          type: talk
-          speaker: Krzysztof_Ksiazek
-          title: Scaling out MySQL
-          description:
-            - "Short overview of currently available technologies:"
-            - "* 'Traditional' replication"
-            - "* GTID-based replication"
-            - "* Galera Cluster"
-            - "Most common patterns for scaling out MySQL:"
-            - "* RW split"
-            - "* GTID + Multi-threaded slave"
-            - "* functional sharding"
-            - "* logical sharding"
-            - "___ * function-based sharding"
-            - "___ * metadb-based sharding"
-        10-40:
-          id: 436
-          type: talk
-          speaker: Jaroslaw_Czub
-          title: Przekroczyć próg wydajności
-          description:
-            - "Próba znalezienia drogi do polepszenia wydajności serwisu przy wykorzystaniu baz SQL i NoSQL, modułowości i łączenia różnych technologii."
-            - " Podczas spotkania chciałbym poruszyć tematy:"
-            - " * przepływ danych w serwisach"
-            - " * czy istnieje technologia uniwersalna? W czym lepiej sprawdzą się bazy SQL i NoSQL"
-            - " * braki i nadmiar optymalizacji, z punktu biznesowego niekiedy nie warto optymalizować kodu"
-            - " * jaka wydajność na start ? Czy warto zapewnić maksymalną wydajność na start systemu"
-            - " * izolacja elementów serwisu jako koncepcja na bezpieczeństwo, testowanie i wydajność"
-        11-00:
-          id: 433
-          type: break
-        11-30:
-          id: 430
-          type: talk
-          speaker: Agnieszka_Pilch
-          title: Polymer
-          description:
-            - Przyszłość web design
-            - https://www.polymer-project.org/
-        11-50:
-          id: 431
-          type: talk
-          speaker: Wojtek_Gawronski
-          title: Ekosystem Erlanga
-          description:
-            - 'Podczas tworzenia systemów złożonych z wielu komponentów, napotykamy bardzo często na wymagania dotyczące stabilności i dostępności projektowanego rozwiązania. To wystarczająco trudny problem, który można sobie dodatkowo utrudnić na poziomie doboru technologii.'
-            - 'Praktycznie niemożliwe jest stworzenie kompletnego rozwiązania a na końcu dodanie do niego wspomnianych własności. Projektując systemy musimy mieć na uwadze, że te cechy muszą być uwzględnione od samego początku oraz pielęgnowane podczas życia projektu.'
-            - 'Chciałbym podczas prezentacji przedstawić solidną podstawę dotyczącą omawianych problemów. Wraz z tym rozwiązaniem otrzymujemy środowisko sprawdzone w boju, z prawie 30 letnimi doświadczeniami i myślą inżynierską. Erlang, bo o tej platformie mowa, powstał prawie trzy dekady temu z myślą właśnie o tej klasie problemów. Budując nowy system, który ma bardzo duże wymagania dotyczące skalowalności stabilności, grzechem byłoby nie skorzystać z tak olbrzymiej wiedzy zgromadzonej w postaci solidnej maszyny wirtualnej i bogatego ekosystemu skupionego dookoła niej.'
-            - 'Podczas prezentacji skupimy się na historii tej platformy, porozmawiamy o możliwych ścieżkach, które można wybrać w tym środowisku oraz zaprezentujemy kluczowe koncepcje oraz wzorce, umożliwiające budowę aplikacji stabilnych, wytrzymałych i skalowalnych.'
-        12-10:
-          id: 438
-          type: talk
-          speaker: Lukasz_Zemczak
-          title:  Procesy wydawania i rozwoju Ubuntu Touch
-          description:
-            - 'Proces tworzenia i wydawania nowych wersji Ubuntu Touch, mobilnej wersji Ubuntu, składają się z wielu etapów z udziałem wielu narzędzi. Prezentacja przedstawi w ogólnym zakresie jak te etapy wyglądają, jakich narzędzi używamy i odpowie na pytanie: jak i kiedy wybrana zmiana w kodzie znajdzie się w nowym uaktualnieniu mojego telefonu/tabletu? Pokrótce omówię rzeczy takie jak: bzr merge-proposal, CI Train, archiwa Ubuntu, pakiety click i procedury "image promotion".'
-        12-55:
-          id: 445
-          type: bye
-          speaker: Dariusz_Wylon
-  workshops:
-    koa_framework:
-      id: 900
-      position: 4
-      lead: Piotr_Koscielniak
-      schedule: 'Sobota 18 Kwietnia 11:15 - 13:15'
-      day: daytwo
-      start_at: '11:15'
-      where: L3xx
-      title: Koa framework nowej generacji dla node.js/io.js
-      description:
-        - 'Podczas 120 minutowego warsztatu chciałbym zaznajomić uczestników z frameworkiem koa. Będzie to warsztat dla osób początkujących. Podczas warsztatu uczestnicy stworzą od podstaw prostą lecz kompletną aplikację webową. Aplikacja ta zostanie stworzona z wykorzystaniem node.js/io.js oraz frameworka koa. Podczas tworzenia aplikacji uczestnicy poznają podstawy oraz dobre praktyki w node.js. Warsztat będzie zawierał szereg zadań dla uczestników, tak aby mogli oni od razu wykorzystać w praktyce zdobytą wiedzę.'
-      logo: koa-koajs_com.jpg
-    scrum:
-      id: 902
-      position: 1
-      lead: Agnieszka_Pawlicka
-      schedule: 'Sobota 18 Kwietnia 11:15 - 13:15'
-      day: daytwo
-      start_at: '11:10'
-      where: aci
-      title: Scrum is Fun - czyli symulacja projektu zwinnego za pomocą klocków Lego
-      description:
-        - 'Chcesz dowiedzieć się jak sprostać codziennym wyzwaniom, jakie przed developerem stawiają agilowe projekty? Jak zmierzyć prędkość zespołu i zaplanować kolejny sprint? Jak planować i negocjować zadania do wykonania podczas jednej iteracji? Jak zrozumieć klienta i czego on właściwie od nas chce?'
-        - 'Wszystkie te pytania będą przedmiotem warsztatów ze Scruma, a odpowiedzi na nie zbudujemy wspólnie z klocków Lego. Pracując w kilkuosobowych zespołach, wcielisz się w rolę developera i w praktyczny sposób przećwiczysz zasady Scruma. W atmosferze zabawy poznasz praktyczne elementy pracy w metodyce Scrum. Symulacja dodatkowo stworzy możliwość omówienia błędów i naruszeń reguł, które mogą skutkować problemami w trakcie pracy nad produktem.'
-        - 'Warsztaty ze Scruma przy użyciu klocków Lego to intrygujące wprowadzenie w świat zwinnego zarządzania projektami. Świat ciekawy i wciągający jak zabawa z klockami Lego. Zapraszam :-)'
-      logo: scrum_is_fun_lego-wikipedia_org.jpg
-    drupal:
-      id: 903
-      position: 3
-      lead: Grzegorz_Bartman
-      schedule: 'Sobota 18 Kwietnia 11:15 - 13:15'
-      day: daytwo
-      start_at: '11:10'
-      where: L412
-      title: Podstawy systemu CMS Drupal
-      description:
-        - Skrócona wersja zajęć praktycznych z DrupalDay
-        - http://www.slideshare.net/grzegorzbartman/drupalday-drupal-global-training-days-wprowadzenie-do-drupala
-      logo: drupal-wikimedia_org.jpg
-    azure_one:
-      id: 901
-      position: 8
-      lead:
-        - Ryszard_Dalkowski
-        - Michal_Smereczynski
-      schedule: 'Sobota 18 Kwietnia 14:15 - 14:55'
-      day: daytwo
-      start_at: '14:15'
-      where: L3xx
-      title: 'Wprowadzenie do chmury Microsoft Azzure'
-      description:
-        - 'Teoria dużej chmury'
-        - ' * Dlaczego duża serwerownia to nie chmura.'
-        - ' * Ekonomia chmury.'
-        - ' * Microsoft Azure a konkurencja - czy coś go wyróżnia?'
-        - 'Centrum zarządzania wszechświatem'
-        - ' * Panel zarządzania v.1'
-        - ' * Panel zarządzania v.2'
-        - ' * Linia komend CLI'
-        - ' * Powershell'
-        - ' * Inne narzędzia dla administratora'
-        - 'Krótki przegląd dostępnych usług i technologii'
-        - ' * Nie tylko wirtualizacja'
-        - ' * Open Source - ważny element układanki'
-        - ' * Przydatne klocki infrastruktury'
-        - ' * Dane - nie tylko w bazach'
-        - ' * Inne usługi gotowe do wykorzystania: Media Services, Mobile Services, Authentication, Remote App…'
-      logo: microsoft_azzure-azzure_microsoft_com.jpg
-    azure_2:
-      id: 910
-      position: 9
-      lead:
-        - Ryszard_Dalkowski
-        - Michal_Smereczynski
-      schedule: 'Sobota 18 Kwietnia 14:55 - 15:40'
-      day: daytwo
-      start_at: '14:15'
-      where: L3xx
-      title: 'IaaS w praktyce'
-      description:
-        - 'To trzeba wiedzieć - availability set, affinity group, storage, disks, endpoints…'
-        - 'Budujemy wirtualną serwerownię'
-        - ' * Sieci wirtualne i lokalne - konfiguracja'
-        - 'Uruchamianie serwerów (i nie tylko)'
-        - ' * Skąd się bierze VM do Azure - 1300 do wyboru'
-        - ' * Z "ręki" czy z kreatorem?'
-        - ' * Własny Linux w "microsofcie"'
-        - 'Cloud Services'
-        - ' * czyli skalowanie rozwiązań'
-      logo: microsoft_azzure-azzure_microsoft_com.jpg
-    azure_3:
-      id: 911
-      position: 10
-      lead:
-        - Ryszard_Dalkowski
-        - Michal_Smereczynski
-      schedule: 'Sobota 18 Kwietnia 15:40 - 16:25'
-      day: daytwo
-      start_at: '14:15'
-      where: L3xx
-      title: 'PaaS w praktyce'
-      description:
-        - 'Platforma aplikacyjna Azure'
-        - ' * Dostępne technologie'
-        - ' * Galeria aplikacji czyli repozytorium także dla Ciebie'
-        - 'Uruchamiamy aplikacje'
-        - ' * CMS z repozytorium (Drupal, Joomla!, Wordpress i inne do wyboru)'
-        - ' * Własna aplikacja na kilka sposobów'
-        - 'Jak to działa?'
-        - ' * Co tam jest pod spodem'
-        - ' * Skalowanie aplikacji'
-      logo: microsoft_azzure-azzure_microsoft_com.jpg
-    rails:
-      id: 905
-      position: 6
-      schedule: 'Sobota 18 Kwietnia 14:15 - 16:15'
-      lead:
-        - Lukasz_Gawel
-        - Mateusz_Swiszcz
-      day: daytwo
-      start_at: '14:15'
-      where: L406
-      title: Rails - less is more - czyli jak pisać więcej kodu w krótszym czasie
-      description:
-        - 'Podczas warsztatów chcielibyśmy pokazać najpopularniejsze narzędzia, które przyspieszają pisanie kodu w Ruby on Rails oraz ułatwiają prowadzenie projektu.'
-        - 'Między innymi:'
-        - '1) Podstawowe gemy ułatwiające pracę takie jak:'
-        - '  * Simple Form'
-        - '  * Decent Exposure'
-        - '  * Draper'
-        - '  * Pry'
-        - '  * Better Errors'
-        - '  * Guard'
-        - '2) Użycie Slim zamiast HTML/Erb'
-        - '3) Użycie CoffeeScript zamiast zwykłego JavaScriptu'
-        - '4) Użycie Sass zamiast CSS'
-      logo: Ruby_on_Rails-wikimedia_org.jpg
-    php:
-      id: 906
-      position: 7
-      lead: Mateusz_Juscinski
-      schedule: 'Sobota 18 Kwietnia 14:15 - 16:15'
-      day: daytwo
-      start_at: '14:15'
-      where: L412
-      title: Warsztaty z nowoczesnego programowania w PHP
-      description:
-        - 'Podczas mojej przygody z PHP język znacznie się zmienił, programiści otrzymali całą gamę narzędzi, które ułatwiają im życie. Niestety często spotykam się z wykorzystywaniem niewygodnych i przestarzałych elementów języka, mimo dostępności nowocześniejszych rozwiązań.'
-        - 'Podczas tych warsztatów odbędziemy podróż w czasie. Zaczynając od 2003 roku, rozwiniemy nasze umiejętności programowania w PHP o 12 lat rozwoju tego języka i wylądujemy w 2015 roku. Zaprezentuję domyślnie dostępne narzędzia, bez których nie widzę możliwości programowania w PHP, które są zupełnie nieznane wielu programistom.'
-      logo: php-blog_mrwebmaster_it.jpg
-    typografia:
-      id: 907
-      position: 5
-      lead: Martyna_Bargiel
-      schedule: 'Sobota 18 Kwietnia 14:15 - 16:15'
-      day: daytwo
-      start_at: '14:15'
-      where: aci
-      title: TBA
-      description: TBA
-      logo: typography-John_LeMansney-365sketches_org.jpg
-    package:
-      id: 908
-      position: 12
-      lead: Dominik_Mierzejewski
-      schedule: 'Niedziela 19 Kwietnia 10:00 - 12:00'
-      day: daythree
-      start_at: '10:00'
-      where: L412
-      title: Idealny prezent, czyli jak dobrze spaczkować
-      description:
-        - 'Jednym z głównych zadań twórców dystrybucji Linuksa jest tworzenie pakietów z oprogramowaniem i opieka nad nimi. Paczka musi być łatwa do zainstalowania, dobrze działać i integrować się z resztą dystrybucji. Podczas warsztatów opowiem, jak to robimy w Fedorze i przybliżę najważniejsze wytyczne tworzenia pakietów w tej dystrybucji. Potem zajmiemy się częścią praktyczną, czyli przygotujemy pakiet zgodny z tymi wytycznymi, gotowy do zgłoszenia do recenzji.'
-        - 'Wymagania:'
-        - ' * umiejętność skompilowania i zainstalowania typowego projektu open-source ze źródeł'
-        - ' * zainstalowana dowolna wspierana wersja Fedory (20, 21, 22, rawhide) lub Red Hat/CentOS (5, 6), może być na maszynie wirtualnej'
-      logo: rpm_package-iconshock_com.jpg
-    microservices:
-      id: 909
-      position: 13
-      lead: Marek_Talik
-      schedule: 'Niedziela 19 Kwietnia 10:00 - 12:00'
-      day: daythree
-      start_at: '10:00'
-      where: L406
-      title: Architektura mikroserwisów
-      description:
-        - "Koncepcja architektury systemów rozproszonych zbudowanych z usług komunikujących się ze sobą nie jest nowa. W ekosystemie Javy (także innych) od wielu lat istnieją technologie pomagające budować systemy typu SOA (Service Oreineted Architecture) - począwszy od pojedyńczych WebService'ów (RPC, SOAP, REST) skończywszy na otwartych lub komercyjnych platformach integracyjnych ESB. Dlaczego by nie przenieść tych doświadczeń, patternów i technologii do świata pojedyńczej aplikacji? Jakie korzyści i wyzwania niesie ze sobą rozbicie monolitycznej aplikacji na niezależne 'klocki' realizujące usługę poprzez swój interfejs?"
-        - 'Podczas warsztatów pracować będziemy z przykładową aplikacją składającą się z 2-3 mikroserwisów.'
-        - 'Będzie to okazja do dyskusji m.in na temat:'
-        - ' * zakresu pojedynczej mikrousługi'
-        - ' * organizacji developmentu i deploymentu'
-        - ' * wykorzystanych technologii (Spring-Boot, Spring-REST)'
-        - 'Dla osób zainteresowanych aktywnie wziąć udział w warsztatach wymaganym będzie:'
-        - ' * zainstalowana Java 8'
-        - ' * zainstalowany Maven 3'
-        - ' * ulubione IDE do Javy'
-      logo: microservices-thenewstack_io.jpg
-    docker:
-      id: 910
-      position: 14
-      lead: Justyna_Ilczuk
-      schedule: 'Niedziela 19 Kwietnia 10:00 - 12:00'
-      day: daythree
-      start_at: '10:00'
-      where: L3xx
-      title: Pierwsze starcie z kontenerami - Docker jako narzędzie w developmencie
-      description:
-        - 'Warsztat jest adresowany do osób, które co nieco już słyszały o Dockerze, ale nie mają z nim jeszcze doświadczenia i chciałyby się nauczyć stosować go w praktyce.'
-        - 'Podczas warsztatu:'
-        - ' * ściągniemy obraz kontenera z internetu'
-        - ' * uruchomimy prostą komendę w kontenerze'
-        - ' * komenda run'
-        - ' * montowanie wolumenów, forwardowanie portów, uruchamianie kontenerów w trybie zdemonizowanym'
-        - ' * utrwalanie kontenerów na podstawie commitowania kontenera'
-        - " * wstęp do Dockerfile'a (specyfikacji budowy obrazów dockerowych)"
-        - ' * moja pierwsza aplikacja w Dockerowym kontenerze.'
-      logo: docker_logo.png
-    xpgame:
-      id: 911
-      position: 15
-      lead:
-        - Daniel_Wicher
-        - Marcin_Balda
-      schedule: 'Niedziela 19 Kwietnia 10:00 - 12:00'
-      day: daythree
-      start_at: '10:00'
-      where: aci
-      title: XP Game. Nie tylko programowanie może być ekstremalne.
-      description:
-        - "XP Game to zabawny sposób na zapoznanie graczy z elementami konceptu Programowania Ekstremalnego (Xtreme Programming). Gracze będą mieli okazje poznać takie elementy jak:"
-        - " * velocity, estymacje historyjek, zasada „yesterday's weather” (wczorajszej pogody) oraz cyklu życia w XP."
-        - ' Każdy może wziąć udział! W XP Game każdy z graczy może wcielić się w rolę klienta oraz dostawcy (developera) rozwiązania.'
-      logo: extreme_programming.jpg
-    raspberrypi:
-      id: 912
-      position: 2
-      lead:
-        - Lukasz_Oles
-        - Blazej_Faliszek
-      schedule: 'Sobota 18 Kwietnia 11:15 - 13:15'
-      day: daythree
-      start_at: '12:20'
-      where: L406
-      title: Warsztaty z Raspberry Pi
-      description:
-      - 'Warsztaty z Raspberry Pi przybliżą jeden z najpopularniejszych mikrokoputerów osobom, które nie miały z nim jeszcze do czynienia oraz pozwolą na podszlifowanie wiedzy oraz umiejętności tym wszystkim, którzy już kiedyś realizowali projekty oparte o ten mikrokomputer. W czasie warsztatów postaramy się wprowadzić początkujące osoby w świat elektroniki oraz pokazać kilka ciekawych zastosowań dla Raspberry Pi.'
-      logo: raspberry_pi.jpg
+#    dayone:
+#      id: 1
+#      date: 2015-04-17
+#      title: Piątek
+#      header: Piątek, 17 Kwietnia
+#      agenda:
+#        15-00:
+#          id: 301
+#          type: registration
+#        16-25:
+#          id: 302
+#          type: welcome
+#          speaker: Dariusz_Wylon
+#        16-30:
+#          id: 303
+#          type: talk
+#          speaker: Tomasz_Bak
+#          title: Jak wnieść wkład w Open Source?
+#          description: Czym jest open source? Kto tworzy open source? Jak można wnieść wkład?
+#        16-50:
+#          id: 446
+#          type: talk
+#          speaker: Krystian_Cieslak
+#          title: 'Mikronawigacja i iBeacony'
+#          description: 'Kilka argumentów, dla których możesz zapomnieć o całej reszcie'
+#        17-10:
+#          id: 415
+#          type: talk
+#          speaker: Mateusz_Juscinski
+#          title: PHP dziś i jutro
+#          description:
+#            - 'W tym roku Internet świętuje 20-lecie powstania PHP, języka programowania który miał ogromny wpływ na przejście ze statycznych na dynamicznie generowane strony WWW.'
+#            - 'Podczas tej prezentacji pokażę co w PHP zmieniło się w ostatnich czasach i jak PHP wygląda dziś, opowiem czym jest HHVM i Hack. Następnie pomówimy o przyszłości języka jaką jest, zapowiedziana na październik, wersja 7.'
+#        17-40:
+#          id: 447
+#          type: break
+#        18-00:
+#          id: 448
+#          type: talk
+#          speaker: Martyna_Bargiel
+#          title: Czy typografia rządzi światem i dlaczego tak
+#          description:
+#            - 'Internet to w 95% typografia. Nasze postindustrialne społeczeństwo informacyjne bezustannie generuje i przetwarza informacje, posługując się walutą komunikatu. Cyfrowa komunikacja to w ogromnej mierze posługiwanie się tekstem pisanym, a jego wizualne parametry pozwalają manipulować przenoszonym komunikatem. Z niniejszej prezentacji dowiesz się między innymi:'
+#            - ' * jak ekranowa typografia wpływa na komunikację'
+#            - ' * dlaczego wybór fontu to nie typografia'
+#            - ' * dlaczego powinniśmy traktować tekst jak User Interface'
+#            - ' * jak zaprojektować informację'
+#            - ' * czy typografia rządzi światem (a przynajmniej Twoim klientem) i dlaczego tak.'
+#            - 'Zapraszam na 20-minutową prezentację, której celem jest rozbudowanie świadomości wszystkich, obcujących z tekstem - zarówno na front- jak i back-endzie.'
+#        18-20:
+#          id: 304
+#          type: talk
+#          speaker: Michal_Konieczny
+#          title: Cechy charakteru i otoczenia wymagane dla sukcesu projektu
+#          description:
+#            - Na bazie case studies opowiem o tym, co przyczynia się do realizacji udanych projektów. Będzie o umiejętnościach miękkich i o twardych danych.
+#            - Powiem o metodyce Agile, o budowaniu start-upów, o rozwijaniu funkcjonalności w modelu Lean, o MVP i o innych efektywnych narzędziach.
+#            - Opowiem również o pasji i zaangażowaniu, o rekrutowaniu właściwych współpracowników, o motywowaniu, o wychodzeniu ze strefy komfortu i o podejmowaniu decyzji w oparciu o dane.
+#            - Opiszę cechy charakteru, jakie warto rozwijać u siebie i szukać u innych. Z kim pracować i w jakim otoczeniu? I jak przy tym wszystkim zachować work-life balance.
+#            - Zapraszam.
+#        18-40:
+#          id: 405
+#          type: talk
+#          speaker: Mikolaj_Pastuszko
+#          title: Nie mamy projektanta! Co robić?!
+#          description:
+#            - Stworzyć aplikację potrafi każdy pingwin. Jednak tylko nieliczne z nich osiągają sukces. A wystarczy dostosować ją do rzeczywistych potrzeb użytkowników, by pokochali nasz produkt i chętnie za niego płacili. Tym zajmuje się projektant UX.
+#            - Niekiedy jednak nie możemy sobie pozwolić na zatrudnienie UX Designera. Co wtedy zrobić? Jak poznać potrzeby użytkowników zanim wyskrobiemy pierwszą linię kodu? Jak pisać kod, który już od pierwszych linii realizuje potrzeby użytkowników? Jak przejść od hurraoptymizmu do stawiania hipotez projektowych? Co zrobić, by zespół programistów tworzył używalne rozwiązania? Jak sprawdzić czy rozwijamy aplikację w dobrym kierunku?
+#            - Zapraszam na praktyczny poradnik dla osób, które chcą, by ich produkt pokochały miliony użytkowników.
+#        19-00:
+#          id: 406
+#          type: break
+#        19-15:
+#          id: 407
+#          type: talk
+#          speaker: Karol_Ryt
+#          title: Kreatywny Inżynier, czy jest to możliwe?
+#          description:
+#            - Krótka rozprawa o tym czy bycie inżynierem jest synonimem nudnej, żmudnej pracy, czy też może być ciekawa pełna zaskakujących i ciekawych pomysłów.
+#        20-00:
+#          id: 408
+#          type: see_you_tomorrow
+#          speaker: Dariusz_Wylon
+#    daytwo:
+#      id: 2
+#      date: 2014-03-29
+#      title: Sobota
+#      header: Sobota, 18 Kwietnia
+#      agenda:
+#        09-25:
+#          id: 410
+#          type: welcome
+#          speaker: Eunika_Tabak
+#        09-30:
+#          id: 411
+#          type: talk
+#          speaker: Dariusz_Wylon
+#          title: Management 3.0 WorkOut. Budowanie zaangażowania w samoorganizujących się zespołach
+#          description:
+#            - 'Jesteś menadżerem w firmie IT i chciałbyś zmienić swój styl zarządzania? Czujesz, że firma, w której pracujesz w dalszym ciągu organizuje pracę zespołów zgodnie z modelami z ubiegłego wieku? Przyjdź na specjalny blok poświęcony najnowszym trendom w zarządzaniu i dowiedz się jak koncepcje Management 3.0 mogą odmienić Twoje środowisko pracy.'
+#            - 'Zacznij budować samoorganizujące się zespoły oraz atmosferę wzajemnego zaufania i motywacji. Poznaj techniki umożliwiające wykorzystanie potencjału i wewnętrznej motywacji członków zespołu poprzez poszerzanie zakresu odpowiedzialności, autonomii i wpływu'
+#            - 'Weź udział w interaktywnej grze opartej o narzędzia Management 3.0, która zadebiutuje właśnie podczas DWO i razem z przedstawicielami innowacyjnych firm z branży IT podejmuj decyzje dotyczące zarządzania organizacją.'
+#        11-00:
+#          id: 412
+#          type: break
+#        11-30:
+#          id: 413
+#          type: talk
+#          speaker: Mikolaj_Pastuszko
+#          title: Czego mój pies nauczył mnie o projektowaniu?
+#          description:
+#            - 'Odkąd w moim domu zamieszkał pies, stan mieszkania zastany po powrocie z pracy stanowi codzienną zagadkę. Pomysłowość zwierzaka potrafi zaskoczyć i wymaga od człowieka szczególnej ostrożności.'
+#            - 'Użytkownicy naszych aplikacji także miewają rozmaite pomysły. A przecież chcemy, by czuli się bezpiecznie korzystając z naszego produktu. Jak projektować, aby dostarczane przez nas rozwiązania były bezpieczne? Jak zabezpieczyć użytkownika przed wykonaniem niepożądanych akcji? Jak ostrzegać o zagrożeniu, jednocześnie nie strasząc? Co zrobić, żeby użytkownik nie dokonał autodestrukcji?'
+#            - 'Zapraszam na serię porad, przykładów, antyprzykładów i zdjęć psa.'
+#        11-50:
+#          id: 414
+#          type: talk
+#          speaker: Tomasz_Borowski
+#          title: Aplikacje mobilne tworzone w technologiach webowych
+#          description: 'Android, iOS, Windows Phone... Czy zróżnicowanie platform i języków programowania musi być przeszkodą w tworzeniu aplikacji mobilnych? Na szczęście nie! Dzięki technologiom webowym możemy tworzyć oprogramowanie działające na wielu platformach, a posiadane doświadczenie w HTML i JavaScript może znacznie przyspieszyć pracę i ukończenie projektu. Podczas wystąpienia zostaną przedstawione dostępne narzędzia i biblioteki do tworzenia cross-platformowych aplikacji mobilnych.'
+#        12-10:
+#          id: 501
+#          type: talk
+#          speaker: Katarzyna_Pawlonka
+#          title: Co zrobić, żeby zarobić z Microsoft
+#          description: Programy wsparcia dla projektów, StartUp-ów i firm opartych na technologiach OpenSource w Microsoft.
+#        12-25:
+#          id: 116
+#          type: lunch
+#        14-15:
+#          id: 503
+#          type: talk
+#          speaker: Marcin_Hlybin
+#          title: Ansible - wzorce projektowe
+#          description:
+#            - 'Używanie Ansible jest proste, organizacja danych już nie.'
+#            - 'Oprócz skromnych Best Practices, nie znajdziesz w dokumentacji informacji jaki organizować zadania, struktury danych, jak pisać generyczne role i jaki jest najsłuszniejszy sposób na getting things done.'
+#            - 'Podczas wystąpienia przedstawię własne rozwiązania, przemyślenia oraz pułapki, na które się natknąłem podczas konfiguracji maszyn. Wykład będzie zawierać szybki wstęp do Ansible, aby każdy mógł skorzystać.'
+#        14-35:
+#          id: 502
+#          type: talk
+#          speaker: Slawomir_Rewaj
+#          title: One to rule them all - Docker
+#          description:
+#            - 'Kiedy tworzymy aplikacje czy systemy produkcyjne, niekoniecznie chcemy spędzać dużo czasu na konfiguracje środowiska pracy (jak i środowiska testowego i produkcyjnego). Chcemy również aby te środowiska były jak najbardziej zbliżone do siebie, aby uniknąć problemów typu "Dziwne, u mnie działa".'
+#            - 'Społeczność Open Source ma bardzo dobrą odpowiedź na tą potrzebę: docker'
+#            - 'Chciałbym pokazać czym jest oraz co może dla ciebie zrobić.'
+#        14-55:
+#          id: 501
+#          type: talk
+#          speaker: Michal_Zyndul
+#          title: Vagrant
+#          description:
+#            - 'Vagrant - czym jest jak używać, dlaczego jest fajny i jak ułatwia pracę.'
+#            - 'Na wykładzie skupię się na tym jak to narzędzie pomaga nam w pracy.'
+#            - 'Jak grafik może w kilka minut postawić działający skomplikowany projekt na swojej maszynie za pomocą kilku poleceń'
+#            - 'Opowiem kilka historii z życia programisty, kiedy to vagrant okazał się dobrym wyborem'
+#        15-15:
+#          id: 418
+#          type: break
+#        15-45:
+#          id: 492
+#          type: talk
+#          speaker: Lukasz_Wieclaw
+#          title: 'Biometria - Sam jesteś unikalnym dokumentem tożsamości'
+#          description:
+#            - Krótki wstęp do biometrii.
+#            - Przegląd metod biometrycznej identyfikacji i weryfikacji tożsamości. Czy trudno jest oszukać system biometryczny? Systemy biometryczne w środowisku Open Source.
+#        16-05:
+#          id: 120
+#          type: talk
+#          speaker: Michal_Papis
+#          title:  Czy PGP to iluzja, a może możemy skorzystać na jego użyciu?
+#          description:
+#            - 'Chcę odpowiedzieć na pytanie: __czy podpisywanie kodu ma jakieś znaczenie__?'
+#            - Przez długi czas sam szukałem odpowiedzi na nie. Myślałem nie możemy się ukryć przed inwigilacją i podpisywanie kod nic nam nie da. Ale myliłem się i teraz chcę się podzielić moimi doświadczeniami jak podpisywanie kodu może być dobre dla nas i co musimy zrobić żeby byś pewnym że nasze podpisy mają znaczenie.
+#            - Chciałbym także przytoczyć podstawy tworzenia kluczy PGP do podpisywania i budowania łańcuchów zaufania. Było by świetnie gdyby ta prezentacja była kontynuowana następnego dnia w postaci sesji udostępniania identyfikatorów kluczy przez wszystkich zainteresowanych - tak że zbudujemy silną sieć zaufania. Dodatkowo dobrym pomysłem był by lokalny serwer kluczy aby przyśpieszyć wymianę kluczy.
+#        16-25:
+#          id: 421
+#          type: talk
+#          speaker: Marek_Wiera
+#          title: Otwarta licencja na program komputerowy w polskim prawie autorskim
+#          description:
+#            - 'W ramach wykładu planowane jest omówienie następujących zagadnień'
+#            - 'Program komputerowy jako przedmiot obrotu'
+#            - '* program komputerowy w polskim prawie;'
+#            - '* jakie przepisy winny być stosowane do programów komputerowych.'
+#            - 'Licencja jako instytucja prawa autorskiego'
+#            - '* istota licencji;'
+#            - '* sposoby nabywania licencji;'
+#            - '* różnice pomiędzy licencją oraz nabyciem autorskich praw majątkowych;'
+#            - '* pola eksploatacji oraz nabycie licencji na różnych polach eksploatacji.'
+#            - 'Omówienie założeń otwartego oprogramowania wobec ustawowej konstrukcji licencji na program komputerowy'
+#            - '* licencja na czas oznaczony i nieoznaczony;'
+#            - '* wypowiedzenie licencji;'
+#            - '* dozwolony użytek;'
+#            - '* wyczerpanie prawa do programu komputerowego.'
+#        16-45:
+#          id: 422
+#          type: break
+#        17-15:
+#          id: 427
+#          type: panel
+#          speaker: Arkadiusz_Kwasny
+#          title: 'panel "future is now"'
+#          description:
+#            - W panelu dyskusyjnym zamierzamy przedstawić koncepcję rzeczywistości, gdzie człowiek może działać sprawniej dzięki wykorzystaniu VR, AR oraz Dronów.
+#            - Chcemy przedstawić technologię, która dostępna jest już dziś oraz przedstawić wizję jej połączonoego wykorzystania.
+#            - Całość będzie się składać z 3 prezentacji technologii oraz końcowej prezentacji łączącej je w całość.
+#        18-15:
+#          id: 426
+#          type: break
+#        18-30:
+#          id: 419
+#          type: talk
+#          speaker: Karol_Karczewski
+#          title: 'Open hardware - czym jest i jak możemy wykorzystać jego możliwości?'
+#          description: "Przegląd najpopularniejszych rozwiązań, omówienie nowinek w zakresie 'open hardware', a także przykłady wykorzystania możliwości, jakie niesie ze sobą udostępnianie materiałów przez producentów."
+#        18-50:
+#          id: 423
+#          type: talk
+#          speaker: Heitor_Medrado
+#          title: 'Bacula: the Open Source Backup Tool [EN]'
+#          description: "Great hands on presentation that also exploits the backup future, trends and main concepts. I'll show how to package install or build from code a complete backup system in a few minutes!"
+#        19-40:
+#          id: 428
+#          type: see_you_tomorrow
+#          speaker: Dariusz_Wylon
+#    daythree:
+#      id: 3
+#      date: 2015-04-19
+#      title: Niedziela
+#      header: Niedziela, 19 Kwietnia
+#      agenda:
+#        09-55:
+#          id: 447
+#          type: welcome
+#          speaker: Dariusz_Wylon
+#        10-00:
+#          id: 434
+#          type: talk
+#          speaker: Marcin_Szalowicz
+#          title: MySQL 5.7
+#          description: Co nowego można znaleść w nadchodzącym wydaniu MySQL 5.7.
+#        10-20:
+#          id: 432
+#          type: talk
+#          speaker: Krzysztof_Ksiazek
+#          title: Scaling out MySQL
+#          description:
+#            - "Short overview of currently available technologies:"
+#            - "* 'Traditional' replication"
+#            - "* GTID-based replication"
+#            - "* Galera Cluster"
+#            - "Most common patterns for scaling out MySQL:"
+#            - "* RW split"
+#            - "* GTID + Multi-threaded slave"
+#            - "* functional sharding"
+#            - "* logical sharding"
+#            - "___ * function-based sharding"
+#            - "___ * metadb-based sharding"
+#        10-40:
+#          id: 436
+#          type: talk
+#          speaker: Jaroslaw_Czub
+#          title: Przekroczyć próg wydajności
+#          description:
+#            - "Próba znalezienia drogi do polepszenia wydajności serwisu przy wykorzystaniu baz SQL i NoSQL, modułowości i łączenia różnych technologii."
+#            - " Podczas spotkania chciałbym poruszyć tematy:"
+#            - " * przepływ danych w serwisach"
+#            - " * czy istnieje technologia uniwersalna? W czym lepiej sprawdzą się bazy SQL i NoSQL"
+#            - " * braki i nadmiar optymalizacji, z punktu biznesowego niekiedy nie warto optymalizować kodu"
+#            - " * jaka wydajność na start ? Czy warto zapewnić maksymalną wydajność na start systemu"
+#            - " * izolacja elementów serwisu jako koncepcja na bezpieczeństwo, testowanie i wydajność"
+#        11-00:
+#          id: 433
+#          type: break
+#        11-30:
+#          id: 430
+#          type: talk
+#          speaker: Agnieszka_Pilch
+#          title: Polymer
+#          description:
+#            - Przyszłość web design
+#            - https://www.polymer-project.org/
+#        11-50:
+#          id: 431
+#          type: talk
+#          speaker: Wojtek_Gawronski
+#          title: Ekosystem Erlanga
+#          description:
+#            - 'Podczas tworzenia systemów złożonych z wielu komponentów, napotykamy bardzo często na wymagania dotyczące stabilności i dostępności projektowanego rozwiązania. To wystarczająco trudny problem, który można sobie dodatkowo utrudnić na poziomie doboru technologii.'
+#            - 'Praktycznie niemożliwe jest stworzenie kompletnego rozwiązania a na końcu dodanie do niego wspomnianych własności. Projektując systemy musimy mieć na uwadze, że te cechy muszą być uwzględnione od samego początku oraz pielęgnowane podczas życia projektu.'
+#            - 'Chciałbym podczas prezentacji przedstawić solidną podstawę dotyczącą omawianych problemów. Wraz z tym rozwiązaniem otrzymujemy środowisko sprawdzone w boju, z prawie 30 letnimi doświadczeniami i myślą inżynierską. Erlang, bo o tej platformie mowa, powstał prawie trzy dekady temu z myślą właśnie o tej klasie problemów. Budując nowy system, który ma bardzo duże wymagania dotyczące skalowalności stabilności, grzechem byłoby nie skorzystać z tak olbrzymiej wiedzy zgromadzonej w postaci solidnej maszyny wirtualnej i bogatego ekosystemu skupionego dookoła niej.'
+#            - 'Podczas prezentacji skupimy się na historii tej platformy, porozmawiamy o możliwych ścieżkach, które można wybrać w tym środowisku oraz zaprezentujemy kluczowe koncepcje oraz wzorce, umożliwiające budowę aplikacji stabilnych, wytrzymałych i skalowalnych.'
+#        12-10:
+#          id: 438
+#          type: talk
+#          speaker: Lukasz_Zemczak
+#          title:  Procesy wydawania i rozwoju Ubuntu Touch
+#          description:
+#            - 'Proces tworzenia i wydawania nowych wersji Ubuntu Touch, mobilnej wersji Ubuntu, składają się z wielu etapów z udziałem wielu narzędzi. Prezentacja przedstawi w ogólnym zakresie jak te etapy wyglądają, jakich narzędzi używamy i odpowie na pytanie: jak i kiedy wybrana zmiana w kodzie znajdzie się w nowym uaktualnieniu mojego telefonu/tabletu? Pokrótce omówię rzeczy takie jak: bzr merge-proposal, CI Train, archiwa Ubuntu, pakiety click i procedury "image promotion".'
+#        12-55:
+#          id: 445
+#          type: bye
+#          speaker: Dariusz_Wylon
+#  workshops:
+#    koa_framework:
+#      id: 900
+#      position: 4
+#      lead: Piotr_Koscielniak
+#      schedule: 'Sobota 18 Kwietnia 11:15 - 13:15'
+#      day: daytwo
+#      start_at: '11:15'
+#      where: L3xx
+#      title: Koa framework nowej generacji dla node.js/io.js
+#      description:
+#        - 'Podczas 120 minutowego warsztatu chciałbym zaznajomić uczestników z frameworkiem koa. Będzie to warsztat dla osób początkujących. Podczas warsztatu uczestnicy stworzą od podstaw prostą lecz kompletną aplikację webową. Aplikacja ta zostanie stworzona z wykorzystaniem node.js/io.js oraz frameworka koa. Podczas tworzenia aplikacji uczestnicy poznają podstawy oraz dobre praktyki w node.js. Warsztat będzie zawierał szereg zadań dla uczestników, tak aby mogli oni od razu wykorzystać w praktyce zdobytą wiedzę.'
+#      logo: koa-koajs_com.jpg
+#    scrum:
+#      id: 902
+#      position: 1
+#      lead: Agnieszka_Pawlicka
+#      schedule: 'Sobota 18 Kwietnia 11:15 - 13:15'
+#      day: daytwo
+#      start_at: '11:10'
+#      where: aci
+#      title: Scrum is Fun - czyli symulacja projektu zwinnego za pomocą klocków Lego
+#      description:
+#        - 'Chcesz dowiedzieć się jak sprostać codziennym wyzwaniom, jakie przed developerem stawiają agilowe projekty? Jak zmierzyć prędkość zespołu i zaplanować kolejny sprint? Jak planować i negocjować zadania do wykonania podczas jednej iteracji? Jak zrozumieć klienta i czego on właściwie od nas chce?'
+#        - 'Wszystkie te pytania będą przedmiotem warsztatów ze Scruma, a odpowiedzi na nie zbudujemy wspólnie z klocków Lego. Pracując w kilkuosobowych zespołach, wcielisz się w rolę developera i w praktyczny sposób przećwiczysz zasady Scruma. W atmosferze zabawy poznasz praktyczne elementy pracy w metodyce Scrum. Symulacja dodatkowo stworzy możliwość omówienia błędów i naruszeń reguł, które mogą skutkować problemami w trakcie pracy nad produktem.'
+#        - 'Warsztaty ze Scruma przy użyciu klocków Lego to intrygujące wprowadzenie w świat zwinnego zarządzania projektami. Świat ciekawy i wciągający jak zabawa z klockami Lego. Zapraszam :-)'
+#      logo: scrum_is_fun_lego-wikipedia_org.jpg
+#    drupal:
+#      id: 903
+#      position: 3
+#      lead: Grzegorz_Bartman
+#      schedule: 'Sobota 18 Kwietnia 11:15 - 13:15'
+#      day: daytwo
+#      start_at: '11:10'
+#      where: L412
+#      title: Podstawy systemu CMS Drupal
+#      description:
+#        - Skrócona wersja zajęć praktycznych z DrupalDay
+#        - http://www.slideshare.net/grzegorzbartman/drupalday-drupal-global-training-days-wprowadzenie-do-drupala
+#      logo: drupal-wikimedia_org.jpg
+#    azure_one:
+#      id: 901
+#      position: 8
+#      lead:
+#        - Ryszard_Dalkowski
+#        - Michal_Smereczynski
+#      schedule: 'Sobota 18 Kwietnia 14:15 - 14:55'
+#      day: daytwo
+#      start_at: '14:15'
+#      where: L3xx
+#      title: 'Wprowadzenie do chmury Microsoft Azzure'
+#      description:
+#        - 'Teoria dużej chmury'
+#        - ' * Dlaczego duża serwerownia to nie chmura.'
+#        - ' * Ekonomia chmury.'
+#        - ' * Microsoft Azure a konkurencja - czy coś go wyróżnia?'
+#        - 'Centrum zarządzania wszechświatem'
+#        - ' * Panel zarządzania v.1'
+#        - ' * Panel zarządzania v.2'
+#        - ' * Linia komend CLI'
+#        - ' * Powershell'
+#        - ' * Inne narzędzia dla administratora'
+#        - 'Krótki przegląd dostępnych usług i technologii'
+#        - ' * Nie tylko wirtualizacja'
+#        - ' * Open Source - ważny element układanki'
+#        - ' * Przydatne klocki infrastruktury'
+#        - ' * Dane - nie tylko w bazach'
+#        - ' * Inne usługi gotowe do wykorzystania: Media Services, Mobile Services, Authentication, Remote App…'
+#      logo: microsoft_azzure-azzure_microsoft_com.jpg
+#    azure_2:
+#      id: 910
+#      position: 9
+#      lead:
+#        - Ryszard_Dalkowski
+#        - Michal_Smereczynski
+#      schedule: 'Sobota 18 Kwietnia 14:55 - 15:40'
+#      day: daytwo
+#      start_at: '14:15'
+#      where: L3xx
+#      title: 'IaaS w praktyce'
+#      description:
+#        - 'To trzeba wiedzieć - availability set, affinity group, storage, disks, endpoints…'
+#        - 'Budujemy wirtualną serwerownię'
+#        - ' * Sieci wirtualne i lokalne - konfiguracja'
+#        - 'Uruchamianie serwerów (i nie tylko)'
+#        - ' * Skąd się bierze VM do Azure - 1300 do wyboru'
+#        - ' * Z "ręki" czy z kreatorem?'
+#        - ' * Własny Linux w "microsofcie"'
+#        - 'Cloud Services'
+#        - ' * czyli skalowanie rozwiązań'
+#      logo: microsoft_azzure-azzure_microsoft_com.jpg
+#    azure_3:
+#      id: 911
+#      position: 10
+#      lead:
+#        - Ryszard_Dalkowski
+#        - Michal_Smereczynski
+#      schedule: 'Sobota 18 Kwietnia 15:40 - 16:25'
+#      day: daytwo
+#      start_at: '14:15'
+#      where: L3xx
+#      title: 'PaaS w praktyce'
+#      description:
+#        - 'Platforma aplikacyjna Azure'
+#        - ' * Dostępne technologie'
+#        - ' * Galeria aplikacji czyli repozytorium także dla Ciebie'
+#        - 'Uruchamiamy aplikacje'
+#        - ' * CMS z repozytorium (Drupal, Joomla!, Wordpress i inne do wyboru)'
+#        - ' * Własna aplikacja na kilka sposobów'
+#        - 'Jak to działa?'
+#        - ' * Co tam jest pod spodem'
+#        - ' * Skalowanie aplikacji'
+#      logo: microsoft_azzure-azzure_microsoft_com.jpg
+#    rails:
+#      id: 905
+#      position: 6
+#      schedule: 'Sobota 18 Kwietnia 14:15 - 16:15'
+#      lead:
+#        - Lukasz_Gawel
+#        - Mateusz_Swiszcz
+#      day: daytwo
+#      start_at: '14:15'
+#      where: L406
+#      title: Rails - less is more - czyli jak pisać więcej kodu w krótszym czasie
+#      description:
+#        - 'Podczas warsztatów chcielibyśmy pokazać najpopularniejsze narzędzia, które przyspieszają pisanie kodu w Ruby on Rails oraz ułatwiają prowadzenie projektu.'
+#        - 'Między innymi:'
+#        - '1) Podstawowe gemy ułatwiające pracę takie jak:'
+#        - '  * Simple Form'
+#        - '  * Decent Exposure'
+#        - '  * Draper'
+#        - '  * Pry'
+#        - '  * Better Errors'
+#        - '  * Guard'
+#        - '2) Użycie Slim zamiast HTML/Erb'
+#        - '3) Użycie CoffeeScript zamiast zwykłego JavaScriptu'
+#        - '4) Użycie Sass zamiast CSS'
+#      logo: Ruby_on_Rails-wikimedia_org.jpg
+#    php:
+#      id: 906
+#      position: 7
+#      lead: Mateusz_Juscinski
+#      schedule: 'Sobota 18 Kwietnia 14:15 - 16:15'
+#      day: daytwo
+#      start_at: '14:15'
+#      where: L412
+#      title: Warsztaty z nowoczesnego programowania w PHP
+#      description:
+#        - 'Podczas mojej przygody z PHP język znacznie się zmienił, programiści otrzymali całą gamę narzędzi, które ułatwiają im życie. Niestety często spotykam się z wykorzystywaniem niewygodnych i przestarzałych elementów języka, mimo dostępności nowocześniejszych rozwiązań.'
+#        - 'Podczas tych warsztatów odbędziemy podróż w czasie. Zaczynając od 2003 roku, rozwiniemy nasze umiejętności programowania w PHP o 12 lat rozwoju tego języka i wylądujemy w 2015 roku. Zaprezentuję domyślnie dostępne narzędzia, bez których nie widzę możliwości programowania w PHP, które są zupełnie nieznane wielu programistom.'
+#      logo: php-blog_mrwebmaster_it.jpg
+#    typografia:
+#      id: 907
+#      position: 5
+#      lead: Martyna_Bargiel
+#      schedule: 'Sobota 18 Kwietnia 14:15 - 16:15'
+#      day: daytwo
+#      start_at: '14:15'
+#      where: aci
+#      title: TBA
+#      description: TBA
+#      logo: typography-John_LeMansney-365sketches_org.jpg
+#    package:
+#      id: 908
+#      position: 12
+#      lead: Dominik_Mierzejewski
+#      schedule: 'Niedziela 19 Kwietnia 10:00 - 12:00'
+#      day: daythree
+#      start_at: '10:00'
+#      where: L412
+#      title: Idealny prezent, czyli jak dobrze spaczkować
+#      description:
+#        - 'Jednym z głównych zadań twórców dystrybucji Linuksa jest tworzenie pakietów z oprogramowaniem i opieka nad nimi. Paczka musi być łatwa do zainstalowania, dobrze działać i integrować się z resztą dystrybucji. Podczas warsztatów opowiem, jak to robimy w Fedorze i przybliżę najważniejsze wytyczne tworzenia pakietów w tej dystrybucji. Potem zajmiemy się częścią praktyczną, czyli przygotujemy pakiet zgodny z tymi wytycznymi, gotowy do zgłoszenia do recenzji.'
+#        - 'Wymagania:'
+#        - ' * umiejętność skompilowania i zainstalowania typowego projektu open-source ze źródeł'
+#        - ' * zainstalowana dowolna wspierana wersja Fedory (20, 21, 22, rawhide) lub Red Hat/CentOS (5, 6), może być na maszynie wirtualnej'
+#      logo: rpm_package-iconshock_com.jpg
+#    microservices:
+#      id: 909
+#      position: 13
+#      lead: Marek_Talik
+#      schedule: 'Niedziela 19 Kwietnia 10:00 - 12:00'
+#      day: daythree
+#      start_at: '10:00'
+#      where: L406
+#      title: Architektura mikroserwisów
+#      description:
+#        - "Koncepcja architektury systemów rozproszonych zbudowanych z usług komunikujących się ze sobą nie jest nowa. W ekosystemie Javy (także innych) od wielu lat istnieją technologie pomagające budować systemy typu SOA (Service Oreineted Architecture) - począwszy od pojedyńczych WebService'ów (RPC, SOAP, REST) skończywszy na otwartych lub komercyjnych platformach integracyjnych ESB. Dlaczego by nie przenieść tych doświadczeń, patternów i technologii do świata pojedyńczej aplikacji? Jakie korzyści i wyzwania niesie ze sobą rozbicie monolitycznej aplikacji na niezależne 'klocki' realizujące usługę poprzez swój interfejs?"
+#        - 'Podczas warsztatów pracować będziemy z przykładową aplikacją składającą się z 2-3 mikroserwisów.'
+#        - 'Będzie to okazja do dyskusji m.in na temat:'
+#        - ' * zakresu pojedynczej mikrousługi'
+#        - ' * organizacji developmentu i deploymentu'
+#        - ' * wykorzystanych technologii (Spring-Boot, Spring-REST)'
+#        - 'Dla osób zainteresowanych aktywnie wziąć udział w warsztatach wymaganym będzie:'
+#        - ' * zainstalowana Java 8'
+#        - ' * zainstalowany Maven 3'
+#        - ' * ulubione IDE do Javy'
+#      logo: microservices-thenewstack_io.jpg
+#    docker:
+#      id: 910
+#      position: 14
+#      lead: Justyna_Ilczuk
+#      schedule: 'Niedziela 19 Kwietnia 10:00 - 12:00'
+#      day: daythree
+#      start_at: '10:00'
+#      where: L3xx
+#      title: Pierwsze starcie z kontenerami - Docker jako narzędzie w developmencie
+#      description:
+#        - 'Warsztat jest adresowany do osób, które co nieco już słyszały o Dockerze, ale nie mają z nim jeszcze doświadczenia i chciałyby się nauczyć stosować go w praktyce.'
+#        - 'Podczas warsztatu:'
+#        - ' * ściągniemy obraz kontenera z internetu'
+#        - ' * uruchomimy prostą komendę w kontenerze'
+#        - ' * komenda run'
+#        - ' * montowanie wolumenów, forwardowanie portów, uruchamianie kontenerów w trybie zdemonizowanym'
+#        - ' * utrwalanie kontenerów na podstawie commitowania kontenera'
+#        - " * wstęp do Dockerfile'a (specyfikacji budowy obrazów dockerowych)"
+#        - ' * moja pierwsza aplikacja w Dockerowym kontenerze.'
+#      logo: docker_logo.png
+#    xpgame:
+#      id: 911
+#      position: 15
+#      lead:
+#        - Daniel_Wicher
+#        - Marcin_Balda
+#      schedule: 'Niedziela 19 Kwietnia 10:00 - 12:00'
+#      day: daythree
+#      start_at: '10:00'
+#      where: aci
+#      title: XP Game. Nie tylko programowanie może być ekstremalne.
+#      description:
+#        - "XP Game to zabawny sposób na zapoznanie graczy z elementami konceptu Programowania Ekstremalnego (Xtreme Programming). Gracze będą mieli okazje poznać takie elementy jak:"
+#        - " * velocity, estymacje historyjek, zasada „yesterday's weather” (wczorajszej pogody) oraz cyklu życia w XP."
+#        - ' Każdy może wziąć udział! W XP Game każdy z graczy może wcielić się w rolę klienta oraz dostawcy (developera) rozwiązania.'
+#      logo: extreme_programming.jpg
+#    raspberrypi:
+#      id: 912
+#      position: 2
+#      lead:
+#        - Lukasz_Oles
+#        - Blazej_Faliszek
+#      schedule: 'Sobota 18 Kwietnia 11:15 - 13:15'
+#      day: daythree
+#      start_at: '12:20'
+#      where: L406
+#      title: Warsztaty z Raspberry Pi
+#      description:
+#      - 'Warsztaty z Raspberry Pi przybliżą jeden z najpopularniejszych mikrokoputerów osobom, które nie miały z nim jeszcze do czynienia oraz pozwolą na podszlifowanie wiedzy oraz umiejętności tym wszystkim, którzy już kiedyś realizowali projekty oparte o ten mikrokomputer. W czasie warsztatów postaramy się wprowadzić początkujące osoby w świat elektroniki oraz pokazać kilka ciekawych zastosowań dla Raspberry Pi.'
+#      logo: raspberry_pi.jpg
 
   venue:
     take_place: Konferencja odbędzie się na uczelni

@@ -1,27 +1,25 @@
 %li.event-item.clearfix.span6
   .event-date
-    %time= workshop.timeslot
-    %small= workshop.place_name
+    %time= workshop.time_slot
+    %small= workshop.talk_location
   %br.clearfix/
   .event-entry.text-center
     %h3.entry-title= workshop.title
-    - if workshop.leaders.size > 1
-      .span1
-      - workshop.leaders.each do |lead|
+    - if workshop.speakers.size > 1
+      .span
+      - workshop.speakers.each do |speaker|
         .span2
           %p.lead
-            = lead.name
+            = "#{speaker.first_name} #{speaker.last_name}"
             .photo-wrap
-              = image_tag("/assets/speakers/#{lead.picture}", width: 50)
+              = image_tag(speaker.rectangle_image_url, width: 50)
     - else
-      - workshop.leaders.each do |lead|
-        %p.lead
-          = lead.name
-          .photo-wrap
-            = image_tag("/assets/speakers/#{lead.picture}", width: 50)
-
+      %p.lead
+        = "#{workshop.speaker.first_name} #{workshop.speaker.last_name}"
+        .photo-wrap
+          = image_tag(workshop.speaker.rectangle_image_url, width: 50)
     .event-image
-      %img{:alt => workshop.title, :src => "/assets/workshops/#{workshop.logo}"}
+      %img{alt: workshop.title, src: workshop.image_url}
   .entry-content
-    - workshop.description.each do |paragraph|
+    - workshop.description_paragraphs.each do |paragraph|
       %p= paragraph

@@ -1,7 +1,8 @@
 class Person < Struct.new(:key)
 
   def self.all
-    I18n.t('people').keys.collect { |person_key| new(person_key) }
+    # I18n.t('people').keys.collect { |person_key| new(person_key) }
+    Api::EventData.speakers.map { |speaker| new("#{speaker.first_name}_#{speaker.last_name}") }
   end
 
   def picture(extension='jpg')

@@ -1,14 +1,14 @@
 !!!
 %html{:lang => "en"}
   %head
-    %title= t('title')
+    %title= page_title #@about["short_title"]
     = render partial: 'layouts/meta'
   %body
     %header#topbar.top-bar
       .container
         .row
           .span12
-            %a.logo.pull-left{:href => "#intro", :title => "DWO"}
+            %a.logo.pNull-left{:href => "#intro", :title => "DWO"}
               %span
             .navbar.main-nav.pull-right
               %button.btn.btn-navbar{"data-target" => ".nav-collapse", "data-toggle" => "collapse", :type => "button"}
@@ -65,7 +65,7 @@
       .container
         .row
           = render partial: 'partners/index'
-    =# render partial: 'news/blog'
+    -#=# render partial: 'news/blog'
 
     -#%section#twitter-feed
     -#  .container

@@ -45,9 +45,9 @@ class Workshop < Struct.new(:id)
     end
   end
 
-  def timeslot
-    schedule
-  end
+  # def timeslot
+  #   schedule
+  # end
 
   def leaders
     speakers
