@@ -2,7 +2,7 @@ module Api
   class EventData
 
     include HTTParty
-    base_uri 'http://eventguide.mikstura.it/v4/open-source-days-14-backup/pl.json'
+    base_uri 'http://eventguide.mikstura.it/v4/open-source-days-14/pl.json'
     format :json
 
     def about
@@ -46,11 +46,11 @@ module Api
     end
 
     def partners_groups
-      build_collection('partner_groups')
+      build_collection('partner_groups', PartnerGroup)
     end
 
     def partners
-      build_collection('partners')
+      build_collection('partners', Partner)
     end
 
     private

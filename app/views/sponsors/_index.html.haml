@@ -13,8 +13,8 @@
   = image_tag('/assets/sponsors/king.png', width: 250)
   .divider-space
 .span12.text-center#selleo
-  = link_to 'http://selleo.com/', target: :blank do
-    = image_tag('/assets/sponsors/logo/selleo.png')
+  = link_to gold_sponsor.social_profile_links.world, target: :blank do
+    = image_tag(gold_sponsor.logo_url)
 .span12.divider-space
 
 #silver.text-center.span12
@@ -22,14 +22,14 @@
   .divider-space
 .span12.text-center
   .span7#microsoft
-    = link_to 'http://www.microsoft.com/en-us/openness/default.aspx#home', target: :blank do
-      = image_tag('/assets/sponsors/logo/microsoft.png')
+    = link_to silver_sponsors.first.social_profile_links.world, target: :blank do
+      = image_tag(silver_sponsors.first.logo_url)
   .span4#mysql
-    = link_to 'http://mysql.com/', target: :blank do
-      = image_tag('/assets/sponsors/logo/mysql.png')
+    = link_to silver_sponsors.second.social_profile_links.world, target: :blank do
+      = image_tag(silver_sponsors.second.logo_url)
   .offset4.span7#coderion
-    = link_to 'http://coderion.pl/', target: :blank do
-      = image_tag('/assets/sponsors/logo/coderion.png')
+    = link_to silver_sponsors.third.social_profile_links.world, target: :blank do
+      = image_tag(silver_sponsors.third.logo_url)
 .span12.divider-space
 
 #bronze.text-center.span12

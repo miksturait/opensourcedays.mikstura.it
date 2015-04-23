@@ -4,7 +4,7 @@ class TalkGroup < ApiObject
 
   def talks
     data_source.talks.select do |talk|
-      talk.talk_group_id == id && (filtered_for_track == talk.track_name || filtered_for_track.nil? )
+      talk.talk_group_id == id && (filtered_for_track == talk.track_name || filtered_for_track.nil?)
     end
   end
 

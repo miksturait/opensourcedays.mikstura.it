@@ -1,32 +1,33 @@
 .span12.text-center
   .module-header#partners
     %h4= t('partners.header')
-  .span6#canonical.text-center
-    = link_to 'http://www.canonical.com/', target: :blank do
-      = image_tag('/assets/partners/logo/canonical.png')
-  .span5#hs_silesia.text-center
-    = link_to 'http://hs-silesia.pl/', target: :blank do
-      = image_tag('/assets/partners/logo/hackerspacesilesia.png')
-  .span6#ScrumDaysPL.text-center
-    = link_to 'http://www.scrumdays.pl', target: :blank do
-      = image_tag('/assets/partners/logo/scrumdayspl.png')
-  .span5#newtown.text-center
-    = link_to 'http://thesecretsofnewtown.com/', target: :blank do
-      = image_tag('/assets/partners/logo/newtown_baner.jpg')
-  .span6#helionpl.text-center
-    = link_to 'http://helion.pl/', target: :blank do
-      = image_tag('/assets/partners/logo/helionpl.png')
-  .span5#inna.text-center
-    = link_to 'http://inna.pl/', target: :blank do
-      = image_tag('/assets/partners/logo/inna.jpg')
-  .clearfix
-  .span6#sdj.text-center
-    = link_to 'http://sdjournal.pl/', target: :blank do
-      = image_tag('/assets/partners/logo/sdj.png')
-  .span4.offset1#bricks4kidz.text-center
-    = link_to 'http://www.bricks4kidz.com.pl/', target: :blank do
-      = image_tag('/assets/partners/logo/bricks4kidz.png')
-  .span4.offset1#aerial.text-center
-    = link_to 'http://aerial.net.pl/', target: :blank do
-      = image_tag('/assets/partners/logo/aerial.png')
+  - supporters.partners.each do |partner|
+    .span6.text-center
+      = link_to partner.social_profile_links.world, target: :blank do
+        = image_tag(partner.logo_url)
+  -#.span5.text-center
+  -#  = link_to 'http://hs-silesia.pl/', target: :blank do
+  -#    = image_tag('/assets/partners/logo/hackerspacesilesia.png')
+  -#.span6.text-center
+  -#  = link_to 'http://www.scrumdays.pl', target: :blank do
+  -#    = image_tag('/assets/partners/logo/scrumdayspl.png')
+  -#.span5.text-center
+  -#  = link_to 'http://thesecretsofnewtown.com/', target: :blank do
+  -#    = image_tag('/assets/partners/logo/newtown_baner.jpg')
+  -#.span6.text-center
+  -#  = link_to 'http://helion.pl/', target: :blank do
+  -#    = image_tag('/assets/partners/logo/helionpl.png')
+  -#.span5.text-center
+  -#  = link_to 'http://inna.pl/', target: :blank do
+  -#    = image_tag('/assets/partners/logo/inna.jpg')
+  -#-#.clearfix
+  -#.span6.text-center
+  -#  = link_to 'http://sdjournal.pl/', target: :blank do
+  -#    = image_tag('/assets/partners/logo/sdj.png')
+  -#.span4.offset1#bricks4kidz.text-center
+  -#  = link_to 'http://www.bricks4kidz.com.pl/', target: :blank do
+  -#    = image_tag('/assets/partners/logo/bricks4kidz.png')
+  -#.span4.offset1#aerial.text-center
+  -#  = link_to 'http://aerial.net.pl/', target: :blank do
+  -#    = image_tag('/assets/partners/logo/aerial.png')
 .span12.divider-space

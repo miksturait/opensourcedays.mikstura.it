@@ -14,6 +14,9 @@ class HomeController < ApplicationController
   expose(:talk_groups) { TalkGroup.all('Agenda') }
   expose(:workshops) {Talk.all('Warsztaty').sort_by(&:start_at)}
   expose(:days) { event_data.talks_groups.map { |talk_group| talk_group.date } }
+  expose(:gold_sponsor) {PartnerGroup.all('Gold Sponsor').partner}
+  expose(:silver_sponsors) {PartnerGroup.all('Silver Sponsors').partners}
+  expose(:supporters) {PartnerGroup.all('Supporters')}
 
   def index
     prepare_team
