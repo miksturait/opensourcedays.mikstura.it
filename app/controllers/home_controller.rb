@@ -17,6 +17,7 @@ class HomeController < ApplicationController
   expose(:gold_sponsor) {PartnerGroup.all('Gold Sponsor').partner}
   expose(:silver_sponsors) {PartnerGroup.all('Silver Sponsors').partners}
   expose(:supporters) {PartnerGroup.all('Supporters')}
+  expose(:organisers) {PartnerGroup.all('Organisers').partners}
 
   def index
     prepare_team
