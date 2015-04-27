@@ -11,13 +11,18 @@ class HomeController < ApplicationController
   expose(:speaker_talks) { event_data.speakers_talks }
   expose(:presentations) { event_data.talks.select { |talk| talk.track_name == 'Presentations' } }
   expose(:workshop) { event_data.talks.select { |talk| talk.track_name == 'Workshops' } }
-  expose(:talk_groups) { TalkGroup.all('Agenda') }
-  expose(:workshops) {Talk.all('Warsztaty').sort_by(&:start_at)}
+  expose(:talk_groups) { TalkGroup.all('Presentations') }
+  expose(:workshops) { Talk.all('Workshops').sort_by(&:start_at) }
   expose(:days) { event_data.talks_groups.map { |talk_group| talk_group.date } }
-  expose(:gold_sponsor) {PartnerGroup.all('Gold Sponsor').partner}
-  expose(:silver_sponsors) {PartnerGroup.all('Silver Sponsors').partners}
-  expose(:supporters) {PartnerGroup.all('Supporters')}
-  expose(:organisers) {PartnerGroup.all('Organisers').partners}
+  # expose(:gold_sponsor) { PartnerGroup.all('Gold Sponsor').partner }
+  # expose(:silver_sponsors) { PartnerGroup.all('Silver Sponsors').partners }
+  # expose(:supporters) { PartnerGroup.all('Supporters') }
+  # expose(:organisers) { PartnerGroup.all('Organisers').partners }
+  expose(:sponsor_groups) { PartnerGroup.all.reject { |group| group.name == 'Media' || group.name == 'Organizers' } }
+  expose(:media) { PartnerGroup.all('Media').partners }
+  expose(:organisers) { PartnerGroup.all('Organizers').partners }
+  expose(:partner_groups) { PartnerGroup.all }
+  expose(:team_members) { TeamMember.all }
 
   def index
     prepare_team
@@ -42,13 +47,13 @@ class HomeController < ApplicationController
                 .map { |speaker| Person.new(speaker) }
   end
 
-  def prepare_talks
-    @talks = [:dayone, :daytwo, :daythree].each_with_object({}) do |day, cache|
-      cache[day] = I18n.t(:agenda, scope: [:schedule, day]).keys.map(&:to_s).sort.collect do |agenda_key|
-        # Talk.new([agenda_key, day])
-      end
-    end
-  end
+  # def prepare_talks
+  #   @talks = [:dayone, :daytwo, :daythree].each_with_object({}) do |day, cache|
+  #     cache[day] = I18n.t(:agenda, scope: [:schedule, day]).keys.map(&:to_s).sort.collect do |agenda_key|
+  #       # Talk.new([agenda_key, day])
+  #     end
+  #   end
+  # end
 
   def event_data
     @event_data ||= Api::EventData.new

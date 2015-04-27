@@ -1,14 +1,14 @@
 %li
   .item.item-3
     .photo-wrap.hover_colour
-      %img{:alt => speaker.name, :src => "/assets/speakers/#{speaker.picture}"}
+      %img{:alt => "#{member.first_name}#{member.last_name}", :src => "#{member.rectangle_image_url}"}
     .text-wrap.white
-      %h3= speaker.name
-      %h5= speaker.title
+      %h3= "#{member.first_name} #{member.last_name}"
+      %h5= member.title
       %hr.divider-short.center/
-      %p.description= speaker.description
+      %p.description= member.description_paragraphs.join("\n")
     .social
-      - speaker.social.each do |(name, url)|
+      - member.social_profile_links.each do |(name, url)|
         = link_to url, title: name.to_s.humanize, target: :blank, class: "icon-wrap small #{name}" do
           %i{class: "iconf-#{name}"}
 

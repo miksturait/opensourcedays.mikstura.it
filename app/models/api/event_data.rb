@@ -2,7 +2,8 @@ module Api
   class EventData
 
     include HTTParty
-    base_uri 'http://eventguide.mikstura.it/v4/open-source-days-14/pl.json'
+    base_uri "#{Figaro.env.api_source}"
+    # base_uri 'http://eventguide.mikstura.it/v4/open-source-days-14/pl.json'
     format :json
 
     def about
@@ -53,11 +54,16 @@ module Api
       build_collection('partners', Partner)
     end
 
+    def team_members
+      build_collection('team_members')
+    end
+
     private
 
     def data
       @data ||=
-          HTTParty.get("http://eventguide.mikstura.it/v4/open-source-days-14/pl.json")
+          # HTTParty.get("http://eventguide.mikstura.it/v4/open-source-days-14/pl.json")
+          HTTParty.get(Figaro.env.api_source)
     end
 
     def build_collection(key, decorate_by=OpenStruct)

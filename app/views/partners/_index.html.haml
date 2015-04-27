@@ -1,7 +1,7 @@
 .span12.text-center
   .module-header#partners
     %h4= t('partners.header')
-  - supporters.partners.each do |partner|
+  - media.each do |partner|
     .span6.text-center
       = link_to partner.social_profile_links.world, target: :blank do
         = image_tag(partner.logo_url)
