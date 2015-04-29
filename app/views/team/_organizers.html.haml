@@ -5,4 +5,4 @@
   - organisers.each do |organizer|
     .span4
       = link_to organizer.social_profile_links.world, target: :blank do
-        = image_tag(organizer.logo_url)
+        = image_tag(organizer.logo_url, alt: organizer.name)

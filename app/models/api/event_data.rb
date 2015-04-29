@@ -3,7 +3,6 @@ module Api
 
     include HTTParty
     base_uri "#{Figaro.env.api_source}"
-    # base_uri 'http://eventguide.mikstura.it/v4/open-source-days-14/pl.json'
     format :json
 
     def about
@@ -62,7 +61,6 @@ module Api
 
     def data
       @data ||=
-          # HTTParty.get("http://eventguide.mikstura.it/v4/open-source-days-14/pl.json")
           HTTParty.get(Figaro.env.api_source)
     end
 

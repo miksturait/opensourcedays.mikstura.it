@@ -8,10 +8,6 @@
         %a{"data-toggle" => "tab", :href => "#day#{talk_group.id}"}
           = "#{talk_group.title}, #{talk_group.date}"
 
-    -#- talk_groups.each do |talk_group|
-    -#  %li{ class: day_is_active(talk_group.id, talk_group.date)}
-    -#    %a{"data-toggle" => "tab", :href => "#day#{talk_group.id}"}
-    -#      = "#{talk_group.title}, #{talk_group.date}"
 .tab-content
   - tabs_for_talk_groups(talk_groups) do |talk_group, is_active|
     = render partial: 'schedule/day', locals: { talk_group: talk_group, active: is_active }

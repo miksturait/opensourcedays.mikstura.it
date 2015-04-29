@@ -12,13 +12,7 @@ class PartnerGroup < ApiObject
     partners.first
   end
 
-
-
   def self.all(group=nil)
-    # data_source.partners_groups.tap do |partner_group|
-    #   partner_group.find { |partner_group| partner_group.name == group } if group !=nil
-    # end
-
     if group == nil
       data_source.partners_groups.sort_by { |group| group.position }
     else

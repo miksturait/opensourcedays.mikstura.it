@@ -14,18 +14,15 @@ class HomeController < ApplicationController
   expose(:talk_groups) { TalkGroup.all('Presentations') }
   expose(:workshops) { Talk.all('Workshops').sort_by(&:start_at) }
   expose(:days) { event_data.talks_groups.map { |talk_group| talk_group.date } }
-  # expose(:gold_sponsor) { PartnerGroup.all('Gold Sponsor').partner }
-  # expose(:silver_sponsors) { PartnerGroup.all('Silver Sponsors').partners }
-  # expose(:supporters) { PartnerGroup.all('Supporters') }
-  # expose(:organisers) { PartnerGroup.all('Organisers').partners }
   expose(:sponsor_groups) { PartnerGroup.all.reject { |group| group.name == 'Media' || group.name == 'Organizers' } }
   expose(:media) { PartnerGroup.all('Media').partners }
   expose(:organisers) { PartnerGroup.all('Organizers').partners }
   expose(:partner_groups) { PartnerGroup.all }
   expose(:team_members) { TeamMember.all }
+  expose(:mikstura_links) {event_data_about["social_profile_links"]}
 
   def index
-    prepare_team
+
   end
 
   def rules
@@ -42,18 +39,6 @@ class HomeController < ApplicationController
     cache_page(nil, "/#{I18n.locale}/#{action_name}.html")
   end
 
-  def prepare_team
-    @team = %w(Dominik_Kozaczko Eunika_Tabak Dariusz_Wylon Michal_Czyz Tomasz_Gancarczyk Grzegorz_Rduch Marcin_Szalowicz Katarzyna_Jasiewicz Joanna_Walus Pawel_Rudyk Lukasz_Czulak Tomasz_Kaminski Krzysztof_Gren Andrzej_Kastelik Pawel_Krusinski Beata_Goluch Piotr_Juroszek Justyna_Jasek Michal_Krzus Janusz_Zukowicz Jan_Frindt Maciej_Kwasniak Artur_Loska Bartosz_Szczepanski Bartlomiej_Borak Marcin_Wadon)
-                .map { |speaker| Person.new(speaker) }
-  end
-
-  # def prepare_talks
-  #   @talks = [:dayone, :daytwo, :daythree].each_with_object({}) do |day, cache|
-  #     cache[day] = I18n.t(:agenda, scope: [:schedule, day]).keys.map(&:to_s).sort.collect do |agenda_key|
-  #       # Talk.new([agenda_key, day])
-  #     end
-  #   end
-  # end
 
   def event_data
     @event_data ||= Api::EventData.new

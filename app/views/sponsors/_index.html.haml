@@ -9,38 +9,20 @@
     = link_to t('sponsors.link.text'), t('sponsors.link.url')
 .divider-space
 
--#.span12.text-center#gold
--#  = image_tag('/assets/sponsors/king.png', width: 250)
--#  .divider-space
 .span12.text-center#selleo
 
   - sponsor_groups.each do |sponsor_group|
-    %div
-      = sponsor_group.name
+    -unless sponsor_group.partners.empty?
+      %div
+        %br
+        = image_tag(sponsor_group.logo_url, width: 250) if sponsor_group.logo_url
+      %div
+        -sponsor_group.partners.each do |partner|
+          = link_to partner.social_profile_links.world, data:{ target: :blank} do
+            = image_tag(partner.logo_url, alt: partner.name)
       %br
-      = image_tag(sponsor_group.logo_url, width: 250) if sponsor_group.logo_url
-    %div
-      -sponsor_group.partners.each do |partner|
-        = link_to partner.social_profile_links.world, target: :blank do
-          = image_tag(partner.logo_url)
-    %br
 
 .span12.divider-space
-
--##silver.text-center.span12
-  = image_tag('/assets/sponsors/magellanic.png', width: 250)
-  .divider-space
--#.span12.text-center
--#  .span7#microsoft
--#    = link_to silver_sponsors.first.social_profile_links.world, target: :blank do
--#      = image_tag(silver_sponsors.first.logo_url)
--#  .span4#mysql
--#    = link_to silver_sponsors.second.social_profile_links.world, target: :blank do
--#      = image_tag(silver_sponsors.second.logo_url)
--#  .offset4.span7#coderion
--#    = link_to silver_sponsors.third.social_profile_links.world, target: :blank do
--#      = image_tag(silver_sponsors.third.logo_url)
--#.span12.divider-space
 
 #bronze.text-center.span12
   = image_tag('/assets/sponsors/rockhopper.png', width: 250)
