@@ -1,14 +1,14 @@
 !!!
 %html{:lang => "en"}
   %head
-    %title= page_title #@about["short_title"]
+    %title= page_title
     = render partial: 'layouts/meta'
   %body
     %header#topbar.top-bar
       .container
         .row
           .span12
-            %a.logo.pNull-left{:href => "#intro", :title => "DWO"}
+            %a.logo.pull-left{:href => "#intro", :title => "DWO"}
               %span
             .navbar.main-nav.pull-right
               %button.btn.btn-navbar{"data-target" => ".nav-collapse", "data-toggle" => "collapse", :type => "button"}

@@ -5,6 +5,7 @@ class HomeController < ApplicationController
   expose(:full_page_title) { event_data_about["title"] }
   expose(:description) { event_data_about["description"] }
   expose(:navigation_texts) { event_data_about["texts"] }
+  expose(:about) { event_data_about }
   expose(:address) { event_data_about["location"]["address"] }
   expose(:speakers) { event_data.speakers }
   expose(:talks) { event_data.talks }
@@ -19,10 +20,9 @@ class HomeController < ApplicationController
   expose(:organisers) { PartnerGroup.all('Organizers').partners }
   expose(:partner_groups) { PartnerGroup.all }
   expose(:team_members) { TeamMember.all }
-  expose(:mikstura_links) {event_data_about["social_profile_links"]}
+  expose(:mikstura_links) { event_data_about["social_profile_links"] }
 
   def index
-
   end
 
   def rules
@@ -38,7 +38,6 @@ class HomeController < ApplicationController
   def cache_it
     cache_page(nil, "/#{I18n.locale}/#{action_name}.html")
   end
-
 
   def event_data
     @event_data ||= Api::EventData.new
