@@ -3,15 +3,6 @@ require 'pry'
 
 describe HomeHelper do
   describe '#tabs_for_talk_groups' do
-#    let(:conference_days) { Api::EventData.new.talks_groups.map { |talk_group| talk_group.date } }
-#     context 'when today is one of conference days' do
-#       let(:date) { conference_days.first }
-#       let(:id) { Api::EventData.new.talks_groups.map { |talk_group| talk_group.id }.first }
-#       it 'should return active (on todays schedule)' do
-#         expect(helper.day_is_active(id, date)).to eq 'active'
-#       end
-#     end
-
     context 'there are two talk groups' do
       let(:talk_group_one) { double(id: 1, date: Date.parse("2014-03-04")) }
       let(:talk_group_two) { double(id: 2, date: Date.parse("2014-03-05")) }
