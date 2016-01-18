@@ -45,3 +45,4 @@ h2. License
 MIT for all except
 * properiatary licence for theme - licence cost $14 http://themeforest.net/item/eventify-one-page-conference-html5-template/6269713
 * properiatary licence for font - licence cost $17 http://www.fontspring.com/fonts/exljbris/museo-slab
+* logos of 3rd party companies (sponsors, partners)
