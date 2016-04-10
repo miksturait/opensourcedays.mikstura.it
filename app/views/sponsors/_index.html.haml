@@ -9,27 +9,19 @@
     = link_to t('sponsors.link.text'), t('sponsors.link.url')
 .divider-space
 
-.span12.text-center#gold
-  = image_tag('/assets/sponsors/king.png', width: 250)
-  .divider-space
 .span12.text-center#selleo
-  = link_to 'http://selleo.com/', target: :blank do
-    = image_tag('/assets/sponsors/logo/selleo.png')
-.span12.divider-space
 
-#silver.text-center.span12
-  = image_tag('/assets/sponsors/magellanic.png', width: 250)
-  .divider-space
-.span12.text-center
-  .span7#microsoft
-    = link_to 'http://www.microsoft.com/en-us/openness/default.aspx#home', target: :blank do
-      = image_tag('/assets/sponsors/logo/microsoft.png')
-  .span4#mysql
-    = link_to 'http://mysql.com/', target: :blank do
-      = image_tag('/assets/sponsors/logo/mysql.png')
-  .offset4.span7#coderion
-    = link_to 'http://coderion.pl/', target: :blank do
-      = image_tag('/assets/sponsors/logo/coderion.png')
+  - sponsor_groups.each do |sponsor_group|
+    -unless sponsor_group.partners.empty?
+      %div
+        %br
+        = image_tag(sponsor_group.logo_url, width: 250) if sponsor_group.logo_url
+      %div
+        -sponsor_group.partners.each do |partner|
+          = link_to partner.social_profile_links.world, data:{ target: :blank} do
+            = image_tag(partner.logo_url, alt: partner.name)
+      %br
+
 .span12.divider-space
 
 #bronze.text-center.span12

@@ -1,30 +1,45 @@
-- i18n_scope = [:schedule, day]
-
-%div.tab-pane.wo-tab-pane.fade.in{id: day, class: active}
+%div.tab-pane.wo-tab-pane.fade.in{id: "day#{talk_group.id}", class: ('active' if active) }
   .span12
     %section.timeline.toggle-shortcode.toggles
-      - @talks[day].each do |talk|
-        %article.event{class: "#{talk.type}"}
-          .timeline-icon
-            .timeline-icon-container
-              = icon_by_type(talk.type)
-          .time-box
-            %time{ datetime: talk.start_at_24_hour_format }= talk.start_at
-          .timeline-content
-            .event-content
-              .toggle-item-title.event-title{"data-count" => "1"}
-                %h3= talk.title
-                %h4= talk.speaker.name if talk.speaker
-              .toggle-item-body.clearfix{:style => "display: none;"}
-                - if talk.speaker
+      - talk_group.talks.each do |talk|
+        - if talk.speakers.present?
+          - talk.speakers.each do |speaker|
+            %article.event{class: "#{talk.style}"}
+              .timeline-icon
+                .timeline-icon-container
+                  = icon_by_type(talk.style)
+              .time-box
+                %time{ datetime: talk.start_at }
+                  = talk.hour_start_at
+              .timeline-content
+                .event-content
+                  .toggle-item-title.event-title{"data-count" => "1"}
+                    %h3= talk.title
+                    %h4= "#{speaker.first_name} #{speaker.last_name}" if speaker
+                  .toggle-item-body.clearfix{:style => "display: none;"}
+                    - if speaker
+                      %p.span8
+                        - talk.description_paragraphs.each do |paragraph|
+                          = paragraph
+                          %br
+                          %br
+                      %p.span2.center
+                        %center
+                          .photo-wrap
+                            %img{:alt => speaker.name, :src => "#{speaker.rectangle_image_url}", width: '100px'}
+        -else
+          %article.event{class: "#{talk.style}"}
+            .timeline-icon
+              .timeline-icon-container
+                = icon_by_type(talk.style)
+            .time-box
+              %time{ datetime: talk.start_at }
+                = talk.hour_start_at
+            .timeline-content
+              .event-content
+                .toggle-item-title.event-title{"data-count" => "1"}
+                  %h3= talk.title
+                .toggle-item-body.clearfix{:style => "display: none;"}
                   %p.span8
-                    - talk.description.each do |paragraph|
+                    - talk.description_paragraphs.each do |paragraph|
                       = paragraph
-                      %br
-                      %br
-                  %p.span2.center
-                    %center
-                      .photo-wrap
-                        %img{:alt => talk.speaker.name, :src => "/assets/speakers/#{talk.speaker.picture}", width: '100px'}
-                - else
-                  %p= talk.description

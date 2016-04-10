@@ -1,7 +1,7 @@
 .span12
   .module-header.workshops-header
     %h4= t('section.workshops')
-- Workshop.all.each_slice(2) do |workshops|
+- workshops.each_slice(2) do |workshops|
   %ul.event-items
     - workshops.each do |workshop|
       = render :partial => '/workshops/workshop', locals: { workshop: workshop}

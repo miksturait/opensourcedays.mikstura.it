@@ -8,11 +8,7 @@
 .span12.hero-unit.text-center
   %h1= t(:header, scope: i18n_scope)
   %h3
-    %time{:datetime => "2015-04-17"} 17
-    \-
-    %time{:datetime => "2015-04-19"} 19
-    = t(:month, scope: i18n_scope)
-    2015, Bielsko-Biała
+    = about["subtitle"]
   -# some qutations here would be nice :-)
 .span12.text-center
   %iframe{style: "width: 640; height: 360; max-width: 80%;", src: '//www.youtube.com/embed/UQwZHxZZeug', frameborder: 0, allowfullscreen: 1}

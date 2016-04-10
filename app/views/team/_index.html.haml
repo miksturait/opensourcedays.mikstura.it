@@ -8,8 +8,8 @@
   .divider-space
 .span12
   .carouselslider.speakers-carousel.item-4
-    - @team.each_slice(3) do |slice|
+    - team_members.each_slice(3) do |slice|
       .span12
         %ul.people
-          - slice.each do |speaker|
-            = render partial: 'team/member', locals: {speaker: speaker}
+          - slice.each do |member|
+            = render partial: 'team/member', locals: {member: member}
